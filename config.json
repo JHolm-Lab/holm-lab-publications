@@ -4,7 +4,7 @@
   "authors": [
     {
       "display_name": "Johanna B. Holm",
-      "pubmed_query": "\"Holm JB\"[Author]",
+      "pubmed_query": "(\"Johanna B Holm\"[Full Author Name] OR \"Holm JB\"[Author]) AND (\"University of Maryland\"[Affiliation] OR Baltimore[Affiliation])"
       "orcid": "0000-0002-7646-4085",
       "crossref_name": "Johanna B Holm"
     }
