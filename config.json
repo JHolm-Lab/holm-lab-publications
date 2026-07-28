@@ -1,12 +1,12 @@
 {
   "site_title": "Lab Publications",
-  "contact_email": "YOUR_EMAIL@YOUR_INSTITUTION.EDU",
+  "contact_email": "jholm@som.umaryland.edu",
   "authors": [
     {
-      "display_name": "Jane B. Holm",
+      "display_name": "Johanna B. Holm",
       "pubmed_query": "\"Holm JB\"[Author]",
-      "orcid": "REPLACE_WITH_ORCID_OR_LEAVE_BLANK",
-      "crossref_name": "Jane B Holm"
+      "orcid": "0000-0002-7646-4085",
+      "crossref_name": "Johanna B Holm"
     }
   ],
   "include_types": [
@@ -18,5 +18,5 @@
   ],
   "exclude_dois": [],
   "exclude_pmids": [],
-  "earliest_year": 2000
+  "earliest_year": 2007
 }
