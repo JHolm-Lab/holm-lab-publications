@@ -32,7 +32,6 @@ jobs:
         env:
           NCBI_API_KEY: ${{ secrets.NCBI_API_KEY }}
           ORCID_CLIENT_ID: ${{ secrets.ORCID_CLIENT_ID }}
-          ORCID_CLIENT_SECRET: ${{ secrets.ORCID_CLIENT_SECRET }}
         run: python update_publications.py
 
       - name: Commit changes
