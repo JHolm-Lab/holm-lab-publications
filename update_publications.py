@@ -163,7 +163,6 @@ def crossref_by_orcid(orcid: str, email: str, include_types: set[str]) -> list[d
             "filter": f"orcid:{orcid}",
             "rows": 1000,
             "cursor": cursor,
-            "cursor-max": 1000,
             "mailto": email
         }
         data = request_json(f"{CROSSREF_BASE}/works", params=params)
