@@ -1,143 +1,5 @@
 [
   {
-    "title": "Association between the gut microbiota and estimated glomerular filtration rate in two Swedish population-based cohorts.",
-    "authors": [
-      "Yi-Ting Lin",
-      "Tiscar Graells",
-      "Sergi Sayols-Baixeras",
-      "Koen F Dekkers",
-      "Tessa Schillemans",
-      "Gabriel Baldanzi",
-      "Jonas Wuopio",
-      "Nynne Nielsen",
-      "Aron C Eklund",
-      "Jacob B Holm",
-      "H Bjørn Nielsen",
-      "Göran Bergström",
-      "J Gustav Smith",
-      "Andrei Malinovschi",
-      "Gunnar Engström",
-      "Marju Orho-Melander",
-      "Tove Fall",
-      "Johan Ärnlöv"
-    ],
-    "journal": "Kidney international",
-    "year": 2026,
-    "date": "2026 May",
-    "volume": "109",
-    "issue": "5",
-    "pages": "1004-1013",
-    "doi": "10.1016/j.kint.2026.01.021",
-    "pmid": "41724378",
-    "pmc": "",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/41724378/",
-    "abstract": "Evidence for gut-kidney interactions in early kidney disease is limited, particularly in community-dwelling adults with largely preserved kidney function. Here, we quantified links between gut microbiota and estimated glomerular filtration rate (eGFR) in two population-based Swedish cohorts. Deep shotgun metagenomics profiled fecal samples from 9788 adults in the Swedish CArdioPulmonary BioImage Study (SCAPIS) discovery cohort (mean age 58 ± 4 years; 52% women) and 2080 adults in the Malmö Offspring Study (MOS) replication cohort (mean age 40 ± 14 years; 52% women). Linear regression related the relative abundance of 494 metagenome-assembled species to the creatinine-based eGFR (by CKD-EPI equation), adjusting for demographics, albuminuria, cardiovascular risk factors and technical variables. Species passing false discovery rate under 0.05 in SCAPIS were tested in MOS for significant concordant direction. Functional enrichment linked eGFR-associated species to gut metabolic modules and plasma metabolites; partial Spearman correlations were used to assessed metabolite/species/eGFR relationships. The alpha diversity showed a modest inverse association with eGFR across both cohorts. We identified 44 bacterial species consistently associated with eGFR in both cohorts, collectively explaining 7% of its variance. Enrichment analysis highlighted histidine and carnitine metabolism among the top three pathways involved. Their key products, trimethylamine N-oxide and imidazole propionate, were inversely related to eGFR, and a metabolite panel accounted for 51% of eGFR variation, underscoring metabolite-mediated microbial effects. Sensitivity analyses upheld these findings. Gut microbial diversity and 44 reproducible species are independently linked to kidney function in community-dwelling adults. Enrichment of histidine and carnitine pathways and their circulating metabolites implicates microbial metabolism as a contributor to eGFR variability, suggesting tractable targets for early kidney protection.",
-    "type": "journal-article",
-    "sources": [
-      "PubMed"
-    ],
-    "id": "56874c82dc92",
-    "updated_at": "2026-07-28T20:27:20.313031+00:00"
-  },
-  {
-    "title": "Genome-wide association analyses highlight the role of the intestinal molecular environment in human gut microbiota variation.",
-    "authors": [
-      "Koen F Dekkers",
-      "Kamalita Pertiwi",
-      "Gabriel Baldanzi",
-      "Per Lundmark",
-      "Ulf Hammar",
-      "Marta Riise Moksnes",
-      "Eivind Coward",
-      "Maria Nethander",
-      "Ghassan Ali Salih",
-      "Mariam Miari",
-      "Diem Nguyen",
-      "Sergi Sayols-Baixeras",
-      "Aron C Eklund",
-      "Jacob Bak Holm",
-      "H Bjørn Nielsen",
-      "Camila Gazolla Volpiano",
-      "Guillaume Méric",
-      "Manonanthini Thangam",
-      "Liisa Hakaste",
-      "Tiinamaija Tuomi",
-      "Emma Ahlqvist",
-      "Christopher A Smith",
-      "Marie Allen",
-      "Frank Reimann",
-      "Fiona M Gribble",
-      "Claes Ohlsson",
-      "Kristian Hveem",
-      "Olle Melander",
-      "Peter M Nilsson",
-      "Gunnar Engström",
-      "J Gustav Smith",
-      "Karl Michaëlsson",
-      "Johan Ärnlöv",
-      "Marju Orho-Melander",
-      "Tove Fall"
-    ],
-    "journal": "Nature genetics",
-    "year": 2026,
-    "date": "2026 Mar",
-    "volume": "58",
-    "issue": "3",
-    "pages": "540-549",
-    "doi": "10.1038/s41588-026-02512-2",
-    "pmid": "41688638",
-    "pmc": "PMC12987725",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/41688638/",
-    "abstract": "Despite the importance of the gut microbiome to health, the role of human genetic variation in shaping its composition remains poorly understood. Here we report genome-wide association analyses of harmonized metagenomic data from 16,017 adults in four Swedish population-based studies, with replication in 12,652 people from the Norwegian HUNT study. We identified variants in the OR51E1-OR51E2 locus, encoding sensors for microbiome-derived fatty acids, associated with microbial richness. We further identified 15 study-wide significant genetic associations (P < 5.4 × 10-11) involving eight loci and 14 common bacterial species, of which 11 associations at six loci were replicated. The results confirm previously reported associations at LCT, ABO and FUT2, and provide evidence for new loci MUC12, CORO7-HMOX2, SLC5A11, FOXP1 and FUT3-FUT6, with supporting data from metabolomics and gene expression analyses. Our findings link gut microbial variation genetically to gastrointestinal functions, including enteroendocrine fatty acid sensing, bile composition and mucosal layer composition.",
-    "type": "journal-article",
-    "sources": [
-      "PubMed"
-    ],
-    "id": "49302dfd864b",
-    "updated_at": "2026-07-28T20:27:20.313039+00:00"
-  },
-  {
-    "title": "Identification of Gut Microbiome Signatures and Metabolites Associated With Albuminuria in Type 2 Diabetes.",
-    "authors": [
-      "Yi-Ting Lin",
-      "Sergi Sayols-Baixeras",
-      "Tiscar Graells",
-      "Koen F Dekkers",
-      "Gabriel Baldanzi",
-      "Diem Nguyen",
-      "Anders Larsson",
-      "Tobias Rudholm Feldreich",
-      "Nynne Nielsen",
-      "Aron C Eklund",
-      "Jacob B Holm",
-      "H Bjørn Nielsen",
-      "Göran Bergström",
-      "J Gustav Smith",
-      "Andrei Malinovschi",
-      "Gunnar Engström",
-      "Marju Orho-Melander",
-      "Tove Fall",
-      "Johan Ärnlöv"
-    ],
-    "journal": "The Journal of clinical endocrinology and metabolism",
-    "year": 2026,
-    "date": "2026 Feb 20",
-    "volume": "111",
-    "issue": "3",
-    "pages": "e927-e936",
-    "doi": "10.1210/clinem/dgaf453",
-    "pmid": "40810199",
-    "pmc": "",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/40810199/",
-    "abstract": "Type 2 diabetes is a growing global concern with serious complications, including kidney damage and cardiovascular morbidity and mortality. Monitoring albuminuria, which is associated with these complications, is crucial in optimal diabetes management. Gut microbiota composition has been suggested to impact albuminuria, but large studies with granular data are lacking. We investigated the relationship between 1002 gut microbial species, 1308 plasma metabolites, and albuminuria in 752 participants with type 2 diabetes from the Swedish CArdioPulmonary BioImage Study (SCAPIS). To determine the relative abundance of species, we employed deep shotgun metagenomic sequencing of fecal samples. Plasma metabolites were analyzed using mass spectrometry-based methods. We identified 3 species that were associated with albuminuria, including Sellimonas intestinalis, Eggerthellales sp., and Ellagibacter isourolithinifaciens. Two of these species were replicated in an independent prediabetic population (n = 3423) in SCAPIS. In total, 36 annotated metabolites were associated with the 3 albuminuria-signature species. Functional mapping of the signature species suggests a role in the regulation of the metabolites of imidazole propionate and trigonelline, which have previously been reported to play roles in the progression of albuminuria. These findings provide additional evidence of the potential impact of microbial species and contribute to our understanding of the complex relationship between the gut microbiome, plasma metabolites, and albuminuria in individuals with diabetes.",
-    "type": "journal-article",
-    "sources": [
-      "PubMed"
-    ],
-    "id": "6bdafcf6c2c4",
-    "updated_at": "2026-07-28T20:27:20.313081+00:00"
-  },
-  {
     "title": "Impact of maternal HIV infection on the gut microbiome and metabolome of mothers and infants: the PRACHITi cohort in Pune, India.",
     "authors": [
       "Jenna Mandell",
@@ -176,43 +38,7 @@
       "PubMed"
     ],
     "id": "c020a3f78806",
-    "updated_at": "2026-07-28T20:27:20.313021+00:00"
-  },
-  {
-    "title": "Microbial activation of the GLP-2R mitigates gastrointestinal inflammation.",
-    "authors": [
-      "Sune K Yang-Jensen",
-      "Béatrice S-Y Choi",
-      "Nora S Nägele",
-      "Simone I Pærregaard",
-      "Kobe Neven",
-      "Vytautas Savickas",
-      "Nazuk Gupta",
-      "Ida M Modvig",
-      "Jacob B Holm",
-      "Karsten Kristiansen",
-      "Hannelouise Kissow",
-      "Jens J Holst",
-      "Bolette Hartmann",
-      "Benjamin A H Jensen"
-    ],
-    "journal": "Nature communications",
-    "year": 2026,
-    "date": "2026 Jan 15",
-    "volume": "17",
-    "issue": "1",
-    "pages": "1839",
-    "doi": "10.1038/s41467-026-68551-9",
-    "pmid": "41540065",
-    "pmc": "PMC12920917",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/41540065/",
-    "abstract": "There is an urgent need for sustainable protein sources to meet rising global nutritional demands. Here, we show that a commercially scalable microbial lysate from Methylococcus capsulatus Bath (McB), used as a dietary protein, orchestrates host-diet-microbe interactions that protect against gastrointestinal inflammation. McB administration rapidly reshapes the gut microbiota and upregulates microbial fermentation pathways, while robustly increasing peripherally induced regulatory T cells (pTregs) across intestinal regions, independent of the microbiota. In contrast, McB-driven induction of tolerogenic Th17 cells requires a functional microbiota with intact fermentation capacity. In models of mucositis and colitis, McB preserves villus architecture, restores mucosal integrity, and reduces disease severity. Mechanistically, these effects depend on microbial fermentation and functional GLP-2 receptor signalling, yet are independent of endogenous GLP-2 secretion, indicating a fermentation-driven molecular mimicry of GLP-2R activation. Collectively, our findings position microbial lysates as a sustainable nutritional strategy that improves gastrointestinal health through defined immune and microbial pathways.",
-    "type": "journal-article",
-    "sources": [
-      "PubMed"
-    ],
-    "id": "dbfa0bef4c81",
-    "updated_at": "2026-07-28T20:27:20.313054+00:00"
+    "updated_at": "2026-07-28T20:38:23.359252+00:00"
   },
   {
     "title": "Not all vaginal microbiomes are equal: functional context shapes immune landscapes.",
@@ -240,7 +66,7 @@
       "PubMed"
     ],
     "id": "888631795a33",
-    "updated_at": "2026-07-28T20:27:20.313046+00:00"
+    "updated_at": "2026-07-28T20:38:23.359261+00:00"
   },
   {
     "title": "Timing of menstrual cups to prevent transition from optimal to not optimal vaginal microbiome community state type: Results from a 6.5-year prospective observational cohort.",
@@ -273,7 +99,7 @@
       "PubMed"
     ],
     "id": "3587b570fd35",
-    "updated_at": "2026-07-28T20:27:20.313000+00:00"
+    "updated_at": "2026-07-28T20:38:23.359226+00:00"
   },
   {
     "title": "Effect of initiation of antiretroviral drugs for HIV prevention or treatment on the vaginal microbiome of pregnant women in Malawi.",
@@ -311,7 +137,7 @@
       "PubMed"
     ],
     "id": "4cf147cd88cb",
-    "updated_at": "2026-07-28T20:27:20.313130+00:00"
+    "updated_at": "2026-07-28T20:38:23.359297+00:00"
   },
   {
     "title": "First island-wide, single-day soil collection study on Crete reveals environmental drivers of microbial diversity.",
@@ -369,108 +195,7 @@
       "PubMed"
     ],
     "id": "60418de72900",
-    "updated_at": "2026-07-28T20:27:20.313088+00:00"
-  },
-  {
-    "title": "HbA1c levels and breast cancer prognosis in women without diabetes.",
-    "authors": [
-      "Jonas Busk Holm",
-      "Jens Meldgaard Bruun",
-      "Peer Christiansen",
-      "Reimar Wernich Thomsen",
-      "Jan Frystyk",
-      "Deirdre Cronin-Fenton",
-      "Signe Borgquist"
-    ],
-    "journal": "BMC cancer",
-    "year": 2025,
-    "date": "2025 Apr 28",
-    "volume": "25",
-    "issue": "1",
-    "pages": "790",
-    "doi": "10.1186/s12885-025-14121-z",
-    "pmid": "40295945",
-    "pmc": "PMC12036245",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/40295945/",
-    "abstract": "Diabetes is associated with impaired breast cancer prognosis; however, the effectiveness of glycosylated hemoglobin (HbA1c) as a prognostic biomarker in breast cancer remains uncertain, especially for patients without diabetes. We aimed to determine whether elevated HbA1c is associated with a worse prognosis in breast cancer patients without known diabetes. The study population comprised women with primary invasive stage I-III breast cancer between 2010 and 2020 surgically treated at Aarhus University Hospital, Denmark, without a diabetes diagnosis at baseline. We assessed HbA1c at breast cancer diagnosis as a categorical (quartiles; HbA1c-Q1 = 21-33 mmol/mol, HbA1c-Q2 = 34-36 mmol/mol, HbA1c-Q3 = 37-38 mmol/mol, HbA1c-Q4 = ≥ 39 mmol/mol) and log2-transformed continuous variable. Follow-up began at the date of primary breast cancer surgery and continued until the first occurrence of either a new breast cancer event (loco-regional or distant recurrence, or contralateral breast cancer), new primary cancer other than breast cancer, death, emigration, or end-of-follow-up (November 15th, 2021). Cox regression models estimated crude and adjusted hazard ratios and associated 95% confidence intervals (95% CIs) of a new breast cancer event and all-cause mortality, adjusting for patient characteristics based on a directed acyclic graph. The lowest HbA1c quartile (HbA1c-Q1) was used as reference. In total, 2514 women (median age 62 years) were included. During median 5.6 years follow-up for new breast cancer events, 230 (9.1%) events occurred. An escalating risk of new breast cancer events was observed with increasing HbA1c quartiles (adjusted hazard ratios, HbA1c-Q2: 1.09 [95% CI = 0.75-1.60]; HbA1c-Q3: 1.35 [95% CI = 0.88-2.07]; HbA1c-Q4: 1.69 [95% CI = 1.13-2.54]) compared to HbA1c-Q1. During median 6.0 years follow-up for all-cause mortality, 267 deaths (10.6%) occurred. No apparent association was evident between increasing HbA1c quartiles and all-cause mortality (adjusted hazard ratios, HbA1c-Q2: 0.75 [95% CI = 0.52-1.07]; HbA1c-Q3: 0.82 [95% CI = 0.55-1.21]; HbA1c-Q4: 1.06 [95% CI = 0.74-1.53]). Similarly, a log2(HbA1c) increase was associated with an increased risk of new breast cancer events, but not all-cause mortality. For women with primary breast cancer and no known diagnosis of diabetes, higher levels of HbA1c were associated with an increased risk of new breast cancer events, but not all-cause mortality. HbA1c may serve as a prognostic metabolic biomarker for breast cancer patients without diabetes.",
-    "type": "journal-article",
-    "sources": [
-      "PubMed"
-    ],
-    "id": "cda3db1d7373",
-    "updated_at": "2026-07-28T20:27:20.313123+00:00"
-  },
-  {
-    "title": "HbA1c screening in patients with early breast cancer receiving endocrine therapy.",
-    "authors": [
-      "Lærke Nissen",
-      "Stine Blaabjerg Skovbjerg",
-      "Jonas Busk Holm",
-      "Morten Haaning Charles",
-      "Ole Lindgård Dollerup",
-      "Tinne Laurberg",
-      "Signe Borgquist"
-    ],
-    "journal": "Endocrine oncology (Bristol, England)",
-    "year": 2025,
-    "date": "2025 Jan",
-    "volume": "5",
-    "issue": "1",
-    "pages": "e250058",
-    "doi": "10.1530/eo-25-0058",
-    "pmid": "41235156",
-    "pmc": "PMC12606721",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/41235156/",
-    "abstract": "Type 2 diabetes increases the risk of developing breast cancer, while endocrine therapy for early breast cancer may elevate the risk of type 2 diabetes. Studies suggest screening patients with early breast cancer receiving endocrine therapy for type 2 diabetes, but the optimal strategies remain unclear. We assessed haemoglobin A1c (HbA1c) screening adherence, the prevalence of HbA1c levels above the normal range (≥ 42 mmol/mol), and an HbA1c follow-up procedure. Patients with early (stage I-III) breast cancer without diabetes receiving endocrine therapy were offered a single HbA1c screening test after treatment initiation at Aarhus University Hospital, Denmark, from October 2022 to April 2023. HbA1c ≥ 42 mmol/mol was classified as prediabetic (42-47 mmol/mol) or diabetic (≥ 48 mmol/mol). Patients and their general practitioners received standardised digital notifications if HbA1c ≥ 42 mmol/mol, recommending follow-up. Statistical analyses included Fisher's exact test and t-tests. Of 174 patients offered HbA1c screening, 97 (56%) underwent testing. HbA1c ≥ 42 mmol/mol was detected in 11 patients (11% (95% confidence interval (CI): 5.8-19%)), including two patients with diabetic HbA1c levels (2.1% (95% CI: 0.3-7.3%)). Overweight (body mass index ≥ 25 kg/m2) and age ≥ 55 years correlated with HbA1c ≥ 42 mmol/mol. Most patients with HbA1c ≥ 42 mmol/mol (9 of 11) underwent primary-care follow-up. Adherence to HbA1c screening may be affected if the test is an extra step for patients. Targeted HbA1c screening may be beneficial for patients with early breast cancer with overweight or older age receiving endocrine therapy. Further research is needed to improve implementation and participation.",
-    "type": "journal-article",
-    "sources": [
-      "PubMed"
-    ],
-    "id": "49d58cf1fbb9",
-    "updated_at": "2026-07-28T20:27:20.313067+00:00"
-  },
-  {
-    "title": "Housing matters: Experimental variables shaping metabolism in obese mice.",
-    "authors": [
-      "Béatrice So-Yun Choi",
-      "Jacob Bak Holm",
-      "Asker Brejnrod",
-      "Even Fjære",
-      "Zhongkui Xia",
-      "Marie-Louise Allingbjerg",
-      "Ida Søgaard Larsen",
-      "David Møbjerg Kristensen",
-      "Morten Dall",
-      "Lene Secher Myrmel",
-      "Janne Koch",
-      "Niels Banhos Danneskiold-Samsøe",
-      "Otto Kalliokoski",
-      "Jonas T Treebak",
-      "Liang Xiao",
-      "Axel Kornerup Hansen",
-      "Helle Sørensen",
-      "Lise Madsen",
-      "Manimozhiyan Arumugam",
-      "Karsten Kristiansen",
-      "Benjamin A H Jensen"
-    ],
-    "journal": "Molecular metabolism",
-    "year": 2025,
-    "date": "2025 Aug",
-    "volume": "98",
-    "issue": "",
-    "pages": "102190",
-    "doi": "10.1016/j.molmet.2025.102190",
-    "pmid": "40554092",
-    "pmc": "PMC12269455",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/40554092/",
-    "abstract": "Diet-induced obesity in mice is an important model for investigating host-diet interactions as well as dietary and pharmacological treatments of metabolic diseases. Experimental reproducibility is, however, a recurrent challenge. To determine key controllable experimental drivers of mouse metabolism, we distributed 338C57BL/6JBomTac mice (males and females) into six research units across two countries, divided them into a variety of housing conditions (i.e., diets, cage types, temperatures, group-housing vs. single-housing) and kept 26 reference mice at the vendor. We applied linear mixed models to rank the influence of each variable on metabolic phenotype (i.e., body weight gain, glucose intolerance, liver, and visceral adipose tissue weight). Group-housing was the most potent driver of metabolic dysfunction apart from sex and diet. Accordingly, single-housed mice exhibited reduced weight gain (∼50%), increased energy expenditure, and diminished respiratory exchange ratio concomitant with improved glucose tolerance (∼20%) compared to their group-housed counterparts. Our results may aid in clarifying the impact of experimental design and promote rational, transparent reporting to increase reproducibility.",
-    "type": "journal-article",
-    "sources": [
-      "PubMed"
-    ],
-    "id": "459effdf3e5b",
-    "updated_at": "2026-07-28T20:27:20.313116+00:00"
+    "updated_at": "2026-07-28T20:38:23.359283+00:00"
   },
   {
     "title": "Maternal anemia during pregnancy and its association with the gut microbiota profile in pregnant and postpartum women, and their infants: a cohort study.",
@@ -513,49 +238,7 @@
       "PubMed"
     ],
     "id": "509cf10ceafa",
-    "updated_at": "2026-07-28T20:27:20.313074+00:00"
-  },
-  {
-    "title": "Meat intake in relation to composition and function of gut microbiota.",
-    "authors": [
-      "Susanna C Larsson",
-      "Ulrika Ericson",
-      "Koen F Dekkers",
-      "Getachew Arage",
-      "Luka Marko Rašo",
-      "Sergi Sayols-Baixeras",
-      "Ulf Hammar",
-      "Gabriel Baldanzi",
-      "Diem Nguyen",
-      "H Bjørn Nielsen",
-      "Jacob B Holm",
-      "Ulf Risérus",
-      "Karl Michaëlsson",
-      "Johan Sundström",
-      "J Gustav Smith",
-      "Gunnar Engström",
-      "Johan Ärnlöv",
-      "Marju Orho-Melander",
-      "Tove Fall",
-      "Shafqat Ahmad"
-    ],
-    "journal": "Clinical nutrition (Edinburgh, Scotland)",
-    "year": 2025,
-    "date": "2025 Feb",
-    "volume": "45",
-    "issue": "",
-    "pages": "124-133",
-    "doi": "10.1016/j.clnu.2024.12.034",
-    "pmid": "39798223",
-    "pmc": "",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/39798223/",
-    "abstract": "Meat intake is suggested to affect gut microbiome composition and the risk of chronic diseases. We aimed to identify meat-associated gut microbiome features and their association with host factors. Gut microbiota species were profiled by deep shotgun metagenomics sequencing in 9669 individuals. Intake of white meat, unprocessed red meat, and processed red meat was assessed using a food frequency questionnaire. The associations of meat intake with alpha-diversity and relative abundance of gut microbiota species were tested using linear regression models with adjustment for dietary fiber intake, body mass index, and other potential confounders. Meat-associated species were further assessed for association with enrichment of microbial gene function, meat-associated plasma metabolites, and clinical biomarkers. Higher intake of processed red meat was associated with reduced alpha microbial diversity. White meat, unprocessed, and processed red meat intakes were associated with 36, 14, and 322 microbiota species, respectively. Species associated with processed red meat were enriched for bacterial pathways like amino acid degradation, while those negatively linked were enriched for pathways like homoacetogenesis. Furthermore, species positively associated with processed red meat were to a large extent associated with reduced trimethylamine N-oxide and glutamine levels but increased creatine and carnitine metabolites, fasting insulin and glucose, C-reactive protein, apolipoprotein A1, and triglyceride levels and higher blood pressure. This largest to date population-based study on meat and gut microbiota suggests that meat intake, particularly processed red meat, may modify the gut microbiota composition, functional capacity, and health-related biomarkers.",
-    "type": "journal-article",
-    "sources": [
-      "PubMed"
-    ],
-    "id": "31a2c6650093",
-    "updated_at": "2026-07-28T20:27:20.313151+00:00"
+    "updated_at": "2026-07-28T20:38:23.359276+00:00"
   },
   {
     "title": "Temporal dynamics of the vaginal microbiome and host immune markers before, during, and after metronidazole treatment for bacterial vaginosis.",
@@ -585,7 +268,7 @@
       "PubMed"
     ],
     "id": "b34544ff9ff7",
-    "updated_at": "2026-07-28T20:27:20.313109+00:00"
+    "updated_at": "2026-07-28T20:38:23.359290+00:00"
   },
   {
     "title": "Temporal Dynamics of the Vaginal Microbiome and Host Immune Markers Before, During, and After Metronidazole Treatment for Bacterial Vaginosis.",
@@ -614,78 +297,7 @@
       "PubMed"
     ],
     "id": "825fc8bf9422",
-    "updated_at": "2026-07-28T20:27:20.313137+00:00"
-  },
-  {
-    "title": "The association between body mass index and neoadjuvant chemotherapy response in patients with breast cancer.",
-    "authors": [
-      "Jonas Busk Holm",
-      "Stine Blaabjerg Skovbjerg",
-      "Hanne Melgaard Nielsen",
-      "Peer Christiansen",
-      "Jens Meldgaard Bruun",
-      "Jan Alsner",
-      "Deirdre Cronin-Fenton",
-      "Signe Borgquist"
-    ],
-    "journal": "Breast cancer research : BCR",
-    "year": 2025,
-    "date": "2025 Jul 11",
-    "volume": "27",
-    "issue": "1",
-    "pages": "130",
-    "doi": "10.1186/s13058-025-02083-w",
-    "pmid": "40646617",
-    "pmc": "PMC12254981",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/40646617/",
-    "abstract": "Obesity, defined as Body Mass Index (BMI) ≥ 30 kg/m2, is associated with inferior breast cancer prognosis, but its effect on neoadjuvant chemotherapy response is uncertain. We hypothesized that obesity decreases the odds of pathological complete response (pCR) after neoadjuvant chemotherapy. We assembled a cohort of women with breast cancer who underwent neoadjuvant chemotherapy and subsequent surgery between January 1, 2016, and December 31, 2020, in Denmark. Patients received six or eight series of EC-TAX (epirubicin, cyclophosphamide, and paclitaxel) based on disease stage. Trastuzumab and pertuzumab were also used for patients with HER2+ disease. BMI was assessed as a categorical variable (normal weight (BMI = 18.5-<25 kg/m2), overweight (BMI = 25-<30 kg/m2), and obesity (BMI ≥ 30 kg/m2)) and as a continuous variable. We used multivariable logistic regression models to compute odds ratios (ORs) for pCR after neoadjuvant chemotherapy according to BMI groups, using normal weight as reference, and stratified by menopausal, estrogen receptor (ER), and HER2 status. We adjusted for age and menopausal status based on a directed acyclic graph. Among 1819 patients, 417 had pCR. Patients with overweight (N = 585) or obesity (N = 450) had 22% and 27% lower odds, respectively, of pCR (ORadj=0.78 [95%CI = 0.60-1.00] and ORadj=0.73 [95%CI = 0.55-0.97]) compared with patients with normal weight (N = 784). In ER/HER2-stratified analyses, we observed lower pCR odds among women with obesity and HER2+ tumors (ORadj=0.72 [95%CI = 0.47-1.12]) compared with their normal weight counterparts, but no notable association appeared for ER+/HER2- (ORadj=0.97 [95%CI = 0.49-1.96]) and ER-/HER2- tumors (ORadj=0.88 [95%CI = 0.49-1.57]). In analyses stratified by menopausal status, obesity was associated with lower pCR odds among postmenopausal women (ORadj=0.62 [95%CI = 0.41-0.94]), and, to a lesser extent, premenopausal women (ORadj=0.86 [95%CI = 0.58-1.27]). Our findings suggest that breast cancer patients with overweight or obesity have lower odds of pCR compared with patients with normal weight. As the results varied by ER and HER2 status, the observed association may depend on subtype. In summary, our results are consistent with earlier studies that propose BMI as a potential prognostic marker of pCR.",
-    "type": "journal-article",
-    "sources": [
-      "PubMed"
-    ],
-    "id": "aee528ec9f34",
-    "updated_at": "2026-07-28T20:27:20.313095+00:00"
-  },
-  {
-    "title": "The association between the gut microbiome and 24-h blood pressure measurements in the SCAPIS study.",
-    "authors": [
-      "Yi-Ting Lin",
-      "Sergi Sayols-Baixeras",
-      "Gabriel Baldanzi",
-      "Koen F Dekkers",
-      "Ulf Hammar",
-      "Diem Nguyen",
-      "Nynne Nielsen",
-      "Aron C Eklund",
-      "Georgios Varotsis",
-      "Jacob B Holm",
-      "H Bjørn Nielsen",
-      "Lars Lind",
-      "Göran Bergström",
-      "J Gustav Smith",
-      "Gunnar Engström",
-      "Johan Ärnlöv",
-      "Johan Sundström",
-      "Marju Orho-Melander",
-      "Tove Fall"
-    ],
-    "journal": "Communications medicine",
-    "year": 2025,
-    "date": "2025 Jul 07",
-    "volume": "5",
-    "issue": "1",
-    "pages": "276",
-    "doi": "10.1038/s43856-025-00980-x",
-    "pmid": "40624247",
-    "pmc": "PMC12234806",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/40624247/",
-    "abstract": "There is mounting evidence supporting the role of the microbiota in hypertension from experimental studies and population-based studies. We aimed to investigate the relationship between specific characteristics of the gut microbiome and 24-h ambulatory blood pressure measurements. The association of gut microbial species and microbial functions, determined by shotgun metagenomic sequencing of fecal samples, with 24-h ambulatory blood pressure measurements in 3695 participants and office blood pressure was assessed in multivariable-adjusted models in 2770 participants without antihypertensive medication from the Swedish CArdioPulmonary bioImage Study. Gut microbiome alpha diversity was negatively associated with diastolic blood pressure variability. Additionally, four microbial species were associated with at least one of the 24-h blood pressure traits. Streptococcus sp001556435 was associated with higher systolic blood pressure, Intestinimonas massiliensis and Dysosmobacter sp001916835 with lower systolic blood pressure, Dysosmobacter sp001916835 with lower diastolic blood pressure, and ER4 sp900317525 with lower systolic blood pressure variability. Moreover, office blood pressure data from a subsample without ambulatory blood pressure measurements replicated the association of Intestinimonas massiliensis with systolic blood pressure and Dysosmobacter sp001916835 with diastolic blood pressure. Species associated with 24-h blood pressure were linked to a similar pattern of metabolites. In this large cross-sectional analysis, gut microbiome alpha diversity negatively associates with diastolic blood pressure variability, and four gut microbial species associate with 24-h blood pressure traits.",
-    "type": "journal-article",
-    "sources": [
-      "PubMed"
-    ],
-    "id": "1f3e07f062f3",
-    "updated_at": "2026-07-28T20:27:20.313102+00:00"
+    "updated_at": "2026-07-28T20:38:23.359305+00:00"
   },
   {
     "title": "VIRGO2: an enhanced gene catalog of the vaginal microbiome provides insights into its functional and ecology complexity.",
@@ -726,7 +338,7 @@
       "PubMed"
     ],
     "id": "9f875b72e4f8",
-    "updated_at": "2026-07-28T20:27:20.313061+00:00"
+    "updated_at": "2026-07-28T20:38:23.359269+00:00"
   },
   {
     "title": "VIRGO2: Unveiling the Functional and Ecological Complexity of the Vaginal Microbiome with an Enhanced Non-Redundant Gene Catalog.",
@@ -767,69 +379,7 @@
       "PubMed"
     ],
     "id": "9d68eb419615",
-    "updated_at": "2026-07-28T20:27:20.313144+00:00"
-  },
-  {
-    "title": "Altitude-dependent agro-ecologies impact the microbiome diversity of scavenging indigenous chicken in Ethiopia.",
-    "authors": [
-      "Laura Glendinning",
-      "Xinzheng Jia",
-      "Adebabay Kebede",
-      "Samuel O Oyola",
-      "Jong-Eun Park",
-      "Woncheoul Park",
-      "Abdulwahab Assiri",
-      "Jacob Bak Holm",
-      "Karsten Kristiansen",
-      "Jianlin Han",
-      "Olivier Hanotte"
-    ],
-    "journal": "Microbiome",
-    "year": 2024,
-    "date": "2024 Jul 23",
-    "volume": "12",
-    "issue": "1",
-    "pages": "138",
-    "doi": "10.1186/s40168-024-01847-4",
-    "pmid": "39044244",
-    "pmc": "PMC11267795",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/39044244/",
-    "abstract": "Scavenging indigenous village chickens play a vital role in sub-Saharan Africa, sustaining the livelihood of millions of farmers. These chickens are exposed to vastly different environments and feeds compared to commercial chickens. In this study, we analysed the caecal microbiota of 243 Ethiopian village chickens living in different altitude-dependent agro-ecologies. Differences in bacterial diversity were significantly correlated with differences in specific climate factors, topsoil characteristics, and supplemental diets provided by farmers. Microbiota clustered into three enterotypes, with one particularly enriched at high altitudes. We assembled 9977 taxonomically and functionally diverse metagenome-assembled genomes. The vast majority of these were not found in a dataset of previously published chicken microbes or in the Genome Taxonomy Database. The wide functional and taxonomic diversity of these microbes highlights their importance in the local adaptation of indigenous poultry, and the significant impacts of environmental factors on the microbiota argue for further discoveries in other agro-ecologies. Video Abstract.",
-    "type": "journal-article",
-    "sources": [
-      "PubMed"
-    ],
-    "id": "389aee8f7c47",
-    "updated_at": "2026-07-28T20:27:20.313191+00:00"
-  },
-  {
-    "title": "Circulating C-reactive protein levels as a prognostic biomarker in breast cancer across body mass index groups.",
-    "authors": [
-      "J B Holm",
-      "E Baggesen",
-      "D Cronin-Fenton",
-      "J Frystyk",
-      "J M Bruun",
-      "P Christiansen",
-      "S Borgquist"
-    ],
-    "journal": "Scientific reports",
-    "year": 2024,
-    "date": "2024 Jun 24",
-    "volume": "14",
-    "issue": "1",
-    "pages": "14486",
-    "doi": "10.1038/s41598-024-64428-3",
-    "pmid": "38914635",
-    "pmc": "PMC11196728",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/38914635/",
-    "abstract": "Obesity and systemic inflammation are associated with breast cancer (BC) outcomes. Systemic inflammation is increased in obesity. We examined the association between C-reactive protein (CRP) and disease-free survival (DFS) and overall survival (OS) overall, and according to body mass index (BMI). We assembled a cohort of women with BC (stage I-III) seen at Aarhus University Hospital between 2010 and 2020 who donated blood at BC diagnosis (N = 2673). CRP levels were measured and divided into quartiles. We followed patients from surgery to recurrence, contralateral BC, other malignancy, death, emigration, or end-of-follow-up. We used Cox regression to estimate hazard ratios (HRs) with 95% confidence intervals (95% CIs) to compare outcomes across CRP quartiles, overall and stratified by BMI (normal-weight (18.5 ≤ BMI < 25 kg/m2), overweight (25 ≤ BMI < 30 kg/m2), and obesity (BMI ≥ 30 kg/m2)). During follow-up, 368 events (212 recurrences, 38 contralateral BCs, and 118 deaths) occurred (median follow-up 5.55 years). For DFS, high CRP (CRP ≥ 3.19 mg/L) was associated with an increased risk of events (HRadj:1.62 [95% CI = 1.14-2.28]). In BMI-stratified analyses, high CRP was associated with elevated risk of events in normal-weight and overweight (HRadj:1.70 [95% CI = 1.09-2.66]; HRadj:1.75 [95% CI = 1.08-2.86]), but in obesity, the estimate was less precise (HRadj:1.73 [95% CI = 0.78-3.83]). For OS, high CRP was associated with increased risk of death (HRadj:2.47 [95% CI = 1.62-3.76]). The association was strong in normal-weight and overweight (HRadj:3.66 [95% CI = 1.95-6.87]; HRadj:1.92 [95% CI = 1.06-3.46]), but less clear in obesity (HRadj:1.40 [95% CI = 0.64-3.09]). To sum up, high CRP levels at BC diagnosis were associated with inferior prognosis in early BC irrespective of BMI, although less clear in patients with obesity.",
-    "type": "journal-article",
-    "sources": [
-      "PubMed"
-    ],
-    "id": "a9fe6fdaa4d7",
-    "updated_at": "2026-07-28T20:27:20.313205+00:00"
+    "updated_at": "2026-07-28T20:38:23.359313+00:00"
   },
   {
     "title": "Comparison of shipping versus immediate freezer storage of vaginal samples for vaginal microbiota assessment.",
@@ -859,7 +409,7 @@
       "PubMed"
     ],
     "id": "b62199b42d82",
-    "updated_at": "2026-07-28T20:27:20.313198+00:00"
+    "updated_at": "2026-07-28T20:38:23.359334+00:00"
   },
   {
     "title": "Correction: Integrating compositional and functional content to describe vaginal microbiomes in health and disease.",
@@ -889,7 +439,7 @@
       "PubMed"
     ],
     "id": "2c1065d22aa7",
-    "updated_at": "2026-07-28T20:27:20.313219+00:00"
+    "updated_at": "2026-07-28T20:38:23.359348+00:00"
   },
   {
     "title": "Oral Microbiota Alterations in Subjects with SARS-CoV-2 Displaying Prevalence of the Opportunistic Fungal Pathogen Candida albicans.",
@@ -919,7 +469,7 @@
       "PubMed"
     ],
     "id": "ee5331ef14c3",
-    "updated_at": "2026-07-28T20:27:20.313183+00:00"
+    "updated_at": "2026-07-28T20:38:23.359327+00:00"
   },
   {
     "title": "SpeciateIT and vSpeciateDB: Novel, fast and accurate per sequence 16S rRNA gene taxonomic classification of vaginal microbiota.",
@@ -945,7 +495,7 @@
       "PubMed"
     ],
     "id": "1103442d76a7",
-    "updated_at": "2026-07-28T20:27:20.313212+00:00"
+    "updated_at": "2026-07-28T20:38:23.359340+00:00"
   },
   {
     "title": "SpeciateIT and vSpeciateDB: novel, fast, and accurate per sequence 16S rRNA gene taxonomic classification of vaginal microbiota.",
@@ -970,7 +520,7 @@
       "PubMed"
     ],
     "id": "7929538b921d",
-    "updated_at": "2026-07-28T20:27:20.313157+00:00"
+    "updated_at": "2026-07-28T20:38:23.359320+00:00"
   },
   {
     "title": "Association of Pregnancy and HIV Status With Molecular-Bacterial Vaginosis in Indian Women.",
@@ -1012,7 +562,7 @@
       "PubMed"
     ],
     "id": "96f1e5b3bbd1",
-    "updated_at": "2026-07-28T20:27:20.313254+00:00"
+    "updated_at": "2026-07-28T20:38:23.359375+00:00"
   },
   {
     "title": "High-resolution functional description of vaginal microbiomes in health and disease.",
@@ -1043,7 +593,7 @@
       "PubMed"
     ],
     "id": "b790f532e1cc",
-    "updated_at": "2026-07-28T20:27:20.313261+00:00"
+    "updated_at": "2026-07-28T20:38:23.359382+00:00"
   },
   {
     "title": "Integrating compositional and functional content to describe vaginal microbiomes in health and disease.",
@@ -1073,7 +623,7 @@
       "PubMed"
     ],
     "id": "62b388600366",
-    "updated_at": "2026-07-28T20:27:20.313225+00:00"
+    "updated_at": "2026-07-28T20:38:23.359354+00:00"
   },
   {
     "title": "Investigating the impact of condomless vaginal intercourse and lubricant use on the vaginal metabolome: a pre-post observational study.",
@@ -1105,7 +655,7 @@
       "PubMed"
     ],
     "id": "9438eeb15328",
-    "updated_at": "2026-07-28T20:27:20.313239+00:00"
+    "updated_at": "2026-07-28T20:38:23.359361+00:00"
   },
   {
     "title": "Lactobacillus iners and genital health: molecular clues to an enigmatic vaginal species.",
@@ -1132,106 +682,7 @@
       "PubMed"
     ],
     "id": "43f57d897ac4",
-    "updated_at": "2026-07-28T20:27:20.313247+00:00"
-  },
-  {
-    "title": "OSA Is Associated With the Human Gut Microbiota Composition and Functional Potential in the Population-Based Swedish CardioPulmonary bioImage Study.",
-    "authors": [
-      "Gabriel Baldanzi",
-      "Sergi Sayols-Baixeras",
-      "Jenny Theorell-Haglöw",
-      "Koen F Dekkers",
-      "Ulf Hammar",
-      "Diem Nguyen",
-      "Yi-Ting Lin",
-      "Shafqat Ahmad",
-      "Jacob Bak Holm",
-      "Henrik Bjørn Nielsen",
-      "Louise Brunkwall",
-      "Christian Benedict",
-      "Jonathan Cedernaes",
-      "Sanna Koskiniemi",
-      "Mia Phillipson",
-      "Lars Lind",
-      "Johan Sundström",
-      "Göran Bergström",
-      "Gunnar Engström",
-      "J Gustav Smith",
-      "Marju Orho-Melander",
-      "Johan Ärnlöv",
-      "Beatrice Kennedy",
-      "Eva Lindberg",
-      "Tove Fall"
-    ],
-    "journal": "Chest",
-    "year": 2023,
-    "date": "2023 Aug",
-    "volume": "164",
-    "issue": "2",
-    "pages": "503-516",
-    "doi": "10.1016/j.chest.2023.03.010",
-    "pmid": "36925044",
-    "pmc": "PMC10410248",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/36925044/",
-    "abstract": "OSA is a common sleep-breathing disorder linked to increased risk of cardiovascular disease. Intermittent upper airway obstruction and hypoxia, hallmarks of OSA, have been shown in animal models to induce substantial changes to the gut microbiota composition, and subsequent transplantation of fecal matter to other animals induced changes in BP and glucose metabolism. Does OSA in adults associate with the composition and functional potential of the human gut microbiota? We used respiratory polygraphy data from up to 3,570 individuals 50 to 64 years of age from the population-based Swedish Cardiopulmonary bioimage Study combined with deep shotgun metagenomics of fecal samples to identify cross-sectional associations between three OSA parameters covering apneas and hypopneas, cumulative sleep time in hypoxia, and number of oxygen desaturation events with gut microbiota composition. Data collection about potential confounders was based on questionnaires, onsite anthropometric measurements, plasma metabolomics, and linkage with the Swedish Prescribed Drug Register. We found that all three OSA parameters were associated with lower diversity of species in the gut. Furthermore, in multivariable-adjusted analysis, the OSA-related hypoxia parameters were associated with the relative abundance of 128 gut bacterial species, including higher abundance of Blautia obeum and Collinsella aerofaciens. The latter species was also independently associated with increased systolic BP. Furthermore, the cumulative time in hypoxia during sleep was associated with the abundance of genes involved in nine gut microbiota metabolic pathways, including propionate production from lactate. Finally, we observed two heterogeneous sets of plasma metabolites with opposite association with species positively and negatively associated with hypoxia parameters, respectively. OSA-related hypoxia, but not the number of apneas/hypopneas, is associated with specific gut microbiota species and functions. Our findings lay the foundation for future research on the gut microbiota-mediated health effects of OSA.",
-    "type": "journal-article",
-    "sources": [
-      "PubMed"
-    ],
-    "id": "79eb6f485f0f",
-    "updated_at": "2026-07-28T20:27:20.313268+00:00"
-  },
-  {
-    "title": "Streptococcus Species Abundance in the Gut Is Linked to Subclinical Coronary Atherosclerosis in 8973 Participants From the SCAPIS Cohort.",
-    "authors": [
-      "Sergi Sayols-Baixeras",
-      "Koen F Dekkers",
-      "Gabriel Baldanzi",
-      "Daniel Jönsson",
-      "Ulf Hammar",
-      "Yi-Ting Lin",
-      "Shafqat Ahmad",
-      "Diem Nguyen",
-      "Georgios Varotsis",
-      "Sara Pita",
-      "Nynne Nielsen",
-      "Aron C Eklund",
-      "Jacob B Holm",
-      "H Bjørn Nielsen",
-      "Ulrika Ericson",
-      "Louise Brunkwall",
-      "Filip Ottosson",
-      "Anna Larsson",
-      "Dan Ericson",
-      "Björn Klinge",
-      "Peter M Nilsson",
-      "Andrei Malinovschi",
-      "Lars Lind",
-      "Göran Bergström",
-      "Johan Sundström",
-      "Johan Ärnlöv",
-      "Gunnar Engström",
-      "J Gustav Smith",
-      "Marju Orho-Melander",
-      "Tove Fall"
-    ],
-    "journal": "Circulation",
-    "year": 2023,
-    "date": "2023 Aug 08",
-    "volume": "148",
-    "issue": "6",
-    "pages": "459-472",
-    "doi": "10.1161/circulationaha.123.063914",
-    "pmid": "37435755",
-    "pmc": "PMC10399955",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/37435755/",
-    "abstract": "Gut microbiota have been implicated in atherosclerotic disease, but their relation with subclinical coronary atherosclerosis is unclear. This study aimed to identify associations between the gut microbiome and computed tomography-based measures of coronary atherosclerosis and to explore relevant clinical correlates. We conducted a cross-sectional study of 8973 participants (50 to 65 years of age) without overt atherosclerotic disease from the population-based SCAPIS (Swedish Cardiopulmonary Bioimage Study). Coronary atherosclerosis was measured using coronary artery calcium score and coronary computed tomography angiography. Gut microbiota species abundance and functional potential were assessed with shotgun metagenomics sequencing of fecal samples, and associations with coronary atherosclerosis were evaluated with multivariable regression models adjusted for cardiovascular risk factors. Associated species were evaluated for association with inflammatory markers, metabolites, and corresponding species in saliva. The mean age of the study sample was 57.4 years, and 53.7% were female. Coronary artery calcification was detected in 40.3%, and 5.4% had at least 1 stenosis with >50% occlusion. Sixty-four species were associated with coronary artery calcium score independent of cardiovascular risk factors, with the strongest associations observed for Streptococcus anginosus and Streptococcus oralis subsp oralis (P<1×10-5). Associations were largely similar across coronary computed tomography angiography-based measurements. Out of the 64 species, 19 species, including streptococci and other species commonly found in the oral cavity, were associated with high-sensitivity C-reactive protein plasma concentrations, and 16 with neutrophil counts. Gut microbial species that are commonly found in the oral cavity were negatively associated with plasma indole propionate and positively associated with plasma secondary bile acids and imidazole propionate. Five species, including 3 streptococci, correlated with the same species in saliva and were associated with worse dental health in the Malmö Offspring Dental Study. Microbial functional potential of dissimilatory nitrate reduction, anaerobic fatty acid β-oxidation, and amino acid degradation were associated with coronary artery calcium score. This study provides evidence of an association of a gut microbiota composition characterized by increased abundance of Streptococcus spp and other species commonly found in the oral cavity with coronary atherosclerosis and systemic inflammation markers. Further longitudinal and experimental studies are warranted to explore the potential implications of a bacterial component in atherogenesis.",
-    "type": "journal-article",
-    "sources": [
-      "PubMed"
-    ],
-    "id": "3ba38ede1fd4",
-    "updated_at": "2026-07-28T20:27:20.313233+00:00"
+    "updated_at": "2026-07-28T20:38:23.359368+00:00"
   },
   {
     "title": "Dynamics of the Gut Microbiome in Shigella-Infected Children during the First Two Years of Life.",
@@ -1262,36 +713,7 @@
       "PubMed"
     ],
     "id": "cbab179f8ede",
-    "updated_at": "2026-07-28T20:27:20.313274+00:00"
-  },
-  {
-    "title": "Vaginal microbiome following orally administered probiotic.",
-    "authors": [
-      "Frederik Boetius Hertz",
-      "Jacob Bak Holm",
-      "Albert Pallejá",
-      "María Kristín Björnsdóttir",
-      "Lasse Sommer Mikkelsen",
-      "Erik Brandsborg",
-      "Niels Frimodt-Møller"
-    ],
-    "journal": "APMIS : acta pathologica, microbiologica, et immunologica Scandinavica",
-    "year": 2022,
-    "date": "2022 Oct",
-    "volume": "130",
-    "issue": "10",
-    "pages": "605-611",
-    "doi": "10.1111/apm.13261",
-    "pmid": "35801409",
-    "pmc": "PMC9540456",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/35801409/",
-    "abstract": "Here, we present a longitudinal shotgun sequencing metagenomics study of 16 healthy, Danish women in the reproductive age. The aim of the study was to investigate whether lactobacilli, orally consumed, had any impact on the vaginal microbiome and its functional potential. The 16 women aged 19-45 years were recruited from Copenhagen, Denmark. One baseline vaginal sample (Day 0) and two study samples (Days 25-30 and Days 55-60, respectively), were sampled. The vaginal samples were analyzed by shotgun metagenomics. We detected 26 species in the vaginal microbiota of the 16 women, of which six belonged to the Lactobacillus genus. We observed three vaginal microbiome clusters mainly dominated by Gardnerella vaginalis, Lactobacillus iners, or Lactobacillus crispatus. The oral probiotic had no detectable effect on either the composition or the functional potential of the vaginal microbiota. Most of the study subjects (11 out of 16 women) exhibited only minor changes in the vaginal microbiome during the treatment with probiotics. Any compositional changes could not be associated to the probiotic treatment. Future studies may benefit from an increased number of participants, and administration of the probiotics during conditions with bacterial imbalance (e.g., during/after antibiotic treatment) or the use of different Lactobacillus spp. known to colonize the vagina.",
-    "type": "journal-article",
-    "sources": [
-      "PubMed"
-    ],
-    "id": "a3020832d37e",
-    "updated_at": "2026-07-28T20:27:20.313281+00:00"
+    "updated_at": "2026-07-28T20:38:23.359388+00:00"
   },
   {
     "title": "Assessing the Concordance Between Urogenital and Vaginal Microbiota: Can Urine Specimens Be Used as a Proxy for Vaginal Samples?",
@@ -1320,79 +742,7 @@
       "PubMed"
     ],
     "id": "cc651948a743",
-    "updated_at": "2026-07-28T20:27:20.313302+00:00"
-  },
-  {
-    "title": "Local Biomarkers Involved in the Interplay between Obesity and Breast Cancer.",
-    "authors": [
-      "Jonas Busk Holm",
-      "Ann H Rosendahl",
-      "Signe Borgquist"
-    ],
-    "journal": "Cancers",
-    "year": 2021,
-    "date": "2021 Dec 14",
-    "volume": "13",
-    "issue": "24",
-    "pages": "",
-    "doi": "10.3390/cancers13246286",
-    "pmid": "34944905",
-    "pmc": "PMC8699696",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/34944905/",
-    "abstract": "Obesity is associated with an increased risk of breast cancer, which is the most common cancer in women worldwide (excluding non-melanoma skin cancer). Furthermore, breast cancer patients with obesity have an impaired prognosis. Adipose tissue is abundant in the breast. Therefore, breast cancer develops in an adipose-rich environment. During obesity, changes in the local environment in the breast occur which are associated with breast cancer. A shift towards a pro-inflammatory state is seen, resulting in altered levels of cytokines and immune cells. Levels of adipokines, such as leptin, adiponectin, and resistin, are changed. Aromatase activity rises, resulting in higher levels of potent estrogen in the breast. Lastly, remodeling of the extracellular matrix takes place. In this review, we address the current knowledge on the changes in the breast adipose tissue in obesity associated with breast cancer initiation and progression. We aim to identify obesity-associated biomarkers in the breast involved in the interplay between obesity and breast cancer. Hereby, we can improve identification of women with obesity with an increased risk of breast cancer and an impaired prognosis. Studies investigating mammary adipocytes and breast adipose tissue in women with obesity versus women without obesity are, however, sparse and further research is needed.",
-    "type": "journal-article",
-    "sources": [
-      "PubMed"
-    ],
-    "id": "2beb4ed636ae",
-    "updated_at": "2026-07-28T20:27:20.313288+00:00"
-  },
-  {
-    "title": "Lysates of Methylococcus capsulatus Bath induce a lean-like microbiota, intestinal FoxP3+RORγt+IL-17+ Tregs and improve metabolism.",
-    "authors": [
-      "Benjamin A H Jensen",
-      "Jacob B Holm",
-      "Ida S Larsen",
-      "Nicole von Burg",
-      "Stefanie Derer",
-      "Si B Sonne",
-      "Simone I Pærregaard",
-      "Mads V Damgaard",
-      "Stine A Indrelid",
-      "Aymeric Rivollier",
-      "Anne-Laure Agrinier",
-      "Karolina Sulek",
-      "Yke J Arnoldussen",
-      "Even Fjære",
-      "André Marette",
-      "Inga L Angell",
-      "Knut Rudi",
-      "Jonas T Treebak",
-      "Lise Madsen",
-      "Caroline Piercey Åkesson",
-      "William Agace",
-      "Christian Sina",
-      "Charlotte R Kleiveland",
-      "Karsten Kristiansen",
-      "Tor E Lea"
-    ],
-    "journal": "Nature communications",
-    "year": 2021,
-    "date": "2021 Feb 17",
-    "volume": "12",
-    "issue": "1",
-    "pages": "1093",
-    "doi": "10.1038/s41467-021-21408-9",
-    "pmid": "33597537",
-    "pmc": "PMC7889900",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/33597537/",
-    "abstract": "Interactions between host and gut microbial communities are modulated by diets and play pivotal roles in immunological homeostasis and health. We show that exchanging the protein source in a high fat, high sugar, westernized diet from casein to whole-cell lysates of the non-commensal bacterium Methylococcus capsulatus Bath is sufficient to reverse western diet-induced changes in the gut microbiota to a state resembling that of lean, low fat diet-fed mice, both under mild thermal stress (T22 °C) and at thermoneutrality (T30 °C). Concomitant with microbiota changes, mice fed the Methylococcus-based western diet exhibit improved glucose regulation, reduced body and liver fat, and diminished hepatic immune infiltration. Intake of the Methylococcu-based diet markedly boosts Parabacteroides abundances in a manner depending on adaptive immunity, and upregulates triple positive (Foxp3+RORγt+IL-17+) regulatory T cells in the small and large intestine. Collectively, these data point to the potential for leveraging the use of McB lysates to improve immunometabolic homeostasis.",
-    "type": "journal-article",
-    "sources": [
-      "PubMed"
-    ],
-    "id": "f5ee738083dd",
-    "updated_at": "2026-07-28T20:27:20.313315+00:00"
+    "updated_at": "2026-07-28T20:38:23.359395+00:00"
   },
   {
     "title": "Refinement of 16S rRNA gene analysis for low biomass biospecimens.",
@@ -1420,35 +770,7 @@
       "PubMed"
     ],
     "id": "b7cef58f7625",
-    "updated_at": "2026-07-28T20:27:20.313308+00:00"
-  },
-  {
-    "title": "Skin dysbiosis in the microbiome in atopic dermatitis is site-specific and involves bacteria, fungus and virus.",
-    "authors": [
-      "Rie Dybboe Bjerre",
-      "Jacob Bak Holm",
-      "Albert Palleja",
-      "Julie Sølberg",
-      "Lone Skov",
-      "Jeanne Duus Johansen"
-    ],
-    "journal": "BMC microbiology",
-    "year": 2021,
-    "date": "2021 Sep 23",
-    "volume": "21",
-    "issue": "1",
-    "pages": "256",
-    "doi": "10.1186/s12866-021-02302-2",
-    "pmid": "34551705",
-    "pmc": "PMC8459459",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/34551705/",
-    "abstract": "Microbial dysbiosis with increased Staphylococcus aureus (S. aureus) colonization on the skin is a hallmark of atopic dermatitis (AD), however most microbiome studies focus on bacteria in the flexures and the microbial composition at other body sites have not been studied systematically. The aim of the study is to characterize the skin microbiome, including bacteria, fungi and virus, at different body sites in relation to AD, lesional state, and S. aureus colonization, and to test whether the nares could be a reservoir for S. aureus strain colonization. Using shotgun metagenomics we characterized microbial compositions from 14 well defined skin sites from 10 patients with AD and 5 healthy controls. We found clear differences in microbial composition between AD and controls at multiple skin sites, most pronounced on the flexures and neck. The flexures exhibited lower alpha-diversity and were colonized by S. aureus, accompanied by S. epidermidis in lesions. Malassezia species were absent on the neck in AD. Virus mostly constituted Propionibacterium and Staphylococcus phages, with increased abundance of Propionibacterium phages PHL041 and PHL092 and Staphylococcus epidermidis phages CNPH82 and PH15 in AD. In lesional samples, both the genus Staphylococcus and Staphylococcus phages were more abundant. S. aureus abundance was higher across all skin sites except from the feet. In samples where S. aureus was highly abundant, lower abundances of S. hominis and Cutibacterium acnes were observed. M. osloensis and M. luteus were more abundant in AD. By single nucleotide variant analysis of S. aureus we found strains to be subject specific. On skin sites some S. aureus strains were similar and some dissimilar to the ones in the nares. Our data indicate a global and site-specific dysbiosis in AD, involving both bacteria, fungus and virus. When defining targeted treatment clinicians should both consider the individual and skin site and future research into potential crosstalk between microbiota in AD yields high potential.",
-    "type": "journal-article",
-    "sources": [
-      "PubMed"
-    ],
-    "id": "a8921baea3d4",
-    "updated_at": "2026-07-28T20:27:20.313295+00:00"
+    "updated_at": "2026-07-28T20:38:23.359402+00:00"
   },
   {
     "title": "A comprehensive non-redundant gene catalog reveals extensive within-community intraspecies diversity in the human vagina.",
@@ -1477,7 +799,7 @@
       "PubMed"
     ],
     "id": "5b882928ee53",
-    "updated_at": "2026-07-28T20:27:20.313349+00:00"
+    "updated_at": "2026-07-28T20:38:23.359429+00:00"
   },
   {
     "title": "Comparative Metagenome-Assembled Genome Analysis of \"Candidatus Lachnocurva vaginae\", Formerly Known as Bacterial Vaginosis-Associated Bacterium-1 (BVAB1).",
@@ -1508,7 +830,7 @@
       "PubMed"
     ],
     "id": "f9ea2a12c06c",
-    "updated_at": "2026-07-28T20:27:20.313335+00:00"
+    "updated_at": "2026-07-28T20:38:23.359422+00:00"
   },
   {
     "title": "Decline in mortality among hospitalised covid-19 patients in Sweden: a nationwide observational study",
@@ -1538,102 +860,7 @@
       "Crossref"
     ],
     "id": "821223105b49",
-    "updated_at": "2026-07-28T20:27:20.313587+00:00"
-  },
-  {
-    "title": "Interventional Influence of the Intestinal Microbiome Through Dietary Intervention and Bowel Cleansing Might Improve Motor Symptoms in Parkinson's Disease.",
-    "authors": [
-      "Tobias Hegelmaier",
-      "Marco Lebbing",
-      "Alexander Duscha",
-      "Laura Tomaske",
-      "Lars Tönges",
-      "Jacob Bak Holm",
-      "Henrik Bjørn Nielsen",
-      "Sören G Gatermann",
-      "Horst Przuntek",
-      "Aiden Haghikia"
-    ],
-    "journal": "Cells",
-    "year": 2020,
-    "date": "2020 Feb 06",
-    "volume": "9",
-    "issue": "2",
-    "pages": "",
-    "doi": "10.3390/cells9020376",
-    "pmid": "32041265",
-    "pmc": "PMC7072275",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/32041265/",
-    "abstract": "The impact of the gut microbiome is being increasingly appreciated in health and in various chronic diseases, among them neurodegenerative disorders such as Parkinson's disease (PD). In the pathogenesis of PD, the role of the gut has been previously established. In conjunction with a better understanding of the intestinal microbiome, a link to the misfolding and spread of alpha-synuclein via inflammatory processes within the gut is discussed. In a case-control study, we assessed the gut microbiome of 54 PD patients and 32 healthy controls (HC). Additionally, we tested in this proof-of-concept study whether dietary intervention alone or additional physical colon cleaning may lead to changes of the gut microbiome in PD. 16 PD patients underwent a well-controlled balanced, ovo-lacto vegetarian diet intervention including short fatty acids for 14 days. 10 of those patients received additional treatment with daily fecal enema over 8 days. Stool samples were collected before and after 14 days of intervention. In comparison to HC, we could confirm previously reported PD associated microbiome changes. The UDPRS III significantly improved and the levodopa-equivalent daily dose decreased after vegetarian diet and fecal enema in a one-year follow-up. Additionally, we observed a significant association between the gut microbiome diversity and the UPDRS III and the abundance of Ruminococcaceae. Additionally, the abundance of Clostridiaceae was significantly reduced after enema. Dietary intervention and bowel cleansing may provide an additional non-pharmacologic therapeutic option for PD patients.",
-    "type": "journal-article",
-    "sources": [
-      "PubMed"
-    ],
-    "id": "6d8e246821c3",
-    "updated_at": "2026-07-28T20:27:20.313355+00:00"
-  },
-  {
-    "title": "Propionic Acid Shapes the Multiple Sclerosis Disease Course by an Immunomodulatory Mechanism.",
-    "authors": [
-      "Alexander Duscha",
-      "Barbara Gisevius",
-      "Sarah Hirschberg",
-      "Nissan Yissachar",
-      "Gabriele I Stangl",
-      "Eva Dawin",
-      "Verian Bader",
-      "Stefanie Haase",
-      "Johannes Kaisler",
-      "Christina David",
-      "Ruth Schneider",
-      "Riccardo Troisi",
-      "Daniel Zent",
-      "Tobias Hegelmaier",
-      "Nikolaos Dokalis",
-      "Sara Gerstein",
-      "Sara Del Mare-Roumani",
-      "Sivan Amidror",
-      "Ori Staszewski",
-      "Gereon Poschmann",
-      "Kai Stühler",
-      "Frank Hirche",
-      "Andras Balogh",
-      "Stefan Kempa",
-      "Pascal Träger",
-      "Mario M Zaiss",
-      "Jacob Bak Holm",
-      "Megan G Massa",
-      "Henrik Bjørn Nielsen",
-      "Andreas Faissner",
-      "Carsten Lukas",
-      "Sören G Gatermann",
-      "Markus Scholz",
-      "Horst Przuntek",
-      "Marco Prinz",
-      "Sofia K Forslund",
-      "Konstanze F Winklhofer",
-      "Dominik N Müller",
-      "Ralf A Linker",
-      "Ralf Gold",
-      "Aiden Haghikia"
-    ],
-    "journal": "Cell",
-    "year": 2020,
-    "date": "2020 Mar 19",
-    "volume": "180",
-    "issue": "6",
-    "pages": "1067-1080.e16",
-    "doi": "10.1016/j.cell.2020.02.035",
-    "pmid": "32160527",
-    "pmc": "",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/32160527/",
-    "abstract": "Short-chain fatty acids are processed from indigestible dietary fibers by gut bacteria and have immunomodulatory properties. Here, we investigate propionic acid (PA) in multiple sclerosis (MS), an autoimmune and neurodegenerative disease. Serum and feces of subjects with MS exhibited significantly reduced PA amounts compared with controls, particularly after the first relapse. In a proof-of-concept study, we supplemented PA to therapy-naive MS patients and as an add-on to MS immunotherapy. After 2 weeks of PA intake, we observed a significant and sustained increase of functionally competent regulatory T (Treg) cells, whereas Th1 and Th17 cells decreased significantly. Post-hoc analyses revealed a reduced annual relapse rate, disability stabilization, and reduced brain atrophy after 3 years of PA intake. Functional microbiome analysis revealed increased expression of Treg-cell-inducing genes in the intestine after PA intake. Furthermore, PA normalized Treg cell mitochondrial function and morphology in MS. Our findings suggest that PA can serve as a potent immunomodulatory supplement to MS drugs.",
-    "type": "journal-article",
-    "sources": [
-      "PubMed"
-    ],
-    "id": "1c9978e38622",
-    "updated_at": "2026-07-28T20:27:20.313342+00:00"
+    "updated_at": "2026-07-28T20:38:23.359463+00:00"
   },
   {
     "title": "Systemic anti-commensal response to fungi analyzed by flow cytometry is related to gut mycobiome ecology.",
@@ -1669,7 +896,7 @@
       "PubMed"
     ],
     "id": "a0362107c95d",
-    "updated_at": "2026-07-28T20:27:20.313329+00:00"
+    "updated_at": "2026-07-28T20:38:23.359416+00:00"
   },
   {
     "title": "VALENCIA: a nearest centroid classification method for vaginal microbial communities based on composition.",
@@ -1700,7 +927,7 @@
       "PubMed"
     ],
     "id": "dd772575613d",
-    "updated_at": "2026-07-28T20:27:20.313322+00:00"
+    "updated_at": "2026-07-28T20:38:23.359409+00:00"
   },
   {
     "title": "Cervicovaginal microbiota and local immune response modulate the risk of spontaneous preterm delivery.",
@@ -1729,7 +956,7 @@
       "PubMed"
     ],
     "id": "eaa53012d7e8",
-    "updated_at": "2026-07-28T20:27:20.313376+00:00"
+    "updated_at": "2026-07-28T20:38:23.359436+00:00"
   },
   {
     "title": "Comparative metagenome-assembled genome analysis of <i>Lachnovaginosum</i> genomospecies, formerly known as BVAB1",
@@ -1758,7 +985,7 @@
       "Crossref"
     ],
     "id": "0102d784d095",
-    "updated_at": "2026-07-28T20:27:20.313600+00:00"
+    "updated_at": "2026-07-28T20:38:23.359476+00:00"
   },
   {
     "title": "Complete Genome Sequence of Lactobacillus crispatus CO3MRSI1",
@@ -1784,249 +1011,7 @@
       "Crossref"
     ],
     "id": "80d1c121815c",
-    "updated_at": "2026-07-28T20:27:20.313607+00:00"
-  },
-  {
-    "title": "Effects of exercise and dietary protein sources on adiposity and insulin sensitivity in obese mice.",
-    "authors": [
-      "Even Fjære",
-      "Lene Secher Myrmel",
-      "Ditte Olsen Lützhøft",
-      "Hanne Andersen",
-      "Jacob Bak Holm",
-      "Pia Kiilerich",
-      "Rita Hannisdal",
-      "Bjørn Liaset",
-      "Karsten Kristiansen",
-      "Lise Madsen"
-    ],
-    "journal": "The Journal of nutritional biochemistry",
-    "year": 2019,
-    "date": "2019 Apr",
-    "volume": "66",
-    "issue": "",
-    "pages": "98-109",
-    "doi": "10.1016/j.jnutbio.2019.01.003",
-    "pmid": "30776610",
-    "pmc": "",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/30776610/",
-    "abstract": "Low-fat diets and exercise are generally assumed to ameliorate obesity-related metabolic dysfunctions, but the importance of exercise vs. dietary changes is debated. Male C57BL/6J mice were fed a high-fat/high-sucrose (HF/HS) diet to induce obesity and then either maintained on the HF/HS or shifted to low-fat (LF) diets containing either salmon or entrecote. For each diet, half of the animals exercised voluntarily for 8 weeks. We determined body composition, glucose tolerance, insulin sensitivity and hepatic triacylglycerol levels. The microbiota composition in cecal and fecal samples was analyzed using 16S ribosomal RNA gene amplicon sequencing. Voluntary exercise improved insulin sensitivity but did not improve glucose tolerance. Voluntary exercise did not reduce adiposity in mice maintained on an HF/HS diet but enhanced LF-induced reduction in adiposity. Hepatic triacylglycerol levels were reduced by voluntary exercise in LF- but not HF/HS-fed mice. Voluntary exercise induced shifts in the cecal and fecal microbiota composition and functional potential in mice fed LF or HF/HS diets. Whereas voluntary exercise improved insulin sensitivity, a switch to an LF diet was the most important factor related to body weight and fat mass reduction.",
-    "type": "journal-article",
-    "sources": [
-      "PubMed"
-    ],
-    "id": "785608cdb292",
-    "updated_at": "2026-07-28T20:27:20.313396+00:00"
-  },
-  {
-    "title": "Human Paneth cell α-defensin-5 treatment reverses dyslipidemia and improves glucoregulatory capacity in diet-induced obese mice.",
-    "authors": [
-      "Ida Søgaard Larsen",
-      "Andreas Mæchel Fritzen",
-      "Christian Strini Carl",
-      "Marianne Agerholm",
-      "Mads Thue Fejerskov Damgaard",
-      "Jacob Bak Holm",
-      "André Marette",
-      "Peter Nordkild",
-      "Bente Kiens",
-      "Karsten Kristiansen",
-      "Jan Wehkamp",
-      "Benjamin Anderschou Holbech Jensen"
-    ],
-    "journal": "American journal of physiology. Endocrinology and metabolism",
-    "year": 2019,
-    "date": "2019 Jul 01",
-    "volume": "317",
-    "issue": "1",
-    "pages": "E42-E52",
-    "doi": "10.1152/ajpendo.00019.2019",
-    "pmid": "30860877",
-    "pmc": "",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/30860877/",
-    "abstract": "Overnutrition is the principal cause of insulin resistance (IR) and dyslipidemia, which drive nonalcoholic fatty liver disease (NAFLD). Overnutrition is further linked to disrupted bowel function, microbiota alterations, and change of function in gut-lining cell populations, including Paneth cells of the small intestine. Paneth cells regulate microbial diversity through expression of antimicrobial peptides, particularly human α-defensin-5 (HD-5), and have shown repressed secretory capacity in human obesity. Mice were fed a 60% high-fat diet for 13 wk and subsequently treated with physiologically relevant amounts of HD-5 (0.001%) or vehicle for 10 wk. The glucoregulatory capacity was determined by glucose tolerance tests and measurements of corresponding insulin concentrations both before and during intervention. Gut microbiome composition was examined by 16S rRNA gene amplicon sequencing. HD-5-treated mice exhibited improved glucoregulatory capacity along with an ameliorated plasma and liver lipid profile. This was accompanied by specific decrease in jejunal inflammation and gut microbiota alterations including increased Bifidobacterium abundances, which correlated inversely with metabolic dysfunctions. This study provides proof of concept for the use of human defensins to improve host metabolism by mitigating the triad cluster of dyslipidemia, IR, and NAFLD.",
-    "type": "journal-article",
-    "sources": [
-      "PubMed"
-    ],
-    "id": "29d1857889c8",
-    "updated_at": "2026-07-28T20:27:20.313382+00:00"
-  },
-  {
-    "title": "Mechanisms Preserving Insulin Action during High Dietary Fat Intake.",
-    "authors": [
-      "Anne-Marie Lundsgaard",
-      "Jacob B Holm",
-      "Kim A Sjøberg",
-      "Kirstine N Bojsen-Møller",
-      "Lene S Myrmel",
-      "Even Fjære",
-      "Benjamin A H Jensen",
-      "Trine S Nicolaisen",
-      "Janne R Hingst",
-      "Sine L Hansen",
-      "Sophia Doll",
-      "Philip E Geyer",
-      "Atul S Deshmukh",
-      "Jens J Holst",
-      "Lise Madsen",
-      "Karsten Kristiansen",
-      "Jørgen F P Wojtaszewski",
-      "Erik A Richter",
-      "Bente Kiens"
-    ],
-    "journal": "Cell metabolism",
-    "year": 2019,
-    "date": "2019 Jan 08",
-    "volume": "29",
-    "issue": "1",
-    "pages": "229",
-    "doi": "10.1016/j.cmet.2018.10.002",
-    "pmid": "30625306",
-    "pmc": "",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/30625306/",
-    "abstract": "",
-    "type": "journal-article",
-    "sources": [
-      "PubMed"
-    ],
-    "id": "80eb02b17ac9",
-    "updated_at": "2026-07-28T20:27:20.313403+00:00"
-  },
-  {
-    "title": "Mechanisms Preserving Insulin Action during High Dietary Fat Intake.",
-    "authors": [
-      "Anne-Marie Lundsgaard",
-      "Jacob B Holm",
-      "Kim A Sjøberg",
-      "Kirstine N Bojsen-Møller",
-      "Lene S Myrmel",
-      "Even Fjære",
-      "Benjamin A H Jensen",
-      "Trine S Nicolaisen",
-      "Janne R Hingst",
-      "Sine L Hansen",
-      "Sophia Doll",
-      "Philip E Geyer",
-      "Atul S Deshmukh",
-      "Jens J Holst",
-      "Lise Madsen",
-      "Karsten Kristiansen",
-      "Jørgen F P Wojtaszewski",
-      "Erik A Richter",
-      "Bente Kiens"
-    ],
-    "journal": "Cell metabolism",
-    "year": 2019,
-    "date": "2019 Jan 08",
-    "volume": "29",
-    "issue": "1",
-    "pages": "50-63.e4",
-    "doi": "10.1016/j.cmet.2018.08.022",
-    "pmid": "30269983",
-    "pmc": "",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/30269983/",
-    "abstract": "Prolonged intervention studies investigating molecular metabolism are necessary for a deeper understanding of dietary effects on health. Here we provide mechanistic information about metabolic adaptation to fat-rich diets. Healthy, slightly overweight men ingested saturated or polyunsaturated fat-rich diets for 6 weeks during weight maintenance. Hyperinsulinemic clamps combined with leg balance technique revealed unchanged peripheral insulin sensitivity, independent of fatty acid type. Both diets increased fat oxidation potential in muscle. Hepatic insulin clearance increased, while glucose production, de novo lipogenesis, and plasma triacylglycerol decreased. High fat intake changed the plasma proteome in the immune-supporting direction and the gut microbiome displayed changes at taxonomical and functional level with polyunsaturated fatty acid (PUFA). In mice, eucaloric feeding of human PUFA and saturated fatty acid diets lowered hepatic triacylglycerol content compared with low-fat-fed control mice, and induced adaptations in the liver supportive of decreased gluconeogenesis and lipogenesis. Intake of fat-rich diets thus induces extensive metabolic adaptations enabling disposition of dietary fat without metabolic complications.",
-    "type": "journal-article",
-    "sources": [
-      "PubMed"
-    ],
-    "id": "df2055ee48d5",
-    "updated_at": "2026-07-28T20:27:20.313410+00:00"
-  },
-  {
-    "title": "Metabolic and gut microbiome changes following GLP-1 or dual GLP-1/GLP-2 receptor agonist treatment in diet-induced obese mice.",
-    "authors": [
-      "Mette Simone Aae Madsen",
-      "Jacob Bak Holm",
-      "Albert Pallejà",
-      "Pernille Wismann",
-      "Katrine Fabricius",
-      "Kristoffer Rigbolt",
-      "Martin Mikkelsen",
-      "Morten Sommer",
-      "Jacob Jelsing",
-      "Henrik Bjørn Nielsen",
-      "Niels Vrang",
-      "Henrik H Hansen"
-    ],
-    "journal": "Scientific reports",
-    "year": 2019,
-    "date": "2019 Oct 30",
-    "volume": "9",
-    "issue": "1",
-    "pages": "15582",
-    "doi": "10.1038/s41598-019-52103-x",
-    "pmid": "31666597",
-    "pmc": "PMC6821799",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/31666597/",
-    "abstract": "Enteroendocrine L-cell derived peptide hormones, notably glucagon-like peptide-1 (GLP-1) and glucagon-like peptide-2 (GLP-2), have become important targets in the treatment of type 2 diabetes, obesity and intestinal diseases. As gut microbial imbalances and maladaptive host responses have been implicated in the pathology of obesity and diabetes, this study aimed to determine the effects of pharmacologically stimulated GLP-1 and GLP-2 receptor function on the gut microbiome composition in diet-induced obese (DIO) mice. DIO mice received treatment with a selective GLP-1 receptor agonist (liraglutide, 0.2 mg/kg, BID) or dual GLP-1/GLP-2 receptor agonist (GUB09-145, 0.04 mg/kg, BID) for 4 weeks. Both compounds suppressed caloric intake, promoted a marked weight loss, improved glucose tolerance and reduced plasma cholesterol levels. 16S rDNA sequencing and deep-sequencing shotgun metagenomics was applied for comprehensive within-subject profiling of changes in gut microbiome signatures. Compared to baseline, DIO mice assumed phylogenetically similar gut bacterial compositional changes following liraglutide and GUB09-145 treatment, characterized by discrete shifts in low-abundant species and related bacterial metabolic pathways. The microbiome alterations may potentially associate to the converging biological actions of GLP-1 and GLP-2 receptor signaling on caloric intake, glucose metabolism and lipid handling.",
-    "type": "journal-article",
-    "sources": [
-      "PubMed"
-    ],
-    "id": "c3a3c3bc639c",
-    "updated_at": "2026-07-28T20:27:20.313362+00:00"
-  },
-  {
-    "title": "Microscale light management and inherent optical properties of intact corals studied with optical coherence tomography.",
-    "authors": [
-      "Daniel Wangpraseurt",
-      "Steven Jacques",
-      "Niclas Lyndby",
-      "Jacob Boiesen Holm",
-      "Christine Ferrier Pages",
-      "Michael Kühl"
-    ],
-    "journal": "Journal of the Royal Society, Interface",
-    "year": 2019,
-    "date": "2019 Feb 28",
-    "volume": "16",
-    "issue": "151",
-    "pages": "20180567",
-    "doi": "10.1098/rsif.2018.0567",
-    "pmid": "30958182",
-    "pmc": "PMC6408362",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/30958182/",
-    "abstract": "Coral reefs are highly productive photosynthetic systems and coral optics studies suggest that such high efficiency is due to optimized light scattering by coral tissue and skeleton. Here, we characterize the inherent optical properties, i.e. the scattering coefficient, μs, and the anisotropy of scattering, g, of eight intact coral species using optical coherence tomography (OCT). Specifically, we describe light scattering by coral skeletons, coenoarc tissues, polyp tentacles and areas covered by fluorescent pigments (FP). Our results reveal that light scattering between coral species ranges from μs = 3 mm-1 ( Stylophora pistillata) to μs = 25 mm-1 ( Echinopora lamelosa) . For Platygyra pini, μs was 10-fold higher for tissue versus skeleton, while in other corals (e.g. Hydnophora pilosa) no difference was found between tissue and skeletal scattering. Tissue scattering was threefold enhanced in coenosarc tissues ( μs = 24.6 mm-1) versus polyp tentacles ( μs = 8.3 mm-1) in Turbinaria reniformis. FP scattering was almost isotropic when FP were organized in granule chromatophores ( g = 0.34) but was forward directed when FP were distributed diffusely in the tissue ( g = 0.96). Our study provides detailed measurements of coral scattering and establishes a rapid approach for characterizing optical properties of photosynthetic soft tissues via OCT in vivo.",
-    "type": "journal-article",
-    "sources": [
-      "PubMed"
-    ],
-    "id": "7e21845227c4",
-    "updated_at": "2026-07-28T20:27:20.313369+00:00"
-  },
-  {
-    "title": "Prevotella-to-Bacteroides ratio predicts body weight and fat loss success on 24-week diets varying in macronutrient composition and dietary fiber: results from a post-hoc analysis.",
-    "authors": [
-      "Mads F Hjorth",
-      "Trine Blædel",
-      "Line Q Bendtsen",
-      "Janne K Lorenzen",
-      "Jacob B Holm",
-      "Pia Kiilerich",
-      "Henrik M Roager",
-      "Karsten Kristiansen",
-      "Lesli H Larsen",
-      "Arne Astrup"
-    ],
-    "journal": "International journal of obesity (2005)",
-    "year": 2019,
-    "date": "2019 Jan",
-    "volume": "43",
-    "issue": "1",
-    "pages": "149-157",
-    "doi": "10.1038/s41366-018-0093-2",
-    "pmid": "29777234",
-    "pmc": "PMC6331389",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/29777234/",
-    "abstract": "Individuals with high pre-treatment bacterial Prevotella-to-Bacteroides (P/B) ratio have been reported to lose more body weight on diets high in fiber than subjects with a low P/B ratio. Therefore, the aim of the present study was to examine potential differences in dietary weight loss responses between participants with low and high P/B. Eighty overweight participants were randomized (52 completed) to a 500 kcal/d energy deficit diet with a macronutrient composition of 30 energy percentage (E%) fat, 52 E% carbohydrate and 18 E% protein either high (≈1500 mg calcium/day) or low ( ≤ 600 mg calcium/day) in dairy products for 24 weeks. Body weight, body fat, and dietary intake (by 7-day dietary records) were determined. Individuals were dichotomized according to their pre-treatment P/B ratio derived from 16S rRNA gene sequencing of collected fecal samples to test the potential modification of dietary effects using linear mixed models. Independent of the randomized diets, individuals with high P/B lost 3.8 kg (95%CI, 1.8,5.8; P < 0.001) more body weight and 3.8 kg (95% CI, 1.1, 6.5; P = 0.005) more body fat compared to individuals with low P/B. After adjustment for multiple covariates, individuals with high P/B ratio lost 8.3 kg (95% CI, 5.8;10.9, P < 0.001) more body weight when consuming above compared to below 30 g fiber/10MJ whereas this weight loss was 3.2 kg (95% CI, 0.8;5.5, P = 0.008) among individuals with low P/B ratio [Mean difference: 5.1 kg (95% CI, 1.7;8.6, P = 0.003)]. Partial correlation coefficients between fiber intake and weight change was 0.90 (P < 0.001) among individuals with high P/B ratio and 0.25 (P = 0.29) among individuals with low P/B ratio. Individuals with high P/B lost more body weight and body fat compared to individuals with low P/B, confirming that individuals with a high P/B are more susceptible to weight loss on a diet rich in fiber.",
-    "type": "journal-article",
-    "sources": [
-      "PubMed"
-    ],
-    "id": "deedb563b979",
-    "updated_at": "2026-07-28T20:27:20.313424+00:00"
+    "updated_at": "2026-07-28T20:38:23.359482+00:00"
   },
   {
     "title": "Ultrahigh-Throughput Multiplexing and Sequencing of >500-Base-Pair Amplicon Regions on the Illumina HiSeq 2500 Platform.",
@@ -2063,7 +1048,7 @@
       "PubMed"
     ],
     "id": "74aaacbfe844",
-    "updated_at": "2026-07-28T20:27:20.313389+00:00"
+    "updated_at": "2026-07-28T20:38:23.359443+00:00"
   },
   {
     "title": "VIRGO, a comprehensive non-redundant gene catalog, reveals extensive within community intraspecies diversity in the human vagina",
@@ -2092,70 +1077,7 @@
       "Crossref"
     ],
     "id": "430d4e6e63f9",
-    "updated_at": "2026-07-28T20:27:20.313581+00:00"
-  },
-  {
-    "title": "Age-dependent alterations of glucose clearance and homeostasis are temporally separated and modulated by dietary fat.",
-    "authors": [
-      "Mads T F Damgaard",
-      "Simone I Pærregaard",
-      "Ida Søgaard",
-      "Marianne Agerholm",
-      "Joseph N Paulson",
-      "Jonas T Treebak",
-      "Christian Sina",
-      "Jacob B Holm",
-      "Karsten Kristiansen",
-      "Benjamin A H Jensen"
-    ],
-    "journal": "The Journal of nutritional biochemistry",
-    "year": 2018,
-    "date": "2018 Apr",
-    "volume": "54",
-    "issue": "",
-    "pages": "66-76",
-    "doi": "10.1016/j.jnutbio.2017.09.026",
-    "pmid": "29268121",
-    "pmc": "",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/29268121/",
-    "abstract": "Diet- and age-dependent changes in glucose regulation in mice occur, but the temporal development, mechanisms and influence of dietary fat source remain to be defined. We followed metabolic changes in three groups of mice including a low-fat diet (LFD) reference group and two high-fat, high-sucrose diets based on either fish oil (FOD) or soybean oil (SOD), rich in ω3- and ω6-polyunsaturated fatty acids, respectively, to closely monitor the age-dependent development in glucose regulation in both obese (SOD-fed) and lean (LFD- and FOD-fed) mice. We assessed glucose homeostasis and glucose clearance at week 8, 12, 16, 24, 31, and 39 and performed an insulin tolerance test at week 40. We further analyzed correlations between the gut microbiota and key metabolic parameters. Interestingly, alterations in glucose homeostasis and glucose clearance were temporally separated, while 16S ribosomal gene amplicon sequencing revealed that gut microbial alterations formed correlation clusters with fat mass and either glucose homeostasis or glucose clearance, but rarely both. Importantly, effective glucose clearance was maintained in FOD- and even increased in LFD-fed mice, whereas SOD-fed mice rapidly developed impaired glucose clearance followed by a gradual improvement from week 8 to week 39. All groups had similar responses to insulin 40 weeks post diet initiation despite severe nonalcoholic steatohepatitis in SOD-fed mice. We conclude that age-related alterations in glucose regulation may occur in both lean and obese mice and are modulated by dietary fat as indicated by the sustained metabolic homeostasis observed in mice fed ω3-polyunsaturated fatty acids.",
-    "type": "journal-article",
-    "sources": [
-      "PubMed"
-    ],
-    "id": "df54b98065cb",
-    "updated_at": "2026-07-28T20:27:20.313431+00:00"
-  },
-  {
-    "title": "High intake of dairy during energy restriction does not affect energy balance or the intestinal microflora compared with low dairy intake in overweight individuals in a randomized controlled trial.",
-    "authors": [
-      "Line Quist Bendtsen",
-      "Trine Blædel",
-      "Jacob Bak Holm",
-      "Janne Kunchel Lorenzen",
-      "Alicja Budek Mark",
-      "Pia Kiilerich",
-      "Karsten Kristiansen",
-      "Arne Astrup",
-      "Lesli Hingstrup Larsen"
-    ],
-    "journal": "Applied physiology, nutrition, and metabolism = Physiologie appliquee, nutrition et metabolisme",
-    "year": 2018,
-    "date": "2018 Jan",
-    "volume": "43",
-    "issue": "1",
-    "pages": "1-10",
-    "doi": "10.1139/apnm-2017-0234",
-    "pmid": "28829923",
-    "pmc": "",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/28829923/",
-    "abstract": "During weight loss, dairy calcium is proposed to accelerate weight and fat-mass loss through increased fecal fat excretion. The primary objective was to investigate if a high-dairy energy-restricted diet is superior to low dairy in terms of changes in body weight, body composition, and fecal fat excretion over 24 weeks. Secondary objectives included fecal energy and calcium excretion, resting energy expenditure, blood pressure, lipid metabolism, and gut microbiota. In a randomized, parallel-arm intervention study, 11 men and 69 women (body mass index, 30.6 ± 0.3 kg/m2; age, 44 ± 1 years) were allocated to a 500-kcal (2100 kJ) -deficit diet that was either high (HD: 1500 mg calcium/day) or low (LD: 600 mg calcium/day) in dairy products for 24 weeks. Habitual calcium intake was ∼1000 mg/day. Body weight loss (HD: -6.6 ± 1.3 kg, LD: -7.9 ± 1.5 kg, P = 0.73), fat-mass loss (HD: -7.8% ± 1.3%, LD: -8.5% ± 1.1%, P = 0.76), changes in fecal fat excretion (HD: -0.57 ± 0.76 g, LD: 0.46 ± 0.70 g, P = 0.12), and microbiota composition were similar for the groups over 24 weeks. However, total fat-mass loss was positively associated with relative abundance of Papillibacter (P = 0.017) independent of diet group. Consumption of a high-dairy diet did not increase fecal fat or accelerate weight and fat-mass loss beyond energy restriction over 24 weeks in overweight and obese adults with a habitual calcium intake of ∼1000 mg/day. However, this study indicates that Papillibacter is involved in body compositional changes.",
-    "type": "journal-article",
-    "sources": [
-      "PubMed"
-    ],
-    "id": "ccb4de7c2f71",
-    "updated_at": "2026-07-28T20:27:20.313437+00:00"
+    "updated_at": "2026-07-28T20:38:23.359456+00:00"
   },
   {
     "title": "Impact of the griffithsin anti-HIV microbicide and placebo gels on the rectal mucosal proteome and microbiome in non-human primates.",
@@ -2195,7 +1117,7 @@
       "PubMed"
     ],
     "id": "a2c0760595e3",
-    "updated_at": "2026-07-28T20:27:20.313417+00:00"
+    "updated_at": "2026-07-28T20:38:23.359449+00:00"
   },
   {
     "title": "Ultra-high throughput multiplexing and sequencing of &gt;500 bp amplicon regions on the Illumina HiSeq 2500 platform",
@@ -2231,653 +1153,6 @@
       "Crossref"
     ],
     "id": "e8b076cbb9f9",
-    "updated_at": "2026-07-28T20:27:20.313594+00:00"
-  },
-  {
-    "title": "Acute infection with the intestinal parasite Trichuris muris has long-term consequences on mucosal mast cell homeostasis and epithelial integrity.",
-    "authors": [
-      "Daniel Sorobetea",
-      "Jacob Bak Holm",
-      "Henrietta Henningsson",
-      "Karsten Kristiansen",
-      "Marcus Svensson-Frej"
-    ],
-    "journal": "European journal of immunology",
-    "year": 2017,
-    "date": "2017 Feb",
-    "volume": "47",
-    "issue": "2",
-    "pages": "257-268",
-    "doi": "10.1002/eji.201646738",
-    "pmid": "27891580",
-    "pmc": "",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/27891580/",
-    "abstract": "A hallmark of parasite infection is the accumulation of innate immune cells, notably granulocytes and mast cells, at the site of infection. While this is typically viewed as a transient response, with the tissue returning to steady state once the infection is cleared, we found that mast cells accumulated in the large-intestinal epithelium following infection with the nematode Trichuris muris and persisted at this site for several months after worm expulsion. Mast cell accumulation in the epithelium was associated with the induction of type-2 immunity and appeared to be driven by increased maturation of local progenitors in the intestinal lamina propria. Furthermore, we also detected increased local and systemic levels of the mucosal mast cell protease MCPt-1, which correlated highly with the persistent epithelial mast cell population. Finally, the mast cells appeared to have striking consequences on epithelial barrier integrity, by regulation of gut permeability long after worm expulsion. These findings highlight the importance of mast cells not only in the early phases of infection but also at later stages, which has functional implications on the mucosal tissue.",
-    "type": "journal-article",
-    "sources": [
-      "PubMed"
-    ],
-    "id": "ebc23df433b6",
-    "updated_at": "2026-07-28T20:27:20.313457+00:00"
-  },
-  {
-    "title": "In vivo Microscale Measurements of Light and Photosynthesis during Coral Bleaching: Evidence for the Optical Feedback Loop?",
-    "authors": [
-      "Daniel Wangpraseurt",
-      "Jacob B Holm",
-      "Anthony W D Larkum",
-      "Mathieu Pernice",
-      "Peter J Ralph",
-      "David J Suggett",
-      "Michael Kühl"
-    ],
-    "journal": "Frontiers in microbiology",
-    "year": 2017,
-    "date": "2017",
-    "volume": "8",
-    "issue": "",
-    "pages": "59",
-    "doi": "10.3389/fmicb.2017.00059",
-    "pmid": "28174567",
-    "pmc": "PMC5258690",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/28174567/",
-    "abstract": "Climate change-related coral bleaching, i.e., the visible loss of zooxanthellae from the coral host, is increasing in frequency and extent and presents a major threat to coral reefs globally. Coral bleaching has been proposed to involve accelerating light stress of their microalgal endosymbionts via a positive feedback loop of photodamage, symbiont expulsion and excess in vivo light exposure. To test this hypothesis, we used light and O2 microsensors to characterize in vivo light exposure and photosynthesis of Symbiodinium during a thermal stress experiment. We created tissue areas with different densities of Symbiodinium cells in order to understand the optical properties and light microenvironment of corals during bleaching. Our results showed that in bleached Pocillopora damicornis corals, Symbiodinium light exposure was up to fivefold enhanced relative to healthy corals, and the relationship between symbiont loss and light enhancement was well-described by a power-law function. Cell-specific rates of Symbiodinium gross photosynthesis and light respiration were enhanced in bleached P. damicornis compared to healthy corals, while areal rates of net photosynthesis decreased. Symbiodinium light exposure in Favites sp. revealed the presence of low light microniches in bleached coral tissues, suggesting that light scattering in thick coral tissues can enable photoprotection of cryptic symbionts. Our study provides evidence for the acceleration of in vivo light exposure during coral bleaching but this optical feedback mechanism differs between coral hosts. Enhanced photosynthesis in relation to accelerating light exposure shows that coral microscale optics exerts a key role on coral photophysiology and the subsequent degree of radiative stress during coral bleaching.",
-    "type": "journal-article",
-    "sources": [
-      "PubMed"
-    ],
-    "id": "74eb2870cf05",
-    "updated_at": "2026-07-28T20:27:20.313451+00:00"
-  },
-  {
-    "title": "A randomised, controlled, crossover study of the effect of diet on angiopoietin-like protein 4 (ANGPTL4) through modification of the gut microbiome.",
-    "authors": [
-      "Trine Blædel",
-      "Jacob B Holm",
-      "Ulrik K Sundekilde",
-      "Mette S Schmedes",
-      "Anne L Hess",
-      "Janne K Lorenzen",
-      "Karsten Kristiansen",
-      "Trine K Dalsgaard",
-      "Arne Astrup",
-      "Lesli H Larsen"
-    ],
-    "journal": "Journal of nutritional science",
-    "year": 2016,
-    "date": "2016",
-    "volume": "5",
-    "issue": "",
-    "pages": "e45",
-    "doi": "10.1017/jns.2016.38",
-    "pmid": "28620472",
-    "pmc": "PMC5465810",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/28620472/",
-    "abstract": "Angiopoietin-like protein 4 (ANGPTL4) is a lipoprotein lipase inhibitor that is involved in lipid metabolism and angiogenesis. Animal studies have suggested that the ANGPTL4 protein is modulated by the gut microbiota, possibly through increased concentrations of SCFA, such as C4, found in whole-fat milk or as a result of fermentation of inulin. This study investigated whether a standardised diet either high in fat content or supplemented with inulin powder would increase plasma ANGPTL4 in overweight men and whether this increase was mediated through a compositional change of the gut microbiota. The study had a crossover design with three arms, where participants were given a standardised isoenergetic diet supplemented with inulin powder, whole-fat milk or water (control). Plasma and urine samples were collected before and after each intervention period. Faecal samples and adipose tissue biopsies were collected after each intervention period. The study included twenty-one participants of whom eighteen completed the study. The dietary interventions did not change ANGPTL4 plasma concentration, nor was plasma ANGPTL4 associated with plasma lipids, TAG or NEFA concentration. The relative abundance of bifidobacteria following the inulin diet was higher, compared with the control diet. However, the changes in microbiota were not associated with plasma ANGPTL4 and the overall composition of the microbiota did not change between the dietary periods. Although weight was maintained throughout the dietary periods, weight was negatively associated with plasma ANGPTL4 concentration. In the adipose tissue, ANGPTL4 expression was correlated with leptin expression, but not with hypoxia-inducible factor 1α (HIF-1α) expression.",
-    "type": "journal-article",
-    "sources": [
-      "PubMed"
-    ],
-    "id": "97e3ca0ef9f1",
-    "updated_at": "2026-07-28T20:27:20.313444+00:00"
-  },
-  {
-    "title": "Diet-induced obesity, energy metabolism and gut microbiota in C57BL/6J mice fed Western diets based on lean seafood or lean meat mixtures.",
-    "authors": [
-      "Jacob Bak Holm",
-      "Alexander Rønnevik",
-      "Hanne Sørup Tastesen",
-      "Even Fjære",
-      "Kristin Røen Fauske",
-      "Ulrike Liisberg",
-      "Lise Madsen",
-      "Karsten Kristiansen",
-      "Bjørn Liaset"
-    ],
-    "journal": "The Journal of nutritional biochemistry",
-    "year": 2016,
-    "date": "2016 May",
-    "volume": "31",
-    "issue": "",
-    "pages": "127-36",
-    "doi": "10.1016/j.jnutbio.2015.12.017",
-    "pmid": "27133432",
-    "pmc": "",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/27133432/",
-    "abstract": "High protein diets may protect against diet-induced obesity, but little is known regarding the effects of different protein sources consumed at standard levels. We investigated how a mixture of lean seafood or lean meat in a Western background diet modulated diet-induced obesity, energy metabolism and gut microbiota. Male C57BL/6J mice fed a Western diet (WD) containing a mixture of lean seafood (seafood WD) for 12weeks accumulated less fat mass than mice fed a WD containing a mixture of lean meat (meat WD). Meat WD-fed mice exhibited increased fasting blood glucose, impaired glucose clearance, elevated fasting plasma insulin and increased plasma and liver lipid levels. We observed no first choice preference for either of the WDs, but over time, mice fed the seafood WD consumed less energy than mice fed the meat WD. Mice fed the seafood WD exhibited higher spontaneous locomotor activity and a lower respiratory exchange ratio (RER) than mice fed the meat WD. Thus, higher activity together with the decreased energy intake contributed to the different phenotypes observed in mice fed the seafood WD compared to mice fed the meat WD. Comparison of the gut microbiomes of mice fed the two WDs revealed significant differences in the relative abundance of operational taxonomic units (OTUs) belonging to the orders Bacteroidales and Clostridiales, with genes involved in metabolism of aromatic amino acids exhibiting higher relative abundance in the microbiomes of mice fed the seafood WD.",
-    "type": "journal-article",
-    "sources": [
-      "PubMed"
-    ],
-    "id": "92d355a72310",
-    "updated_at": "2026-07-28T20:27:20.313492+00:00"
-  },
-  {
-    "title": "Dietary fat drives whole-body insulin resistance and promotes intestinal inflammation independent of body weight gain.",
-    "authors": [
-      "Benjamin A H Jensen",
-      "Thomas S Nielsen",
-      "Andreas M Fritzen",
-      "Jacob B Holm",
-      "Even Fjære",
-      "Annette K Serup",
-      "Kamil Borkowski",
-      "Steve Risis",
-      "Simone I Pærregaard",
-      "Ida Søgaard",
-      "Audrey Poupeau",
-      "Michelle Poulsen",
-      "Tao Ma",
-      "Christian Sina",
-      "Bente Kiens",
-      "Lise Madsen",
-      "Karsten Kristiansen",
-      "Jonas T Treebak"
-    ],
-    "journal": "Metabolism: clinical and experimental",
-    "year": 2016,
-    "date": "2016 Dec",
-    "volume": "65",
-    "issue": "12",
-    "pages": "1706-1719",
-    "doi": "10.1016/j.metabol.2016.09.002",
-    "pmid": "27832859",
-    "pmc": "",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/27832859/",
-    "abstract": "The obesogenic potential of high-fat diets (HFD) in rodents is attenuated when the protein:carbohydrate ratio is increased. However, it is not known if intake of an HFD irrespective of the protein:carbohydrate ratio and in the absence of weight gain, affects glucose homeostasis and the gut microbiota. We fed C57BL6/J mice 3 different HFDs with decreasing protein:carbohydrate ratios for 8weeks and compared the results to a LFD reference group. We analyzed the gut microbiota composition by 16S rDNA amplicon sequencing and the intestinal gene expression by real-time PCR. Whole body glucose homeostasis was evaluated by insulin and glucose tolerance tests as well as by a hyperinsulinemic euglycemic clamp experiment. Compared with LFD-fed reference mice, HFD-fed mice, irrespective of protein:carbohydrate ratio, exhibited impaired glucose tolerance, whereas no differences were observed during insulin tolerance tests. The hyperinsulinemic euglycemic clamp revealed tissue-specific effects on glucose homeostasis in all HFD-fed groups. HFD-fed mice exhibited decreased insulin-stimulated glucose uptake in white but not in brown adipose tissue, and sustained endogenous glucose production under insulin-stimulated conditions. We observed no impairment of insulin-stimulated glucose uptake in skeletal muscles of different fiber type composition. HFD-feeding altered the gut microbiota composition paralleled by increased expression of pro-inflammatory cytokines and genes involved in gluconeogenesis in intestinal epithelial cells of the jejunum. Intake of a HFD profoundly affected glucose homeostasis, gut inflammatory responses, and gut microbiota composition in the absence of fat mass accretion.",
-    "type": "journal-article",
-    "sources": [
-      "PubMed"
-    ],
-    "id": "28dba98c9681",
-    "updated_at": "2026-07-28T20:27:20.313464+00:00"
-  },
-  {
-    "title": "Human gut microbes impact host serum metabolome and insulin sensitivity.",
-    "authors": [
-      "Helle Krogh Pedersen",
-      "Valborg Gudmundsdottir",
-      "Henrik Bjørn Nielsen",
-      "Tuulia Hyotylainen",
-      "Trine Nielsen",
-      "Benjamin A H Jensen",
-      "Kristoffer Forslund",
-      "Falk Hildebrand",
-      "Edi Prifti",
-      "Gwen Falony",
-      "Emmanuelle Le Chatelier",
-      "Florence Levenez",
-      "Joel Doré",
-      "Ismo Mattila",
-      "Damian R Plichta",
-      "Päivi Pöhö",
-      "Lars I Hellgren",
-      "Manimozhiyan Arumugam",
-      "Shinichi Sunagawa",
-      "Sara Vieira-Silva",
-      "Torben Jørgensen",
-      "Jacob Bak Holm",
-      "Kajetan Trošt",
-      "MetaHIT Consortium",
-      "Karsten Kristiansen",
-      "Susanne Brix",
-      "Jeroen Raes",
-      "Jun Wang",
-      "Torben Hansen",
-      "Peer Bork",
-      "Søren Brunak",
-      "Matej Oresic",
-      "S Dusko Ehrlich",
-      "Oluf Pedersen"
-    ],
-    "journal": "Nature",
-    "year": 2016,
-    "date": "2016 Jul 21",
-    "volume": "535",
-    "issue": "7612",
-    "pages": "376-81",
-    "doi": "10.1038/nature18646",
-    "pmid": "27409811",
-    "pmc": "",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/27409811/",
-    "abstract": "Insulin resistance is a forerunner state of ischaemic cardiovascular disease and type 2 diabetes. Here we show how the human gut microbiome impacts the serum metabolome and associates with insulin resistance in 277 non-diabetic Danish individuals. The serum metabolome of insulin-resistant individuals is characterized by increased levels of branched-chain amino acids (BCAAs), which correlate with a gut microbiome that has an enriched biosynthetic potential for BCAAs and is deprived of genes encoding bacterial inward transporters for these amino acids. Prevotella copri and Bacteroides vulgatus are identified as the main species driving the association between biosynthesis of BCAAs and insulin resistance, and in mice we demonstrate that P. copri can induce insulin resistance, aggravate glucose intolerance and augment circulating levels of BCAAs. Our findings suggest that microbial targets may have the potential to diminish insulin resistance and reduce the incidence of common metabolic and cardiovascular disorders.",
-    "type": "journal-article",
-    "sources": [
-      "PubMed"
-    ],
-    "id": "9a0e293c2a41",
-    "updated_at": "2026-07-28T20:27:20.313478+00:00"
-  },
-  {
-    "title": "Intrauterine Exposure to Paracetamol and Aniline Impairs Female Reproductive Development by Reducing Follicle Reserves and Fertility.",
-    "authors": [
-      "Jacob Bak Holm",
-      "Severine Mazaud-Guittot",
-      "Niels Banhos Danneskiold-Samsøe",
-      "Clementine Chalmey",
-      "Benjamin Jensen",
-      "Mette Marie Nørregård",
-      "Cecilie Hurup Hansen",
-      "Bjarne Styrishave",
-      "Terje Svingen",
-      "Anne Marie Vinggaard",
-      "Holger Martin Koch",
-      "Josephine Bowles",
-      "Peter Koopman",
-      "Bernard Jégou",
-      "Karsten Kristiansen",
-      "David Møbjerg Kristensen"
-    ],
-    "journal": "Toxicological sciences : an official journal of the Society of Toxicology",
-    "year": 2016,
-    "date": "2016 Mar",
-    "volume": "150",
-    "issue": "1",
-    "pages": "178-89",
-    "doi": "10.1093/toxsci/kfv332",
-    "pmid": "26732887",
-    "pmc": "",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/26732887/",
-    "abstract": "Studies report that fetal exposure to paracetamol/acetaminophen by maternal consumption can interfere with male reproductive development. Moreover, recent biomonitoring data report widespread presence of paracetamol in German and Danish populations, suggesting exposure via secondary (nonpharmaceutical) sources, such as metabolic conversion from the ubiquitous industrial compound aniline. In this study, we investigated the extent to which paracetamol and aniline can interfere with female reproductive development. Intrauterine exposure to paracetamol by gavage of pregnant dams resulted in shortening of the anogenital distance in adult offspring, suggesting that fetal hormone signaling had been disturbed. Female offspring of paracetamol-exposed mothers had ovaries with diminished follicle reserve and reduced fertility. Fetal gonads of exposed animals had also reduced gonocyte numbers, suggesting that the reduced follicle count in adults could be due to early disruption of germ cell development. However, ex vivo cultures of ovaries from 12.5 days post coitum fetuses showed no decrease in proliferation or expression following exposure to paracetamol. This suggests that the effect of paracetamol occurs prior to this developmental stage. Accordingly, using embryonic stem cells as a proxy for primordial germ cells we show that paracetamol is an inhibitor of cellular proliferation, but without cytotoxic effects. Collectively, our data show that intrauterine exposure to paracetamol at levels commonly observed in pregnant women, as well as its precursor aniline, may block primordial germ cell proliferation, ultimately leading to reduced follicle reserves and compromised reproductive capacity later in life.",
-    "type": "journal-article",
-    "sources": [
-      "PubMed"
-    ],
-    "id": "906d6506a1f1",
-    "updated_at": "2026-07-28T20:27:20.313505+00:00"
-  },
-  {
-    "title": "IRF8 Transcription-Factor-Dependent Classical Dendritic Cells Are Essential for Intestinal T Cell Homeostasis.",
-    "authors": [
-      "Katarzyna M Luda",
-      "Thorsten Joeris",
-      "Emma K Persson",
-      "Aymeric Rivollier",
-      "Mimoza Demiri",
-      "Katarzyna M Sitnik",
-      "Lieneke Pool",
-      "Jacob B Holm",
-      "Felipe Melo-Gonzalez",
-      "Lisa Richter",
-      "Bart N Lambrecht",
-      "Karsten Kristiansen",
-      "Mark A Travis",
-      "Marcus Svensson-Frej",
-      "Knut Kotarsky",
-      "William W Agace"
-    ],
-    "journal": "Immunity",
-    "year": 2016,
-    "date": "2016 Apr 19",
-    "volume": "44",
-    "issue": "4",
-    "pages": "860-74",
-    "doi": "10.1016/j.immuni.2016.02.008",
-    "pmid": "27067057",
-    "pmc": "",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/27067057/",
-    "abstract": "The role of dendritic cells (DCs) in intestinal immune homeostasis remains incompletely defined. Here we show that mice lacking IRF8 transcription-factor-dependent DCs had reduced numbers of T cells in the small intestine (SI), but not large intestine (LI), including an almost complete absence of SI CD8αβ(+) and CD4(+)CD8αα(+) T cells; the latter requiring β8 integrin expression by migratory IRF8 dependent CD103(+)CD11b(-) DCs. SI homing receptor induction was impaired during T cell priming in mesenteric lymph nodes (MLN), which correlated with a reduction in aldehyde dehydrogenase activity by SI-derived MLN DCs, and inefficient T cell localization to the SI. These mice also lacked intestinal T helper 1 (Th1) cells, and failed to support Th1 cell differentiation in MLN and mount Th1 cell responses to Trichuris muris infection. Collectively these results highlight multiple non-redundant roles for IRF8 dependent DCs in the maintenance of intestinal T cell homeostasis.",
-    "type": "journal-article",
-    "sources": [
-      "PubMed"
-    ],
-    "id": "1c8bf05f7477",
-    "updated_at": "2026-07-28T20:27:20.313499+00:00"
-  },
-  {
-    "title": "Microbiomes of Muricea californica and M. fruticosa: Comparative Analyses of Two Co-occurring Eastern Pacific Octocorals.",
-    "authors": [
-      "Johanna B Holm",
-      "Karla B Heidelberg"
-    ],
-    "journal": "Frontiers in microbiology",
-    "year": 2016,
-    "date": "2016",
-    "volume": "7",
-    "issue": "",
-    "pages": "917",
-    "doi": "10.3389/fmicb.2016.00917",
-    "pmid": "27445997",
-    "pmc": "PMC4914490",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/27445997/",
-    "abstract": "Octocorals are sources of novel but understudied microbial diversity. Conversely, scleractinian or reef-building coral microbiomes have been heavily examined in light of the threats of climate change. Muricea californica and Muricea fruticosa are two co-occurring species of gorgonian octocoral abundantly found in the kelp forests of southern California, and thus provide an excellent basis to determine if octocoral microbiomes are host specific. Using Illumina MiSeq amplicon sequencing and replicate samples, we evaluated the microbiomes collected from multiple colonies of both species of Muricea to measure both inter- and intra-colony microbiome variabilities. In addition, microbiomes from overlying sea water and nearby zoanthids (another benthic invertebrate) were also included in the analysis to evaluate whether bacterial taxa specifically associate with octocorals. This is also the first report of microbiomes from these species of Muricea. We show that microbiomes isolated from each sample type are distinct, and specifically, that octocoral species type had the greatest effect on predicting the composition of the Muricea microbiome. Bacterial taxa contributing to compositional differences include distinct strains of Mycoplasma associated with either M. californica or M. fruticosa, an abundance of Spirochaetes observed on M. californica, and a greater diversity of γ-Proteobacteria associated with M. fruticosa. Many of the bacterial taxa contributing to these differences are known for their presence in photosymbiont-containing invertebrate microbiomes.",
-    "type": "journal-article",
-    "sources": [
-      "PubMed"
-    ],
-    "id": "e8fb5057a6e1",
-    "updated_at": "2026-07-28T20:27:20.313471+00:00"
-  },
-  {
-    "title": "The protein source determines the potential of high protein diets to attenuate obesity development in C57BL/6J mice.",
-    "authors": [
-      "Ulrike Liisberg",
-      "Lene Secher Myrmel",
-      "Even Fjære",
-      "Alexander K Rønnevik",
-      "Susanne Bjelland",
-      "Kristin Røen Fauske",
-      "Jacob Bak Holm",
-      "Astrid Linde Basse",
-      "Jacob B Hansen",
-      "Bjørn Liaset",
-      "Karsten Kristiansen",
-      "Lise Madsen"
-    ],
-    "journal": "Adipocyte",
-    "year": 2016,
-    "date": "2016",
-    "volume": "5",
-    "issue": "2",
-    "pages": "196-211",
-    "doi": "10.1080/21623945.2015.1122855",
-    "pmid": "27386160",
-    "pmc": "PMC4916867",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/27386160/",
-    "abstract": "The notion that the obesogenic potential of high fat diets in rodents is attenuated when the protein:carbohydrate ratio is increased is largely based on studies using casein or whey as the protein source. We fed C57BL/6J mice high fat-high protein diets using casein, soy, cod, beef, chicken or pork as protein sources. Casein stood out as the most efficient in preventing weight gain and accretion of adipose mass. By contrast, mice fed diets based on pork or chicken, and to a lesser extent mice fed cod or beef protein, had increased adipose tissue mass gain relative to casein fed mice. Decreasing the protein:carbohydrate ratio in diets with casein or pork as protein sources led to accentuated fat mass accumulation. Pork fed mice were more obese than casein fed mice, and relative to casein, the pork-based feed induced substantial accumulation of fat in classic interscapular brown adipose tissue accompanied by decreased UCP1 expression. Furthermore, intake of a low fat diet with casein, but not pork, as a protein source reversed diet-induced obesity. Compared to pork, casein seems unique in maintaining the classical brown morphology in interscapular brown adipose tissue with high UCP1 expression. This was accompanied by increased expression of genes involved in a futile cycling of fatty acids. Our results demonstrate that intake of high protein diets based on other protein sources may not have similar effects, and hence, the obesity protective effect of high protein diets is clearly modulated by protein source.",
-    "type": "journal-article",
-    "sources": [
-      "PubMed"
-    ],
-    "id": "4749e8d5f882",
-    "updated_at": "2026-07-28T20:27:20.313485+00:00"
-  },
-  {
-    "title": "Aniline Is Rapidly Converted Into Paracetamol Impairing Male Reproductive Development.",
-    "authors": [
-      "Jacob Bak Holm",
-      "Clementine Chalmey",
-      "Hendrik Modick",
-      "Lars Skovgaard Jensen",
-      "Georg Dierkes",
-      "Tobias Weiss",
-      "Benjamin Anderschou Holbech Jensen",
-      "Mette Marie Nørregård",
-      "Kamil Borkowski",
-      "Bjarne Styrishave",
-      "Holger Martin Koch",
-      "Severine Mazaud-Guittot",
-      "Bernard Jegou",
-      "Karsten Kristiansen",
-      "David Møbjerg Kristensen"
-    ],
-    "journal": "Toxicological sciences : an official journal of the Society of Toxicology",
-    "year": 2015,
-    "date": "2015 Nov",
-    "volume": "148",
-    "issue": "1",
-    "pages": "288-98",
-    "doi": "10.1093/toxsci/kfv179",
-    "pmid": "26259604",
-    "pmc": "",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/26259604/",
-    "abstract": "Industrial use of aniline is increasing worldwide with production estimated to surpass 5.6 million metric tons in 2016. Exposure to aniline occurs via air, diet, and water augmenting the risk of exposing a large number of individuals. Early observations suggest that aniline is metabolized to paracetamol/acetaminophen, likely explaining the omnipresence of low concentrations of paracetamol in European populations. This is of concern as recent studies implicate paracetamol as a disrupter of reproduction. Here, we show through steroidogenic profiling that exposure to aniline led to increased levels of the Δ4 steroids, suggesting that the activity of CYP21 was decreased. By contrast, paracetamol decreased levels of androgens likely through inhibition of CYP17A1 activity. We confirm that aniline in vivo is rapidly converted to paracetamol by the liver. Intrauterine exposure to aniline and paracetamol in environmental and pharmaceutical relevant doses resulted in shortening of the anogenital distance in mice, a sensitive marker of fetal androgen levels that in humans is associated with reproductive malformations and later life reproductive disorders. In conclusion, our results provide evidence for a scenario where aniline, through its conversion into antiandrogenic paracetamol, impairs male reproductive development.",
-    "type": "journal-article",
-    "sources": [
-      "PubMed"
-    ],
-    "id": "9aa43e79ce18",
-    "updated_at": "2026-07-28T20:27:20.313512+00:00"
-  },
-  {
-    "title": "Chronic Trichuris muris Infection Decreases Diversity of the Intestinal Microbiota and Concomitantly Increases the Abundance of Lactobacilli.",
-    "authors": [
-      "Jacob Bak Holm",
-      "Daniel Sorobetea",
-      "Pia Kiilerich",
-      "Yuliaxis Ramayo-Caldas",
-      "Jordi Estellé",
-      "Tao Ma",
-      "Lise Madsen",
-      "Karsten Kristiansen",
-      "Marcus Svensson-Frej"
-    ],
-    "journal": "PloS one",
-    "year": 2015,
-    "date": "2015",
-    "volume": "10",
-    "issue": "5",
-    "pages": "e0125495",
-    "doi": "10.1371/journal.pone.0125495",
-    "pmid": "25942314",
-    "pmc": "PMC4420551",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/25942314/",
-    "abstract": "The intestinal microbiota is vital for shaping the local intestinal environment as well as host immunity and metabolism. At the same time, epidemiological and experimental evidence suggest an important role for parasitic worm infections in maintaining the inflammatory and regulatory balance of the immune system. In line with this, the prevalence of persistent worm infections is inversely correlated with the incidence of immune-associated diseases, prompting the use of controlled parasite infections for therapeutic purposes. Despite this, the impact of parasite infection on the intestinal microbiota, as well as potential downstream effects on the immune system, remain largely unknown. We have assessed the influence of chronic infection with the large-intestinal nematode Trichuris muris, a close relative of the human pathogen Trichuris trichiura, on the composition of the murine intestinal microbiota by 16S ribosomal-RNA gene-based sequencing. Our results demonstrate that persistent T. muris infection dramatically affects the large-intestinal microbiota, most notably with a drop in the diversity of bacterial communities, as well as a marked increase in the relative abundance of the Lactobacillus genus. In parallel, chronic T. muris infection resulted in a significant shift in the balance between regulatory and inflammatory T cells in the intestinal adaptive immune system, in favour of inflammatory cells. Together, these data demonstrate that chronic parasite infection strongly influences the intestinal microbiota and the adaptive immune system. Our results illustrate the complex interactions between these factors in the intestinal tract, and contribute to furthering the understanding of this interplay, which is of crucial importance considering that 500 million people globally are suffering from these infections and their potential use for therapeutic purposes.",
-    "type": "journal-article",
-    "sources": [
-      "PubMed"
-    ],
-    "id": "a0907582d2d3",
-    "updated_at": "2026-07-28T20:27:20.313519+00:00"
-  },
-  {
-    "title": "Physiological role of taurine--from organism to organelle.",
-    "authors": [
-      "I H Lambert",
-      "D M Kristensen",
-      "J B Holm",
-      "O H Mortensen"
-    ],
-    "journal": "Acta physiologica (Oxford, England)",
-    "year": 2015,
-    "date": "2015 Jan",
-    "volume": "213",
-    "issue": "1",
-    "pages": "191-212",
-    "doi": "10.1111/apha.12365",
-    "pmid": "25142161",
-    "pmc": "",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/25142161/",
-    "abstract": "Taurine is often referred to as a semi-essential amino acid as newborn mammals have a limited ability to synthesize taurine and have to rely on dietary supply. Taurine is not thought to be incorporated into proteins as no aminoacyl tRNA synthetase has yet been identified and is not oxidized in mammalian cells. However, taurine contributes significantly to the cellular pool of organic osmolytes and has accordingly been acknowledged for its role in cell volume restoration following osmotic perturbation. This review describes taurine homeostasis in cells and organelles with emphasis on taurine biophysics/membrane dynamics, regulation of transport proteins involved in active taurine uptake and passive taurine release as well as physiological processes, for example, development, lung function, mitochondrial function, antioxidative defence and apoptosis which seem to be affected by a shift in the expression of the taurine transporters and/or the cellular taurine content.",
-    "type": "journal-article",
-    "sources": [
-      "PubMed"
-    ],
-    "id": "22f36330ac09",
-    "updated_at": "2026-07-28T20:27:20.313526+00:00"
-  },
-  {
-    "title": "Characterization of eukaryotic microbial diversity in hypersaline Lake Tyrrell, Australia.",
-    "authors": [
-      "Karla B Heidelberg",
-      "William C Nelson",
-      "Johanna B Holm",
-      "Nadine Eisenkolb",
-      "Karen Andrade",
-      "Joanne B Emerson"
-    ],
-    "journal": "Frontiers in microbiology",
-    "year": 2013,
-    "date": "2013",
-    "volume": "4",
-    "issue": "",
-    "pages": "115",
-    "doi": "10.3389/fmicb.2013.00115",
-    "pmid": "23717306",
-    "pmc": "PMC3651956",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/23717306/",
-    "abstract": "This study describes the community structure of the microbial eukaryotic community from hypersaline Lake Tyrrell, Australia, using near full length 18S rRNA sequences. Water samples were taken in both summer and winter over a 4-year period. The extent of eukaryotic diversity detected was low, with only 35 unique phylotypes using a 97% sequence similarity threshold. The water samples were dominated (91%) by a novel cluster of the Alveolate, Apicomplexa Colpodella spp., most closely related to C. edax. The Chlorophyte, Dunaliella spp. accounted for less than 35% of water column samples. However, the eukaryotic community entrained in a salt crust sample was vastly different and was dominated (83%) by the Dunaliella spp. The patterns described here represent the first observation of microbial eukaryotic dynamics in this system and provide a multiyear comparison of community composition by season. The lack of expected seasonal distribution in eukaryotic communities paired with abundant nanoflagellates suggests that grazing may significantly structure microbial eukaryotic communities in this system.",
-    "type": "journal-article",
-    "sources": [
-      "PubMed"
-    ],
-    "id": "6239238a31a6",
-    "updated_at": "2026-07-28T20:27:20.313532+00:00"
-  },
-  {
-    "title": "Volume-sensitive release of organic osmolytes in the human lung epithelial cell line A549: role of the 5-lipoxygenase.",
-    "authors": [
-      "Jacob Bak Holm",
-      "Ryszard Grygorczyk",
-      "Ian Henry Lambert"
-    ],
-    "journal": "American journal of physiology. Cell physiology",
-    "year": 2013,
-    "date": "2013 Jul 01",
-    "volume": "305",
-    "issue": "1",
-    "pages": "C48-60",
-    "doi": "10.1152/ajpcell.00412.2012",
-    "pmid": "23485709",
-    "pmc": "",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/23485709/",
-    "abstract": "Pathophysiological conditions challenge cell volume homeostasis and perturb cell volume regulatory mechanisms leading to alterations of cell metabolism, active transepithelial transport, cell migration, and death. We report that inhibition of the 5-lipoxygenase (5-LO) with AA861 or ETH 615-139, the cysteinyl leukotriene 1 receptor (CysLT₁) with the antiasthmatic drug Zafirlukast, or the volume-sensitive organic anion channel (VSOAC) with DIDS blocks the release of organic osmolytes (taurine, meAIB) and the concomitant cell volume restoration following hypoosmotic swelling of human type II-like lung epithelial cells (A549). Reactive oxygen species (ROS) are produced in A549 cells upon hypotonic cell swelling by a diphenylene iodonium-sensitive NADPH oxidase. The swelling-induced taurine release is suppressed by ROS scavenging (butylated hydroxytoluene, N-acetyl cysteine) and potentiated by H₂O₂. Ca²⁺ mobilization with ionomycin or ATP stimulates the swelling-induced taurine release whereas calmodulin inhibition (W7) inhibits the release. Chelation of the extracellular Ca²⁺ (EGTA) had no effect on swelling-induced taurine release but prevented ATP-induced stimulation. H₂O₂, ATP, and ionomycin were unable to stimulate the taurine release in the presence of AA861 or Zafirlukast, placing 5-LO and CysLT₁ as essential elements in the swelling-induced activation of VSOAC with ROS and Ca²⁺ as potent modulators. Inhibition of tyrosine kinases (genistein, cucurbitacin) reduces volume-sensitive taurine release, adding tyrosine kinases (Janus kinase) as regulators of VSOAC activity. Caspase-3 activity during hypoxia is unaffected by inhibition of 5-LO/CysLT₁ but reduced when swelling-induced taurine loss via VSOAC is prevented by DIDS excess extracellular taurine, indicating a beneficial role of taurine under hypoxia.",
-    "type": "journal-article",
-    "sources": [
-      "PubMed"
-    ],
-    "id": "2edc5fd2f0ef",
-    "updated_at": "2026-07-28T20:27:20.313539+00:00"
-  },
-  {
-    "title": "Extreme aggression in male squid induced by a β-MSP-like pheromone.",
-    "authors": [
-      "Scott F Cummins",
-      "Jean G Boal",
-      "Kendra C Buresch",
-      "Chitraporn Kuanpradit",
-      "Prasert Sobhon",
-      "Johanna B Holm",
-      "Bernard M Degnan",
-      "Gregg T Nagle",
-      "Roger T Hanlon"
-    ],
-    "journal": "Current biology : CB",
-    "year": 2011,
-    "date": "2011 Feb 22",
-    "volume": "21",
-    "issue": "4",
-    "pages": "322-7",
-    "doi": "10.1016/j.cub.2011.01.038",
-    "pmid": "21315594",
-    "pmc": "",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/21315594/",
-    "abstract": "Male-male aggression is widespread in the animal kingdom and subserves many functions related to the acquisition or retention of resources such as shelter, food, and mates. These functions have been studied widely in the context of sexual selection, yet the proximate mechanisms that trigger or strengthen aggression are not well known for many taxa. Various external sensory cues (visual, audio, chemical) acting alone or in combination stimulate the complex behavioral interactions of fighting behaviors. Here we report the discovery of a 10 kDa protein, termed Loligo β-microseminoprotein (Loligo β-MSP), that immediately and dramatically changes the behavior of male squid from calm swimming and schooling to extreme fighting, even in the absence of females. Females synthesize Loligo β-MSP in their reproductive exocrine glands and embed the protein in the outer tunic of egg capsules, which are deposited on the open sea floor. Males are attracted to the eggs visually, but upon touching them and contacting Loligo β-MSP, they immediately escalate into intense physical fighting with any nearby males. Loligo β-MSP is a distant member of the chordate β-microseminoprotein family found in mammalian reproductive secretions, suggesting that this gene family may have taxonomically widespread roles in sexual competition.",
-    "type": "journal-article",
-    "sources": [
-      "PubMed"
-    ],
-    "id": "9c0591340ab2",
-    "updated_at": "2026-07-28T20:27:20.313546+00:00"
-  },
-  {
-    "title": "The Ca2+ channel beta4c subunit interacts with heterochromatin protein 1 via a PXVXL binding motif.",
-    "authors": [
-      "Xingfu Xu",
-      "Yoon J Lee",
-      "Johanna B Holm",
-      "Mark D Terry",
-      "Robert E Oswald",
-      "William A Horne"
-    ],
-    "journal": "The Journal of biological chemistry",
-    "year": 2011,
-    "date": "2011 Mar 18",
-    "volume": "286",
-    "issue": "11",
-    "pages": "9677-87",
-    "doi": "10.1074/jbc.m110.187864",
-    "pmid": "21220418",
-    "pmc": "PMC3058963",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/21220418/",
-    "abstract": "The β subunits of voltage-gated Ca(2+) channels are best known for their roles in regulating surface expression and gating of voltage-gated Ca(2+) channel α(1) subunits. Recent evidence, however, indicates that these proteins have a variety of Ca(2+) channel-independent functions. For example, on the molecular level, they regulate gene expression, and on the whole animal level, they regulate early cell movements in zebrafish development. In the present study, an alternatively spliced, truncated β4 subunit (β4c) is identified in the human brain and shown to be highly expressed in nuclei of vestibular neurons. Pull-down assays, nuclear magnetic resonance, and isothermal titration calorimetry demonstrate that the protein interacts with the chromo shadow domain (CSD) of heterochromatin protein 1γ. Site-directed mutagenesis reveals that the primary CSD interaction occurs through a β4c C-terminal PXVXL consensus motif, adding the β4c subunit to a growing PXVXL protein family with epigenetic responsibilities. These proteins have multiple nuclear functions, including transcription regulation (TIF1α) and nucleosome assembly (CAF1). An NMR-based two-site docking model of β4c in complex with dimerized CSD is presented. Possible roles for the interaction are discussed.",
-    "type": "journal-article",
-    "sources": [
-      "PubMed"
-    ],
-    "id": "7d04d0ef11d2",
-    "updated_at": "2026-07-28T20:27:20.313559+00:00"
-  },
-  {
-    "title": "Pinpointing differences in cisplatin-induced apoptosis in adherent and non-adherent cancer cells.",
-    "authors": [
-      "Hanne Sørup Tastesen",
-      "Jacob Bak Holm",
-      "Jacob Møller",
-      "Kristian Arild Poulsen",
-      "Charlotte Møller",
-      "Stefan Stürup",
-      "Else Kay Hoffmann",
-      "Ian Henry Lambert"
-    ],
-    "journal": "Cellular physiology and biochemistry : international journal of experimental cellular physiology, biochemistry, and pharmacology",
-    "year": 2010,
-    "date": "2010",
-    "volume": "26",
-    "issue": "6",
-    "pages": "809-20",
-    "doi": "10.1159/000323990",
-    "pmid": "21220912",
-    "pmc": "",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/21220912/",
-    "abstract": "Platinum compounds are used in the treatment of cancer. We demonstrate that cisplatin-induced (10 μM) apoptosis (caspase-3 activity) is pronounced within 18 hours in non-adherent Ehrlich ascites tumour cells (EATC), whereas there is no increase in caspase-3 activity in the adherent Ehrlich Lettré ascites tumour cells (ELA). Loss of KCl and cell shrinkage are hallmarks in apoptosis and has been shown in EATC. However, we find no reduction in cell volume and only a minor loss of K(+) which is accompanied by net uptake of Na(+) following 18 hours cisplatin exposure in ELA. Glutathione and taurine have previously been demonstrated to protect cells from apoptosis. We find, however, that increase or decrease in the cellular content of glutathione and taurine has no effect on cisplatin-induced cell death in EATC and ELA. Nevertheless, knock-down of the taurine transporter TauT leads to a significant increase in apoptosis in ELA following cisplatin exposure. We find that cytosolic accumulation of cisplatin is similar in EATC and ELA. However, the nuclear accumulation and DNA-binding of cisplatin is significant lower in ELA compared to EATC. We suggest three putative reasons for the observed cisplatin insensitivity in the adherent tumor cells (ELA) compared to the non-adherent tumor cells (EATC): less nuclear cisplatin accumulation, increased TauT activity, and decreased anion and water loss.",
-    "type": "journal-article",
-    "sources": [
-      "PubMed"
-    ],
-    "id": "4f837bca33d4",
-    "updated_at": "2026-07-28T20:27:20.313553+00:00"
-  },
-  {
-    "title": "Sexually mature cuttlefish are attracted to the eggs of conspecifics.",
-    "authors": [
-      "Jean G Boal",
-      "Krista N Prosser",
-      "Johanna B Holm",
-      "Tiffany L Simmons",
-      "Robert E Haas",
-      "Gregg T Nagle"
-    ],
-    "journal": "Journal of chemical ecology",
-    "year": 2010,
-    "date": "2010 Aug",
-    "volume": "36",
-    "issue": "8",
-    "pages": "834-6",
-    "doi": "10.1007/s10886-010-9816-0",
-    "pmid": "20593225",
-    "pmc": "",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/20593225/",
-    "abstract": "Cuttlefish typically are solitary, but form aggregations to spawn. We tested the hypothesis that bioactive factors in the eggs of conspecifics may facilitate the formation of spawning groups of Sepia officinalis. Cuttlefish detected odors from cuttlefish eggs, resulting in an increased ventilation rate. Extracts from female ovaries induced the largest increase in ventilation rate, suggesting that this organ could be a potential source of the bioactive chemicals. In y-maze assays, sexually mature, but not subadult, cuttlefish, were attracted to odors of cuttlefish eggs. These data suggest that Sepia eggs could be a source of reproductive pheromones.",
-    "type": "journal-article",
-    "sources": [
-      "PubMed"
-    ],
-    "id": "87172c5cb670",
-    "updated_at": "2026-07-28T20:27:20.313567+00:00"
-  },
-  {
-    "title": "Octopuses (Octopus bimaculoides) and cuttlefishes (Sepia pharaonis, S. officinalis) can conditionally discriminate.",
-    "authors": [
-      "Lauren M Hvorecny",
-      "Jessica L Grudowski",
-      "Carrie J Blakeslee",
-      "Tiffany L Simmons",
-      "Paula R Roy",
-      "Jennifer A Brooks",
-      "Rachel M Hanner",
-      "Marie E Beigel",
-      "Miranda A Karson",
-      "Rachel H Nichols",
-      "Johanna B Holm",
-      "Jean Geary Boal"
-    ],
-    "journal": "Animal cognition",
-    "year": 2007,
-    "date": "2007 Oct",
-    "volume": "10",
-    "issue": "4",
-    "pages": "449-59",
-    "doi": "10.1007/s10071-007-0085-4",
-    "pmid": "17437139",
-    "pmc": "",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/17437139/",
-    "abstract": "In complex navigation using landmarks, an animal must discriminate between potential cues and show context (condition) sensitivity. Such conditional discrimination is considered a form of complex learning and has been associated primarily with vertebrates. We tested the hypothesis that octopuses and cuttlefish are capable of conditional discrimination. Subjects were trained in two maze configurations (the conditions) in which they were required to select one of two particular escape routes within each maze (the discrimination). Conditional discrimination could be demonstrated by selecting the correct escape route in each maze. Six of ten mud-flat octopuses (Octopus bimaculoides), 6 of 13 pharaoh cuttlefish (Sepia pharaonis), and one of four common cuttlefish (S. officinalis) demonstrated conditional discrimination by successfully solving both mazes. These experiments demonstrate that cephalopods are capable of conditional discrimination and extend the limits of invertebrate complex learning.",
-    "type": "journal-article",
-    "sources": [
-      "PubMed"
-    ],
-    "id": "2f182121e8b6",
-    "updated_at": "2026-07-28T20:27:20.313574+00:00"
+    "updated_at": "2026-07-28T20:38:23.359469+00:00"
   }
 ]
