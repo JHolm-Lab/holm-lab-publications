@@ -1,0 +1,86 @@
+<div class="lab-pubs">
+  <input id="pub-search" type="search" placeholder="Search publications">
+  <p id="pub-status">Loading publications…</p>
+  <div id="pub-list"></div>
+</div>
+
+<style>
+.lab-pubs{max-width:950px;margin:auto}
+#pub-search{width:100%;padding:.8rem 1rem;margin:0 0 2rem;font:inherit}
+.pub-year{margin-top:2.5rem}
+.pub-item{padding:1.2rem 0;border-bottom:1px solid #ddd}
+.pub-item h3{font-size:1.1rem;margin:0 0 .35rem}
+.pub-item p{margin:.25rem 0}
+.pub-links a{margin-right:1rem}
+</style>
+
+<script>
+document.addEventListener("DOMContentLoaded", async () => {
+  const JSON_URL =
+    "https://YOUR-GITHUB-USERNAME.github.io/YOUR-REPOSITORY/publications.json";
+
+  const list = document.getElementById("pub-list");
+  const status = document.getElementById("pub-status");
+  const search = document.getElementById("pub-search");
+  let publications = [];
+
+  const escapeHTML = value => String(value ?? "")
+    .replaceAll("&","&amp;").replaceAll("<","&lt;")
+    .replaceAll(">","&gt;").replaceAll('"',"&quot;")
+    .replaceAll("'","&#039;");
+
+  function render(items) {
+    list.innerHTML = "";
+    if (!items.length) {
+      list.innerHTML = "<p>No publications found.</p>";
+      return;
+    }
+    const groups = {};
+    items.forEach(p => (groups[p.year || "Other"] ??= []).push(p));
+
+    Object.keys(groups).sort((a,b) => {
+      if (a === "Other") return 1;
+      if (b === "Other") return -1;
+      return Number(b) - Number(a);
+    }).forEach(year => {
+      list.insertAdjacentHTML("beforeend",
+        `<h2 class="pub-year">${escapeHTML(year)}</h2>`);
+      groups[year].forEach(p => {
+        const authors = Array.isArray(p.authors) ? p.authors.join(", ") : "";
+        const details = [p.journal, p.volume,
+          p.issue ? `(${p.issue})` : "", p.pages].filter(Boolean).join(", ");
+        const links = [
+          p.doi ? `<a href="https://doi.org/${encodeURIComponent(p.doi)}" target="_blank" rel="noopener">DOI</a>` : "",
+          p.pmid ? `<a href="https://pubmed.ncbi.nlm.nih.gov/${encodeURIComponent(p.pmid)}/" target="_blank" rel="noopener">PubMed</a>` : ""
+        ].filter(Boolean).join("");
+
+        list.insertAdjacentHTML("beforeend", `
+          <article class="pub-item">
+            <h3>${escapeHTML(p.title)}</h3>
+            <p>${escapeHTML(authors)}</p>
+            <p>${escapeHTML(details)}</p>
+            <p class="pub-links">${links}</p>
+          </article>`);
+      });
+    });
+  }
+
+  try {
+    const response = await fetch(`${JSON_URL}?v=${Date.now()}`);
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    publications = await response.json();
+    status.remove();
+    render(publications);
+    search.addEventListener("input", () => {
+      const q = search.value.toLowerCase().trim();
+      render(publications.filter(p =>
+        [p.title, ...(p.authors || []), p.journal, p.year]
+          .join(" ").toLowerCase().includes(q)
+      ));
+    });
+  } catch (error) {
+    console.error(error);
+    status.textContent = "The publication list could not be loaded.";
+  }
+});
+</script>

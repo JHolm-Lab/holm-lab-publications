@@ -1,0 +1,22 @@
+{
+  "site_title": "Lab Publications",
+  "contact_email": "YOUR_EMAIL@YOUR_INSTITUTION.EDU",
+  "authors": [
+    {
+      "display_name": "Jane B. Holm",
+      "pubmed_query": "\"Holm JB\"[Author]",
+      "orcid": "REPLACE_WITH_ORCID_OR_LEAVE_BLANK",
+      "crossref_name": "Jane B Holm"
+    }
+  ],
+  "include_types": [
+    "journal-article",
+    "posted-content",
+    "proceedings-article",
+    "book-chapter",
+    "review"
+  ],
+  "exclude_dois": [],
+  "exclude_pmids": [],
+  "earliest_year": 2000
+}
