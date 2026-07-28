@@ -15,7 +15,7 @@ from urllib.parse import quote
 
 import requests
 
-ROOT = Path(__file__).resolve().parents
+ROOT = Path(__file__).resolve().parent
 CONFIG_PATH = ROOT / "config.json"
 OUTPUT_PATH = ROOT / "publications.json"
 REVIEW_PATH = ROOT / "publication-review.json"
