@@ -1,22 +1,35 @@
 {
-  "site_title": "Lab Publications",
   "contact_email": "jholm@som.umaryland.edu",
-  "authors": [
-    {
-      "display_name": "Johanna B. Holm",
-      "pubmed_query": "(\"Johanna B Holm\"[Full Author Name] OR \"Holm JB\"[Author]) AND (\"University of Maryland\"[Affiliation] OR Baltimore[Affiliation])",
-      "orcid": "0000-0002-7646-4085",
-      "crossref_name": "Johanna B Holm"
-    }
+  "earliest_year": 2007,
+
+  "allowed_affiliations": [
+    "Millersville University",
+    "Cornell University",
+    "University of Southern California",
+    "University of Maryland School of Medicine"
   ],
+
   "include_types": [
     "journal-article",
-    "posted-content",
-    "proceedings-article",
+    "article",
+    "review",
+    "letter",
+    "editorial",
     "book-chapter",
-    "review"
+    "posted-content",
+    "preprint"
   ],
+
   "exclude_dois": [],
   "exclude_pmids": [],
-  "earliest_year": 2007
+  "exclude_titles": [],
+
+  "authors": [
+    {
+      "name": "Johanna B. Holm",
+      "display_name": "Johanna B. Holm",
+      "orcid": "0000-0002-7646-4085",
+      "pubmed_query": "(\"Johanna B Holm\"[Full Author Name] OR \"Johanna Holm\"[Author] OR \"Holm JB\"[Author])"
+    }
+  ]
 }
