@@ -2,24 +2,28 @@
   {
     "title": "Impact of maternal HIV infection on the gut microbiome and metabolome of mothers and infants: the PRACHITi cohort in Pune, India.",
     "authors": [
-      "Jenna Mandell",
-      "Tian Wang",
-      "Jyoti S Mathad",
-      "Mehr Shafiq",
-      "Shilpa Naik",
-      "Mallika Alexander",
-      "Vandana Kulkarni",
-      "Prasad Deshpande",
-      "Michael S Humphrys",
-      "Bing Ma",
-      "Johanna B Holm",
-      "Ramesh Bhosale",
-      "Khalil G Ghanem",
       "Aarti Kinikar",
-      "Jacques Ravel",
       "Amita Gupta",
+      "Bing Ma",
+      "Jacques Ravel",
+      "Jenna Mandell",
+      "Johanna B Holm",
+      "Jyoti S Mathad",
+      "Khalil G Ghanem",
+      "Mallika Alexander",
+      "Mehr Shafiq",
+      "Michael S Humphrys",
+      "Prasad Deshpande",
+      "Ramesh Bhosale",
+      "Rupak Shivakoti",
+      "Shilpa Naik",
       "Shuang Wang",
-      "Rupak Shivakoti"
+      "Tian Wang",
+      "Vandana Kulkarni"
+    ],
+    "affiliations": [
+      "Institute for Genome Sciences and Department of Microbiology and Immunology, University of Maryland School of Medicine, Baltimore, MD, USA",
+      "Institute for Genome Sciences and Department of Microbiology and Immunology, University of Maryland School of Medicine, Baltimore, MD, USA."
     ],
     "journal": "Nature communications",
     "year": 2026,
@@ -31,7 +35,6 @@
     "pmid": "41730922",
     "pmc": "PMC13039106",
     "url": "https://pubmed.ncbi.nlm.nih.gov/41730922/",
-    "abstract": "Human immunodeficiency virus (HIV) affects millions of reproductive-age women globally, and during pregnancy is associated with adverse birth and infant health outcomes. Research on how maternal HIV shapes the gut microbiota, a potentially modifiable factor, during pregnancy, postpartum, and in infancy remains limited. The PRACHITi cohort study was conducted in India among 244 pregnant women with and without HIV, who were followed along with their children through 1 year postpartum. Our study focuses on secondary objectives of the PRACHITi study related to gut microbiota, with longitudinal samples being collected in the full cohort and more frequent sampling in a sub-study. Here, our findings reveal gut dysbiosis (based on 16S rRNA sequencing) and distinct plasma metabolomic profiles across pregnancy, postpartum, and their infants among women with HIV compared with seronegative women. We show that specific taxa and metabolites are differentially abundant by HIV status, some of which are linked to adverse outcomes, including preterm birth, low birth weight, and inflammation, conditions that are more common among populations with HIV. These results suggest potential biological pathways through which HIV affects maternal and infant health.",
     "type": "journal-article",
     "sources": [
       "Crossref",
@@ -41,53 +44,63 @@
     "full_text_url": "https://www.nature.com/articles/s41467-026-69912-0_reference.pdf",
     "openalex_id": "https://openalex.org/W7131143757",
     "id": "c020a3f78806",
-    "updated_at": "2026-07-29T15:27:18.963657+00:00"
+    "updated_at": "2026-07-29T16:18:24.672133+00:00"
   },
   {
-    "title": "Not all vaginal microbiomes are equal: functional context shapes immune landscapes.",
+    "title": "Not all vaginal microbiomes are equal: functional context shapes immune landscapes",
     "authors": [
       "Amanda Williams",
       "Amaury Maros",
-      "Michael T France",
       "Jacques Ravel",
-      "Johanna B Holm"
+      "Johanna B. Holm",
+      "Michael France"
+    ],
+    "affiliations": [
+      "Center for Advanced Microbiome Research and Innovation, University of Maryland School of Medicine",
+      "Center for Advanced Microbiome Research and Innovation, University of Maryland School of Medicine, Baltimore, Maryland, USA.",
+      "Department of Microbiology and Immunology, University of Maryland School of Medicine",
+      "Department of Microbiology and Immunology, University of Maryland School of Medicine, Baltimore, Maryland, USA.",
+      "Institute for Genome Sciences, University of Maryland School of Medicine",
+      "Institute for Genome Sciences, University of Maryland School of Medicine, Baltimore, Maryland, USA."
     ],
     "journal": "mBio",
     "year": 2026,
-    "date": "2026 Mar 11",
+    "date": "2026-02-05",
     "volume": "17",
     "issue": "3",
     "pages": "e0364525",
     "doi": "10.1128/mbio.03645-25",
     "pmid": "41642002",
     "pmc": "PMC12977605",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/41642002/",
-    "abstract": "Taxonomic classification alone fails to capture the ecological and functional diversity of vaginal microbiomes, particularly those dominated by Gardnerella species. Using the expanded VIRGO2 gene catalog, we developed the vaginal inference of subspecies and typing algorithm (VISTA), a novel ortholog-based framework that defined metagenomic subspecies and 25 metagenomic community state types (mgCSTs), including six distinct Gardnerella-dominated profiles. The mgCSTs exhibit marked differences in species composition, functional gene content, transcriptional activity, and host immune responses. These findings reveal that Gardnerella predominance does not uniformly equate to dysbiosis and underscore the importance of functional context in shaping host-microbiome interactions. VISTA provides scalable classifiers and an interactive application to support mechanistic studies of vaginal microbiome function and its implications for reproductive health.IMPORTANCEThe vaginal microbiome plays a central role in reproductive and gynecologic health, yet its functional diversity and ecological organization remain poorly understood. Traditional 16S rRNA approaches provide only a partial view of this complexity, overlooking the strain-level variation that often determines microbial behavior and host outcomes. By applying metagenomic sequencing and scalable computational modeling, we developed the vaginal inference of subspecies and typing algorithm, a framework that defines gene-based subspecies and community state types across diverse populations. These classifications reveal new insights into the genomic and ecological foundations of vaginal community structure and offer a standardized resource for comparative and translational microbiome research. This work establishes the foundation for functionally informed diagnostics and precision interventions targeting women's reproductive health.",
-    "type": "journal-article",
+    "url": "https://doi.org/10.1128/mbio.03645-25",
+    "full_text_url": "https://doi.org/10.1128/mbio.03645-25",
+    "type": "article",
+    "openalex_id": "https://openalex.org/W7127917348",
     "sources": [
       "Crossref",
       "OpenAlex",
       "PubMed"
     ],
-    "full_text_url": "https://doi.org/10.1128/mbio.03645-25",
-    "openalex_id": "https://openalex.org/W7127917348",
     "id": "888631795a33",
-    "updated_at": "2026-07-29T15:27:18.963657+00:00"
+    "updated_at": "2026-07-29T16:18:24.672133+00:00"
   },
   {
     "title": "Timing of menstrual cups to prevent transition from optimal to not optimal vaginal microbiome community state type: Results from a 6.5-year prospective observational cohort.",
     "authors": [
-      "Supriya D Mehta",
-      "Garazi Zulaika",
-      "Souvik Paul",
-      "Walter Agingu",
-      "Ezekiel Dibondo",
-      "Johanna B Holm",
-      "Stefan J Green",
       "Anna Maria van Eijk",
-      "Sanjib Basu",
+      "Ezekiel Dibondo",
       "Fredrick Otieno",
-      "Penelope A Phillips-Howard"
+      "Garazi Zulaika",
+      "Johanna B Holm",
+      "Penelope A Phillips-Howard",
+      "Sanjib Basu",
+      "Souvik Paul",
+      "Stefan J Green",
+      "Supriya D Mehta",
+      "Walter Agingu"
+    ],
+    "affiliations": [
+      "Center for Advanced Microbiome Research and Innovation, Institute for Genome Sciences, Department of Microbiology and Immunology, University of Maryland School of Medicine, 670 W. Baltimore Street, Rm 3117; University of Maryland Baltimore, School of Medicine; Baltimore, MD, 21201, USA."
     ],
     "journal": "Research square",
     "year": 2026,
@@ -99,190 +112,36 @@
     "pmid": "42427836",
     "pmc": "PMC13345564",
     "url": "https://pubmed.ncbi.nlm.nih.gov/42427836/",
-    "abstract": "In a cluster randomized trial among Kenyan secondary schoolgirls, menstrual cups were associated with reduced bacterial vaginosis (BV) and increased optimal vaginal microbiome (VMB) community state type (CST-I) prevalence. The prevalence of CST-I decreased over time, suggesting non-optimal VMB is acquired. Using 6.5 years follow-up, we identified how menstrual cups and other factors drive CST transition. Participants were randomized to receive menstrual cups (intervention) or standard menstrual management (control). VMB and BV were measured 6-monthly and sexually transmitted infections (STIs; gonorrhea, chlamydia, trichomoniasis) and HSV-2 annually. Control participants received menstrual cups after the 30-month study visit. Continuous-time multi-state Markov modeling estimated the probability of CST transition, focusing on optimal CST-I (L. crispatus dominant), CST-III (L. iners dominant), and CST-IV (mixed, non-optimal), and identified associated factors. Over 6.5 years, in 4,446 observations among 436 participants, CST-I prevalence decreased from 43.3% at baseline to 13.9%, and CST-IV increased from 18.1% at baseline to 44.6%. CST-I and CST-IV were more stable than CST-III. The probability of transition to CST-I from CST-III (16%) or CST-IV (9%) was infrequent. Participants initially randomized to menstrual cups had 54% reduced risk of transitioning from CST-I to CST-IV, adjusted for demographic and behavioral practices, BV, STIs, and HSV-2. Those who were poorer, older, sexually active, and HSV-2 seropositive were more likely to transition to less optimal CSTs. Over 6.5 years of observation, menstrual cups helped maintain CST-I VMB but did not demonstrate any therapeutic effect and should therefore be given to girls prior to sexual exposure to maximize the likelihood of achieving this benefit.",
     "type": "journal-article",
     "sources": [
       "PubMed"
     ],
     "id": "3587b570fd35",
-    "updated_at": "2026-07-29T15:27:18.963657+00:00"
-  },
-  {
-    "title": "0964 Gut short-chain fatty acids are decreased in cutaneous T-cell lymphoma patients",
-    "authors": [
-      "Z. Thomas",
-      "Johanna B. Holm",
-      "Mairin McCarthy",
-      "William Nguyen",
-      "Y. Pang",
-      "Lonnie Chrisman",
-      "J. Guitart",
-      "M. Burns",
-      "Aiping Zhou"
-    ],
-    "journal": "Journal of Investigative Dermatology",
-    "year": 2025,
-    "date": "2025-07-21",
-    "volume": "145",
-    "issue": "8",
-    "pages": "S167",
-    "doi": "10.1016/j.jid.2025.06.980",
-    "pmid": "",
-    "pmc": "",
-    "url": "https://doi.org/10.1016/j.jid.2025.06.980",
-    "full_text_url": "https://doi.org/10.1016/j.jid.2025.06.980",
-    "abstract": "",
-    "type": "article",
-    "openalex_id": "https://openalex.org/W4412517411",
-    "sources": [
-      "OpenAlex"
-    ],
-    "id": "68aaf73ad032",
-    "updated_at": "2026-07-29T15:27:18.963657+00:00"
-  },
-  {
-    "title": "0972 Identification of biomarkers in cutaneous T cell lymphoma tumors associated with radiotherapy response and durability",
-    "authors": [
-      "Johanna B. Holm",
-      "Lonnie Chrisman",
-      "Z. Thomas",
-      "S. Evans",
-      "Kai Lu",
-      "Z. Ren",
-      "Michael B. Burns",
-      "J. Guitart",
-      "Aiping Zhou"
-    ],
-    "journal": "Journal of Investigative Dermatology",
-    "year": 2025,
-    "date": "2025-07-21",
-    "volume": "145",
-    "issue": "8",
-    "pages": "S168",
-    "doi": "10.1016/j.jid.2025.06.988",
-    "pmid": "",
-    "pmc": "",
-    "url": "https://doi.org/10.1016/j.jid.2025.06.988",
-    "full_text_url": "https://doi.org/10.1016/j.jid.2025.06.988",
-    "abstract": "",
-    "type": "article",
-    "openalex_id": "https://openalex.org/W4412516889",
-    "sources": [
-      "OpenAlex"
-    ],
-    "id": "5cc685181cc7",
-    "updated_at": "2026-07-29T15:27:18.963657+00:00"
-  },
-  {
-    "title": "196P Body mass index and pathological response after neoadjuvant chemotherapy in Danish breast cancer patients",
-    "authors": [
-      "Johanna B. Holm",
-      "Sine Skovbjerg",
-      "H. M. Nielsen",
-      "Peer Christiansen",
-      "J. Alsner",
-      "Deirdre Cronin‐Fenton",
-      "Signe Borgquist"
-    ],
-    "journal": "ESMO Open",
-    "year": 2025,
-    "date": "2025-05-01",
-    "volume": "10",
-    "issue": "",
-    "pages": "104750",
-    "doi": "10.1016/j.esmoop.2025.104750",
-    "pmid": "",
-    "pmc": "",
-    "url": "https://doi.org/10.1016/j.esmoop.2025.104750",
-    "full_text_url": "https://www.esmoopen.com/action/showPdf?pii=S2059702925006192",
-    "abstract": "",
-    "type": "article",
-    "openalex_id": "https://openalex.org/W4410463971",
-    "sources": [
-      "OpenAlex"
-    ],
-    "id": "a206a28d25a1",
-    "updated_at": "2026-07-29T15:27:18.963657+00:00"
-  },
-  {
-    "title": "200 | SPATIAL TRANSCRIPTOMICS REVEALS IMMUNE MICROENVIRONMENT REMODELING IN CUTANEOUS T‐CELL LYMPHOMA POST‐RADIATION AND BIOMARKERS OF DISEASE PROGRESSION",
-    "authors": [
-      "Aiping Zhou",
-      "Johanna B. Holm",
-      "Lonnie Chrisman",
-      "Ziyou Ren",
-      "J. Guitart"
-    ],
-    "journal": "Hematological Oncology",
-    "year": 2025,
-    "date": "2025-06-01",
-    "volume": "43",
-    "issue": "S3",
-    "pages": "",
-    "doi": "10.1002/hon.70094_200",
-    "pmid": "",
-    "pmc": "",
-    "url": "https://doi.org/10.1002/hon.70094_200",
-    "full_text_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/hon.70094_200",
-    "abstract": "",
-    "type": "article",
-    "openalex_id": "https://openalex.org/W4411343127",
-    "sources": [
-      "OpenAlex"
-    ],
-    "id": "579c8be8d26b",
-    "updated_at": "2026-07-29T15:27:18.963657+00:00"
-  },
-  {
-    "title": "222P Hemoglobin A1c screening for patients with early breast cancer treated with adjuvant endocrine therapy",
-    "authors": [
-      "Leonardo Paese Nissen",
-      "Johanna B. Holm",
-      "Sine Skovbjerg",
-      "Ole L. Dollerup",
-      "Tinne Laurberg",
-      "Signe Borgquist"
-    ],
-    "journal": "ESMO Open",
-    "year": 2025,
-    "date": "2025-05-01",
-    "volume": "10",
-    "issue": "",
-    "pages": "104776",
-    "doi": "10.1016/j.esmoop.2025.104776",
-    "pmid": "",
-    "pmc": "",
-    "url": "https://doi.org/10.1016/j.esmoop.2025.104776",
-    "full_text_url": "https://www.esmoopen.com/action/showPdf?pii=S2059702925006453",
-    "abstract": "",
-    "type": "article",
-    "openalex_id": "https://openalex.org/W4410455944",
-    "sources": [
-      "OpenAlex"
-    ],
-    "id": "6a033d92524d",
-    "updated_at": "2026-07-29T15:27:18.963657+00:00"
+    "updated_at": "2026-07-29T16:18:24.672133+00:00"
   },
   {
     "title": "Common cervicovaginal sequencing methods result in discordant molecular diagnoses of bacterial vaginosis and reveal strain level effects of Gardnerella vaginalis",
     "authors": [
+      "Ana S. Salazar",
+      "Ashma Chakrawarti",
+      "Chris Basting",
       "Courtney A. Broedlow",
       "E. R. Swanson",
       "Emily M. Cherenack",
-      "Chris Basting",
-      "Nicholas Fonseca Nogueira",
-      "Michael France",
-      "Pan Yue",
-      "Ashma Chakrawarti",
-      "Ana S. Salazar",
-      "Lunnarie Acosta",
-      "Patricia Raccamarich",
-      "Michael Gale",
       "Jacques Ravel",
-      "Lydia A. Fein",
       "Johanna B. Holm",
+      "Lunnarie Acosta",
+      "Lydia A. Fein",
       "María L. Alcaide",
-      "Nichole R. Klatt"
+      "Michael France",
+      "Michael Gale",
+      "Nicholas Fonseca Nogueira",
+      "Nichole R. Klatt",
+      "Pan Yue",
+      "Patricia Raccamarich"
+    ],
+    "affiliations": [
+      "University of Maryland School of Medicine, Institute for Genome Sciences, Baltimore, MD, USA"
     ],
     "journal": "npj Women s Health",
     "year": 2025,
@@ -295,173 +154,187 @@
     "pmc": "",
     "url": "https://doi.org/10.1038/s44294-025-00089-5",
     "full_text_url": "https://www.nature.com/articles/s44294-025-00089-5.pdf",
-    "abstract": "",
     "type": "article",
     "openalex_id": "https://openalex.org/W4412045768",
     "sources": [
       "OpenAlex"
     ],
     "id": "d06d5731e1da",
-    "updated_at": "2026-07-29T15:27:18.963657+00:00"
+    "updated_at": "2026-07-29T16:18:24.672133+00:00"
   },
   {
-    "title": "Effect of initiation of antiretroviral drugs for HIV prevention or treatment on the vaginal microbiome of pregnant women in Malawi.",
+    "title": "Effect of initiation of antiretroviral drugs for HIV prevention or treatment on the vaginal microbiome of pregnant women in Malawi",
     "authors": [
-      "Friday Saidi",
-      "Lauren A Graybill",
-      "Jennifer H Tang",
-      "Twambilile Phanga",
+      "Benjamin H. Chi",
       "Beteniko Milala",
+      "Friday Saidi",
       "Gabriel Banda",
-      "Manley Kamija",
-      "Margaret Kasaro",
-      "Wilbroad Mutale",
-      "Joan Price",
-      "Lameck Chinula",
-      "Jeffrey Stringer",
-      "Mina C Hosseinipour",
-      "Benjamin H Chi",
       "Jacques Ravel",
-      "Johanna B Holm"
+      "Jeffrey S. A. Stringer",
+      "Jennifer H. Tang",
+      "Joan Price",
+      "Johanna B. Holm",
+      "Lameck Chinula",
+      "Lauren A. Graybill",
+      "Manley Kamija",
+      "Margaret P. Kasaro",
+      "Mina C. Hosseinipour",
+      "Twambilile Phanga",
+      "Wilbroad Mutale"
     ],
-    "journal": "NPJ biofilms and microbiomes",
+    "affiliations": [
+      "Department of Microbiology and Immunology, University of Maryland School of Medicine, Baltimore, MD, USA",
+      "Department of Microbiology and Immunology, University of Maryland School of Medicine, Baltimore, MD, USA.",
+      "Institute for Genome Sciences, University of Maryland School of Medicine, Baltimore, MD, USA",
+      "Institute for Genome Sciences, University of Maryland School of Medicine, Baltimore, MD, USA."
+    ],
+    "journal": "npj Biofilms and Microbiomes",
     "year": 2025,
-    "date": "2025 Apr 26",
+    "date": "2025-04-26",
     "volume": "11",
     "issue": "1",
     "pages": "67",
     "doi": "10.1038/s41522-025-00697-8",
     "pmid": "40287413",
     "pmc": "PMC12033299",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/40287413/",
-    "abstract": "Lack of Lactobacillus and/or dysbiosis is linked to spontaneous preterm birth (sPTB). The impact of antiretrovirals (ARVs) for HIV treatment or prevention on the vaginal microbiome during pregnancy remains unclear. We examined vaginal microbiome changes in pregnant women in Lilongwe, Malawi. Women living with HIV (WLHIV) initiated antiretroviral therapy (ART), while HIV-negative women began oral pre-exposure prophylaxis (PrEP). Of 255 participants (191 HIV-negative, 64 WLHIV) who provided baseline vaginal swabs, 181 provided follow-up swabs one month after ARV initiation. At enrollment, WLHIV had higher Shannon diversity and were more likely to have CST IV-B than CST I or III. After ARV initiation, α-diversity decreased in WLHIV but increased in HIV-negative women. Women initiating PrEP had a lower risk of sPTB compared to WLHIV initiating ART, but transitioning to CST IV during pregnancy increased the odds of sPTB. Larger studies are needed to explore ARV impact on pregnancy outcomes.",
-    "type": "journal-article",
+    "url": "https://doi.org/10.1038/s41522-025-00697-8",
+    "full_text_url": "https://www.nature.com/articles/s41522-025-00697-8.pdf",
+    "type": "article",
+    "openalex_id": "https://openalex.org/W4409838079",
     "sources": [
       "OpenAlex",
       "PubMed"
     ],
-    "full_text_url": "https://www.nature.com/articles/s41522-025-00697-8.pdf",
-    "openalex_id": "https://openalex.org/W4409838079",
     "id": "4cf147cd88cb",
-    "updated_at": "2026-07-29T15:27:18.963657+00:00"
+    "updated_at": "2026-07-29T16:18:24.672133+00:00"
   },
   {
-    "title": "First island-wide, single-day soil collection study on Crete reveals environmental drivers of microbial diversity.",
+    "title": "First island-wide, single-day soil collection study on Crete reveals environmental drivers of microbial diversity",
     "authors": [
-      "Johanna B Holm",
-      "Savvas Paragkamian",
-      "Mike Humphreys",
-      "Apaala Chatterjee",
-      "Stephanie Yarwood",
-      "Josh Gaimaro",
-      "Melanthia Stavroulaki",
-      "Dimitris Tsaparis",
-      "Manolis Plaitis",
-      "Panagiotis Kasapidis",
-      "Stelios Darivianakis",
-      "Georgios Kotoulas",
-      "Antonios Magoulas",
       "Anastasis Oulas",
-      "Zacharias Kyrpiotakis",
-      "Pavlos Pavlidis",
-      "Petra Ten Hoopen",
+      "Antoniοs Magoulas",
+      "Apaala Chatterjee",
+      "Bronwen E Schriml",
+      "Chelsea J. Carey",
+      "Christine Laney",
+      "Dimitris Tsaparis",
+      "Donovan H. Parks",
+      "Evagelos Pafilis",
+      "Georgios Kotoulas",
+      "Granger Sutton",
       "Guy Cochrane",
       "H C F Wiebe Kooistra",
-      "Jason R Schriml",
-      "Bronwen E Schriml",
+      "Ilene Karsch‐Mizrachi",
       "Ilias Lagkouvardos",
+      "Jason R. Schriml",
+      "Johanna B. Holm",
+      "Josh Gaimaro",
+      "Lee F. Stanish",
+      "Lynn M. Schriml",
+      "M. W. Humphreys",
+      "Manolis Plaitis",
+      "Melanthia Stavroulaki",
+      "Neil M Davies",
+      "Panagiotis Kasapidis",
       "Panos Gkorezis",
-      "Neil Davies",
-      "Christine Laney",
-      "Lee Stanish",
-      "Granger Sutton",
-      "Scott Tighe",
-      "Ilene Karsch Mizrachi",
-      "Donovan Parks",
+      "Pavlos Pavlidis",
       "Pelin Yilmaz",
-      "Chelsea Carey",
-      "Pier Buttigieg",
+      "Petra ten Hoopen",
       "Philip Goldstein",
-      "Evangelos Pafilis",
-      "Lynn M Schriml"
+      "Pier Luigi Buttigieg",
+      "Savvas Paragkamian",
+      "Scott Tighe",
+      "Stelios Darivianakis",
+      "Stephanie A. Yarwood",
+      "Zacharias Kyrpiotakis"
     ],
-    "journal": "Environmental microbiome",
+    "affiliations": [
+      "Institute for Genome Sciences, University of Maryland School of Medicine, Baltimore, United States",
+      "Institute for Genome Sciences, University of Maryland School of Medicine, Baltimore, United States."
+    ],
+    "journal": "Environmental Microbiome",
     "year": 2025,
-    "date": "2025 Jul 25",
+    "date": "2025-07-24",
     "volume": "20",
     "issue": "1",
     "pages": "94",
     "doi": "10.1186/s40793-025-00752-z",
     "pmid": "40708004",
     "pmc": "PMC12291233",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/40708004/",
-    "abstract": "Understanding how environmental and ecological factors shape variability in soil-associated microbial communities is a complex problem, particularly on islands, which contain a wide range of diverse and unique geology, fauna, and flora. The island of Crete features sharp altitudinal gradients, diverse landscapes, and distinct ecological zones shaped by its complex geological history making it an ideal natural laboratory for studying how environmental variation influences soil microbial communities. In this study, we characterized the soil microbial communities across Crete's ecozones and identify environmental factors associated with their diversity and composition. We performed a single-day, island-wide soil microbiota investigation, the first of its kind, to address this challenge by eliminating sources of variability including seasonality, weather conditions, anthropogenic or land use changes over time, and ecological succession of microbial communities. This island collection event (Island Sampling Day, ISD) was conducted in conjunction with the annual meeting of the Genomic Standards Consortium, on the island of Crete, and utilized standard data and metadata collection protocols. We generated amplicon sequences (V3-V4 regions of the 16 S ribosomal RNA gene) and a metadata-enriched dataset from 435 soil samples across 72 sites and four distinct ecozones for future whole-island microbiome studies. Here we report on the study design and sample collection process along with our initial examination of the ecological drivers of soil microbial community variability (e.g., elevation, soil types, soil pH, soil moisture, vegetation type, land use) across the Crete ecozones (defined by elevation and distinct habitats).",
-    "type": "journal-article",
+    "url": "https://doi.org/10.1186/s40793-025-00752-z",
+    "full_text_url": "https://environmentalmicrobiome.biomedcentral.com/counter/pdf/10.1186/s40793-025-00752-z",
+    "type": "article",
+    "openalex_id": "https://openalex.org/W4412619649",
     "sources": [
       "OpenAlex",
       "PubMed"
     ],
-    "full_text_url": "https://environmentalmicrobiome.biomedcentral.com/counter/pdf/10.1186/s40793-025-00752-z",
-    "openalex_id": "https://openalex.org/W4412619649",
     "id": "60418de72900",
-    "updated_at": "2026-07-29T15:27:18.963657+00:00"
+    "updated_at": "2026-07-29T16:18:24.672133+00:00"
   },
   {
-    "title": "Maternal anemia during pregnancy and its association with the gut microbiota profile in pregnant and postpartum women, and their infants: a cohort study.",
+    "title": "Maternal anemia during pregnancy and its association with the gut microbiota profile in pregnant and postpartum women, and their infants: a cohort study",
     "authors": [
+      "Aarti Kinikar",
+      "Amita Gupta",
+      "Bing Ma",
+      "Jacques Ravel",
       "Jenna Mandell",
-      "Laura E Caulfield",
-      "Sameera Talegawkar",
-      "Jyoti S Mathad",
-      "Shilpa Naik",
+      "Johanna B. Holm",
+      "Jyoti S. Mathad",
+      "Khalil G. Ghanem",
+      "Laura E. Caulfield",
       "Mallika Alexander",
       "Mehr Shafiq",
-      "Vandana Kulkarni",
+      "Michael S. Humphreys",
       "Prasad Deshpande",
-      "Yuan-Mou Mao",
-      "Michael S Humphreys",
-      "Bing Ma",
-      "Johanna B Holm",
       "Ramesh Bhosale",
-      "Khalil G Ghanem",
-      "Aarti Kinikar",
-      "Tian Wang",
+      "Rupak Shivakoti",
+      "Sameera A. Talegawkar",
+      "Shilpa Naik",
       "Shuang Wang",
-      "Jacques Ravel",
-      "Amita Gupta",
-      "Rupak Shivakoti"
+      "Tian Wang",
+      "Vandana Kulkarni",
+      "Y. Mao"
     ],
-    "journal": "The American journal of clinical nutrition",
+    "affiliations": [
+      "Institute for Genome Sciences and Department of Microbiology and Immunology, University of Maryland School of Medicine, Baltimore, MD",
+      "Institute for Genome Sciences and Department of Microbiology and Immunology, University of Maryland School of Medicine, Baltimore, MD, United States",
+      "Institute for Genome Sciences and Department of Microbiology and Immunology, University of Maryland School of Medicine, Baltimore, MD, United States."
+    ],
+    "journal": "American Journal of Clinical Nutrition",
     "year": 2025,
-    "date": "2025 Dec",
+    "date": "2025-09-25",
     "volume": "122",
     "issue": "6",
     "pages": "1669-1678",
     "doi": "10.1016/j.ajcnut.2025.09.035",
     "pmid": "41015193",
     "pmc": "PMC12574691",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/41015193/",
-    "abstract": "Anemia is highly prevalent in resource-limited settings, especially during pregnancy and postpartum, and is linked to adverse maternal-infant health outcomes. The role of gut microbiota in anemia during pregnancy remains poorly understood, despite the recognized links between microbiota and maternal-infant health. This study evaluated the association between maternal anemia during pregnancy and the gut microbiota profile in pregnant and postpartum women and their infants. A longitudinal cohort study was conducted in Pune, India. A total of 218 pregnant women were enrolled at 13-34 weeks of gestation and followed through 1 year postpartum. We examined the cross-sectional association of maternal anemia (hemoglobin <110 g/L) with gut microbiota during the second and third trimesters and the prospective association of maternal anemia during pregnancy with gut microbiota at 6 months for postpartum mothers and infants. Multivariable models (linear, permutational multivariate analysis of variance, and Analysis of Compositions of Microbiomes with Bias Correction) were used to compare α-diversity, β-diversity (Bray-Curtis distance), and abundance of taxa by anemia status. Although gut microbial α-diversity and β-diversity did not differ significantly by maternal anemia status, significant differences in taxa abundance by maternal anemia status among mothers were observed, with log fold changes for Flavonifractor [0.523; 95% confidence interval (CI): 0.27, 0.77] and Enterococcus (0.821; 95% CI: 0.542, 1.1). In infants, significant differences in taxa abundance by maternal anemia status were also found, including Coproccocus_2 (-0.628; 95% CI: -0.91, -0.36) and Desulfovibrio (-2.05; 95% CI: -2.31, -1.78). Our findings reveal a distinct gut microbiota profile in mothers and infants by maternal anemia status. We identified specific taxa that are linked to anemia-related conditions (e.g., iron deficiency) and maternal-infant health outcomes. Future longitudinal studies should explore potential transgenerational associations of maternal anemia with infant microbiota and evaluate whether microbiota-informed interventions, alongside anemia treatments, could improve maternal-infant health outcomes.",
-    "type": "journal-article",
+    "url": "https://doi.org/10.1016/j.ajcnut.2025.09.035",
+    "full_text_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12574691/",
+    "type": "article",
+    "openalex_id": "https://openalex.org/W4414501508",
     "sources": [
       "OpenAlex",
       "PubMed"
     ],
-    "full_text_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12574691/",
-    "openalex_id": "https://openalex.org/W4414501508",
     "id": "509cf10ceafa",
-    "updated_at": "2026-07-29T15:27:18.963657+00:00"
+    "updated_at": "2026-07-29T16:18:24.672133+00:00"
   },
   {
     "title": "Optimizing Taxonomic Assignments and Community State Types for the Vaginal Microbiota in Older Women",
     "authors": [
-      "Sarah Brown",
-      "Michael France",
+      "Jacques Ravel",
+      "Johanna B. Holm",
       "L Elaine Waetjen",
       "M. Shardell",
+      "Michael France",
       "Rebecca Brotman",
-      "Jacques Ravel",
-      "Johanna B. Holm"
+      "Sarah Brown"
+    ],
+    "affiliations": [
+      "University of Maryland School of Medicine, Baltimore, Maryland ,"
     ],
     "journal": "Innovation in Aging",
     "year": 2025,
@@ -474,72 +347,84 @@
     "pmc": "",
     "url": "https://doi.org/10.1093/geroni/igaf122.4408",
     "full_text_url": "https://academic.oup.com/innovateage/article-pdf/9/Supplement_2/igaf122.4408/66250271/igaf122.4408.pdf",
-    "abstract": "",
     "type": "article",
     "openalex_id": "https://openalex.org/W7118084527",
     "sources": [
       "OpenAlex"
     ],
     "id": "084f574d3129",
-    "updated_at": "2026-07-29T15:27:18.963657+00:00"
+    "updated_at": "2026-07-29T16:18:24.672133+00:00"
   },
   {
-    "title": "Temporal dynamics of the vaginal microbiome and host immune markers before, during, and after metronidazole treatment for bacterial vaginosis.",
+    "title": "Temporal dynamics of the vaginal microbiome and host immune markers before, during, and after metronidazole treatment for bacterial vaginosis",
     "authors": [
       "Amanda Williams",
-      "Jacques Ravel",
       "Eric Armstrong",
-      "Sanja Huibner",
+      "Jacques Ravel",
+      "Johanna B. Holm",
       "Lindsay Rutt",
       "Rupert Kaul",
-      "Johanna B Holm"
+      "Sanja Huibner"
+    ],
+    "affiliations": [
+      "Center for Advanced Microbiome Research and Innovation, Institute for Genome Sciences, University of Maryland School of Medicine",
+      "Center for Advanced Microbiome Research and Innovation, Institute for Genome Sciences, University of Maryland School of Medicine, Baltimore, MD, USA",
+      "Center for Advanced Microbiome Research and Innovation, Institute for Genome Sciences, University of Maryland School of Medicine, Baltimore, MD, USA.",
+      "Center for Advanced Microbiome Research and Innovation, Institute for Genome Sciences, University of Maryland School of Medicine, Baltimore, Maryland, USA.",
+      "Department of Microbiology and Immunology, University of Maryland School of Medicine",
+      "Department of Microbiology and Immunology, University of Maryland School of Medicine, Baltimore, MD, USA",
+      "Department of Microbiology and Immunology, University of Maryland School of Medicine, Baltimore, MD, USA.",
+      "Department of Microbiology and Immunology, University of Maryland School of Medicine, Baltimore, Maryland, USA.",
+      "University of Maryland School of Medicine"
     ],
     "journal": "mSystems",
     "year": 2025,
-    "date": "2025 Jul 22",
+    "date": "2025-07-03",
     "volume": "10",
     "issue": "7",
     "pages": "e0038025",
     "doi": "10.1128/msystems.00380-25",
     "pmid": "40607829",
     "pmc": "PMC12282074",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/40607829/",
-    "abstract": "This study analyzed metagenomic and immune marker profiles of seven individuals before, during, and after a 7-day course of metronidazole treatment for bacterial vaginosis (BV). Treatment reduced BV-associated bacteria and immune marker levels, with distinct early (days 1-4) and late (days 5-7) phases. Post-treatment variability in microbial and immune marker profiles demonstrated a rapid resurgence of certain BV-associated bacteria, highlighting the need for additional strategies like probiotics to maintain a healthy vaginal microbiome. The study found significant host and microbial influences on immune response variance, with IP-10 and sEcad highly correlated with the vaginal microbiome. The findings identify the optimal timing for administering live biotherapeutics to restore D-lactic acid-producing Lactobacillus species dominance and underscore the complexity of BV infection and treatment response among different people.IMPORTANCEBacterial vaginosis (BV), a common condition associated with an increased risk of preterm birth and sexually transmitted infections, among others, is characterized by a dysbiotic vaginal microbiome associated with the predominance of a diverse assortment of anaerobic bacterial species. Metronidazole is the first-line treatment recommended by the CDC for BV when patients report symptoms. Despite treatment, BV recurrence is common. There is limited data regarding the effects of oral metronidazole on the vaginal microbiome starting at the initiation of treatment, as most studies have compared measurements taken before and after treatment completion. This study utilized metagenomic sequencing, pan-bacterial qPCR, and immune marker measurements to analyze the longitudinal dynamics of the vaginal microbiome and host immune response before, during, and after metronidazole treatment.",
-    "type": "journal-article",
+    "url": "https://doi.org/10.1128/msystems.00380-25",
+    "full_text_url": "https://journals.asm.org/doi/pdf/10.1128/msystems.00380-25?download=true",
+    "type": "article",
+    "openalex_id": "https://openalex.org/W4411979360",
     "sources": [
       "Crossref",
       "OpenAlex",
       "PubMed"
     ],
-    "full_text_url": "https://journals.asm.org/doi/pdf/10.1128/msystems.00380-25?download=true",
-    "openalex_id": "https://openalex.org/W4411979360",
     "id": "b34544ff9ff7",
-    "updated_at": "2026-07-29T15:27:18.963657+00:00"
+    "updated_at": "2026-07-29T16:18:24.672133+00:00"
   },
   {
     "title": "The Association of Anemia With Gut Microbiota in Maternal-Infant Populations From India",
     "authors": [
-      "Rupak Shivakoti",
-      "Laura Caulfied",
-      "Sameera A. Talegawkar",
+      "Aarti Kinikar",
+      "Amita Gupta",
+      "Jacques Ravel",
+      "Jenna Mandell",
+      "Johanna B. Holm",
       "Jyoti S. Mathad",
-      "Shilpa Naik",
+      "Khalil G. Ghanem",
+      "Laura Caulfied",
+      "Ma Bing",
       "Mallika Alexander",
       "Mehr Shafiq",
-      "Vandana Kulkarni",
-      "Prasad Deshpande",
-      "Y. Mao",
       "Michael S. Humphreys",
-      "Ma Bing",
-      "Johanna B. Holm",
+      "Prasad Deshpande",
       "Ramesh Bhosale",
-      "Khalil G. Ghanem",
-      "Aarti Kinikar",
-      "Tian Wang",
+      "Rupak Shivakoti",
+      "Sameera A. Talegawkar",
+      "Shilpa Naik",
       "Shuang Wang",
-      "Jacques Ravel",
-      "Amita Gupta",
-      "Jenna Mandell"
+      "Tian Wang",
+      "Vandana Kulkarni",
+      "Y. Mao"
+    ],
+    "affiliations": [
+      "University of Maryland School of Medicine, United States"
     ],
     "journal": "Current Developments in Nutrition",
     "year": 2025,
@@ -552,114 +437,90 @@
     "pmc": "",
     "url": "https://doi.org/10.1016/j.cdnut.2025.107173",
     "full_text_url": "https://doi.org/10.1016/j.cdnut.2025.107173",
-    "abstract": "",
     "type": "article",
     "openalex_id": "https://openalex.org/W4410868568",
     "sources": [
       "OpenAlex"
     ],
     "id": "26abb603e225",
-    "updated_at": "2026-07-29T15:27:18.963657+00:00"
+    "updated_at": "2026-07-29T16:18:24.672133+00:00"
   },
   {
-    "title": "Vaginal Cytokines and Metabolite Concentrations in Asymptomatic and Symptomatic Bacterial Vaginosis",
+    "title": "VIRGO2: an enhanced gene catalog of the vaginal microbiome provides insights into its functional and ecology complexity",
     "authors": [
-      "Golsa M. Yazdy",
-      "Xiaoling He",
-      "C M Yeoman",
-      "Khalil G. Ghanem",
-      "Alan MacIntyre",
-      "Daniel J. Erchick",
-      "Johanna B. Holm",
-      "Jacques Ravel",
-      "Rebecca M. Brotman",
-      "Susan Tuddenham"
-    ],
-    "journal": "American Journal of Obstetrics and Gynecology",
-    "year": 2025,
-    "date": "2025-11-01",
-    "volume": "233",
-    "issue": "5",
-    "pages": "S8-S9",
-    "doi": "10.1016/j.ajog.2025.08.053",
-    "pmid": "",
-    "pmc": "",
-    "url": "https://doi.org/10.1016/j.ajog.2025.08.053",
-    "full_text_url": "https://doi.org/10.1016/j.ajog.2025.08.053",
-    "abstract": "",
-    "type": "article",
-    "openalex_id": "https://openalex.org/W4416373027",
-    "sources": [
-      "OpenAlex"
-    ],
-    "id": "92e991efd3af",
-    "updated_at": "2026-07-29T15:27:18.963657+00:00"
-  },
-  {
-    "title": "VIRGO2: an enhanced gene catalog of the vaginal microbiome provides insights into its functional and ecology complexity.",
-    "authors": [
-      "Michael T France",
-      "Issac Chaudry",
-      "Lindsay Rutt",
-      "Melanie Quain",
-      "Breanna Shirtliff",
-      "Elias McComb",
-      "Amaury Maros",
-      "Madeline Alizadeh",
-      "Fatima A Hussain",
-      "Michal A Elovitz",
-      "David A Relman",
+      "Alexandra Maros",
       "Anisur Rahman",
-      "Rebecca M Brotman",
-      "Joan T Price",
-      "Margaret P Kassaro",
-      "Johanna B Holm",
       "Bing Ma",
-      "Jacques Ravel"
+      "Breanna Shirtliff",
+      "David A. Relman",
+      "Elias McComb",
+      "Fatima A. Hussain",
+      "Issac Chaudry",
+      "Jacques Ravel",
+      "Joan T. Price",
+      "Johanna B. Holm",
+      "Lindsay Rutt",
+      "Madeline Alizadeh",
+      "Margaret P. Kassaro",
+      "Melanie Quain",
+      "Michael France",
+      "Michal A. Elovitz",
+      "Rebecca M. Brotman"
     ],
-    "journal": "Nature communications",
+    "affiliations": [
+      "Center for Advanced Microbiome Research and Innovation, Institute for Genome Sciences, University of Maryland School of Medicine, Baltimore, MD, USA",
+      "Center for Advanced Microbiome Research and Innovation, Institute for Genome Sciences, University of Maryland School of Medicine, Baltimore, MD, USA.",
+      "Department of Microbiology and Immunology, University of Maryland School of Medicine, Baltimore, MD, USA",
+      "Department of Microbiology and Immunology, University of Maryland School of Medicine, Baltimore, MD, USA."
+    ],
+    "journal": "Nature Communications",
     "year": 2025,
-    "date": "2025 Dec 06",
+    "date": "2025-12-06",
     "volume": "17",
     "issue": "1",
     "pages": "449",
     "doi": "10.1038/s41467-025-67136-2",
     "pmid": "41353361",
     "pmc": "PMC12800114",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/41353361/",
-    "abstract": "Despite the importance of the cervicovaginal microbiome, the mechanisms that govern its composition and drive its impact on host physiology remain poorly understood. With the aim to expand our understanding of the function and ecology of the vaginal microbiome, we present VIRGO2, an enhanced non-redundant gene catalog comprising over 1.7 million well-annotated genes from body-site specific microbes and viruses. Analyses using VIRGO2 reveal insights such as including the identification of previously uncharacterized vaginal bacteria, features of the vaginal mycobiome and phageome, and differential expression of bacterial carbohydrate catabolic genes. Constructed from over 2500 metagenomes and 4000 bacterial genomes, VIRGO2 broadens geographic representation and microbial diversity compared to its predecessor. This updated catalog enables more precise profiling of taxonomic and functional composition from metagenomic and metatranscriptomic datasets. VIRGO2 is a critical resource for integrative analyses of vaginal microbial communities and their interactions with host tissues, thereby enhancing our mechanistic understanding of vaginal health and disease.",
-    "type": "journal-article",
+    "url": "https://doi.org/10.1038/s41467-025-67136-2",
+    "full_text_url": "https://doi.org/10.1038/s41467-025-67136-2",
+    "type": "article",
+    "openalex_id": "https://openalex.org/W4417074874",
     "sources": [
       "Crossref",
       "OpenAlex",
       "PubMed"
     ],
-    "full_text_url": "https://doi.org/10.1038/s41467-025-67136-2",
-    "openalex_id": "https://openalex.org/W4417074874",
     "id": "9f875b72e4f8",
-    "updated_at": "2026-07-29T15:27:18.963657+00:00"
+    "updated_at": "2026-07-29T16:18:24.672133+00:00"
   },
   {
     "title": "VIRGO2: Unveiling the Functional and Ecological Complexity of the Vaginal Microbiome with an Enhanced Non-Redundant Gene Catalog.",
     "authors": [
-      "M T France",
-      "I Chaudry",
-      "L Rutt",
-      "M Quain",
-      "B Shirtliff",
-      "E McComb",
       "A Maros",
-      "M Alizadeh",
-      "F A Hussain",
-      "M A Elovitz",
-      "D A Relman",
       "A Rahman",
-      "R M Brotman",
-      "J Price",
-      "M Kassaro",
-      "J B Holm",
       "B Ma",
-      "J Ravel"
+      "B Shirtliff",
+      "D A Relman",
+      "E McComb",
+      "F A Hussain",
+      "I Chaudry",
+      "J B Holm",
+      "J Price",
+      "J Ravel",
+      "L Rutt",
+      "M A Elovitz",
+      "M Alizadeh",
+      "M Kassaro",
+      "M Quain",
+      "M T France",
+      "R M Brotman"
+    ],
+    "affiliations": [
+      "Center for Advanced Microbiome Research and Innovation, Institute for Genome Sciences, University of Maryland School of Medicine, Baltimore, MD USA",
+      "Center for Advanced Microbiome Research and Innovation, Institute for Genome Sciences, University of Maryland School of Medicine, Baltimore, MD USA.",
+      "Department of Microbiology and Immunology, University of Maryland School of Medicine, Baltimore, MD, USA",
+      "Department of Microbiology and Immunology, University of Maryland School of Medicine, Baltimore, MD, USA."
     ],
     "journal": "bioRxiv : the preprint server for biology",
     "year": 2025,
@@ -671,7 +532,6 @@
     "pmid": "40093185",
     "pmc": "PMC11908257",
     "url": "https://pubmed.ncbi.nlm.nih.gov/40093185/",
-    "abstract": "Despite the importance of the cervicovaginal microbiome, the mechanisms that govern its composition and drive its impact on host physiology remain poorly understood. This study expands our understanding of the function and ecology of the vaginal microbiome using VIRGO2, an enhanced non-redundant gene catalog comprising over 1.7 million well-annotated genes from body-site specific microbes and viruses. Analyses using VIRGO2 revealed novel insights, including the identification of previously uncharacterized vaginal bacteria, features of the vaginal mycobiome and phageome, and differential expression of bacterial carbohydrate catabolic genes. Constructed from over 2,500 metagenomes and 4,000 bacterial genomes, VIRGO2 broadens geographic representation and microbial diversity compared to its predecessor. This updated catalog enables more precise profiling of taxonomic and functional composition from metagenomic and metatranscriptomic datasets. VIRGO2 is a critical resource for integrative analyses of vaginal microbial communities and their interactions with host tissues, thereby enhancing our mechanistic understanding of vaginal health and disease.",
     "type": "journal-article",
     "sources": [
       "Crossref",
@@ -681,110 +541,59 @@
     "full_text_url": "https://www.biorxiv.org/content/biorxiv/early/2025/03/04/2025.03.04.641479.full.pdf",
     "openalex_id": "https://openalex.org/W4408147243",
     "id": "9d68eb419615",
-    "updated_at": "2026-07-29T15:27:18.963657+00:00"
+    "updated_at": "2026-07-29T16:18:24.672133+00:00"
   },
   {
-    "title": "20P Prognostic implications of IGF-1R expression in breast cancer overall and across body mass index groups",
+    "title": "Comparison of shipping versus immediate freezer storage of vaginal samples for vaginal microbiota assessment",
     "authors": [
-      "Johanna B. Holm",
-      "D. Berden",
-      "Signe Borgquist",
-      "Ann H. Rosendahl"
-    ],
-    "journal": "ESMO Open",
-    "year": 2024,
-    "date": "2024-05-01",
-    "volume": "9",
-    "issue": "",
-    "pages": "103028",
-    "doi": "10.1016/j.esmoop.2024.103028",
-    "pmid": "",
-    "pmc": "",
-    "url": "https://doi.org/10.1016/j.esmoop.2024.103028",
-    "full_text_url": "http://www.esmoopen.com/article/S2059702924007968/pdf",
-    "abstract": "",
-    "type": "article",
-    "openalex_id": "https://openalex.org/W4397007972",
-    "sources": [
-      "OpenAlex"
-    ],
-    "id": "208d53efd698",
-    "updated_at": "2026-07-29T15:27:18.963657+00:00"
-  },
-  {
-    "title": "6P HbA1c as a prognostic biomarker in early breast cancer among patients without diabetes",
-    "authors": [
-      "Johanna B. Holm",
-      "J. Meldgaard Bruun",
-      "P. Christiansen",
-      "Jan Frystyk",
-      "Deirdre Cronin‐Fenton",
-      "Signe Borgquist"
-    ],
-    "journal": "ESMO Open",
-    "year": 2024,
-    "date": "2024-05-01",
-    "volume": "9",
-    "issue": "",
-    "pages": "103015",
-    "doi": "10.1016/j.esmoop.2024.103015",
-    "pmid": "",
-    "pmc": "",
-    "url": "https://doi.org/10.1016/j.esmoop.2024.103015",
-    "full_text_url": "http://dx.doi.org/10.1016/j.esmoop.2024.103015",
-    "abstract": "",
-    "type": "article",
-    "openalex_id": "https://openalex.org/W4397008013",
-    "sources": [
-      "OpenAlex"
-    ],
-    "id": "be043d265368",
-    "updated_at": "2026-07-29T15:27:18.963657+00:00"
-  },
-  {
-    "title": "Comparison of shipping versus immediate freezer storage of vaginal samples for vaginal microbiota assessment.",
-    "authors": [
-      "Susan Tuddenham",
-      "Pawel Gajer",
-      "Johanna B Holm",
-      "Sarah Elizabeth Brown",
-      "Larry Forney",
       "Jacques Ravel",
-      "Khalil G Ghanem",
-      "Rebecca M Brotman"
+      "Johanna B. Holm",
+      "Khalil G. Ghanem",
+      "Larry J. Forney",
+      "Pawel Gajer",
+      "Rebecca M. Brotman",
+      "Sarah E. Brown",
+      "Susan Tuddenham"
     ],
-    "journal": "Sexually transmitted infections",
+    "affiliations": [
+      "Institute for Genome Sciences, University of Maryland School of Medicine, Baltimore, Maryland, USA",
+      "Institute for Genome Sciences, University of Maryland School of Medicine, Baltimore, Maryland, USA."
+    ],
+    "journal": "Sexually Transmitted Infections",
     "year": 2024,
-    "date": "2024 Aug 19",
+    "date": "2024-07-02",
     "volume": "100",
     "issue": "6",
     "pages": "368-370",
     "doi": "10.1136/sextrans-2023-056100",
     "pmid": "38960602",
     "pmc": "PMC11356182",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/38960602/",
-    "abstract": "ObjectivesWe evaluated how storing vaginal samples at room temperature in stabilising solutions versus immediate freezing affects 16S rRNA gene amplicon sequencing-based microbiota studies, aiming to simplify home and field collection. Twenty participants self-collected six mid-vaginal swabs that were stored in two nucleic acid preservatives (three in modified Solution C2 (Qiagen) and three in Amies/RNALater (Sigma)) in January-February 2016. From each set, two were immediately frozen (-80°C) and one was shipped to the University of Idaho (Moscow, Idaho) with return shipping to the Institute for Genome Sciences (Baltimore, Maryland). Amplicon sequencing of the 16S rRNA gene was used to characterise the vaginal microbiota, VALENCIA was used to assign community state types (CSTs), and quantitative PCR (qPCR) of 16S rRNA genes was used to estimate bacterial abundance. Cohen's Kappa statistic was used to assess within-participant agreement. Bayesian difference of means models assessed within-participant comparisons between shipped and immediately frozen samples. There were 115 samples available for analysis. Average duration of transit for shipped samples was 8 days (SD: 1.60, range: 6-11). Within-participant comparisons of CSTs between shipped and immediately frozen samples revealed complete concordance (kappa: 1.0) for both preservative solutions. No significant differences comparing shipped and immediately frozen samples were found with taxon-level comparisons or bacterial abundances based on pan-bacterial qPCR. Short-term room temperature shipping of vaginal swabs placed in stabilising solutions did not affect vaginal microbiota composition. Home collection with mail-in of vaginal samples may be a reasonable approach for research and clinical purposes to assess the vaginal microbiota.",
-    "type": "journal-article",
+    "url": "https://doi.org/10.1136/sextrans-2023-056100",
+    "full_text_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11356182/pdf/nihms-2004702.pdf",
+    "type": "article",
+    "openalex_id": "https://openalex.org/W4400309786",
     "sources": [
       "OpenAlex",
       "PubMed"
     ],
-    "full_text_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11356182/pdf/nihms-2004702.pdf",
-    "openalex_id": "https://openalex.org/W4400309786",
     "id": "b62199b42d82",
-    "updated_at": "2026-07-29T15:27:18.963657+00:00"
+    "updated_at": "2026-07-29T16:18:24.672133+00:00"
   },
   {
     "title": "Correction: Integrating compositional and functional content to describe vaginal microbiomes in health and disease.",
     "authors": [
-      "Johanna B Holm",
-      "Michael T France",
-      "Pawel Gajer",
       "Bing Ma",
-      "Rebecca M Brotman",
-      "Michelle Shardell",
+      "Jacques Ravel",
+      "Johanna B Holm",
       "Larry Forney",
-      "Jacques Ravel"
+      "Michael T France",
+      "Michelle Shardell",
+      "Pawel Gajer",
+      "Rebecca M Brotman"
+    ],
+    "affiliations": [
+      "Department of Microbiology and Immunology, University of Maryland School of Medicine, Baltimore, MD, USA.",
+      "Institute for Genome Sciences, University of Maryland School of Medicine, Baltimore, MD, USA."
     ],
     "journal": "Microbiome",
     "year": 2024,
@@ -796,162 +605,113 @@
     "pmid": "38321533",
     "pmc": "PMC10845452",
     "url": "https://pubmed.ncbi.nlm.nih.gov/38321533/",
-    "abstract": "",
     "type": "journal-article",
     "sources": [
       "PubMed"
     ],
     "id": "2c1065d22aa7",
-    "updated_at": "2026-07-29T15:27:18.963657+00:00"
+    "updated_at": "2026-07-29T16:18:24.672133+00:00"
   },
   {
-    "title": "Oral Microbiota Alterations in Subjects with SARS-CoV-2 Displaying Prevalence of the Opportunistic Fungal Pathogen Candida albicans.",
+    "title": "SpeciateIT and vSpeciateDB: novel, fast, and accurate per sequence 16S rRNA gene taxonomic classification of vaginal microbiota",
     "authors": [
-      "Areej A Alfaifi",
-      "Johanna B Holm",
-      "Tristan W Wang",
-      "Jonathan Lim",
-      "Timothy F Meiller",
-      "Peter Rock",
-      "Ahmed S Sultan",
-      "Mary Ann Jabra-Rizk"
+      "Jacques Ravel",
+      "Johanna B. Holm",
+      "Pawel Gajer"
     ],
-    "journal": "Microorganisms",
+    "affiliations": [
+      "Department of Microbiology & Immunology, Institute for Genome Sciences, University of Maryland School of Medicine, Baltimore, MD, 21201 USA",
+      "Department of Microbiology & Immunology, Institute for Genome Sciences, University of Maryland School of Medicine, Baltimore, MD, 21201 USA.",
+      "Department of Microbiology and Immunology, Institute for Genome Sciences, University of Maryland School of Medicine, Baltimore, MD, 21201, USA",
+      "Department of Microbiology and Immunology, Institute for Genome Sciences, University of Maryland School of Medicine, Baltimore, MD, 21201, USA.",
+      "University of Maryland School of Medicine"
+    ],
+    "journal": "BMC Bioinformatics",
     "year": 2024,
-    "date": "2024 Jul 02",
-    "volume": "12",
-    "issue": "7",
-    "pages": "1356",
-    "doi": "10.3390/microorganisms12071356",
-    "pmid": "39065125",
-    "pmc": "PMC11278750",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/39065125/",
-    "abstract": "The oral cavity remains an underappreciated site for SARS-CoV-2 infection despite the myriad of oral conditions in COVID-19 patients. Recently, SARS-CoV-2 was shown to replicate in the salivary gland cells causing tissue inflammation. Given the established association between inflammation and microbiome disruption, we comparatively profiled oral microbial differences at a metagenomic level in a cohort of hospitalized COVID-19 patients and matched healthy controls. Specifically, we aimed to evaluate colonization by the opportunistic fungal pathogen Candida albicans, the etiologic agent of oral candidiasis. Comprehensive shotgun metagenomic analysis indicated that, overall, COVID-19 patients exhibited significantly reduced bacterial and viral diversity/richness; we identified 12 differentially abundant bacterial species to be negatively associated with COVID-19, and the functional pathways of certain bacteria to be highly associated with COVID-19 status. Strikingly, C. albicans was recovered from approximately half of the COVID-19 subjects but not from any of the healthy controls. The prevalence of Candida is likely linked to immune hypo-dysregulation caused by COVID-19 favoring Candida proliferation, warranting investigations into the interplay between Candida and SARS-CoV2 and potential therapeutic approaches directed toward oral candidiasis. Collectively, our findings prompt a reassessment of oral opportunistic infection risks during COVID-19 disease and their potential long-term impacts on oral health.",
-    "type": "journal-article",
-    "sources": [
-      "OpenAlex",
-      "PubMed"
-    ],
-    "full_text_url": "https://www.mdpi.com/2076-2607/12/7/1356/pdf?version=1719909134",
-    "openalex_id": "https://openalex.org/W4400238991",
-    "id": "ee5331ef14c3",
-    "updated_at": "2026-07-29T15:27:18.963657+00:00"
-  },
-  {
-    "title": "SpeciateIT and vSpeciateDB: novel, fast, and accurate per sequence 16S rRNA gene taxonomic classification of vaginal microbiota.",
-    "authors": [
-      "Johanna B Holm",
-      "Pawel Gajer",
-      "Jacques Ravel"
-    ],
-    "journal": "BMC bioinformatics",
-    "year": 2024,
-    "date": "2024 Sep 27",
+    "date": "2024-09-27",
     "volume": "25",
     "issue": "1",
     "pages": "313",
     "doi": "10.1186/s12859-024-05930-3",
     "pmid": "39333850",
     "pmc": "PMC11437924",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/39333850/",
-    "abstract": "Clustering of sequences into operational taxonomic units (OTUs) and denoising methods are a mainstream stopgap to taxonomically classifying large numbers of 16S rRNA gene sequences. Environment-specific reference databases generally yield optimal taxonomic assignment. We developed SpeciateIT, a novel taxonomic classification tool which rapidly and accurately classifies individual amplicon sequences ( https://github.com/Ravel-Laboratory/speciateIT ). We also present vSpeciateDB, a custom reference database for the taxonomic classification of 16S rRNA gene amplicon sequences from vaginal microbiota. We show that SpeciateIT requires minimal computational resources relative to other algorithms and, when combined with vSpeciateDB, affords accurate species level classification in an environment-specific manner. Herein, two resources with new and practical importance are described. The novel classification algorithm, SpeciateIT, is based on 7th order Markov chain models and allows for fast and accurate per-sequence taxonomic assignments (as little as 10 min for 107 sequences). vSpeciateDB, a meticulously tailored reference database, stands as a vital and pragmatic contribution. Its significance lies in the superiority of this environment-specific database to provide more species-resolution over its universal counterparts.",
-    "type": "journal-article",
+    "url": "https://doi.org/10.1186/s12859-024-05930-3",
+    "full_text_url": "https://link.springer.com/content/pdf/10.1186/s12859-024-05930-3.pdf",
+    "type": "article",
+    "openalex_id": "https://openalex.org/W4402915032",
     "sources": [
       "Crossref",
       "OpenAlex",
       "PubMed"
     ],
-    "full_text_url": "https://link.springer.com/content/pdf/10.1186/s12859-024-05930-3.pdf",
-    "openalex_id": "https://openalex.org/W4402915032",
     "id": "7929538b921d",
-    "updated_at": "2026-07-29T15:27:18.963657+00:00"
+    "updated_at": "2026-07-29T16:18:24.672133+00:00"
   },
   {
-    "title": "31P C-reactive protein as a prognostic factor in early breast cancer",
+    "title": "Association of Pregnancy and HIV Status With Molecular-Bacterial Vaginosis in Indian Women",
     "authors": [
-      "Johanna B. Holm",
-      "Emma Baggesen",
-      "Deirdre Cronin‐Fenton",
-      "J. Meldgaard Bruun",
-      "Peer Christiansen",
-      "Signe Borgquist"
-    ],
-    "journal": "ESMO Open",
-    "year": 2023,
-    "date": "2023-05-01",
-    "volume": "8",
-    "issue": "1",
-    "pages": "101255",
-    "doi": "10.1016/j.esmoop.2023.101255",
-    "pmid": "",
-    "pmc": "",
-    "url": "https://doi.org/10.1016/j.esmoop.2023.101255",
-    "full_text_url": "http://www.esmoopen.com/article/S2059702923004817/pdf",
-    "abstract": "",
-    "type": "article",
-    "openalex_id": "https://openalex.org/W4376613796",
-    "sources": [
-      "OpenAlex"
-    ],
-    "id": "e126e80e5707",
-    "updated_at": "2026-07-29T15:27:18.963657+00:00"
-  },
-  {
-    "title": "Association of Pregnancy and HIV Status With Molecular-Bacterial Vaginosis in Indian Women.",
-    "authors": [
-      "Susan Tuddenham",
-      "Mehr Shafiq",
-      "Jyoti S Mathad",
-      "Mallika Alexander",
-      "Shilpa Naik",
-      "Vandana Kulkarni",
-      "Prasad Deshpande",
-      "Mike S Humphrys",
-      "Johanna B Holm",
-      "Nawshaba Khan",
-      "Su Yadana",
+      "Amita Gupta",
       "Aneesha Cheedalla",
-      "Ramesh Bhosale",
-      "Khalil G Ghanem",
-      "Tian Wang",
-      "Shuang Wang",
       "Bing Ma",
       "Jacques Ravel",
-      "Amita Gupta",
-      "Rupak Shivakoti"
+      "Johanna B. Holm",
+      "Jyoti S. Mathad",
+      "Khalil G. Ghanem",
+      "Mallika Alexander",
+      "Mehr Shafiq",
+      "Mike Humphrys",
+      "Nawshaba Khan",
+      "Prasad Deshpande",
+      "Ramesh Bhosale",
+      "Rupak Shivakoti",
+      "Shilpa Naik",
+      "Shuang Wang",
+      "Su Yadana",
+      "Susan Tuddenham",
+      "Tian Wang",
+      "Vandana Kulkarni"
     ],
-    "journal": "Journal of acquired immune deficiency syndromes (1999)",
+    "affiliations": [
+      "Institute for Genome Sciences and Department of Microbiology and Immunology, University of Maryland School of Medicine, Baltimore, MD.",
+      "Institute for Genome Sciences and Department of Microbiology and Immunology, University of Maryland School of Medicine, Baltimore, MD;"
+    ],
+    "journal": "JAIDS Journal of Acquired Immune Deficiency Syndromes",
     "year": 2023,
-    "date": "2023 Aug 15",
+    "date": "2023-05-08",
     "volume": "93",
     "issue": "5",
     "pages": "422-430",
     "doi": "10.1097/qai.0000000000003215",
     "pmid": "37155962",
     "pmc": "PMC10524256",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/37155962/",
-    "abstract": "Bacterial vaginosis (BV) is a highly prevalent disorder of the cervicovaginal microbiota. Molecular-BV may put women at increased risk for adverse reproductive and obstetric outcomes. We investigated the association of HIV and pregnancy on the vaginal microbiota and associations with molecular-BV in women of reproductive age from Pune, India. We studied vaginal samples from N = 170 women, including N = 44 nonpregnant HIV seronegative, N = 56 pregnant seronegative, N = 47 nonpregnant women with HIV (WWH), and N = 23 pregnant WWH, and collected data on clinical, behavioral, and demographic factors. We used 16S rRNA gene amplicon sequencing to characterize the composition of the vaginal microbiota. We classified the vaginal microbiota of these women into community state types based on bacterial composition and relative abundance and further categorized them into molecular-BV versus Lactobacillus -dominated states. To determine associations between pregnancy and HIV status with outcome of molecular-BV, logistic regression models were used. There was a high prevalence of molecular-BV (30%) in this cohort. We found that pregnancy was associated with decreased odds of molecular-BV (adjusted OR = 0.35, 95% CI: 0.14 to 0.87), while HIV was associated with increased odds of molecular-BV (adjusted OR = 2.76, 95% CI: 1.33 to 5.73), even when controlling for multiple relevant factors such as age, number of sexual partners, condom use, and douching. Larger and longitudinal studies are needed to further characterize molecular-BV and the vaginal microbiota in pregnant women and WWH and relate these factors to infectious, reproductive, and obstetric outcomes. In the long term, these studies may lead to novel microbiota-based therapeutics to improve women's reproductive and obstetric health.",
-    "type": "journal-article",
+    "url": "https://doi.org/10.1097/qai.0000000000003215",
+    "full_text_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10524256/pdf/nihms-1895306.pdf",
+    "type": "article",
+    "openalex_id": "https://openalex.org/W4375852739",
     "sources": [
       "OpenAlex",
       "PubMed"
     ],
-    "full_text_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10524256/pdf/nihms-1895306.pdf",
-    "openalex_id": "https://openalex.org/W4375852739",
     "id": "96f1e5b3bbd1",
-    "updated_at": "2026-07-29T15:27:18.963657+00:00"
+    "updated_at": "2026-07-29T16:18:24.672133+00:00"
   },
   {
     "title": "High-resolution functional description of vaginal microbiomes in health and disease.",
     "authors": [
-      "Johanna B Holm",
-      "Michael T France",
-      "Pawel Gajer",
       "Bing Ma",
-      "Rebecca M Brotman",
-      "Michelle Shardell",
+      "Jacques Ravel",
+      "Johanna B Holm",
       "Larry Forney",
-      "Jacques Ravel"
+      "Michael T France",
+      "Michelle Shardell",
+      "Pawel Gajer",
+      "Rebecca M Brotman"
+    ],
+    "affiliations": [
+      "Department of Microbiology and Immunology, University of Maryland School of Medicine, Baltimore, MD, USA",
+      "Department of Microbiology and Immunology, University of Maryland School of Medicine, Baltimore, MD, USA.",
+      "Institute for Genome Sciences, University of Maryland School of Medicine, Baltimore, MD, USA",
+      "Institute for Genome Sciences, University of Maryland School of Medicine, Baltimore, MD, USA."
     ],
     "journal": "bioRxiv : the preprint server for biology",
     "year": 2023,
@@ -963,7 +723,6 @@
     "pmid": "36993583",
     "pmc": "PMC10055360",
     "url": "https://pubmed.ncbi.nlm.nih.gov/36993583/",
-    "abstract": "A Lactobacillus-dominated vaginal microbiome provides the first line of defense against numerous adverse genital tract health outcomes. However, there is limited understanding of the mechanisms by which the vaginal microbiome modulates protection, as prior work mostly described its composition through morphologic assessment and marker gene sequencing methods that do not capture functional information. To address this limitation, we developed metagenomic community state types (mgCSTs) which uses metagenomic sequences to describe and define vaginal microbiomes based on both composition and function. MgCSTs are categories of microbiomes classified using taxonomy and the functional potential encoded in their metagenomes. MgCSTs reflect unique combinations of metagenomic subspecies (mgSs), which are assemblages of bacterial strains of the same species, within a microbiome. We demonstrate that mgCSTs are associated with demographics such as age and race, as well as vaginal pH and Gram stain assessment of vaginal smears. Importantly, these associations varied between mgCSTs predominated by the same bacterial species. A subset of mgCSTs, including three of the six predominated by Gardnerella mgSs, as well as a mgSs of L. iners, were associated with a greater likelihood of Amsel bacterial vaginosis diagnosis. This L. iners mgSs, among other functional features, encoded enhanced genetic capabilities for epithelial cell attachment that could facilitate cytotoxin-mediated cell lysis. Finally, we report a mgSs and mgCST classifier as an easily applied, standardized method for use by the microbiome research community. MgCSTs are a novel and easily implemented approach to reducing the dimension of complex metagenomic datasets, while maintaining their functional uniqueness. MgCSTs enable investigation of multiple strains of the same species and the functional diversity in that species. Future investigations of functional diversity may be key to unraveling the pathways by which the vaginal microbiome modulates protection to the genital tract. Importantly, our findings support the hypothesis that functional differences between vaginal microbiomes, including those that may look compositionally similar, are critical considerations in vaginal health. Ultimately, mgCSTs may lead to novel hypotheses concerning the role of the vaginal microbiome in promoting health and disease, and identify targets for novel prognostic, diagnostic, and therapeutic strategies to improve women's genital health.",
     "type": "journal-article",
     "sources": [
       "Crossref",
@@ -973,413 +732,405 @@
     "full_text_url": "https://www.biorxiv.org/content/biorxiv/early/2023/03/24/2023.03.24.533147.full.pdf",
     "openalex_id": "https://openalex.org/W4360950942",
     "id": "b790f532e1cc",
-    "updated_at": "2026-07-29T15:27:18.963657+00:00"
+    "updated_at": "2026-07-29T16:18:24.672133+00:00"
   },
   {
-    "title": "Integrating compositional and functional content to describe vaginal microbiomes in health and disease.",
+    "title": "Integrating compositional and functional content to describe vaginal microbiomes in health and disease",
     "authors": [
-      "Johanna B Holm",
-      "Michael T France",
-      "Pawel Gajer",
       "Bing Ma",
-      "Rebecca M Brotman",
+      "Jacques Ravel",
+      "Johanna B. Holm",
+      "Larry J. Forney",
+      "Michael France",
       "Michelle Shardell",
-      "Larry Forney",
-      "Jacques Ravel"
+      "Pawel Gajer",
+      "Rebecca M. Brotman"
+    ],
+    "affiliations": [
+      "Department of Microbiology and Immunology, University of Maryland School of Medicine, Baltimore, MD, USA",
+      "Department of Microbiology and Immunology, University of Maryland School of Medicine, Baltimore, MD, USA.",
+      "Institute for Genome Sciences, University of Maryland School of Medicine, Baltimore, MD, USA",
+      "Institute for Genome Sciences, University of Maryland School of Medicine, Baltimore, MD, USA."
     ],
     "journal": "Microbiome",
     "year": 2023,
-    "date": "2023 Nov 30",
+    "date": "2023-11-30",
     "volume": "11",
     "issue": "1",
     "pages": "259",
     "doi": "10.1186/s40168-023-01692-x",
     "pmid": "38031142",
     "pmc": "PMC10688475",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/38031142/",
-    "abstract": "A Lactobacillus-dominated vaginal microbiome provides the first line of defense against adverse genital tract health outcomes. However, there is limited understanding of the mechanisms by which the vaginal microbiome modulates protection, as prior work mostly described its composition through morphologic assessment and marker gene sequencing methods that do not capture functional information. To address this gap, we developed metagenomic community state types (mgCSTs) which use metagenomic sequences to describe and define vaginal microbiomes based on both composition and functional potential. MgCSTs are categories of microbiomes classified using taxonomy and the functional potential encoded in their metagenomes. MgCSTs reflect unique combinations of metagenomic subspecies (mgSs), which are assemblages of bacterial strains of the same species, within a microbiome. We demonstrate that mgCSTs are associated with demographics such as age and race, as well as vaginal pH and Gram stain assessment of vaginal smears. Importantly, these associations varied between mgCSTs predominated by the same bacterial species. A subset of mgCSTs, including three of the six predominated by Gardnerella vaginalis mgSs, as well as mgSs of L. iners, were associated with a greater likelihood of bacterial vaginosis diagnosed by Amsel clinical criteria. This L. iners mgSs, among other functional features, encoded enhanced genetic capabilities for epithelial cell attachment that could facilitate cytotoxin-mediated cell lysis. Finally, we report a mgSs and mgCST classifier for which source code is provided and may be adapted for use by the microbiome research community. MgCSTs are a novel and easily implemented approach to reduce the dimension of complex metagenomic datasets while maintaining their functional uniqueness. MgCSTs enable the investigation of multiple strains of the same species and the functional diversity in that species. Future investigations of functional diversity may be key to unraveling the pathways by which the vaginal microbiome modulates the protection of the genital tract. Importantly, our findings support the hypothesis that functional differences between vaginal microbiomes, including those that may look compositionally similar, are critical considerations in vaginal health. Ultimately, mgCSTs may lead to novel hypotheses concerning the role of the vaginal microbiome in promoting health and disease, and identify targets for novel prognostic, diagnostic, and therapeutic strategies to improve women's genital health. Video Abstract.",
-    "type": "journal-article",
+    "url": "https://doi.org/10.1186/s40168-023-01692-x",
+    "full_text_url": "https://microbiomejournal.biomedcentral.com/counter/pdf/10.1186/s40168-023-01692-x",
+    "type": "article",
+    "openalex_id": "https://openalex.org/W4389155349",
     "sources": [
       "OpenAlex",
       "PubMed"
     ],
-    "full_text_url": "https://microbiomejournal.biomedcentral.com/counter/pdf/10.1186/s40168-023-01692-x",
-    "openalex_id": "https://openalex.org/W4389155349",
     "id": "62b388600366",
-    "updated_at": "2026-07-29T15:27:18.963657+00:00"
+    "updated_at": "2026-07-29T16:18:24.672133+00:00"
   },
   {
-    "title": "Investigating the impact of condomless vaginal intercourse and lubricant use on the vaginal metabolome: a pre-post observational study.",
+    "title": "Investigating the impact of condomless vaginal intercourse and lubricant use on the vaginal metabolome: a pre-post observational study",
     "authors": [
-      "Joanna-Lynn C Borgogna",
-      "Savannah G Grace",
-      "Johanna B Holm",
-      "Tadeo Aviles Zuniga",
+      "Carl J. Yeoman",
       "Herlin Kadriu",
-      "Xin He",
-      "Sarah R McCoski",
       "Jacques Ravel",
-      "Rebecca M Brotman",
-      "Carl J Yeoman"
+      "Joanna-Lynn C. Borgogna",
+      "Johanna B. Holm",
+      "Rebecca M. Brotman",
+      "Sarah McCoski",
+      "Savannah G. Grace",
+      "Tadeo Aviles Zuniga",
+      "Xin He"
     ],
-    "journal": "Sexually transmitted infections",
+    "affiliations": [
+      "Department of Microbiology and Immunology, University of Maryland School of Medicine, Baltimore, Maryland, USA",
+      "Department of Microbiology and Immunology, University of Maryland School of Medicine, Baltimore, Maryland, USA.",
+      "University of Maryland School of Medicine"
+    ],
+    "journal": "Sexually Transmitted Infections",
     "year": 2023,
-    "date": "2023 Nov",
+    "date": "2023-05-31",
     "volume": "99",
     "issue": "7",
     "pages": "489-496",
     "doi": "10.1136/sextrans-2022-055667",
     "pmid": "37258272",
     "pmc": "PMC11174154",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/37258272/",
-    "abstract": "The vaginal metabolome is a significant factor in the vaginal microenvironment, and data are emerging on its independent role in urogenital health. Condomless vaginal intercourse and personal lubricant use are common practices that may affect the vaginal metabolome. The aim of the present study is to describe the associations between condomless intercourse and lubricant use on the vaginal metabolome. This study used archived mid-vaginal swabs from a 10-week observational cohort of reproductive age women who self-collected samples and recorded behavioural diaries daily. Cases and controls were defined as participants who self-reported condomless vaginal intercourse with or without lubricant use, respectively. Samples were drawn prior to and following condomless vaginal intercourse. Twenty-two case participants were race/ethnicity matched to 22 control participants. Mid-vaginal swabs were subjected to 16S rRNA gene amplicon sequencing and untargeted ultrahigh performance liquid chromatography tandem mass spectroscopy metabolomics. Bayesian mixed-effects regression (unadjusted and adjusted for the vaginal microbiota) was used to evaluate differences in metabolite concentration associated with vaginal intercourse and lubricant use. Both condomless penile-vaginal intercourse and lubricant use were independently associated with higher (up to 8.3-fold) concentrations of metabolites indicative of epithelial damage (eg, sarcosine) and many host-produced antioxidants. Lubricant use was significantly associated with increases in lipids related to cellular damage, host-produced sphingolipids (antimicrobials), antioxidants and salicylate, a cooling agent common to lubricants, in a study design which controls for the independent effect of intercourse. Metabolites involved in oxidative stress and salicylate were strongly correlated with several molecular bacterial vaginosis-associated bacteria. This study provides important foundational data on how condomless vaginal-penile intercourse and lubricant use affect the vaginal metabolome and may affect the protective mechanisms in the vaginal microenvironment.",
-    "type": "journal-article",
+    "url": "https://doi.org/10.1136/sextrans-2022-055667",
+    "full_text_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11174154/pdf/nihms-1991872.pdf",
+    "type": "article",
+    "openalex_id": "https://openalex.org/W4378802717",
     "sources": [
       "OpenAlex",
       "PubMed"
     ],
-    "full_text_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11174154/pdf/nihms-1991872.pdf",
-    "openalex_id": "https://openalex.org/W4378802717",
     "id": "9438eeb15328",
-    "updated_at": "2026-07-29T15:27:18.963657+00:00"
+    "updated_at": "2026-07-29T16:18:24.672133+00:00"
   },
   {
-    "title": "Lactobacillus iners and genital health: molecular clues to an enigmatic vaginal species.",
+    "title": "Lactobacillus iners and Genital Health: Molecular Clues to an Enigmatic Vaginal Species",
     "authors": [
-      "Johanna B Holm",
-      "Kayla A Carter",
       "Jacques Ravel",
-      "Rebecca M Brotman"
+      "Johanna B. Holm",
+      "Kayla A. Carter",
+      "Rebecca M. Brotman"
     ],
-    "journal": "Current infectious disease reports",
+    "affiliations": [
+      "Department of Microbiology and Immunology, University of Maryland School of Medicine, Baltimore, MD, USA",
+      "Department of Microbiology and Immunology, University of Maryland School of Medicine, Baltimore, MD, USA.",
+      "Institute for Genome Sciences, University of Maryland School of Medicine, Baltimore, MD, USA",
+      "Institute for Genome Sciences, University of Maryland School of Medicine, Baltimore, MD, USA."
+    ],
+    "journal": "Current Infectious Disease Reports",
     "year": 2023,
-    "date": "2023 Apr",
+    "date": "2023-03-07",
     "volume": "25",
     "issue": "4",
     "pages": "67-75",
     "doi": "10.1007/s11908-023-00798-5",
     "pmid": "37234911",
     "pmc": "PMC10209668",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/37234911/",
-    "abstract": "Vaginal lactobacilli are recognized as important drivers of genital health including protection against bacterial vaginosis and sexually transmitted infections. Lactobacillus iners is distinct from L. crispatus, L. gasseri, and L. jensenii by its high global prevalence in vaginal microbiomes, relatively small genome, production of only L-lactic acid, and inconsistent associations with genital health outcomes. In this review, we summarize our current understanding of the role of L. iners in the vaginal microbiome, highlight the importance of strain-level consideration for this species, and explain that while marker gene-based characterization of the composition of the vaginal microbiota does not capture strain-level resolution, whole metagenome sequencing can aid in expanding our understanding of this species in genital health. L. iners exists in the vaginal microbiome as a unique combination of strains. The functional repertoires of these strain combinations are likely wide and contribute to the survival of this species in a variety of vaginal microenvironments. In published studies to date, strain-specific effects are aggregated and may yield imprecise estimates of risk associated with this species. The worldwide high prevalence of Lactobacillus iners warrants more research into its functional roles in the vaginal microbiome and how it may directly impact susceptibility to infections. By incorporating strain-level resolution into future research endeavors, we may begin to appreciate L. iners more thoroughly and identify novel therapeutic targets for a variety of genital health challenges.",
-    "type": "journal-article",
+    "url": "https://doi.org/10.1007/s11908-023-00798-5",
+    "full_text_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10209668/pdf/nihms-1896832.pdf",
+    "type": "article",
+    "openalex_id": "https://openalex.org/W4323359474",
     "sources": [
       "Crossref",
       "OpenAlex",
       "PubMed"
     ],
-    "full_text_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10209668/pdf/nihms-1896832.pdf",
-    "openalex_id": "https://openalex.org/W4323359474",
     "id": "43f57d897ac4",
-    "updated_at": "2026-07-29T15:27:18.963657+00:00"
+    "updated_at": "2026-07-29T16:18:24.672133+00:00"
   },
   {
-    "title": "Dynamics of the Gut Microbiome in Shigella-Infected Children during the First Two Years of Life.",
+    "title": "Dynamics of the Gut Microbiome in <i>Shigella</i> -Infected Children during the First Two Years of Life",
     "authors": [
+      "Andrea G. Buchwald",
+      "David A. Rasko",
       "Esther Ndungo",
-      "Johanna B Holm",
-      "Syze Gama",
-      "Andrea G Buchwald",
-      "Sharon M Tennant",
-      "Miriam K Laufer",
-      "Marcela F Pasetti",
-      "David A Rasko"
+      "Johanna B. Holm",
+      "Marcela F. Pasetti",
+      "Miriam K. Laufer",
+      "Sharon M. Tennant",
+      "Syze Gama"
+    ],
+    "affiliations": [
+      "Department of Microbiology and Immunology, University of Maryland School of Medicine, Baltimore, Maryland, USA",
+      "Department of Microbiology and Immunology, University of Maryland School of Medicine, Baltimore, Maryland, USA.",
+      "Institute for Genome Sciences, University of Maryland School of Medicine, Baltimore, Maryland, USA",
+      "Institute for Genome Sciences, University of Maryland School of Medicine, Baltimore, Maryland, USA."
     ],
     "journal": "mSystems",
     "year": 2022,
-    "date": "2022 Oct 26",
+    "date": "2022-09-19",
     "volume": "7",
     "issue": "5",
     "pages": "e0044222",
     "doi": "10.1128/msystems.00442-22",
     "pmid": "36121169",
     "pmc": "PMC9600951",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/36121169/",
-    "abstract": "Shigella continues to be a major contributor to diarrheal illness and dysentery in children younger than 5 years of age in low- and middle-income countries. Strategies for the prevention of shigellosis have focused on enhancing adaptive immunity. The interaction between Shigella and intrinsic host factors, such as the microbiome, remains unknown. We hypothesized that Shigella infection would impact the developing microbial community in infancy and, conversely, that changes in the gastrointestinal microbiome may predispose infections. To test this hypothesis, we characterized the gastrointestinal microbiota in a longitudinal birth cohort from Malawi that was monitored for Shigella infection using 16S rRNA amplicon sequencing. Children with at least one Shigella quantitative polymerase chain reaction (qPCR) positive sample during the first 2 years of life (cases) were compared to uninfected controls that were matched for sex and age. Overall, the microbial species diversity, as measured by the Shannon diversity index, increased over time, regardless of case status. At early time points, the microbial community was dominated by Bifidobacterium longum and Escherichia/Shigella. A greater abundance of Prevotella 9 and Bifidobacterium kashiwanohense was observed at 2 years of age. While no single species was associated with susceptibility to Shigella infection, significant increases in Lachnospiraceae NK4A136 and Fusicatenibacter saccharivorans were observed following Shigella infection. Both taxa are in the family Lachnospiraceae, which are known short-chain fatty acid producers that may improve gut health. Our findings identified temporal changes in the gastrointestinal microbiota associated with Shigella infection in Malawian children and highlight the need to further elucidate the microbial communities associated with disease susceptibility and resolution. IMPORTANCE Shigella causes more than 180 million cases of diarrhea globally, mostly in children living in poor regions. Infection can lead to severe health impairments that reduce quality of life. There is increasing evidence that disruptions in the gut microbiome early in life can influence susceptibility to illnesses. A delayed or impaired reconstitution of the microbiota following infection can further impact overall health. Aiming to improve our understanding of the interaction between Shigella and the developing infant microbiome, we investigated changes in the gut microbiome of Shigella-infected and uninfected children over the course of their first 2 years of life. We identified species that may be involved in recovery from Shigella infection and in driving the microbiota back to homeostasis. These findings support future studies into the elucidation of the interaction between the microbiota and enteric pathogens in young children and into the identification of potential targets for prevention or treatment.",
-    "type": "journal-article",
+    "url": "https://doi.org/10.1128/msystems.00442-22",
+    "full_text_url": "https://doi.org/10.1128/msystems.00442-22",
+    "type": "article",
+    "openalex_id": "https://openalex.org/W4296324333",
     "sources": [
       "Crossref",
       "OpenAlex",
       "PubMed"
     ],
-    "full_text_url": "https://doi.org/10.1128/msystems.00442-22",
-    "openalex_id": "https://openalex.org/W4296324333",
     "id": "cbab179f8ede",
-    "updated_at": "2026-07-29T15:27:18.963657+00:00"
+    "updated_at": "2026-07-29T16:18:24.672133+00:00"
   },
   {
     "title": "Assessing the Concordance Between Urogenital and Vaginal Microbiota: Can Urine Specimens Be Used as a Proxy for Vaginal Samples?",
     "authors": [
-      "Sarah E Brown",
-      "Courtney K Robinson",
-      "Michelle D Shardell",
-      "Johanna B Holm",
+      "Courtney K. Robinson",
       "Jacques Ravel",
-      "Khalil G Ghanem",
-      "Rebecca M Brotman"
+      "Johanna B. Holm",
+      "Khalil G. Ghanem",
+      "Michelle Shardell",
+      "Rebecca M. Brotman",
+      "Sarah E. Brown"
     ],
-    "journal": "Frontiers in cellular and infection microbiology",
+    "affiliations": [
+      "Institute for Genome Sciences, University of Maryland School of Medicine, Baltimore, MD, United States",
+      "Institute for Genome Sciences, University of Maryland School of Medicine, Baltimore, MD, United States."
+    ],
+    "journal": "Frontiers in Cellular and Infection Microbiology",
     "year": 2021,
-    "date": "2021",
+    "date": "2021-06-29",
     "volume": "11",
     "issue": "",
     "pages": "671413",
     "doi": "10.3389/fcimb.2021.671413",
     "pmid": "34268137",
     "pmc": "PMC8276069",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/34268137/",
-    "abstract": "The vaginal microbiota play a key role in defense against reproductive tract infections; however, many population-based women's health studies do not collect vaginal samples. Molecular examinations of urine samples have revealed common vaginal bacteria. We sought to assess the extent that community state type assignments of archived random-catch and clean-catch urine samples agreed with the paired vaginal samples in both reproductive-age and peri/post-menopausal women. Using archived samples, we evaluated the microbiota concordance among women in three studies: two with paired mid-vaginal/random-catch urine (N=91 reproductive-age participants and N=13 peri/post-menopausal participants), and one with paired mid-vaginal/clean-catch urine (N=99 reproductive-age participants). Microbiota composition was characterized by sequencing amplicons of the 16S rRNA gene V3-V4 regions and assigned to community state types. Similarity of paired samples was gauged using agreement of community state types and Yue-Clayton θ indices. Analysis of Composition of Microbiomes II indicated which taxa were differently relatively abundant in paired vaginal and urine samples. In reproductive-age women, random-catch and clean-catch urines were 89.0% and 86.9% concordant on five community state types with paired mid-vaginal swabs, and Kappa statistics indicated almost perfect agreement (κrandom-catch=.85, κclean-catch=.81, p<0.0001). A small number of pairs of samples were discordant (23/190, 12%), and discordant pairs tended to be between samples classified to L. iners-dominated and/or low-Lactobacillus states. Concordance and agreement remained similar when dichotomizing the microbiota to Lactobacillus-dominated versus low-Lactobacillus microbiota, as well as when evaluating separately the three subtypes of the low-Lactobacillus community state type IV. Median similarity of paired urine/vaginal samples was high (θrandom-catch=.85, θclean-catch=.88), and a comparison of the random-catch and clean-catch similarity scores showed no significant difference (p=.80). Concordance and similarity were lower for peri/post-menopausal women, but agreement remained substantial (76.9% concordant, κrandom-catch= 0.64, θrandom-catch=.62). Taxonomic-level analysis confirmed these findings. Random-catch and clean-catch urine samples showed substantial agreement on bacterial composition to paired mid-vaginal samples, indicating that the genitourinary microbiota may be a reliable proxy for assessing the overall composition of the vaginal microbiota via community state types. This data suggests that urine samples can, with proper interpretation, be utilized as a surrogate for developing preliminary data and hypothesis-generating studies.",
-    "type": "journal-article",
+    "url": "https://doi.org/10.3389/fcimb.2021.671413",
+    "full_text_url": "https://doi.org/10.3389/fcimb.2021.671413",
+    "type": "article",
+    "openalex_id": "https://openalex.org/W3175814848",
     "sources": [
       "OpenAlex",
       "PubMed"
     ],
-    "full_text_url": "https://doi.org/10.3389/fcimb.2021.671413",
-    "openalex_id": "https://openalex.org/W3175814848",
     "id": "cc651948a743",
-    "updated_at": "2026-07-29T15:27:18.963657+00:00"
+    "updated_at": "2026-07-29T16:18:24.672133+00:00"
   },
   {
-    "title": "Class Foundations of Sexual Prejudice toward Gay and Lesbian People",
+    "title": "Refinement of 16S rRNA gene analysis for low biomass biospecimens",
     "authors": [
-      "Stef Adriaenssens",
-      "Jef Hendrickx",
-      "Johanna B. Holm"
+      "Alicia Moreno‐Sabater",
+      "Gaëlle Autaa",
+      "Johanna B. Holm",
+      "Martin Larsen",
+      "Rémy Villette",
+      "Sophie Hind"
     ],
-    "journal": "Sexuality Research and Social Policy",
+    "affiliations": [
+      "Department of Microbiology and Immunology, Institute for Genome Sciences, University of Maryland School of Medicine, Baltimore, MD, USA",
+      "Department of Microbiology and Immunology, Institute for Genome Sciences, University of Maryland School of Medicine, Baltimore, MD, USA."
+    ],
+    "journal": "Scientific Reports",
     "year": 2021,
-    "date": "2021-01-11",
-    "volume": "19",
-    "issue": "1",
-    "pages": "63-84",
-    "doi": "10.1007/s13178-020-00525-y",
-    "pmid": "",
-    "pmc": "",
-    "url": "https://doi.org/10.1007/s13178-020-00525-y",
-    "full_text_url": "https://lirias.kuleuven.be/bitstream/123456789/666586/3/Adriaenssens%20Hendrickx%20%26%20Holm%202021%20%28SRSP%29.pdf",
-    "abstract": "",
-    "type": "article",
-    "openalex_id": "https://openalex.org/W3118437906",
-    "sources": [
-      "OpenAlex"
-    ],
-    "id": "142c9cd025ed",
-    "updated_at": "2026-07-29T15:27:18.963657+00:00"
-  },
-  {
-    "title": "Refinement of 16S rRNA gene analysis for low biomass biospecimens.",
-    "authors": [
-      "Remy Villette",
-      "Gaelle Autaa",
-      "Sophie Hind",
-      "Johanna B Holm",
-      "Alicia Moreno-Sabater",
-      "Martin Larsen"
-    ],
-    "journal": "Scientific reports",
-    "year": 2021,
-    "date": "2021 May 24",
+    "date": "2021-05-24",
     "volume": "11",
     "issue": "1",
     "pages": "10741",
     "doi": "10.1038/s41598-021-90226-2",
     "pmid": "34031485",
     "pmc": "PMC8144411",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/34031485/",
-    "abstract": "High-throughput phylogenetic 16S rRNA gene analysis has permitted to thoroughly delve into microbial community complexity and to understand host-microbiota interactions in health and disease. The analysis comprises sample collection and storage, genomic DNA extraction, 16S rRNA gene amplification, high-throughput amplicon sequencing and bioinformatic analysis. Low biomass microbiota samples (e.g. biopsies, tissue swabs and lavages) are receiving increasing attention, but optimal standardization for analysis of low biomass samples has yet to be developed. Here we tested the lower bacterial concentration required to perform 16S rRNA gene analysis using three different DNA extraction protocols, three different mechanical lysing series and two different PCR protocols. A mock microbiota community standard and low biomass samples (108, 107, 106, 105 and 104 microbes) from two healthy donor stools were employed to assess optimal sample processing for 16S rRNA gene analysis using paired-end Illumina MiSeq technology. Three DNA extraction protocols tested in our study performed similar with regards to representing microbiota composition, but extraction yield was better for silica columns compared to bead absorption and chemical precipitation. Furthermore, increasing mechanical lysing time and repetition did ameliorate the representation of bacterial composition. The most influential factor enabling appropriate representation of microbiota composition remains sample biomass. Indeed, bacterial densities below 106 cells resulted in loss of sample identity based on cluster analysis for all tested protocols. Finally, we excluded DNA extraction bias using a genomic DNA standard, which revealed that a semi-nested PCR protocol represented microbiota composition better than classical PCR. Based on our results, starting material concentration is an important limiting factor, highlighting the need to adapt protocols for dealing with low biomass samples. Our study suggests that the use of prolonged mechanical lysing, silica membrane DNA isolation and a semi-nested PCR protocol improve the analysis of low biomass samples. Using the improved protocol we report a lower limit of 106 bacteria per sample for robust and reproducible microbiota analysis.",
-    "type": "journal-article",
+    "url": "https://doi.org/10.1038/s41598-021-90226-2",
+    "full_text_url": "https://www.nature.com/articles/s41598-021-90226-2.pdf",
+    "type": "article",
+    "openalex_id": "https://openalex.org/W3164145932",
     "sources": [
       "OpenAlex",
       "PubMed"
     ],
-    "full_text_url": "https://www.nature.com/articles/s41598-021-90226-2.pdf",
-    "openalex_id": "https://openalex.org/W3164145932",
     "id": "b7cef58f7625",
-    "updated_at": "2026-07-29T15:27:18.963657+00:00"
+    "updated_at": "2026-07-29T16:18:24.672133+00:00"
   },
   {
-    "title": "A comprehensive non-redundant gene catalog reveals extensive within-community intraspecies diversity in the human vagina.",
+    "title": "A comprehensive non-redundant gene catalog reveals extensive within-community intraspecies diversity in the human vagina",
     "authors": [
       "Bing Ma",
-      "Michael T France",
+      "Jacques Ravel",
+      "Johanna B. Holm",
       "Jonathan Crabtree",
-      "Johanna B Holm",
-      "Michael S Humphrys",
-      "Rebecca M Brotman",
-      "Jacques Ravel"
+      "Michael France",
+      "Michael S. Humphrys",
+      "Rebecca M. Brotman"
     ],
-    "journal": "Nature communications",
+    "affiliations": [
+      "Department of Microbiology and Immunology, University of Maryland School of Medicine, Baltimore, MD, 21201, USA",
+      "Department of Microbiology and Immunology, University of Maryland School of Medicine, Baltimore, MD, 21201, USA.",
+      "Institute for Genome Sciences, University of Maryland School of Medicine, Baltimore, MD, 21201, USA",
+      "Institute for Genome Sciences, University of Maryland School of Medicine, Baltimore, MD, 21201, USA."
+    ],
+    "journal": "Nature Communications",
     "year": 2020,
-    "date": "2020 Feb 26",
+    "date": "2020-02-26",
     "volume": "11",
     "issue": "1",
     "pages": "940",
     "doi": "10.1038/s41467-020-14677-3",
     "pmid": "32103005",
     "pmc": "PMC7044274",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/32103005/",
-    "abstract": "Analysis of metagenomic and metatranscriptomic data is complicated and typically requires extensive computational resources. Leveraging a curated reference database of genes encoded by members of the target microbiome can make these analyses more tractable. In this study, we assemble a comprehensive human vaginal non-redundant gene catalog (VIRGO) that includes 0.95 million non-redundant genes. The gene catalog is functionally and taxonomically annotated. We also construct a vaginal orthologous groups (VOG) from VIRGO. The gene-centric design of VIRGO and VOG provides an easily accessible tool to comprehensively characterize the structure and function of vaginal metagenome and metatranscriptome datasets. To highlight the utility of VIRGO, we analyze 1,507 additional vaginal metagenomes, and identify a high degree of intraspecies diversity within and across vaginal microbiota. VIRGO offers a convenient reference database and toolkit that will facilitate a more in-depth understanding of the role of vaginal microorganisms in women's health and reproductive outcomes.",
-    "type": "journal-article",
+    "url": "https://doi.org/10.1038/s41467-020-14677-3",
+    "full_text_url": "https://www.nature.com/articles/s41467-020-14677-3.pdf",
+    "type": "article",
+    "openalex_id": "https://openalex.org/W3008496432",
     "sources": [
       "OpenAlex",
       "PubMed"
     ],
-    "full_text_url": "https://www.nature.com/articles/s41467-020-14677-3.pdf",
-    "openalex_id": "https://openalex.org/W3008496432",
     "id": "5b882928ee53",
-    "updated_at": "2026-07-29T15:27:18.963657+00:00"
+    "updated_at": "2026-07-29T16:18:24.672133+00:00"
   },
   {
-    "title": "Additional file 4 of VALENCIA: a nearest centroid classification method for vaginal microbial communities based on composition",
+    "title": "Comparative Metagenome-Assembled Genome Analysis of “Candidatus Lachnocurva vaginae”, Formerly Known as Bacterial Vaginosis-Associated Bacterium−1 (BVAB1)",
     "authors": [
-      "Michael France",
-      "Bing Ma",
-      "Pawel Gajer",
-      "Sarah E. Brown",
-      "Michael S. Humphrys",
-      "Johanna B. Holm",
-      "L. Elaine Waetjen",
-      "Rebecca M. Brotman",
-      "Jacques Ravel"
-    ],
-    "journal": "Open MIND",
-    "year": 2020,
-    "date": "2020-01-01",
-    "volume": "",
-    "issue": "",
-    "pages": "",
-    "doi": "10.6084/m9.figshare.13279200",
-    "pmid": "",
-    "pmc": "",
-    "url": "https://doi.org/10.6084/m9.figshare.13279200",
-    "full_text_url": "",
-    "abstract": "",
-    "type": "article",
-    "openalex_id": "https://openalex.org/W4394366196",
-    "sources": [
-      "OpenAlex"
-    ],
-    "id": "9919868e8be5",
-    "updated_at": "2026-07-29T15:27:18.963657+00:00"
-  },
-  {
-    "title": "Comparative Metagenome-Assembled Genome Analysis of \"Candidatus Lachnocurva vaginae\", Formerly Known as Bacterial Vaginosis-Associated Bacterium-1 (BVAB1).",
-    "authors": [
-      "Johanna B Holm",
-      "Michael T France",
-      "Bing Ma",
-      "Elias McComb",
-      "Courtney K Robinson",
       "Aditya Mehta",
-      "Luke J Tallon",
-      "Rebecca M Brotman",
-      "Jacques Ravel"
+      "Bing Ma",
+      "Courtney K. Robinson",
+      "Elias McComb",
+      "Jacques Ravel",
+      "Johanna B. Holm",
+      "Luke J. Tallon",
+      "Michael France",
+      "Rebecca M. Brotman"
     ],
-    "journal": "Frontiers in cellular and infection microbiology",
+    "affiliations": [
+      "Department of Microbiology and Immunology, University of Maryland School of Medicine, Baltimore, MD, United States",
+      "Department of Microbiology and Immunology, University of Maryland School of Medicine, Baltimore, MD, United States.",
+      "Institute for Genome Sciences, University of Maryland School of Medicine, Baltimore, MD, United States",
+      "Institute for Genome Sciences, University of Maryland School of Medicine, Baltimore, MD, United States."
+    ],
+    "journal": "Frontiers in Cellular and Infection Microbiology",
     "year": 2020,
-    "date": "2020",
+    "date": "2020-03-31",
     "volume": "10",
     "issue": "",
     "pages": "117",
     "doi": "10.3389/fcimb.2020.00117",
     "pmid": "32296647",
     "pmc": "PMC7136613",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/32296647/",
-    "abstract": "Bacterial vaginosis-associated bacterium 1 (BVAB1) is an as-yet uncultured bacterial species found in the human vagina that belongs to the family Lachnospiraceae within the order Clostridiales. As its name suggests, this bacterium is often associated with bacterial vaginosis (BV), a common vaginal disorder that has been shown to increase a woman's risk for HIV, Chlamydia trachomatis, and Neisseria gonorrhoeae infections as well as preterm birth. BVAB1 has been further associated with the persistence of BV following metronidazole treatment, increased vaginal inflammation, and adverse obstetrics outcomes. There is no available complete genome sequence of BVAB1, which has made it difficult to mechanistically understand its role in disease. We present here a circularized metagenome-assembled genome (cMAG) of BVAB1 as well as a comparative analysis including an additional six metagenome-assembled genomes (MAGs) of this species. These sequences were derived from cervicovaginal samples of seven separate women. The cMAG was obtained from a metagenome sequenced with long-read technology on a PacBio Sequel II instrument while the others were derived from metagenomes sequenced on the Illumina HiSeq platform. The cMAG is 1.649 Mb in size and encodes 1,578 genes. We propose to rename BVAB1 to \"Candidatus Lachnocurva vaginae\" based on phylogenetic analyses, and provide genomic and metabolomic evidence that this candidate species may metabolize D-lactate, produce trimethylamine (one of the chemicals responsible for BV-associated odor), and be motile. The cMAG and the six MAGs are valuable resources that will further contribute to our understanding of the heterogeneous etiology of bacterial vaginosis.",
-    "type": "journal-article",
+    "url": "https://doi.org/10.3389/fcimb.2020.00117",
+    "full_text_url": "https://www.frontiersin.org/articles/10.3389/fcimb.2020.00117/pdf",
+    "type": "article",
+    "openalex_id": "https://openalex.org/W3014627767",
     "sources": [
       "OpenAlex",
       "PubMed"
     ],
-    "full_text_url": "https://www.frontiersin.org/articles/10.3389/fcimb.2020.00117/pdf",
-    "openalex_id": "https://openalex.org/W3014627767",
     "id": "f9ea2a12c06c",
-    "updated_at": "2026-07-29T15:27:18.963657+00:00"
+    "updated_at": "2026-07-29T16:18:24.672133+00:00"
   },
   {
-    "title": "Decline in mortality among hospitalised covid-19 patients in Sweden: a nationwide observational study",
+    "title": "Systemic anti-commensal response to fungi analyzed by flow cytometry is related to gut mycobiome ecology",
     "authors": [
-      "Kristoffer Strålin",
-      "Erik Wahlström",
-      "Sten Walther",
-      "Anna M. Bennet",
-      "Mona Heurgren",
-      "Thomas Lindén",
-      "Johanna B. Holm",
-      "Håkan Hanberger"
-    ],
-    "journal": "medRxiv",
-    "year": 2020,
-    "date": "2020-10-27",
-    "volume": "",
-    "issue": "",
-    "pages": "",
-    "doi": "10.1101/2020.10.27.20220061",
-    "pmid": "",
-    "pmc": "",
-    "url": "https://doi.org/10.1101/2020.10.27.20220061",
-    "full_text_url": "https://www.medrxiv.org/content/medrxiv/early/2020/10/27/2020.10.27.20220061.full.pdf",
-    "abstract": "<jats:title>ABSTRACT</jats:title> <jats:sec> <jats:title>OBJECTIVE</jats:title> <jats:p>It is important to know if mortality among hospitalised covid-19 patients has changed as the pandemic has progressed. The aim of this study was to describe the dynamics of mortality among patients hospitalised for covid-19 in a nationwide study.</jats:p> </jats:sec> <jats:sec> <jats:title>DESIGN</jats:title> <jats:p>Nationwide observational cohort study of all patients hospitalised in Sweden 1 March to 30 June 2020 with SARS-CoV-2 RNA positivity 14 days before to 5 days after admission, and a discharge code for covid-19.</jats:p> </jats:sec> <jats:sec> <jats:title>SETTING</jats:title> <jats:p>All hospitals in Sweden.</jats:p> </jats:sec> <jats:sec> <jats:title>PARTICIPANTS</jats:title> <jats:p>15 761 hospitalised patients with covid-19, with data compiled by the Swedish National Board of Health and Welfare.</jats:p> </jats:sec> <jats:sec> <jats:title>MAIN OUTCOME MEASURES</jats:title> <jats:p>Outcome was 60-day all-cause mortality. Patients were stratified according to month of hospital admission. Poisson regression was used to estimate the relative risk of death by month of admission, adjusting for pre-existing conditions, age, sex, care dependency, and severity of illness (Simplified Acute Physiology, version 3), for patients in intensive care units (ICU).</jats:p> </jats:sec> <jats:sec> <jats:title>RESULTS</jats:title> <jats:p>The overall 60-day mortality was 17.8% (95% confidence interval (CI), 17.2% to 18.4%), and it decreased from 24.7% (95% CI, 23.0% to 26.5%) in March to 13.3% (95% CI, 12.1% to 14.7%) in June. Adjusted relative risk (RR) of death was 0.56 (95% CI, 0.51 to 0.63) for June, using March as reference. Corresponding RR for patients not admitted to ICU and those admitted to ICU were 0.60 (95% CI, 0.53 to 0.67) and 0.61 (95% CI, 0.48 to 0.79), respectively. The proportion of patients admitted to ICU decreased from 19.5% (95% CI, 17.9% to 21.0%) in the March cohort to 11.0% (95% CI, 9.9% to 12.2%) in the June cohort.</jats:p> </jats:sec> <jats:sec> <jats:title>CONCLUSIONS</jats:title> <jats:p>There was a gradual decline in mortality from March to June 2020 in Swedish hospitalised covid-19 patients, which was independent of pre-existing conditions, age, and sex. Future research is needed to explain the reasons for this decline. The changing covid-19 mortality should be taken into account when management and results of studies from the first pandemic wave are evaluated.</jats:p> </jats:sec>",
-    "type": "preprint",
-    "openalex_id": "https://openalex.org/W3096159341",
-    "sources": [
-      "Crossref",
-      "OpenAlex"
-    ],
-    "id": "821223105b49",
-    "updated_at": "2026-07-29T15:27:18.963657+00:00"
-  },
-  {
-    "title": "Systemic anti-commensal response to fungi analyzed by flow cytometry is related to gut mycobiome ecology.",
-    "authors": [
-      "Alicia Moreno-Sabater",
-      "Gaelle Autaa",
-      "Delphine Sterlin",
+      "Alicia Moreno‐Sabater",
       "Amenie Jerbi",
-      "Remy Villette",
-      "Johanna B Holm",
-      "Christophe Parizot",
-      "Sameh Selim",
-      "Yaye Senghor",
-      "Pascale Ghillani-Dalbin",
-      "Claude Bachmeyer",
       "Christophe Hennequin",
+      "Christophe Parizot",
+      "Claude Bachmeyer",
+      "Delphine Sterlin",
+      "Gaëlle Autaa",
       "Guy Gorochov",
-      "Martin Larsen"
+      "Johanna B. Holm",
+      "Martin Larsen",
+      "Pascale Ghillani‐Dalbin",
+      "Rémy Villette",
+      "Sameh Selim",
+      "Yaye Senghor"
+    ],
+    "affiliations": [
+      "Institute for Genome Sciences and Department of Microbiology and Immunology, University of Maryland School of Medicine, Baltimore, MD, USA",
+      "Institute for Genome Sciences and Department of Microbiology and Immunology, University of Maryland School of Medicine, Baltimore, MD, USA.",
+      "University of Maryland School of Medicine"
     ],
     "journal": "Microbiome",
     "year": 2020,
-    "date": "2020 Nov 15",
+    "date": "2020-11-15",
     "volume": "8",
     "issue": "1",
     "pages": "159",
     "doi": "10.1186/s40168-020-00924-8",
     "pmid": "33190643",
     "pmc": "PMC7667786",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/33190643/",
-    "abstract": "Interest for the study of gut mycobiota in relation with human health and immune homeostasis has increased in the last years. From this perspective, new tools to study the immune/fungal interface are warranted. Systemic humoral immune responses could reflect the dynamic relationships between gut mycobiota and immunity. Using a novel flow cytometry technology (Fungi-Flow) to determine immunoglobulin (Ig) responses to fungi, we studied the relationships between gut mycobiota and systemic humoral anti-commensal immunity. The Fungi-Flow method allows a sensitive and specific measurement of systemic IgG responses against 17 commensal and environmental fungi from the two main divisions; Ascomycota and Basidiomycota. IgG responses exhibited a high inter-individual variability. Anti-commensal IgG responses were contrasted with the relative abundance, alpha-diversity, and intra-genus richness of fungal species in gut mycobiota of twenty healthy donors. Categorization of gut mycobiota composition revealed two differentiated fungal ecosystems. Significant difference of anti-Saccharomyces systemic IgG responses were observed in healthy donors stratified according to the fungal ecosystem colonizing their gut. A positive and significant correlation was observed between the variety of IgG responses against fungal commensals and intestinal alpha-diversity. At the level of intra-genus species richness, intense IgG responses were associated with a low intra-genus richness for known pathobionts, but not commensals. Fungi-Flow allows an easy and reliable measure of personalized humoral responses against commensal fungi. Combining sequencing technology with our novel Fungi-Flow immunological method, we propose that there are at least two defined ecosystems in the human gut mycobiome associated with systemic humoral responses. Fungi-Flow opens new opportunities to improve our knowledge about the impact of mycobiota in humoral anti-commensal immunity and homeostasis. Video Abstract.",
-    "type": "journal-article",
+    "url": "https://doi.org/10.1186/s40168-020-00924-8",
+    "full_text_url": "https://microbiomejournal.biomedcentral.com/counter/pdf/10.1186/s40168-020-00924-8",
+    "type": "article",
+    "openalex_id": "https://openalex.org/W3105140822",
     "sources": [
       "OpenAlex",
       "PubMed"
     ],
-    "full_text_url": "https://microbiomejournal.biomedcentral.com/counter/pdf/10.1186/s40168-020-00924-8",
-    "openalex_id": "https://openalex.org/W3105140822",
     "id": "a0362107c95d",
-    "updated_at": "2026-07-29T15:27:18.963657+00:00"
+    "updated_at": "2026-07-29T16:18:24.672133+00:00"
+  },
+  {
+    "title": "VALENCIA: a nearest centroid classification method for vaginal microbial communities based on composition",
+    "authors": [
+      "Bing Ma",
+      "Jacques Ravel",
+      "Johanna B. Holm",
+      "L. Elaine Waetjen",
+      "Michael France",
+      "Michael S. Humphrys",
+      "Pawel Gajer",
+      "Rebecca M. Brotman",
+      "Sarah E. Brown"
+    ],
+    "affiliations": [
+      "Department of Microbiology and Immunology, University of Maryland School of Medicine, Baltimore, USA",
+      "Department of Microbiology and Immunology, University of Maryland School of Medicine, Baltimore, USA.",
+      "Institute for Genome Sciences, University of Maryland School of Medicine, Baltimore, MD, USA",
+      "Institute for Genome Sciences, University of Maryland School of Medicine, Baltimore, MD, USA.",
+      "University of Maryland School of Medicine"
+    ],
+    "journal": "Microbiome",
+    "year": 2020,
+    "date": "2020-11-23",
+    "volume": "8",
+    "issue": "1",
+    "pages": "166",
+    "doi": "10.1186/s40168-020-00934-6",
+    "pmid": "33228810",
+    "pmc": "PMC7684964",
+    "url": "https://doi.org/10.1186/s40168-020-00934-6",
+    "full_text_url": "https://microbiomejournal.biomedcentral.com/track/pdf/10.1186/s40168-020-00934-6",
+    "type": "article",
+    "openalex_id": "https://openalex.org/W3108137971",
+    "sources": [
+      "OpenAlex",
+      "PubMed"
+    ],
+    "id": "dd772575613d",
+    "updated_at": "2026-07-29T16:18:24.672133+00:00"
   },
   {
     "title": "VALENCIA: A Nearest Centroid Classification Method for Vaginal Microbial Communities Based on Composition&amp;nbsp;",
     "authors": [
-      "Michael France",
       "Bing Ma",
-      "Pawel Gajer",
-      "Sarah E. Brown",
-      "Michael S. Humphrys",
+      "Jacques Ravel",
       "Johanna B. Holm",
       "L. Elaine Waetjen",
+      "Michael France",
+      "Michael S. Humphrys",
+      "Pawel Gajer",
       "Rebecca M. Brotman",
-      "Jacques Ravel"
+      "Sarah E. Brown"
+    ],
+    "affiliations": [
+      "Institute for Genome Sciences, University of Maryland School of Medicine, Baltimore, MD USA",
+      "Sarah Brown University of Maryland School of Medicine",
+      "University of Maryland School of Medicine",
+      "University of Maryland School of Medicine Bing Ma University of Maryland School of Medicine Pawel Gajer University of Maryland School of Medicine"
     ],
     "journal": "Research Square",
     "year": 2020,
@@ -1392,91 +1143,62 @@
     "pmc": "",
     "url": "https://doi.org/10.21203/rs.3.rs-79309/v1",
     "full_text_url": "https://www.researchsquare.com/article/rs-79309/v1.pdf?c=1600818038000",
-    "abstract": "",
     "type": "preprint",
     "openalex_id": "https://openalex.org/W4231231242",
     "sources": [
       "OpenAlex"
     ],
     "id": "b805d155d288",
-    "updated_at": "2026-07-29T15:27:18.963657+00:00"
+    "updated_at": "2026-07-29T16:18:24.672133+00:00"
   },
   {
-    "title": "VALENCIA: a nearest centroid classification method for vaginal microbial communities based on composition.",
+    "title": "Cervicovaginal microbiota and local immune response modulate the risk of spontaneous preterm delivery",
     "authors": [
-      "Michael T France",
-      "Bing Ma",
+      "Amy G. Brown",
+      "Jacques Ravel",
+      "Johanna B. Holm",
+      "Michael S. Humphrys",
+      "Michal A. Elovitz",
       "Pawel Gajer",
-      "Sarah Brown",
-      "Michael S Humphrys",
-      "Johanna B Holm",
-      "L Elaine Waetjen",
-      "Rebecca M Brotman",
-      "Jacques Ravel"
+      "Valerie Riis"
     ],
-    "journal": "Microbiome",
-    "year": 2020,
-    "date": "2020 Nov 23",
-    "volume": "8",
-    "issue": "1",
-    "pages": "166",
-    "doi": "10.1186/s40168-020-00934-6",
-    "pmid": "33228810",
-    "pmc": "PMC7684964",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/33228810/",
-    "abstract": "Taxonomic profiles of vaginal microbial communities can be sorted into a discrete number of categories termed community state types (CSTs). This approach is advantageous because collapsing a hyper-dimensional taxonomic profile into a single categorical variable enables efforts such as data exploration, epidemiological studies, and statistical modeling. Vaginal communities are typically assigned to CSTs based on the results of hierarchical clustering of the pairwise distances between samples. However, this approach is problematic because it complicates between-study comparisons and because the results are entirely dependent on the particular set of samples that were analyzed. We sought to standardize and advance the assignment of samples to CSTs. We developed VALENCIA (VAginaL community state typE Nearest CentroId clAssifier), a nearest centroid-based tool which classifies samples based on their similarity to a set of reference centroids. The references were defined using a comprehensive set of 13,160 taxonomic profiles from 1975 women in the USA. This large dataset allowed us to comprehensively identify, define, and characterize vaginal CSTs common to reproductive age women and expand upon the CSTs that had been defined in previous studies. We validated the broad applicability of VALENCIA for the classification of vaginal microbial communities by using it to classify three test datasets which included reproductive age eastern and southern African women, adolescent girls, and a racially/ethnically and geographically diverse sample of postmenopausal women. VALENCIA performed well on all three datasets despite the substantial variations in sequencing strategies and bioinformatics pipelines, indicating its broad application to vaginal microbiota. We further describe the relationships between community characteristics (vaginal pH, Nugent score) and participant demographics (race, age) and the CSTs defined by VALENCIA. VALENCIA provides a much-needed solution for the robust and reproducible assignment of vaginal community state types. This will allow unbiased analysis of both small and large vaginal microbiota datasets, comparisons between datasets and meta-analyses that combine multiple datasets. Video abstract.",
-    "type": "journal-article",
-    "sources": [
-      "OpenAlex",
-      "PubMed"
+    "affiliations": [
+      "Institute for Genome Sciences and Department of Microbiology and Immunology, University of Maryland School of Medicine, Baltimore, MD, 21201, USA",
+      "Institute for Genome Sciences and Department of Microbiology and Immunology, University of Maryland School of Medicine, Baltimore, MD, 21201, USA."
     ],
-    "full_text_url": "https://microbiomejournal.biomedcentral.com/track/pdf/10.1186/s40168-020-00934-6",
-    "openalex_id": "https://openalex.org/W3108137971",
-    "id": "dd772575613d",
-    "updated_at": "2026-07-29T15:27:18.963657+00:00"
-  },
-  {
-    "title": "Cervicovaginal microbiota and local immune response modulate the risk of spontaneous preterm delivery.",
-    "authors": [
-      "Michal A Elovitz",
-      "Pawel Gajer",
-      "Valerie Riis",
-      "Amy G Brown",
-      "Michael S Humphrys",
-      "Johanna B Holm",
-      "Jacques Ravel"
-    ],
-    "journal": "Nature communications",
+    "journal": "Nature Communications",
     "year": 2019,
-    "date": "2019 Mar 21",
+    "date": "2019-03-21",
     "volume": "10",
     "issue": "1",
     "pages": "1305",
     "doi": "10.1038/s41467-019-09285-9",
     "pmid": "30899005",
     "pmc": "PMC6428888",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/30899005/",
-    "abstract": "Failure to predict and understand the causes of preterm birth, the leading cause of neonatal morbidity and mortality, have limited effective interventions and therapeutics. From a cohort of 2000 pregnant women, we performed a nested case control study on 107 well-phenotyped cases of spontaneous preterm birth (sPTB) and 432 women delivering at term. Using innovative Bayesian modeling of cervicovaginal microbiota, seven bacterial taxa were significantly associated with increased risk of sPTB, with a stronger effect in African American women. However, higher vaginal levels of β-defensin-2 lowered the risk of sPTB associated with cervicovaginal microbiota in an ethnicity-dependent manner. Surprisingly, even in Lactobacillus spp. dominated cervicovaginal microbiota, low β-defensin-2 was associated with increased risk of sPTB. These findings hold promise for diagnostics to accurately identify women at risk for sPTB early in pregnancy. Therapeutic strategies could include immune modulators and microbiome-based therapeutics to reduce this significant health burden.",
-    "type": "journal-article",
+    "url": "https://doi.org/10.1038/s41467-019-09285-9",
+    "full_text_url": "https://www.nature.com/articles/s41467-019-09285-9.pdf",
+    "type": "article",
+    "openalex_id": "https://openalex.org/W2924015319",
     "sources": [
       "OpenAlex",
       "PubMed"
     ],
-    "full_text_url": "https://www.nature.com/articles/s41467-019-09285-9.pdf",
-    "openalex_id": "https://openalex.org/W2924015319",
     "id": "eaa53012d7e8",
-    "updated_at": "2026-07-29T15:27:18.963657+00:00"
+    "updated_at": "2026-07-29T16:18:24.672133+00:00"
   },
   {
     "title": "Comparative metagenome-assembled genome analysis of <i>Lachnovaginosum</i> genomospecies, formerly known as BVAB1",
     "authors": [
-      "Johanna B. Holm",
-      "Michael France",
       "Bing Ma",
       "Courtney K. Robinson",
       "Elias McComb",
-      "Rebecca M. Brotman",
-      "Jacques Ravel"
+      "Jacques Ravel",
+      "Johanna B. Holm",
+      "Michael France",
+      "Rebecca M. Brotman"
+    ],
+    "affiliations": [
+      "Institute for Genome Sciences and Department of Microbiology and Immunology, University of Maryland School of Medicine, Baltimore, Maryland"
     ],
     "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
     "year": 2019,
@@ -1489,7 +1211,6 @@
     "pmc": "",
     "url": "https://doi.org/10.1101/657197",
     "full_text_url": "https://www.biorxiv.org/content/biorxiv/early/2019/06/03/657197.full.pdf",
-    "abstract": "<jats:title>Abstract</jats:title> <jats:p> Bacterial Vaginosis Associated Bacteria 1 (BVAB1) is an uncultured bacterial species found in the human vagina that belongs to the family <jats:italic>Lachnospiraceae</jats:italic> within the order <jats:italic>Clostridiales</jats:italic> , and as its name suggests, is often associated with bacterial vaginosis (BV). In reproductive health, BV is of concern due to its associated risk for HIV, <jats:italic>Chlamydia trachomatis</jats:italic> , and <jats:italic>Neisseria gonorrhoeae</jats:italic> acquisition as well as preterm birth. BVAB1 has been shown to be associated with BV persistence after metronidazole treatment and increased vaginal inflammation, and to confer a higher risk of puerperal infections. To date, no genome of BVAB1 is available, which has made it difficult to understand its disease-associated features. We present here a comparative analysis of seven metagenome-assembled genomes (MAGs) of BVAB1, derived from the cervicovaginal lavages of seven separate women. One metagenome was sequenced with long-read technology on a PacBio Sequel II instrument while the others were sequenced using the Illumina HiSeq platform. The MAGs were 1.5-1.7 Mb long, encoding an average of 1,499 genes and had &gt;98% average nucleotide identity to each other. CheckM-estimated genome completion was 98.2%. We propose to rename BVAB1 to <jats:italic>Lachnovaginosum</jats:italic> genomospecies based on a phylogenetic analysis, and provide genomic evidence that this species may metabolize D-lactate, produce trimethylamine (the chemical responsible for BV-associated odor), and be motile. These MAGs will be a valuable resource and will contribute to our understanding of the heterogenous etiologies of bacterial vaginosis. </jats:p>",
     "type": "preprint",
     "openalex_id": "https://openalex.org/W2947718498",
     "sources": [
@@ -1497,54 +1218,29 @@
       "OpenAlex"
     ],
     "id": "0102d784d095",
-    "updated_at": "2026-07-29T15:27:18.963657+00:00"
-  },
-  {
-    "title": "Complete Genome Sequence of Lactobacillus crispatus CO3MRSI1",
-    "authors": [
-      "Elias McComb",
-      "Johanna B. Holm",
-      "Bing Ma",
-      "Jacques Ravel"
-    ],
-    "journal": "Microbiology Resource Announcements",
-    "year": 2019,
-    "date": "2019-01-30",
-    "volume": "8",
-    "issue": "5",
-    "pages": "e01538-18",
-    "doi": "10.1128/mra.01538-18",
-    "pmid": "30714033",
-    "pmc": "",
-    "url": "https://doi.org/10.1128/mra.01538-18",
-    "full_text_url": "https://mra.asm.org/content/ga/8/5/e01538-18.full.pdf",
-    "abstract": "<jats:p> <jats:named-content content-type=\"genus-species\">Lactobacillus crispatus</jats:named-content> is a commonly found bacterium in vertebrate microbiota, particularly the human vagina. We report the first complete genome of a strain isolated from a human vagina, <jats:named-content content-type=\"genus-species\">L. crispatus</jats:named-content> CO3MRSI1. </jats:p>",
-    "type": "article",
-    "openalex_id": "https://openalex.org/W2913488890",
-    "sources": [
-      "Crossref",
-      "OpenAlex"
-    ],
-    "id": "80d1c121815c",
-    "updated_at": "2026-07-29T15:27:18.963657+00:00"
+    "updated_at": "2026-07-29T16:18:24.672133+00:00"
   },
   {
     "title": "Ultrahigh-Throughput Multiplexing and Sequencing of >500-Base-Pair Amplicon Regions on the Illumina HiSeq 2500 Platform.",
     "authors": [
-      "Johanna B Holm",
-      "Michael S Humphrys",
       "Courtney K Robinson",
-      "Matthew L Settles",
-      "Sandra Ott",
-      "Li Fu",
-      "Hongqiu Yang",
-      "Pawel Gajer",
-      "Xin He",
       "Elias McComb",
-      "Patti E Gravitt",
+      "Hongqiu Yang",
+      "Jacques Ravel",
+      "Johanna B Holm",
       "Khalil G Ghanem",
+      "Li Fu",
+      "Matthew L Settles",
+      "Michael S Humphrys",
+      "Patti E Gravitt",
+      "Pawel Gajer",
       "Rebecca M Brotman",
-      "Jacques Ravel"
+      "Sandra Ott",
+      "Xin He"
+    ],
+    "affiliations": [
+      "Institute for Genome Sciences and Department of Microbiology and Immunology, University of Maryland School of Medicine, Baltimore, Maryland, USA",
+      "Institute for Genome Sciences and Department of Microbiology and Immunology, University of Maryland School of Medicine, Baltimore, Maryland, USA."
     ],
     "journal": "mSystems",
     "year": 2019,
@@ -1556,7 +1252,6 @@
     "pmid": "30801027",
     "pmc": "PMC6381223",
     "url": "https://pubmed.ncbi.nlm.nih.gov/30801027/",
-    "abstract": "Amplification, sequencing, and analysis of the 16S rRNA gene affords characterization of microbial community composition. As this tool has become more popular and amplicon-sequencing applications have grown in the total number of samples, growth in sample multiplexing is becoming necessary while maintaining high sequence quality and sequencing depth. Here, modifications to the Illumina HiSeq 2500 platform are described which produce greater multiplexing capabilities and 300-bp paired-end reads of higher quality than those produced by the current Illumina MiSeq platform. To improve the feasibility and flexibility of this method, a 2-step PCR amplification protocol is also described that allows for targeting of different amplicon regions, and enhances amplification success from samples with low bacterial bioburden. IMPORTANCE Amplicon sequencing has become a popular and widespread tool for surveying microbial communities. Lower overall costs associated with high-throughput sequencing have made it a widely adopted approach, especially for projects that necessitate sample multiplexing to eliminate batch effect and reduced time to acquire data. The method for amplicon sequencing on the Illumina HiSeq 2500 platform described here provides improved multiplexing capabilities while simultaneously producing greater quality sequence data and lower per-sample cost relative to those of the Illumina MiSeq platform without sacrificing amplicon length. To make this method more flexible for various amplicon-targeted regions as well as improve amplification from low-biomass samples, we also present and validate a 2-step PCR library preparation method.",
     "type": "journal-article",
     "sources": [
       "Crossref",
@@ -1566,18 +1261,21 @@
     "full_text_url": "https://msystems.asm.org/content/msys/4/1/e00029-19.full.pdf",
     "openalex_id": "https://openalex.org/W2951346714",
     "id": "74aaacbfe844",
-    "updated_at": "2026-07-29T15:27:18.963657+00:00"
+    "updated_at": "2026-07-29T16:18:24.672133+00:00"
   },
   {
     "title": "VIRGO, a comprehensive non-redundant gene catalog, reveals extensive within community intraspecies diversity in the human vagina",
     "authors": [
       "Bing Ma",
-      "Michael France",
-      "Jonathan Crabtree",
+      "Jacques Ravel",
       "Johanna B. Holm",
+      "Jonathan Crabtree",
+      "Michael France",
       "Mike Humphrys",
-      "Rebecca M. Brotman",
-      "Jacques Ravel"
+      "Rebecca M. Brotman"
+    ],
+    "affiliations": [
+      "Institute for Genome Sciences, University of Maryland School of Medicine, Baltimore, MD 21201, United States"
     ],
     "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
     "year": 2019,
@@ -1590,7 +1288,6 @@
     "pmc": "",
     "url": "https://doi.org/10.1101/660498",
     "full_text_url": "https://www.biorxiv.org/content/biorxiv/early/2019/06/05/660498.full.pdf",
-    "abstract": "<jats:title>Abstract</jats:title> <jats:sec> <jats:title>Background</jats:title> <jats:p>Analysis of metagenomic and metatranscriptomic data is complicated and typically requires extensive computational resources. Leveraging a curated reference database of genes encoded by members of the target microbiome can make these analyses more tractable. Unfortunately, there is no such reference database available for the vaginal microbiome.</jats:p> </jats:sec> <jats:sec> <jats:title>Results</jats:title> <jats:p> In this study, we assembled a comprehensive human vaginal non-redundant gene catalog (VIRGO) from 264 vaginal metagenomes and 416 genomes of urogenital bacterial isolates. VIRGO includes 0.95 million non-redundant genes compiled from a total of 5.5 million genes belonging to 318 unique bacterial species. We show that VIRGO covers more than 95% of the vaginal bacterial gene content in metagenomes from North American, African, and Chinese women. The gene catalog was extensively functionally annotated from 17 diverse protein databases, and importantly taxonomy was assigned through <jats:italic>in silico</jats:italic> binning of genes derived from metagenomic assemblies. To further enable focused analyses of individual genes and proteins, we also clustered the non-redundant genes into vaginal orthologous groups (VOG). The gene-centric design of VIRGO and VOG provides an easily accessible tool to comprehensively characterize the structure and function of vaginal metagenome and metatranscriptome datasets. To highlight the utility of VIRGO, we analyzed 1,507 additional vaginal metagenomes, uncovering an as of yet undetected high degree of intraspecies diversity within and across vaginal microbiota. </jats:p> </jats:sec> <jats:sec> <jats:title>Conclusions</jats:title> <jats:p>VIRGO offers a convenient reference database and toolkit that will facilitate a more in-depth understanding of the role of vaginal microorganisms in women’s health and reproductive outcomes.</jats:p> </jats:sec>",
     "type": "preprint",
     "openalex_id": "https://openalex.org/W2948869167",
     "sources": [
@@ -1598,68 +1295,76 @@
       "OpenAlex"
     ],
     "id": "430d4e6e63f9",
-    "updated_at": "2026-07-29T15:27:18.963657+00:00"
+    "updated_at": "2026-07-29T16:18:24.672133+00:00"
   },
   {
-    "title": "Impact of the griffithsin anti-HIV microbicide and placebo gels on the rectal mucosal proteome and microbiome in non-human primates.",
+    "title": "Impact of the griffithsin anti-HIV microbicide and placebo gels on the rectal mucosal proteome and microbiome in non-human primates",
     "authors": [
-      "Lauren Girard",
-      "Kenzie Birse",
-      "Johanna B Holm",
-      "Pawel Gajer",
-      "Mike S Humphrys",
-      "David Garber",
-      "Patricia Guenthner",
-      "Laura Noël-Romas",
-      "Max Abou",
-      "Stuart McCorrister",
+      "Adam Burgener",
+      "David A. Garber",
       "Garrett Westmacott",
-      "Lin Wang",
-      "Lisa C Rohan",
-      "Nobuyuki Matoba",
-      "Janet McNicholl",
-      "Kenneth E Palmer",
       "Jacques Ravel",
-      "Adam D Burgener"
+      "Janet M. McNicholl",
+      "Johanna B. Holm",
+      "Kenneth E. Palmer",
+      "Kenzie Birse",
+      "Laura Noël‐Romas",
+      "Lauren Girard",
+      "Lin Wang",
+      "Lisa C. Rohan",
+      "Max Abou",
+      "Mike Humphrys",
+      "Nobuyuki Matoba",
+      "Patricia C. Guenthner",
+      "Pawel Gajer",
+      "Stuart McCorrister"
     ],
-    "journal": "Scientific reports",
+    "affiliations": [
+      "Department of Microbiology and Immunology, University of Maryland School of Medicine, Baltimore, USA",
+      "Department of Microbiology and Immunology, University of Maryland School of Medicine, Baltimore, USA.",
+      "Institute for Genome Sciences, University of Maryland School of Medicine, Baltimore, USA",
+      "Institute for Genome Sciences, University of Maryland School of Medicine, Baltimore, USA."
+    ],
+    "journal": "Scientific Reports",
     "year": 2018,
-    "date": "2018 May 23",
+    "date": "2018-05-17",
     "volume": "8",
     "issue": "1",
     "pages": "8059",
     "doi": "10.1038/s41598-018-26313-8",
     "pmid": "29795295",
     "pmc": "PMC5966460",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/29795295/",
-    "abstract": "Topical microbicides are being explored as an HIV prevention method for individuals who practice receptive anal intercourse. In vivo studies of these microbicides are critical to confirm safety. Here, we evaluated the impact of a rectal microbicide containing the antiviral lectin, Griffithsin (GRFT), on the rectal mucosal proteome and microbiome. Using a randomized, crossover placebo-controlled design, six rhesus macaques received applications of hydroxyethylcellulose (HEC)- or carbopol-formulated 0.1% GRFT gels. Rectal mucosal samples were then evaluated by label-free tandem MS/MS and 16 S rRNA gene amplicon sequencing, for proteomics and microbiome analyses, respectively. Compared to placebo, GRFT gels were not associated with any significant changes to protein levels at any time point (FDR < 5%), but increased abundances of two common and beneficial microbial taxa after 24 hours were observed in HEC-GRFT gel (p < 2E-09). Compared to baseline, both placebo formulations were associated with alterations to proteins involved in proteolysis, activation of the immune response and inflammation after 2 hours (p < 0.0001), and increases in beneficial Faecalibacterium spp. after 24 hours in HEC placebo gel (p = 4.21E-15). This study supports the safety profile of 0.1% GRFT gel as an anti-HIV microbicide and demonstrates that current placebo formulations may associate with changes to rectal proteome and microbiota.",
-    "type": "journal-article",
+    "url": "https://doi.org/10.1038/s41598-018-26313-8",
+    "full_text_url": "https://www.nature.com/articles/s41598-018-26313-8.pdf",
+    "type": "article",
+    "openalex_id": "https://openalex.org/W2803207333",
     "sources": [
       "OpenAlex",
       "PubMed"
     ],
-    "full_text_url": "https://www.nature.com/articles/s41598-018-26313-8.pdf",
-    "openalex_id": "https://openalex.org/W2803207333",
     "id": "a2c0760595e3",
-    "updated_at": "2026-07-29T15:27:18.963657+00:00"
+    "updated_at": "2026-07-29T16:18:24.672133+00:00"
   },
   {
     "title": "Ultra-high throughput multiplexing and sequencing of &gt;500 bp amplicon regions on the Illumina HiSeq 2500 platform",
     "authors": [
-      "Johanna B. Holm",
-      "Michael S. Humphrys",
       "Courtney K. Robinson",
-      "Matthew L. Settles",
-      "Sandra Ott",
-      "Li Fu",
-      "Hongqiu Yang",
-      "Pawel Gajer",
-      "Xin He",
       "Elias McComb",
-      "Patti E. Gravitt",
+      "Hongqiu Yang",
+      "Jacques Ravel",
+      "Johanna B. Holm",
       "Khalil G. Ghanem",
+      "Li Fu",
+      "Matthew L. Settles",
+      "Michael S. Humphrys",
+      "Patti E. Gravitt",
+      "Pawel Gajer",
       "Rebecca M. Brotman",
-      "Jacques Ravel"
+      "Sandra Ott",
+      "Xin He"
+    ],
+    "affiliations": [
+      "Institute for Genome Sciences and Department of Microbiology and Immunology, University of Maryland School of Medicine, Baltimore, Maryland"
     ],
     "journal": "bioRxiv (Cold Spring Harbor Laboratory)",
     "year": 2018,
@@ -1672,7 +1377,6 @@
     "pmc": "",
     "url": "https://doi.org/10.1101/417618",
     "full_text_url": "https://www.biorxiv.org/content/biorxiv/early/2019/01/15/417618.full.pdf",
-    "abstract": "<jats:title>Abstract</jats:title> <jats:p>Amplification, sequencing and analysis of the 16S rRNA gene affords characterization of microbial community composition. As this tool has become more popular and amplicon-sequencing applications have grown in the total number of samples, growth in sample multiplexing is becoming necessary while maintaining high sequence quality and sequencing depth. Here, modifications to the Illumina HiSeq 2500 platform are described which produce greater multiplexing capabilities and 300 bp paired-end reads of higher quality than produced by the current Illumina MiSeq platform. To improve the feasibility and flexibility of this method, a 2-Step PCR amplification protocol is also described that allows for targeting of different amplicon regions, thus improving amplification success from low bacterial bioburden samples.</jats:p> <jats:sec> <jats:title>Importance</jats:title> <jats:p>Amplicon sequencing has become a popular and widespread tool for surveying microbial communities. Lower overall costs associated with high throughput sequencing have made it a widely-adopted approach, especially for projects which necessitate sample multiplexing to eliminate batch effect and reduced time to acquire data. The method for amplicon sequencing on the Illumina HiSeq 2500 platform described here provides improved multiplexing capabilities while simultaneously producing greater quality sequence data and lower per sample cost relative to the Illumina MiSeq platform, without sacrificing amplicon length. To make this method more flexible to various amplicon targeted regions as well as improve amplification from low biomass samples, we also present and validate a 2-Step PCR library preparation method.</jats:p> </jats:sec>",
     "type": "preprint",
     "openalex_id": "https://openalex.org/W2890961259",
     "sources": [
@@ -1680,45 +1384,23 @@
       "OpenAlex"
     ],
     "id": "e8b076cbb9f9",
-    "updated_at": "2026-07-29T15:27:18.963657+00:00"
-  },
-  {
-    "title": "External actors' influences on other states' internal political processes: Utkast till introduktionskapitel, Finlandssvenska forskarskolan",
-    "authors": [
-      "Johanna B. Holm"
-    ],
-    "journal": "",
-    "year": 2017,
-    "date": "2017-01-01",
-    "volume": "",
-    "issue": "",
-    "pages": "",
-    "doi": "",
-    "pmid": "",
-    "pmc": "",
-    "url": "http://defencemanagement.org/article/external-actors-influences-other-states-internal-political-processes-utkast-till",
-    "full_text_url": "http://defencemanagement.org/article/external-actors-influences-other-states-internal-political-processes-utkast-till",
-    "abstract": "",
-    "type": "article",
-    "openalex_id": "https://openalex.org/W2772177793",
-    "sources": [
-      "OpenAlex"
-    ],
-    "id": "5995e9b765e1",
-    "updated_at": "2026-07-29T15:27:18.963657+00:00"
+    "updated_at": "2026-07-29T16:18:24.672133+00:00"
   },
   {
     "title": "4: Hormonal contraception is associated with stability and lactobacillus-dominance of the vaginal microbiota in a two-year observational study",
     "authors": [
-      "Rebecca M. Brotman",
-      "Pawel Gajer",
-      "Johanna B. Holm",
-      "C.K. Robinson",
       "Bing Ma",
-      "M Humphrys",
-      "Susan Tuddenham",
+      "C.K. Robinson",
       "Jacques Ravel",
-      "Khalil G. Ghanem"
+      "Johanna B. Holm",
+      "Khalil G. Ghanem",
+      "M Humphrys",
+      "Pawel Gajer",
+      "Rebecca M. Brotman",
+      "Susan Tuddenham"
+    ],
+    "affiliations": [
+      "Institute for Genome Sciences, University of Maryland School of Medicine, Baltimore, MD, USA"
     ],
     "journal": "American Journal of Obstetrics and Gynecology",
     "year": 2016,
@@ -1731,23 +1413,26 @@
     "pmc": "",
     "url": "https://doi.org/10.1016/j.ajog.2016.09.031",
     "full_text_url": "https://doi.org/10.1016/j.ajog.2016.09.031",
-    "abstract": "",
     "type": "article",
     "openalex_id": "https://openalex.org/W2553400392",
     "sources": [
       "OpenAlex"
     ],
     "id": "31207f19d6ac",
-    "updated_at": "2026-07-29T15:27:18.963657+00:00"
+    "updated_at": "2026-07-29T16:18:24.672133+00:00"
   },
   {
     "title": "8: Detection &amp; implications of lactobacillus iners sub-strain diversity",
     "authors": [
-      "Johanna B. Holm",
-      "Pawel Gajer",
       "B. Ma",
+      "Jacques Ravel",
+      "Johanna B. Holm",
       "M Humphrys",
-      "Jacques Ravel"
+      "Pawel Gajer"
+    ],
+    "affiliations": [
+      "Department of Microbiology and Immunology, University of Maryland School of Medicine, Baltimore, MD, USA",
+      "Institute for Genome Sciences, University of Maryland School of Medicine, Baltimore, MD, USA"
     ],
     "journal": "American Journal of Obstetrics and Gynecology",
     "year": 2016,
@@ -1760,20 +1445,25 @@
     "pmc": "",
     "url": "https://doi.org/10.1016/j.ajog.2016.09.009",
     "full_text_url": "https://doi.org/10.1016/j.ajog.2016.09.009",
-    "abstract": "",
     "type": "article",
     "openalex_id": "https://openalex.org/W2550328640",
     "sources": [
       "OpenAlex"
     ],
     "id": "9824ce638961",
-    "updated_at": "2026-07-29T15:27:18.963657+00:00"
+    "updated_at": "2026-07-29T16:18:24.672133+00:00"
   },
   {
     "title": "Microbiomes of Muricea californica and M. fruticosa: Comparative Analyses of Two Co-occurring Eastern Pacific Octocorals",
     "authors": [
       "Johanna B. Holm",
       "Karla B. Heidelberg"
+    ],
+    "affiliations": [
+      "Division of Marine Environmental Biology, Department of Biological Science, University of Southern California, Los Angeles CA, USA",
+      "Division of Marine Environmental Biology, Department of Biological Science, University of Southern California, Los Angeles CA, USA.",
+      "Division of Marine Environmental Biology, Department of Biological Science, University of Southern California, Los Angeles, CA, USA",
+      "University of Southern California"
     ],
     "journal": "Frontiers in Microbiology",
     "year": 2016,
@@ -1783,60 +1473,31 @@
     "pages": "917",
     "doi": "10.3389/fmicb.2016.00917",
     "pmid": "27445997",
-    "pmc": "",
+    "pmc": "PMC4914490",
     "url": "https://doi.org/10.3389/fmicb.2016.00917",
     "full_text_url": "https://www.frontiersin.org/articles/10.3389/fmicb.2016.00917/pdf",
-    "abstract": "",
     "type": "article",
     "openalex_id": "https://openalex.org/W2465498555",
     "sources": [
-      "OpenAlex"
+      "OpenAlex",
+      "PubMed"
     ],
     "id": "e8fb5057a6e1",
-    "updated_at": "2026-07-29T15:27:18.963657+00:00"
-  },
-  {
-    "title": "Report Extreme Aggression in Male Squid Induced by a b-MSP-like Pheromone",
-    "authors": [
-      "Scott F. Cummins",
-      "Jean Geary Boal",
-      "Kendra C. Buresch",
-      "Chitraporn Kuanpradit",
-      "Prasert Sobhon",
-      "Johanna B. Holm",
-      "Bernard M. Degnan",
-      "Gregg T. Nagle",
-      "Roger T. Hanlon"
-    ],
-    "journal": "",
-    "year": 2014,
-    "date": "2014-11-28",
-    "volume": "",
-    "issue": "",
-    "pages": "",
-    "doi": "",
-    "pmid": "",
-    "pmc": "",
-    "url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.456.7717",
-    "full_text_url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.456.7717",
-    "abstract": "",
-    "type": "article",
-    "openalex_id": "https://openalex.org/W2780445952",
-    "sources": [
-      "OpenAlex"
-    ],
-    "id": "f0e47e4b294e",
-    "updated_at": "2026-07-29T15:27:18.963657+00:00"
+    "updated_at": "2026-07-29T16:18:24.672133+00:00"
   },
   {
     "title": "Characterization of eukaryotic microbial diversity in hypersaline Lake Tyrrell, Australia",
     "authors": [
-      "Karla B. Heidelberg",
-      "William Nelson",
+      "Joanne Emerson",
       "Johanna B. Holm",
-      "Nadine Eisenkolb",
       "Karen Andrade",
-      "Joanne Emerson"
+      "Karla B. Heidelberg",
+      "Nadine Eisenkolb",
+      "William Nelson"
+    ],
+    "affiliations": [
+      "University of Southern California",
+      "University of Southern California, Biology, Los Angeles, CA, United States"
     ],
     "journal": "Frontiers in Microbiology",
     "year": 2013,
@@ -1846,28 +1507,32 @@
     "pages": "115",
     "doi": "10.3389/fmicb.2013.00115",
     "pmid": "23717306",
-    "pmc": "",
+    "pmc": "PMC3651956",
     "url": "https://doi.org/10.3389/fmicb.2013.00115",
     "full_text_url": "https://www.frontiersin.org/articles/10.3389/fmicb.2013.00115/pdf",
-    "abstract": "",
     "type": "article",
     "openalex_id": "https://openalex.org/W2092076137",
     "sources": [
-      "OpenAlex"
+      "OpenAlex",
+      "PubMed"
     ],
     "id": "6239238a31a6",
-    "updated_at": "2026-07-29T15:27:18.963657+00:00"
+    "updated_at": "2026-07-29T16:18:24.672133+00:00"
   },
   {
     "title": "Distance chemoreception and the detection of conspecifics in Octopus bimaculoides",
     "authors": [
-      "Matthew D. Walderon",
-      "Kevin J. Nolt",
-      "R. E. Haas",
-      "Krista N. Prosser",
-      "Johanna B. Holm",
       "Gregg T. Nagle",
-      "Jean Geary Boal"
+      "Jean Geary Boal",
+      "Johanna B. Holm",
+      "Kevin J. Nolt",
+      "Krista N. Prosser",
+      "Matthew D. Walderon",
+      "R. E. Haas"
+    ],
+    "affiliations": [
+      "Department of Biology, Millersville University of Pennsylvania, Millersville, PA 177551-0302, USA",
+      "Millersville University"
     ],
     "journal": "Journal of Molluscan Studies",
     "year": 2011,
@@ -1880,27 +1545,32 @@
     "pmc": "",
     "url": "https://doi.org/10.1093/mollus/eyr009",
     "full_text_url": "https://doi.org/10.1093/mollus/eyr009",
-    "abstract": "",
     "type": "article",
     "openalex_id": "https://openalex.org/W2100506122",
     "sources": [
       "OpenAlex"
     ],
     "id": "a171fc21fdf9",
-    "updated_at": "2026-07-29T15:27:18.963657+00:00"
+    "updated_at": "2026-07-29T16:18:24.672133+00:00"
   },
   {
     "title": "Extreme Aggression in Male Squid Induced by a β-MSP-like Pheromone",
     "authors": [
-      "Scott F. Cummins",
-      "Jean Geary Boal",
-      "Kendra C. Buresch",
-      "Chitraporn Kuanpradit",
-      "Prasert Sobhon",
-      "Johanna B. Holm",
       "Bernard M. Degnan",
+      "Chitraporn Kuanpradit",
       "Gregg T. Nagle",
-      "Roger T. Hanlon"
+      "Jean Geary Boal",
+      "Johanna B. Holm",
+      "Kendra C. Buresch",
+      "Prasert Sobhon",
+      "Roger T. Hanlon",
+      "Scott F. Cummins"
+    ],
+    "affiliations": [
+      "Department of Biological Sciences, University of Southern California, Los Angeles, CA 90089-0371, USA",
+      "Department of Biology, Millersville University, Millersville, PA 17551-0302, USA",
+      "Millersville University",
+      "University of Southern California"
     ],
     "journal": "Current Biology",
     "year": 2011,
@@ -1913,84 +1583,29 @@
     "pmc": "",
     "url": "https://doi.org/10.1016/j.cub.2011.01.038",
     "full_text_url": "http://www.cell.com/article/S0960982211000613/pdf",
-    "abstract": "",
     "type": "article",
     "openalex_id": "https://openalex.org/W2018878206",
     "sources": [
-      "OpenAlex"
+      "OpenAlex",
+      "PubMed"
     ],
     "id": "9c0591340ab2",
-    "updated_at": "2026-07-29T15:27:18.963657+00:00"
-  },
-  {
-    "title": "RESEARCH NOTE DISTANCE CHEMORECEPTION AND THE DETECTION OF CONSPECIFICS IN OCTOPUS BIMACULOIDES",
-    "authors": [
-      "Matthew D. Walderon",
-      "Kevin J. Nolt",
-      "Robert E. Haas",
-      "Johanna B. Holm",
-      "Gregg T. Nagle",
-      "Jean Geary Boal"
-    ],
-    "journal": "",
-    "year": 2011,
-    "date": "2011-01-01",
-    "volume": "",
-    "issue": "",
-    "pages": "",
-    "doi": "",
-    "pmid": "",
-    "pmc": "",
-    "url": "http://www.millersville.edu/biology/faculty/boal-pdf/28.boal_j_mollus_stud_2011_walderon_mollus_eyr009.pdf",
-    "full_text_url": "http://www.millersville.edu/biology/faculty/boal-pdf/28.boal_j_mollus_stud_2011_walderon_mollus_eyr009.pdf",
-    "abstract": "",
-    "type": "article",
-    "openalex_id": "https://openalex.org/W2182437833",
-    "sources": [
-      "OpenAlex"
-    ],
-    "id": "93a21497f779",
-    "updated_at": "2026-07-29T15:27:18.963657+00:00"
-  },
-  {
-    "title": "The Ca2+ Channel β4c Subunit Interacts with Heterochromatin Protein 1 via a PXVXL Binding Motif",
-    "authors": [
-      "Xingfu Xu",
-      "Yoon J. Lee",
-      "Johanna B. Holm",
-      "Mark D. Terry",
-      "Robert E. Oswald",
-      "William A. Horne"
-    ],
-    "journal": "Journal of Biological Chemistry",
-    "year": 2011,
-    "date": "2011-01-11",
-    "volume": "286",
-    "issue": "11",
-    "pages": "9677-9687",
-    "doi": "10.1074/jbc.m110.187864",
-    "pmid": "21220418",
-    "pmc": "",
-    "url": "https://doi.org/10.1074/jbc.m110.187864",
-    "full_text_url": "http://www.jbc.org/article/S0021925820518528/pdf",
-    "abstract": "",
-    "type": "article",
-    "openalex_id": "https://openalex.org/W2016995614",
-    "sources": [
-      "OpenAlex"
-    ],
-    "id": "7d04d0ef11d2",
-    "updated_at": "2026-07-29T15:27:18.963657+00:00"
+    "updated_at": "2026-07-29T16:18:24.672133+00:00"
   },
   {
     "title": "Sexually Mature Cuttlefish are Attracted to the Eggs of Conspecifics",
     "authors": [
+      "Gregg T. Nagle",
       "Jean Geary Boal",
-      "Krista N. Prosser",
       "Johanna B. Holm",
-      "Tiffany L. Simmons",
+      "Krista N. Prosser",
       "Robert E. Haas",
-      "Gregg T. Nagle"
+      "Tiffany L. Simmons"
+    ],
+    "affiliations": [
+      "#N#Millersville University#N#",
+      "Department of Biology, Millersville University, 50 East Frederick Street, Millersville, PA, 17551-0302, USA",
+      "Millersville University"
     ],
     "journal": "Journal of Chemical Ecology",
     "year": 2010,
@@ -2003,30 +1618,35 @@
     "pmc": "",
     "url": "https://doi.org/10.1007/s10886-010-9816-0",
     "full_text_url": "https://doi.org/10.1007/s10886-010-9816-0",
-    "abstract": "",
     "type": "article",
     "openalex_id": "https://openalex.org/W2023718331",
     "sources": [
-      "OpenAlex"
+      "OpenAlex",
+      "PubMed"
     ],
     "id": "87172c5cb670",
-    "updated_at": "2026-07-29T15:27:18.963657+00:00"
+    "updated_at": "2026-07-29T16:18:24.672133+00:00"
   },
   {
     "title": "Octopuses (Octopus bimaculoides) and cuttlefishes (Sepia pharaonis, S. officinalis) can conditionally discriminate",
     "authors": [
-      "Lauren M. Hvorecny",
-      "Jessica L. Grudowski",
       "Carrie J. Blakeslee",
-      "Tiffany L. Simmons",
-      "Paula R. Roy",
+      "Jean Geary Boal",
       "Jennifer A. Brooks",
-      "Rachel M. Hanner",
+      "Jessica L. Grudowski",
+      "Johanna B. Holm",
+      "Lauren M. Hvorecny",
       "Marie E. Beigel",
       "Miranda A. Karson",
+      "Paula R. Roy",
+      "Rachel M. Hanner",
       "Rachel Nichols",
-      "Johanna B. Holm",
-      "Jean Geary Boal"
+      "Tiffany L. Simmons"
+    ],
+    "affiliations": [
+      "#N#Millersville University#N#",
+      "Department of Biology, Millersville University, Millersville, USA",
+      "Millersville University"
     ],
     "journal": "Animal Cognition",
     "year": 2007,
@@ -2039,13 +1659,13 @@
     "pmc": "",
     "url": "https://doi.org/10.1007/s10071-007-0085-4",
     "full_text_url": "https://doi.org/10.1007/s10071-007-0085-4",
-    "abstract": "",
     "type": "article",
     "openalex_id": "https://openalex.org/W2031964551",
     "sources": [
-      "OpenAlex"
+      "OpenAlex",
+      "PubMed"
     ],
     "id": "2f182121e8b6",
-    "updated_at": "2026-07-29T15:27:18.963657+00:00"
+    "updated_at": "2026-07-29T16:18:24.672133+00:00"
   }
 ]

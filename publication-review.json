@@ -1,1 +1,2249 @@
-[]
+[
+  {
+    "reason": "Excluded because the target author's affiliation did not match the institutional allowlist",
+    "record": {
+      "title": "Association between the gut microbiota and estimated glomerular filtration rate in two Swedish population-based cohorts.",
+      "authors": [
+        "Andrei Malinovschi",
+        "Aron C Eklund",
+        "Gabriel Baldanzi",
+        "Gunnar Engström",
+        "Göran Bergström",
+        "H Bjørn Nielsen",
+        "J Gustav Smith",
+        "Jacob B Holm",
+        "Johan Ärnlöv",
+        "Jonas Wuopio",
+        "Koen F Dekkers",
+        "Marju Orho-Melander",
+        "Nynne Nielsen",
+        "Sergi Sayols-Baixeras",
+        "Tessa Schillemans",
+        "Tiscar Graells",
+        "Tove Fall",
+        "Yi-Ting Lin"
+      ],
+      "affiliations": [
+        "Cmbio (formerly Clinical Microbiomics A/S), Copenhagen, Denmark."
+      ],
+      "journal": "Kidney international",
+      "year": 2026,
+      "date": "2026 May",
+      "volume": "109",
+      "issue": "5",
+      "pages": "1004-1013",
+      "doi": "10.1016/j.kint.2026.01.021",
+      "pmid": "41724378",
+      "pmc": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41724378/",
+      "type": "journal-article",
+      "sources": [
+        "PubMed"
+      ]
+    }
+  },
+  {
+    "reason": "Excluded because the target author's affiliation did not match the institutional allowlist",
+    "record": {
+      "title": "Genome-wide association analyses highlight the role of the intestinal molecular environment in human gut microbiota variation.",
+      "authors": [
+        "Aron C Eklund",
+        "Camila Gazolla Volpiano",
+        "Christopher A Smith",
+        "Claes Ohlsson",
+        "Diem Nguyen",
+        "Eivind Coward",
+        "Emma Ahlqvist",
+        "Fiona M Gribble",
+        "Frank Reimann",
+        "Gabriel Baldanzi",
+        "Ghassan Ali Salih",
+        "Guillaume Méric",
+        "Gunnar Engström",
+        "H Bjørn Nielsen",
+        "J Gustav Smith",
+        "Jacob Bak Holm",
+        "Johan Ärnlöv",
+        "Kamalita Pertiwi",
+        "Karl Michaëlsson",
+        "Koen F Dekkers",
+        "Kristian Hveem",
+        "Liisa Hakaste",
+        "Manonanthini Thangam",
+        "Maria Nethander",
+        "Mariam Miari",
+        "Marie Allen",
+        "Marju Orho-Melander",
+        "Marta Riise Moksnes",
+        "Olle Melander",
+        "Per Lundmark",
+        "Peter M Nilsson",
+        "Sergi Sayols-Baixeras",
+        "Tiinamaija Tuomi",
+        "Tove Fall",
+        "Ulf Hammar"
+      ],
+      "affiliations": [
+        "Cmbio, Copenhagen, Denmark."
+      ],
+      "journal": "Nature genetics",
+      "year": 2026,
+      "date": "2026 Mar",
+      "volume": "58",
+      "issue": "3",
+      "pages": "540-549",
+      "doi": "10.1038/s41588-026-02512-2",
+      "pmid": "41688638",
+      "pmc": "PMC12987725",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41688638/",
+      "type": "journal-article",
+      "sources": [
+        "PubMed"
+      ]
+    }
+  },
+  {
+    "reason": "Excluded because the target author's affiliation did not match the institutional allowlist",
+    "record": {
+      "title": "Microbial activation of the GLP-2R mitigates gastrointestinal inflammation.",
+      "authors": [
+        "Benjamin A H Jensen",
+        "Bolette Hartmann",
+        "Béatrice S-Y Choi",
+        "Hannelouise Kissow",
+        "Ida M Modvig",
+        "Jacob B Holm",
+        "Jens J Holst",
+        "Karsten Kristiansen",
+        "Kobe Neven",
+        "Nazuk Gupta",
+        "Nora S Nägele",
+        "Simone I Pærregaard",
+        "Sune K Yang-Jensen",
+        "Vytautas Savickas"
+      ],
+      "affiliations": [
+        "Cmbio A/S, Copenhagen, Denmark."
+      ],
+      "journal": "Nature communications",
+      "year": 2026,
+      "date": "2026 Jan 15",
+      "volume": "17",
+      "issue": "1",
+      "pages": "1839",
+      "doi": "10.1038/s41467-026-68551-9",
+      "pmid": "41540065",
+      "pmc": "PMC12920917",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41540065/",
+      "type": "journal-article",
+      "sources": [
+        "PubMed"
+      ]
+    }
+  },
+  {
+    "reason": "Excluded because the target author's affiliation did not match the institutional allowlist",
+    "record": {
+      "title": "HbA1c screening in patients with early breast cancer receiving endocrine therapy.",
+      "authors": [
+        "Jonas Busk Holm",
+        "Lærke Nissen",
+        "Morten Haaning Charles",
+        "Ole Lindgård Dollerup",
+        "Signe Borgquist",
+        "Stine Blaabjerg Skovbjerg",
+        "Tinne Laurberg"
+      ],
+      "affiliations": [
+        "Department of Clinical Medicine, Aarhus University, Aarhus, Denmark.",
+        "Department of Oncology, Aarhus University Hospital, Aarhus, Denmark."
+      ],
+      "journal": "Endocrine oncology (Bristol, England)",
+      "year": 2025,
+      "date": "2025 Jan",
+      "volume": "5",
+      "issue": "1",
+      "pages": "e250058",
+      "doi": "10.1530/eo-25-0058",
+      "pmid": "41235156",
+      "pmc": "PMC12606721",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41235156/",
+      "type": "journal-article",
+      "sources": [
+        "PubMed"
+      ]
+    }
+  },
+  {
+    "reason": "Excluded because the target author's affiliation did not match the institutional allowlist",
+    "record": {
+      "title": "Identification of Gut Microbiome Signatures and Metabolites Associated With Albuminuria in Type 2 Diabetes.",
+      "authors": [
+        "Anders Larsson",
+        "Andrei Malinovschi",
+        "Aron C Eklund",
+        "Diem Nguyen",
+        "Gabriel Baldanzi",
+        "Gunnar Engström",
+        "Göran Bergström",
+        "H Bjørn Nielsen",
+        "J Gustav Smith",
+        "Jacob B Holm",
+        "Johan Ärnlöv",
+        "Koen F Dekkers",
+        "Marju Orho-Melander",
+        "Nynne Nielsen",
+        "Sergi Sayols-Baixeras",
+        "Tiscar Graells",
+        "Tobias Rudholm Feldreich",
+        "Tove Fall",
+        "Yi-Ting Lin"
+      ],
+      "affiliations": [
+        "Clinical Microbiomics A/S, 2100 Copenhagen, Denmark."
+      ],
+      "journal": "The Journal of clinical endocrinology and metabolism",
+      "year": 2026,
+      "date": "2026 Feb 20",
+      "volume": "111",
+      "issue": "3",
+      "pages": "e927-e936",
+      "doi": "10.1210/clinem/dgaf453",
+      "pmid": "40810199",
+      "pmc": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40810199/",
+      "type": "journal-article",
+      "sources": [
+        "PubMed"
+      ]
+    }
+  },
+  {
+    "reason": "Excluded because the target author's affiliation did not match the institutional allowlist",
+    "record": {
+      "title": "The association between body mass index and neoadjuvant chemotherapy response in patients with breast cancer.",
+      "authors": [
+        "Deirdre Cronin-Fenton",
+        "Hanne Melgaard Nielsen",
+        "Jan Alsner",
+        "Jens Meldgaard Bruun",
+        "Jonas Busk Holm",
+        "Peer Christiansen",
+        "Signe Borgquist",
+        "Stine Blaabjerg Skovbjerg"
+      ],
+      "affiliations": [
+        "Department of Clinical Medicine, Aarhus University, Aarhus, Denmark. jonasbuskholm@oncology.au.dk.",
+        "Department of Oncology, Aarhus University Hospital, Aarhus, Denmark. jonasbuskholm@oncology.au.dk."
+      ],
+      "journal": "Breast cancer research : BCR",
+      "year": 2025,
+      "date": "2025 Jul 11",
+      "volume": "27",
+      "issue": "1",
+      "pages": "130",
+      "doi": "10.1186/s13058-025-02083-w",
+      "pmid": "40646617",
+      "pmc": "PMC12254981",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40646617/",
+      "type": "journal-article",
+      "sources": [
+        "PubMed"
+      ]
+    }
+  },
+  {
+    "reason": "Excluded because the target author's affiliation did not match the institutional allowlist",
+    "record": {
+      "title": "The association between the gut microbiome and 24-h blood pressure measurements in the SCAPIS study.",
+      "authors": [
+        "Aron C Eklund",
+        "Diem Nguyen",
+        "Gabriel Baldanzi",
+        "Georgios Varotsis",
+        "Gunnar Engström",
+        "Göran Bergström",
+        "H Bjørn Nielsen",
+        "J Gustav Smith",
+        "Jacob B Holm",
+        "Johan Sundström",
+        "Johan Ärnlöv",
+        "Koen F Dekkers",
+        "Lars Lind",
+        "Marju Orho-Melander",
+        "Nynne Nielsen",
+        "Sergi Sayols-Baixeras",
+        "Tove Fall",
+        "Ulf Hammar",
+        "Yi-Ting Lin"
+      ],
+      "affiliations": [
+        "Cmbio A/S, Copenhagen, Denmark."
+      ],
+      "journal": "Communications medicine",
+      "year": 2025,
+      "date": "2025 Jul 07",
+      "volume": "5",
+      "issue": "1",
+      "pages": "276",
+      "doi": "10.1038/s43856-025-00980-x",
+      "pmid": "40624247",
+      "pmc": "PMC12234806",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40624247/",
+      "type": "journal-article",
+      "sources": [
+        "PubMed"
+      ]
+    }
+  },
+  {
+    "reason": "Excluded because the target author's affiliation did not match the institutional allowlist",
+    "record": {
+      "title": "Housing matters: Experimental variables shaping metabolism in obese mice.",
+      "authors": [
+        "Asker Brejnrod",
+        "Axel Kornerup Hansen",
+        "Benjamin A H Jensen",
+        "Béatrice So-Yun Choi",
+        "David Møbjerg Kristensen",
+        "Even Fjære",
+        "Helle Sørensen",
+        "Ida Søgaard Larsen",
+        "Jacob Bak Holm",
+        "Janne Koch",
+        "Jonas T Treebak",
+        "Karsten Kristiansen",
+        "Lene Secher Myrmel",
+        "Liang Xiao",
+        "Lise Madsen",
+        "Manimozhiyan Arumugam",
+        "Marie-Louise Allingbjerg",
+        "Morten Dall",
+        "Niels Banhos Danneskiold-Samsøe",
+        "Otto Kalliokoski",
+        "Zhongkui Xia"
+      ],
+      "affiliations": [
+        "Laboratory of Genomics and Molecular Biomedicine, Department of Biology, Faculty of Science, University of Copenhagen, Denmark; Cmbio, Copenhagen, Denmark."
+      ],
+      "journal": "Molecular metabolism",
+      "year": 2025,
+      "date": "2025 Aug",
+      "volume": "98",
+      "issue": "",
+      "pages": "102190",
+      "doi": "10.1016/j.molmet.2025.102190",
+      "pmid": "40554092",
+      "pmc": "PMC12269455",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40554092/",
+      "type": "journal-article",
+      "sources": [
+        "PubMed"
+      ]
+    }
+  },
+  {
+    "reason": "Excluded because the target author's affiliation did not match the institutional allowlist",
+    "record": {
+      "title": "HbA1c levels and breast cancer prognosis in women without diabetes.",
+      "authors": [
+        "Deirdre Cronin-Fenton",
+        "Jan Frystyk",
+        "Jens Meldgaard Bruun",
+        "Jonas Busk Holm",
+        "Peer Christiansen",
+        "Reimar Wernich Thomsen",
+        "Signe Borgquist"
+      ],
+      "affiliations": [
+        "Department of Clinical Medicine, Aarhus University, Aarhus, Denmark. jonasbuskholm@oncology.au.dk.",
+        "Department of Oncology, Aarhus University Hospital, Aarhus, Denmark. jonasbuskholm@oncology.au.dk."
+      ],
+      "journal": "BMC cancer",
+      "year": 2025,
+      "date": "2025 Apr 28",
+      "volume": "25",
+      "issue": "1",
+      "pages": "790",
+      "doi": "10.1186/s12885-025-14121-z",
+      "pmid": "40295945",
+      "pmc": "PMC12036245",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40295945/",
+      "type": "journal-article",
+      "sources": [
+        "PubMed"
+      ]
+    }
+  },
+  {
+    "reason": "Excluded because the target author's affiliation did not match the institutional allowlist",
+    "record": {
+      "title": "Meat intake in relation to composition and function of gut microbiota.",
+      "authors": [
+        "Diem Nguyen",
+        "Gabriel Baldanzi",
+        "Getachew Arage",
+        "Gunnar Engström",
+        "H Bjørn Nielsen",
+        "J Gustav Smith",
+        "Jacob B Holm",
+        "Johan Sundström",
+        "Johan Ärnlöv",
+        "Karl Michaëlsson",
+        "Koen F Dekkers",
+        "Luka Marko Rašo",
+        "Marju Orho-Melander",
+        "Sergi Sayols-Baixeras",
+        "Shafqat Ahmad",
+        "Susanna C Larsson",
+        "Tove Fall",
+        "Ulf Hammar",
+        "Ulf Risérus",
+        "Ulrika Ericson"
+      ],
+      "affiliations": [
+        "Clinical Microbiomics A/S, Copenhagen, Denmark."
+      ],
+      "journal": "Clinical nutrition (Edinburgh, Scotland)",
+      "year": 2025,
+      "date": "2025 Feb",
+      "volume": "45",
+      "issue": "",
+      "pages": "124-133",
+      "doi": "10.1016/j.clnu.2024.12.034",
+      "pmid": "39798223",
+      "pmc": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39798223/",
+      "type": "journal-article",
+      "sources": [
+        "PubMed"
+      ]
+    }
+  },
+  {
+    "reason": "Excluded because the target author's affiliation did not match the institutional allowlist",
+    "record": {
+      "title": "Oral Microbiota Alterations in Subjects with SARS-CoV-2 Displaying Prevalence of the Opportunistic Fungal Pathogen Candida albicans",
+      "authors": [
+        "Ahmed S. Sultan",
+        "Areej Alfaifi",
+        "Johanna B. Holm",
+        "Jonathan Lim",
+        "Mary Ann Jabra‐Rizk",
+        "Peter Rock",
+        "Timothy F. Meiller",
+        "Tristan W. Wang"
+      ],
+      "affiliations": [
+        "Department of Microbiology and Immunology, School of Medicine, University of Maryland, Baltimore, MD 21201, USA",
+        "Department of Microbiology and Immunology, School of Medicine, University of Maryland, Baltimore, MD 21201, USA.",
+        "Institute for Genome Sciences, School of Medicine, University of Maryland, Baltimore, MD 21201, USA",
+        "Institute for Genome Sciences, School of Medicine, University of Maryland, Baltimore, MD 21201, USA.",
+        "University of Maryland, Baltimore"
+      ],
+      "journal": "Microorganisms",
+      "year": 2024,
+      "date": "2024-07-02",
+      "volume": "12",
+      "issue": "7",
+      "pages": "1356",
+      "doi": "10.3390/microorganisms12071356",
+      "pmid": "39065125",
+      "pmc": "PMC11278750",
+      "url": "https://doi.org/10.3390/microorganisms12071356",
+      "full_text_url": "https://www.mdpi.com/2076-2607/12/7/1356/pdf?version=1719909134",
+      "type": "article",
+      "openalex_id": "https://openalex.org/W4400238991",
+      "sources": [
+        "OpenAlex",
+        "PubMed"
+      ]
+    }
+  },
+  {
+    "reason": "Excluded because the target author's affiliation did not match the institutional allowlist",
+    "record": {
+      "title": "Altitude-dependent agro-ecologies impact the microbiome diversity of scavenging indigenous chicken in Ethiopia.",
+      "authors": [
+        "Abdulwahab Assiri",
+        "Adebabay Kebede",
+        "Jacob Bak Holm",
+        "Jianlin Han",
+        "Jong-Eun Park",
+        "Karsten Kristiansen",
+        "Laura Glendinning",
+        "Olivier Hanotte",
+        "Samuel O Oyola",
+        "Woncheoul Park",
+        "Xinzheng Jia"
+      ],
+      "affiliations": [
+        "Clinical Microbiomics, Copenhagen, Denmark.",
+        "Laboratory of Genomics and Molecular Biomedicine, Department of Biology, University of Copenhagen, Copenhagen, Denmark."
+      ],
+      "journal": "Microbiome",
+      "year": 2024,
+      "date": "2024 Jul 23",
+      "volume": "12",
+      "issue": "1",
+      "pages": "138",
+      "doi": "10.1186/s40168-024-01847-4",
+      "pmid": "39044244",
+      "pmc": "PMC11267795",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39044244/",
+      "type": "journal-article",
+      "sources": [
+        "PubMed"
+      ]
+    }
+  },
+  {
+    "reason": "Excluded because the target author's affiliation did not match the institutional allowlist",
+    "record": {
+      "title": "Circulating C-reactive protein levels as a prognostic biomarker in breast cancer across body mass index groups.",
+      "authors": [
+        "D Cronin-Fenton",
+        "E Baggesen",
+        "J B Holm",
+        "J Frystyk",
+        "J M Bruun",
+        "P Christiansen",
+        "S Borgquist"
+      ],
+      "affiliations": [
+        "Department of Clinical Medicine, Aarhus University, Aarhus, Denmark. jonasbuskholm@oncology.au.dk.",
+        "Department of Oncology, Aarhus University Hospital, Aarhus, Denmark. jonasbuskholm@oncology.au.dk."
+      ],
+      "journal": "Scientific reports",
+      "year": 2024,
+      "date": "2024 Jun 24",
+      "volume": "14",
+      "issue": "1",
+      "pages": "14486",
+      "doi": "10.1038/s41598-024-64428-3",
+      "pmid": "38914635",
+      "pmc": "PMC11196728",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38914635/",
+      "type": "journal-article",
+      "sources": [
+        "PubMed"
+      ]
+    }
+  },
+  {
+    "reason": "Excluded because the target author's affiliation did not match the institutional allowlist",
+    "record": {
+      "title": "Streptococcus Species Abundance in the Gut Is Linked to Subclinical Coronary Atherosclerosis in 8973 Participants From the SCAPIS Cohort.",
+      "authors": [
+        "Andrei Malinovschi",
+        "Anna Larsson",
+        "Aron C Eklund",
+        "Björn Klinge",
+        "Dan Ericson",
+        "Daniel Jönsson",
+        "Diem Nguyen",
+        "Filip Ottosson",
+        "Gabriel Baldanzi",
+        "Georgios Varotsis",
+        "Gunnar Engström",
+        "Göran Bergström",
+        "H Bjørn Nielsen",
+        "J Gustav Smith",
+        "Jacob B Holm",
+        "Johan Sundström",
+        "Johan Ärnlöv",
+        "Koen F Dekkers",
+        "Lars Lind",
+        "Louise Brunkwall",
+        "Marju Orho-Melander",
+        "Nynne Nielsen",
+        "Peter M Nilsson",
+        "Sara Pita",
+        "Sergi Sayols-Baixeras",
+        "Shafqat Ahmad",
+        "Tove Fall",
+        "Ulf Hammar",
+        "Ulrika Ericson",
+        "Yi-Ting Lin"
+      ],
+      "affiliations": [
+        "Clinical Microbiomics A/S, Copenhagen, Denmark (S.P., N.N., A.C.E., J.B.H., H.B.N.)."
+      ],
+      "journal": "Circulation",
+      "year": 2023,
+      "date": "2023 Aug 08",
+      "volume": "148",
+      "issue": "6",
+      "pages": "459-472",
+      "doi": "10.1161/circulationaha.123.063914",
+      "pmid": "37435755",
+      "pmc": "PMC10399955",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37435755/",
+      "type": "journal-article",
+      "sources": [
+        "PubMed"
+      ]
+    }
+  },
+  {
+    "reason": "Excluded because the target author's affiliation did not match the institutional allowlist",
+    "record": {
+      "title": "OSA Is Associated With the Human Gut Microbiota Composition and Functional Potential in the Population-Based Swedish CardioPulmonary bioImage Study.",
+      "authors": [
+        "Beatrice Kennedy",
+        "Christian Benedict",
+        "Diem Nguyen",
+        "Eva Lindberg",
+        "Gabriel Baldanzi",
+        "Gunnar Engström",
+        "Göran Bergström",
+        "Henrik Bjørn Nielsen",
+        "J Gustav Smith",
+        "Jacob Bak Holm",
+        "Jenny Theorell-Haglöw",
+        "Johan Sundström",
+        "Johan Ärnlöv",
+        "Jonathan Cedernaes",
+        "Koen F Dekkers",
+        "Lars Lind",
+        "Louise Brunkwall",
+        "Marju Orho-Melander",
+        "Mia Phillipson",
+        "Sanna Koskiniemi",
+        "Sergi Sayols-Baixeras",
+        "Shafqat Ahmad",
+        "Tove Fall",
+        "Ulf Hammar",
+        "Yi-Ting Lin"
+      ],
+      "affiliations": [
+        "Clinical Microbiomics A/S, Copenhagen, Denmark."
+      ],
+      "journal": "Chest",
+      "year": 2023,
+      "date": "2023 Aug",
+      "volume": "164",
+      "issue": "2",
+      "pages": "503-516",
+      "doi": "10.1016/j.chest.2023.03.010",
+      "pmid": "36925044",
+      "pmc": "PMC10410248",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36925044/",
+      "type": "journal-article",
+      "sources": [
+        "PubMed"
+      ]
+    }
+  },
+  {
+    "reason": "Excluded because the target author's affiliation did not match the institutional allowlist",
+    "record": {
+      "title": "Vaginal microbiome following orally administered probiotic.",
+      "authors": [
+        "Albert Pallejá",
+        "Erik Brandsborg",
+        "Frederik Boetius Hertz",
+        "Jacob Bak Holm",
+        "Lasse Sommer Mikkelsen",
+        "María Kristín Björnsdóttir",
+        "Niels Frimodt-Møller"
+      ],
+      "affiliations": [
+        "Clinical Microbiomics A/S, Copenhagen, Denmark."
+      ],
+      "journal": "APMIS : acta pathologica, microbiologica, et immunologica Scandinavica",
+      "year": 2022,
+      "date": "2022 Oct",
+      "volume": "130",
+      "issue": "10",
+      "pages": "605-611",
+      "doi": "10.1111/apm.13261",
+      "pmid": "35801409",
+      "pmc": "PMC9540456",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35801409/",
+      "type": "journal-article",
+      "sources": [
+        "PubMed"
+      ]
+    }
+  },
+  {
+    "reason": "Excluded because the target author's affiliation did not match the institutional allowlist",
+    "record": {
+      "title": "Local Biomarkers Involved in the Interplay between Obesity and Breast Cancer.",
+      "authors": [
+        "Ann H Rosendahl",
+        "Jonas Busk Holm",
+        "Signe Borgquist"
+      ],
+      "affiliations": [
+        "Department of Oncology, Aarhus University Hospital, Aarhus University, Palle Juul-Jensens Boulevard 99, 8200 Aarhus, Denmark."
+      ],
+      "journal": "Cancers",
+      "year": 2021,
+      "date": "2021 Dec 14",
+      "volume": "13",
+      "issue": "24",
+      "pages": "6286",
+      "doi": "10.3390/cancers13246286",
+      "pmid": "34944905",
+      "pmc": "PMC8699696",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34944905/",
+      "type": "journal-article",
+      "sources": [
+        "PubMed"
+      ]
+    }
+  },
+  {
+    "reason": "Excluded because the target author's affiliation did not match the institutional allowlist",
+    "record": {
+      "title": "Skin dysbiosis in the microbiome in atopic dermatitis is site-specific and involves bacteria, fungus and virus.",
+      "authors": [
+        "Albert Palleja",
+        "Jacob Bak Holm",
+        "Jeanne Duus Johansen",
+        "Julie Sølberg",
+        "Lone Skov",
+        "Rie Dybboe Bjerre"
+      ],
+      "affiliations": [
+        "Clinical Microbiomics, Fruebjergvej 3, 2100, Copenhagen, Denmark."
+      ],
+      "journal": "BMC microbiology",
+      "year": 2021,
+      "date": "2021 Sep 23",
+      "volume": "21",
+      "issue": "1",
+      "pages": "256",
+      "doi": "10.1186/s12866-021-02302-2",
+      "pmid": "34551705",
+      "pmc": "PMC8459459",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34551705/",
+      "type": "journal-article",
+      "sources": [
+        "PubMed"
+      ]
+    }
+  },
+  {
+    "reason": "Excluded because the target author's affiliation did not match the institutional allowlist",
+    "record": {
+      "title": "Lysates of Methylococcus capsulatus Bath induce a lean-like microbiota, intestinal FoxP3+RORγt+IL-17+ Tregs and improve metabolism.",
+      "authors": [
+        "André Marette",
+        "Anne-Laure Agrinier",
+        "Aymeric Rivollier",
+        "Benjamin A H Jensen",
+        "Caroline Piercey Åkesson",
+        "Charlotte R Kleiveland",
+        "Christian Sina",
+        "Even Fjære",
+        "Ida S Larsen",
+        "Inga L Angell",
+        "Jacob B Holm",
+        "Jonas T Treebak",
+        "Karolina Sulek",
+        "Karsten Kristiansen",
+        "Knut Rudi",
+        "Lise Madsen",
+        "Mads V Damgaard",
+        "Nicole von Burg",
+        "Si B Sonne",
+        "Simone I Pærregaard",
+        "Stefanie Derer",
+        "Stine A Indrelid",
+        "Tor E Lea",
+        "William Agace",
+        "Yke J Arnoldussen"
+      ],
+      "affiliations": [
+        "Clinical Microbiomics, Copenhagen, Denmark.",
+        "Laboratory of Genomics and Molecular Biomedicine, Department of Biology, Faculty of Science, University of Copenhagen, Copenhagen, Denmark."
+      ],
+      "journal": "Nature communications",
+      "year": 2021,
+      "date": "2021 Feb 17",
+      "volume": "12",
+      "issue": "1",
+      "pages": "1093",
+      "doi": "10.1038/s41467-021-21408-9",
+      "pmid": "33597537",
+      "pmc": "PMC7889900",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33597537/",
+      "type": "journal-article",
+      "sources": [
+        "PubMed"
+      ]
+    }
+  },
+  {
+    "reason": "Excluded because the target author's affiliation did not match the institutional allowlist",
+    "record": {
+      "title": "Propionic Acid Shapes the Multiple Sclerosis Disease Course by an Immunomodulatory Mechanism.",
+      "authors": [
+        "Aiden Haghikia",
+        "Alexander Duscha",
+        "Andras Balogh",
+        "Andreas Faissner",
+        "Barbara Gisevius",
+        "Carsten Lukas",
+        "Christina David",
+        "Daniel Zent",
+        "Dominik N Müller",
+        "Eva Dawin",
+        "Frank Hirche",
+        "Gabriele I Stangl",
+        "Gereon Poschmann",
+        "Henrik Bjørn Nielsen",
+        "Horst Przuntek",
+        "Jacob Bak Holm",
+        "Johannes Kaisler",
+        "Kai Stühler",
+        "Konstanze F Winklhofer",
+        "Marco Prinz",
+        "Mario M Zaiss",
+        "Markus Scholz",
+        "Megan G Massa",
+        "Nikolaos Dokalis",
+        "Nissan Yissachar",
+        "Ori Staszewski",
+        "Pascal Träger",
+        "Ralf A Linker",
+        "Ralf Gold",
+        "Riccardo Troisi",
+        "Ruth Schneider",
+        "Sara Del Mare-Roumani",
+        "Sara Gerstein",
+        "Sarah Hirschberg",
+        "Sivan Amidror",
+        "Sofia K Forslund",
+        "Stefan Kempa",
+        "Stefanie Haase",
+        "Sören G Gatermann",
+        "Tobias Hegelmaier",
+        "Verian Bader"
+      ],
+      "affiliations": [
+        "Clinical Microbiomics A/S, Copenhagen 2200, Denmark."
+      ],
+      "journal": "Cell",
+      "year": 2020,
+      "date": "2020 Mar 19",
+      "volume": "180",
+      "issue": "6",
+      "pages": "1067-1080.e16",
+      "doi": "10.1016/j.cell.2020.02.035",
+      "pmid": "32160527",
+      "pmc": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32160527/",
+      "type": "journal-article",
+      "sources": [
+        "PubMed"
+      ]
+    }
+  },
+  {
+    "reason": "Excluded because the target author's affiliation did not match the institutional allowlist",
+    "record": {
+      "title": "Interventional Influence of the Intestinal Microbiome Through Dietary Intervention and Bowel Cleansing Might Improve Motor Symptoms in Parkinson's Disease.",
+      "authors": [
+        "Aiden Haghikia",
+        "Alexander Duscha",
+        "Henrik Bjørn Nielsen",
+        "Horst Przuntek",
+        "Jacob Bak Holm",
+        "Lars Tönges",
+        "Laura Tomaske",
+        "Marco Lebbing",
+        "Sören G Gatermann",
+        "Tobias Hegelmaier"
+      ],
+      "affiliations": [
+        "Clinical Microbiomics A/S, Copenhagen 2200, Denmark."
+      ],
+      "journal": "Cells",
+      "year": 2020,
+      "date": "2020 Feb 06",
+      "volume": "9",
+      "issue": "2",
+      "pages": "376",
+      "doi": "10.3390/cells9020376",
+      "pmid": "32041265",
+      "pmc": "PMC7072275",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32041265/",
+      "type": "journal-article",
+      "sources": [
+        "PubMed"
+      ]
+    }
+  },
+  {
+    "reason": "Excluded because the target author's affiliation did not match the institutional allowlist",
+    "record": {
+      "title": "Metabolic and gut microbiome changes following GLP-1 or dual GLP-1/GLP-2 receptor agonist treatment in diet-induced obese mice.",
+      "authors": [
+        "Albert Pallejà",
+        "Henrik Bjørn Nielsen",
+        "Henrik H Hansen",
+        "Jacob Bak Holm",
+        "Jacob Jelsing",
+        "Katrine Fabricius",
+        "Kristoffer Rigbolt",
+        "Martin Mikkelsen",
+        "Mette Simone Aae Madsen",
+        "Morten Sommer",
+        "Niels Vrang",
+        "Pernille Wismann"
+      ],
+      "affiliations": [
+        "Clinical Microbiomics, Ole Maaløes Vej 3, Copenhagen, Denmark."
+      ],
+      "journal": "Scientific reports",
+      "year": 2019,
+      "date": "2019 Oct 30",
+      "volume": "9",
+      "issue": "1",
+      "pages": "15582",
+      "doi": "10.1038/s41598-019-52103-x",
+      "pmid": "31666597",
+      "pmc": "PMC6821799",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31666597/",
+      "type": "journal-article",
+      "sources": [
+        "PubMed"
+      ]
+    }
+  },
+  {
+    "reason": "Excluded because the target author's affiliation did not match the institutional allowlist",
+    "record": {
+      "title": "Microscale light management and inherent optical properties of intact corals studied with optical coherence tomography.",
+      "authors": [
+        "Christine Ferrier Pages",
+        "Daniel Wangpraseurt",
+        "Jacob Boiesen Holm",
+        "Michael Kühl",
+        "Niclas Lyndby",
+        "Steven Jacques"
+      ],
+      "affiliations": [
+        "1 Marine Biological Section, Department of Biology, University of Copenhagen , Strandpromenaden 5, 3000 Helsingør , Denmark."
+      ],
+      "journal": "Journal of the Royal Society, Interface",
+      "year": 2019,
+      "date": "2019 Feb 28",
+      "volume": "16",
+      "issue": "151",
+      "pages": "20180567",
+      "doi": "10.1098/rsif.2018.0567",
+      "pmid": "30958182",
+      "pmc": "PMC6408362",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30958182/",
+      "type": "journal-article",
+      "sources": [
+        "PubMed"
+      ]
+    }
+  },
+  {
+    "reason": "Excluded because the target author's affiliation did not match the institutional allowlist",
+    "record": {
+      "title": "Human Paneth cell α-defensin-5 treatment reverses dyslipidemia and improves glucoregulatory capacity in diet-induced obese mice.",
+      "authors": [
+        "Andreas Mæchel Fritzen",
+        "André Marette",
+        "Benjamin Anderschou Holbech Jensen",
+        "Bente Kiens",
+        "Christian Strini Carl",
+        "Ida Søgaard Larsen",
+        "Jacob Bak Holm",
+        "Jan Wehkamp",
+        "Karsten Kristiansen",
+        "Mads Thue Fejerskov Damgaard",
+        "Marianne Agerholm",
+        "Peter Nordkild"
+      ],
+      "affiliations": [
+        "Clinical Microbiomics , Copenhagen , Denmark."
+      ],
+      "journal": "American journal of physiology. Endocrinology and metabolism",
+      "year": 2019,
+      "date": "2019 Jul 01",
+      "volume": "317",
+      "issue": "1",
+      "pages": "E42-E52",
+      "doi": "10.1152/ajpendo.00019.2019",
+      "pmid": "30860877",
+      "pmc": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30860877/",
+      "type": "journal-article",
+      "sources": [
+        "PubMed"
+      ]
+    }
+  },
+  {
+    "reason": "Excluded because the target author's affiliation did not match the institutional allowlist",
+    "record": {
+      "title": "Effects of exercise and dietary protein sources on adiposity and insulin sensitivity in obese mice.",
+      "authors": [
+        "Bjørn Liaset",
+        "Ditte Olsen Lützhøft",
+        "Even Fjære",
+        "Hanne Andersen",
+        "Jacob Bak Holm",
+        "Karsten Kristiansen",
+        "Lene Secher Myrmel",
+        "Lise Madsen",
+        "Pia Kiilerich",
+        "Rita Hannisdal"
+      ],
+      "affiliations": [
+        "Laboratory of Genomics and Molecular Biomedicine, Department of Biology, University of Copenhagen, Copenhagen, Denmark."
+      ],
+      "journal": "The Journal of nutritional biochemistry",
+      "year": 2019,
+      "date": "2019 Apr",
+      "volume": "66",
+      "issue": "",
+      "pages": "98-109",
+      "doi": "10.1016/j.jnutbio.2019.01.003",
+      "pmid": "30776610",
+      "pmc": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30776610/",
+      "type": "journal-article",
+      "sources": [
+        "PubMed"
+      ]
+    }
+  },
+  {
+    "reason": "Excluded because the target author's affiliation did not match the institutional allowlist",
+    "record": {
+      "title": "Mechanisms Preserving Insulin Action during High Dietary Fat Intake.",
+      "authors": [
+        "Anne-Marie Lundsgaard",
+        "Atul S Deshmukh",
+        "Benjamin A H Jensen",
+        "Bente Kiens",
+        "Erik A Richter",
+        "Even Fjære",
+        "Jacob B Holm",
+        "Janne R Hingst",
+        "Jens J Holst",
+        "Jørgen F P Wojtaszewski",
+        "Karsten Kristiansen",
+        "Kim A Sjøberg",
+        "Kirstine N Bojsen-Møller",
+        "Lene S Myrmel",
+        "Lise Madsen",
+        "Philip E Geyer",
+        "Sine L Hansen",
+        "Sophia Doll",
+        "Trine S Nicolaisen"
+      ],
+      "affiliations": [
+        "Laboratory of Genomics and Molecular Biomedicine, Department of Biology, University of Copenhagen, Copenhagen, Denmark; Clinical Microbiomics, Copenhagen, Denmark."
+      ],
+      "journal": "Cell metabolism",
+      "year": 2019,
+      "date": "2019 Jan 08",
+      "volume": "29",
+      "issue": "1",
+      "pages": "50-63.e4",
+      "doi": "10.1016/j.cmet.2018.08.022",
+      "pmid": "30269983",
+      "pmc": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30269983/",
+      "type": "journal-article",
+      "sources": [
+        "PubMed"
+      ]
+    }
+  },
+  {
+    "reason": "Excluded because the target author's affiliation did not match the institutional allowlist",
+    "record": {
+      "title": "Prevotella-to-Bacteroides ratio predicts body weight and fat loss success on 24-week diets varying in macronutrient composition and dietary fiber: results from a post-hoc analysis.",
+      "authors": [
+        "Arne Astrup",
+        "Henrik M Roager",
+        "Jacob B Holm",
+        "Janne K Lorenzen",
+        "Karsten Kristiansen",
+        "Lesli H Larsen",
+        "Line Q Bendtsen",
+        "Mads F Hjorth",
+        "Pia Kiilerich",
+        "Trine Blædel"
+      ],
+      "affiliations": [
+        "Laboratory of Genomics and Molecular Biomedicine, Department of Biology, University of Copenhagen, Copenhagen, Denmark."
+      ],
+      "journal": "International journal of obesity (2005)",
+      "year": 2019,
+      "date": "2019 Jan",
+      "volume": "43",
+      "issue": "1",
+      "pages": "149-157",
+      "doi": "10.1038/s41366-018-0093-2",
+      "pmid": "29777234",
+      "pmc": "PMC6331389",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29777234/",
+      "type": "journal-article",
+      "sources": [
+        "PubMed"
+      ]
+    }
+  },
+  {
+    "reason": "Excluded because the target author's affiliation did not match the institutional allowlist",
+    "record": {
+      "title": "Age-dependent alterations of glucose clearance and homeostasis are temporally separated and modulated by dietary fat.",
+      "authors": [
+        "Benjamin A H Jensen",
+        "Christian Sina",
+        "Ida Søgaard",
+        "Jacob B Holm",
+        "Jonas T Treebak",
+        "Joseph N Paulson",
+        "Karsten Kristiansen",
+        "Mads T F Damgaard",
+        "Marianne Agerholm",
+        "Simone I Pærregaard"
+      ],
+      "affiliations": [
+        "Laboratory of Genomics and Molecular Biomedicine, Department of Biology, Faculty of Science, University of Copenhagen, Denmark."
+      ],
+      "journal": "The Journal of nutritional biochemistry",
+      "year": 2018,
+      "date": "2018 Apr",
+      "volume": "54",
+      "issue": "",
+      "pages": "66-76",
+      "doi": "10.1016/j.jnutbio.2017.09.026",
+      "pmid": "29268121",
+      "pmc": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29268121/",
+      "type": "journal-article",
+      "sources": [
+        "PubMed"
+      ]
+    }
+  },
+  {
+    "reason": "Excluded because the target author's affiliation did not match the institutional allowlist",
+    "record": {
+      "title": "High intake of dairy during energy restriction does not affect energy balance or the intestinal microflora compared with low dairy intake in overweight individuals in a randomized controlled trial.",
+      "authors": [
+        "Alicja Budek Mark",
+        "Arne Astrup",
+        "Jacob Bak Holm",
+        "Janne Kunchel Lorenzen",
+        "Karsten Kristiansen",
+        "Lesli Hingstrup Larsen",
+        "Line Quist Bendtsen",
+        "Pia Kiilerich",
+        "Trine Blædel"
+      ],
+      "affiliations": [
+        "b Biology, University of Copenhagen, SCIENCE, Ole Maaløesvej 5, 2200 Copenhagen N, Denmark."
+      ],
+      "journal": "Applied physiology, nutrition, and metabolism = Physiologie appliquee, nutrition et metabolisme",
+      "year": 2018,
+      "date": "2018 Jan",
+      "volume": "43",
+      "issue": "1",
+      "pages": "1-10",
+      "doi": "10.1139/apnm-2017-0234",
+      "pmid": "28829923",
+      "pmc": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28829923/",
+      "type": "journal-article",
+      "sources": [
+        "PubMed"
+      ]
+    }
+  },
+  {
+    "reason": "Excluded because the target author's affiliation did not match the institutional allowlist",
+    "record": {
+      "title": "A randomised, controlled, crossover study of the effect of diet on angiopoietin-like protein 4 (ANGPTL4) through modification of the gut microbiome.",
+      "authors": [
+        "Anne L Hess",
+        "Arne Astrup",
+        "Jacob B Holm",
+        "Janne K Lorenzen",
+        "Karsten Kristiansen",
+        "Lesli H Larsen",
+        "Mette S Schmedes",
+        "Trine Blædel",
+        "Trine K Dalsgaard",
+        "Ulrik K Sundekilde"
+      ],
+      "affiliations": [
+        "Department of Biology, Faculty of Science, University of Copenhagen, Copenhagen, Denmark."
+      ],
+      "journal": "Journal of nutritional science",
+      "year": 2016,
+      "date": "2016",
+      "volume": "5",
+      "issue": "",
+      "pages": "e45",
+      "doi": "10.1017/jns.2016.38",
+      "pmid": "28620472",
+      "pmc": "PMC5465810",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28620472/",
+      "type": "journal-article",
+      "sources": [
+        "PubMed"
+      ]
+    }
+  },
+  {
+    "reason": "Excluded because the target author's affiliation did not match the institutional allowlist",
+    "record": {
+      "title": "In vivo Microscale Measurements of Light and Photosynthesis during Coral Bleaching: Evidence for the Optical Feedback Loop?",
+      "authors": [
+        "Anthony W D Larkum",
+        "Daniel Wangpraseurt",
+        "David J Suggett",
+        "Jacob B Holm",
+        "Mathieu Pernice",
+        "Michael Kühl",
+        "Peter J Ralph"
+      ],
+      "affiliations": [
+        "Marine Biological Section, Department of Biology, University of Copenhagen Helsingør, Denmark."
+      ],
+      "journal": "Frontiers in microbiology",
+      "year": 2017,
+      "date": "2017",
+      "volume": "8",
+      "issue": "",
+      "pages": "59",
+      "doi": "10.3389/fmicb.2017.00059",
+      "pmid": "28174567",
+      "pmc": "PMC5258690",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28174567/",
+      "type": "journal-article",
+      "sources": [
+        "PubMed"
+      ]
+    }
+  },
+  {
+    "reason": "Excluded because the target author's affiliation did not match the institutional allowlist",
+    "record": {
+      "title": "Acute infection with the intestinal parasite Trichuris muris has long-term consequences on mucosal mast cell homeostasis and epithelial integrity.",
+      "authors": [
+        "Daniel Sorobetea",
+        "Henrietta Henningsson",
+        "Jacob Bak Holm",
+        "Karsten Kristiansen",
+        "Marcus Svensson-Frej"
+      ],
+      "affiliations": [
+        "Laboratory of Genomics and Molecular Biomedicine, Department of Biology, University of Copenhagen, Copenhagen, Denmark."
+      ],
+      "journal": "European journal of immunology",
+      "year": 2017,
+      "date": "2017 Feb",
+      "volume": "47",
+      "issue": "2",
+      "pages": "257-268",
+      "doi": "10.1002/eji.201646738",
+      "pmid": "27891580",
+      "pmc": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27891580/",
+      "type": "journal-article",
+      "sources": [
+        "PubMed"
+      ]
+    }
+  },
+  {
+    "reason": "Excluded because the target author's affiliation did not match the institutional allowlist",
+    "record": {
+      "title": "Dietary fat drives whole-body insulin resistance and promotes intestinal inflammation independent of body weight gain.",
+      "authors": [
+        "Andreas M Fritzen",
+        "Annette K Serup",
+        "Audrey Poupeau",
+        "Benjamin A H Jensen",
+        "Bente Kiens",
+        "Christian Sina",
+        "Even Fjære",
+        "Ida Søgaard",
+        "Jacob B Holm",
+        "Jonas T Treebak",
+        "Kamil Borkowski",
+        "Karsten Kristiansen",
+        "Lise Madsen",
+        "Michelle Poulsen",
+        "Simone I Pærregaard",
+        "Steve Risis",
+        "Tao Ma",
+        "Thomas S Nielsen"
+      ],
+      "affiliations": [
+        "Laboratory of Genomics and Molecular Biomedicine, Department of Biology, Faculty of Science, University of Copenhagen, Copenhagen, Denmark."
+      ],
+      "journal": "Metabolism: clinical and experimental",
+      "year": 2016,
+      "date": "2016 Dec",
+      "volume": "65",
+      "issue": "12",
+      "pages": "1706-1719",
+      "doi": "10.1016/j.metabol.2016.09.002",
+      "pmid": "27832859",
+      "pmc": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27832859/",
+      "type": "journal-article",
+      "sources": [
+        "PubMed"
+      ]
+    }
+  },
+  {
+    "reason": "Excluded because the target author's affiliation did not match the institutional allowlist",
+    "record": {
+      "title": "Human gut microbes impact host serum metabolome and insulin sensitivity.",
+      "authors": [
+        "Benjamin A H Jensen",
+        "Damian R Plichta",
+        "Edi Prifti",
+        "Emmanuelle Le Chatelier",
+        "Falk Hildebrand",
+        "Florence Levenez",
+        "Gwen Falony",
+        "Helle Krogh Pedersen",
+        "Henrik Bjørn Nielsen",
+        "Ismo Mattila",
+        "Jacob Bak Holm",
+        "Jeroen Raes",
+        "Joel Doré",
+        "Jun Wang",
+        "Kajetan Trošt",
+        "Karsten Kristiansen",
+        "Kristoffer Forslund",
+        "Lars I Hellgren",
+        "Manimozhiyan Arumugam",
+        "Matej Oresic",
+        "MetaHIT Consortium",
+        "Oluf Pedersen",
+        "Peer Bork",
+        "Päivi Pöhö",
+        "S Dusko Ehrlich",
+        "Sara Vieira-Silva",
+        "Shinichi Sunagawa",
+        "Susanne Brix",
+        "Søren Brunak",
+        "Torben Hansen",
+        "Torben Jørgensen",
+        "Trine Nielsen",
+        "Tuulia Hyotylainen",
+        "Valborg Gudmundsdottir"
+      ],
+      "affiliations": [],
+      "journal": "Nature",
+      "year": 2016,
+      "date": "2016 Jul 21",
+      "volume": "535",
+      "issue": "7612",
+      "pages": "376-81",
+      "doi": "10.1038/nature18646",
+      "pmid": "27409811",
+      "pmc": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27409811/",
+      "type": "journal-article",
+      "sources": [
+        "PubMed"
+      ]
+    }
+  },
+  {
+    "reason": "Excluded because the target author's affiliation did not match the institutional allowlist",
+    "record": {
+      "title": "The protein source determines the potential of high protein diets to attenuate obesity development in C57BL/6J mice.",
+      "authors": [
+        "Alexander K Rønnevik",
+        "Astrid Linde Basse",
+        "Bjørn Liaset",
+        "Even Fjære",
+        "Jacob B Hansen",
+        "Jacob Bak Holm",
+        "Karsten Kristiansen",
+        "Kristin Røen Fauske",
+        "Lene Secher Myrmel",
+        "Lise Madsen",
+        "Susanne Bjelland",
+        "Ulrike Liisberg"
+      ],
+      "affiliations": [
+        "Department of Biology, University of Copenhagen , Copenhagen, Denmark."
+      ],
+      "journal": "Adipocyte",
+      "year": 2016,
+      "date": "2016",
+      "volume": "5",
+      "issue": "2",
+      "pages": "196-211",
+      "doi": "10.1080/21623945.2015.1122855",
+      "pmid": "27386160",
+      "pmc": "PMC4916867",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27386160/",
+      "type": "journal-article",
+      "sources": [
+        "PubMed"
+      ]
+    }
+  },
+  {
+    "reason": "Excluded because the target author's affiliation did not match the institutional allowlist",
+    "record": {
+      "title": "Diet-induced obesity, energy metabolism and gut microbiota in C57BL/6J mice fed Western diets based on lean seafood or lean meat mixtures.",
+      "authors": [
+        "Alexander Rønnevik",
+        "Bjørn Liaset",
+        "Even Fjære",
+        "Hanne Sørup Tastesen",
+        "Jacob Bak Holm",
+        "Karsten Kristiansen",
+        "Kristin Røen Fauske",
+        "Lise Madsen",
+        "Ulrike Liisberg"
+      ],
+      "affiliations": [
+        "Laboratory of Genomics and Molecular Biomedicine, Department of Biology, University of Copenhagen, Copenhagen, Denmark."
+      ],
+      "journal": "The Journal of nutritional biochemistry",
+      "year": 2016,
+      "date": "2016 May",
+      "volume": "31",
+      "issue": "",
+      "pages": "127-36",
+      "doi": "10.1016/j.jnutbio.2015.12.017",
+      "pmid": "27133432",
+      "pmc": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27133432/",
+      "type": "journal-article",
+      "sources": [
+        "PubMed"
+      ]
+    }
+  },
+  {
+    "reason": "Excluded because the target author's affiliation did not match the institutional allowlist",
+    "record": {
+      "title": "IRF8 Transcription-Factor-Dependent Classical Dendritic Cells Are Essential for Intestinal T Cell Homeostasis.",
+      "authors": [
+        "Aymeric Rivollier",
+        "Bart N Lambrecht",
+        "Emma K Persson",
+        "Felipe Melo-Gonzalez",
+        "Jacob B Holm",
+        "Karsten Kristiansen",
+        "Katarzyna M Luda",
+        "Katarzyna M Sitnik",
+        "Knut Kotarsky",
+        "Lieneke Pool",
+        "Lisa Richter",
+        "Marcus Svensson-Frej",
+        "Mark A Travis",
+        "Mimoza Demiri",
+        "Thorsten Joeris",
+        "William W Agace"
+      ],
+      "affiliations": [
+        "Laboratory of Genomics and Molecular Biomedicine, Department of Biology, University of Copenhagen, 2100 Copenhagen, Denmark."
+      ],
+      "journal": "Immunity",
+      "year": 2016,
+      "date": "2016 Apr 19",
+      "volume": "44",
+      "issue": "4",
+      "pages": "860-74",
+      "doi": "10.1016/j.immuni.2016.02.008",
+      "pmid": "27067057",
+      "pmc": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27067057/",
+      "type": "journal-article",
+      "sources": [
+        "PubMed"
+      ]
+    }
+  },
+  {
+    "reason": "Excluded because the target author's affiliation did not match the institutional allowlist",
+    "record": {
+      "title": "Intrauterine Exposure to Paracetamol and Aniline Impairs Female Reproductive Development by Reducing Follicle Reserves and Fertility.",
+      "authors": [
+        "Anne Marie Vinggaard",
+        "Benjamin Jensen",
+        "Bernard Jégou",
+        "Bjarne Styrishave",
+        "Cecilie Hurup Hansen",
+        "Clementine Chalmey",
+        "David Møbjerg Kristensen",
+        "Holger Martin Koch",
+        "Jacob Bak Holm",
+        "Josephine Bowles",
+        "Karsten Kristiansen",
+        "Mette Marie Nørregård",
+        "Niels Banhos Danneskiold-Samsøe",
+        "Peter Koopman",
+        "Severine Mazaud-Guittot",
+        "Terje Svingen"
+      ],
+      "affiliations": [
+        "*Laboratory of Genomics and Molecular Biomedicine, Department of Biology, University of Copenhagen, 2100 Copenhagen, Denmark; david@moebjerg.com."
+      ],
+      "journal": "Toxicological sciences : an official journal of the Society of Toxicology",
+      "year": 2016,
+      "date": "2016 Mar",
+      "volume": "150",
+      "issue": "1",
+      "pages": "178-89",
+      "doi": "10.1093/toxsci/kfv332",
+      "pmid": "26732887",
+      "pmc": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26732887/",
+      "type": "journal-article",
+      "sources": [
+        "PubMed"
+      ]
+    }
+  },
+  {
+    "reason": "Excluded because the target author's affiliation did not match the institutional allowlist",
+    "record": {
+      "title": "Aniline Is Rapidly Converted Into Paracetamol Impairing Male Reproductive Development.",
+      "authors": [
+        "Benjamin Anderschou Holbech Jensen",
+        "Bernard Jegou",
+        "Bjarne Styrishave",
+        "Clementine Chalmey",
+        "David Møbjerg Kristensen",
+        "Georg Dierkes",
+        "Hendrik Modick",
+        "Holger Martin Koch",
+        "Jacob Bak Holm",
+        "Kamil Borkowski",
+        "Karsten Kristiansen",
+        "Lars Skovgaard Jensen",
+        "Mette Marie Nørregård",
+        "Severine Mazaud-Guittot",
+        "Tobias Weiss"
+      ],
+      "affiliations": [
+        "*Laboratory of Genomics and Molecular Biomedicine, Department of Biology, University of Copenhagen, DK-2100 Copenhagen, Denmark;"
+      ],
+      "journal": "Toxicological sciences : an official journal of the Society of Toxicology",
+      "year": 2015,
+      "date": "2015 Nov",
+      "volume": "148",
+      "issue": "1",
+      "pages": "288-98",
+      "doi": "10.1093/toxsci/kfv179",
+      "pmid": "26259604",
+      "pmc": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26259604/",
+      "type": "journal-article",
+      "sources": [
+        "PubMed"
+      ]
+    }
+  },
+  {
+    "reason": "Excluded because the target author's affiliation did not match the institutional allowlist",
+    "record": {
+      "title": "Chronic Trichuris muris Infection Decreases Diversity of the Intestinal Microbiota and Concomitantly Increases the Abundance of Lactobacilli.",
+      "authors": [
+        "Daniel Sorobetea",
+        "Jacob Bak Holm",
+        "Jordi Estellé",
+        "Karsten Kristiansen",
+        "Lise Madsen",
+        "Marcus Svensson-Frej",
+        "Pia Kiilerich",
+        "Tao Ma",
+        "Yuliaxis Ramayo-Caldas"
+      ],
+      "affiliations": [
+        "Laboratory of Genomics and Molecular Biomedicine, Department of Biology, University of Copenhagen, Copenhagen, Denmark."
+      ],
+      "journal": "PloS one",
+      "year": 2015,
+      "date": "2015",
+      "volume": "10",
+      "issue": "5",
+      "pages": "e0125495",
+      "doi": "10.1371/journal.pone.0125495",
+      "pmid": "25942314",
+      "pmc": "PMC4420551",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25942314/",
+      "type": "journal-article",
+      "sources": [
+        "PubMed"
+      ]
+    }
+  },
+  {
+    "reason": "Excluded because the target author's affiliation did not match the institutional allowlist",
+    "record": {
+      "title": "Physiological role of taurine--from organism to organelle.",
+      "authors": [
+        "D M Kristensen",
+        "I H Lambert",
+        "J B Holm",
+        "O H Mortensen"
+      ],
+      "affiliations": [],
+      "journal": "Acta physiologica (Oxford, England)",
+      "year": 2015,
+      "date": "2015 Jan",
+      "volume": "213",
+      "issue": "1",
+      "pages": "191-212",
+      "doi": "10.1111/apha.12365",
+      "pmid": "25142161",
+      "pmc": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25142161/",
+      "type": "journal-article",
+      "sources": [
+        "PubMed"
+      ]
+    }
+  },
+  {
+    "reason": "Excluded because the target author's affiliation did not match the institutional allowlist",
+    "record": {
+      "title": "Volume-sensitive release of organic osmolytes in the human lung epithelial cell line A549: role of the 5-lipoxygenase.",
+      "authors": [
+        "Ian Henry Lambert",
+        "Jacob Bak Holm",
+        "Ryszard Grygorczyk"
+      ],
+      "affiliations": [
+        "Department of Biology, Section of Cellular and Developmental Biology, University of Copenhagen, Copenhagen, Denmark."
+      ],
+      "journal": "American journal of physiology. Cell physiology",
+      "year": 2013,
+      "date": "2013 Jul 01",
+      "volume": "305",
+      "issue": "1",
+      "pages": "C48-60",
+      "doi": "10.1152/ajpcell.00412.2012",
+      "pmid": "23485709",
+      "pmc": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23485709/",
+      "type": "journal-article",
+      "sources": [
+        "PubMed"
+      ]
+    }
+  },
+  {
+    "reason": "Excluded because the target author's affiliation did not match the institutional allowlist",
+    "record": {
+      "title": "Pinpointing differences in cisplatin-induced apoptosis in adherent and non-adherent cancer cells.",
+      "authors": [
+        "Charlotte Møller",
+        "Else Kay Hoffmann",
+        "Hanne Sørup Tastesen",
+        "Ian Henry Lambert",
+        "Jacob Bak Holm",
+        "Jacob Møller",
+        "Kristian Arild Poulsen",
+        "Stefan Stürup"
+      ],
+      "affiliations": [],
+      "journal": "Cellular physiology and biochemistry : international journal of experimental cellular physiology, biochemistry, and pharmacology",
+      "year": 2010,
+      "date": "2010",
+      "volume": "26",
+      "issue": "6",
+      "pages": "809-20",
+      "doi": "10.1159/000323990",
+      "pmid": "21220912",
+      "pmc": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21220912/",
+      "type": "journal-article",
+      "sources": [
+        "PubMed"
+      ]
+    }
+  },
+  {
+    "reason": "Excluded because the target author's affiliation did not match the institutional allowlist",
+    "record": {
+      "title": "The Ca2+ Channel β4c Subunit Interacts with Heterochromatin Protein 1 via a PXVXL Binding Motif",
+      "authors": [
+        "Johanna B. Holm",
+        "Mark D. Terry",
+        "Robert E. Oswald",
+        "William A. Horne",
+        "Xingfu Xu",
+        "Yoon J. Lee"
+      ],
+      "affiliations": [
+        "From the Department of Clinical Sciences and"
+      ],
+      "journal": "Journal of Biological Chemistry",
+      "year": 2011,
+      "date": "2011-01-11",
+      "volume": "286",
+      "issue": "11",
+      "pages": "9677-9687",
+      "doi": "10.1074/jbc.m110.187864",
+      "pmid": "21220418",
+      "pmc": "PMC3058963",
+      "url": "https://doi.org/10.1074/jbc.m110.187864",
+      "full_text_url": "http://www.jbc.org/article/S0021925820518528/pdf",
+      "type": "article",
+      "openalex_id": "https://openalex.org/W2016995614",
+      "sources": [
+        "OpenAlex",
+        "PubMed"
+      ]
+    }
+  },
+  {
+    "reason": "Excluded because the target author's affiliation did not match the institutional allowlist",
+    "record": {
+      "title": "Decline in mortality among hospitalised covid-19 patients in Sweden: a nationwide observational study",
+      "authors": [
+        "Anna M. Bennet",
+        "Erik Wahlström",
+        "Håkan Hanberger",
+        "Johanna B. Holm",
+        "Kristoffer Strålin",
+        "Mona Heurgren",
+        "Sten Walther",
+        "Thomas Lindén"
+      ],
+      "affiliations": [
+        "National Board of Health and Welfare",
+        "National Board of Health and Welfare, Sweden"
+      ],
+      "journal": "medRxiv",
+      "year": 2020,
+      "date": "2020-10-27",
+      "volume": "",
+      "issue": "",
+      "pages": "",
+      "doi": "10.1101/2020.10.27.20220061",
+      "pmid": "",
+      "pmc": "",
+      "url": "https://doi.org/10.1101/2020.10.27.20220061",
+      "full_text_url": "https://www.medrxiv.org/content/medrxiv/early/2020/10/27/2020.10.27.20220061.full.pdf",
+      "type": "preprint",
+      "openalex_id": "https://openalex.org/W3096159341",
+      "sources": [
+        "Crossref",
+        "OpenAlex"
+      ]
+    }
+  },
+  {
+    "reason": "Excluded because the target author's affiliation did not match the institutional allowlist",
+    "record": {
+      "title": "Complete Genome Sequence of Lactobacillus crispatus CO3MRSI1",
+      "authors": [
+        "Bing Ma",
+        "Elias McComb",
+        "Jacques Ravel",
+        "Johanna B. Holm"
+      ],
+      "affiliations": [
+        "Institute for Genome Sciences, University of Maryland Baltimore, Baltimore, Maryland, USA",
+        "University of Maryland, Baltimore"
+      ],
+      "journal": "Microbiology Resource Announcements",
+      "year": 2019,
+      "date": "2019-01-30",
+      "volume": "8",
+      "issue": "5",
+      "pages": "e01538-18",
+      "doi": "10.1128/mra.01538-18",
+      "pmid": "30714033",
+      "pmc": "",
+      "url": "https://doi.org/10.1128/mra.01538-18",
+      "full_text_url": "https://mra.asm.org/content/ga/8/5/e01538-18.full.pdf",
+      "type": "article",
+      "openalex_id": "https://openalex.org/W2913488890",
+      "sources": [
+        "Crossref",
+        "OpenAlex"
+      ]
+    }
+  },
+  {
+    "reason": "Excluded because the target author's affiliation did not match the institutional allowlist",
+    "record": {
+      "title": "Vaginal Cytokines and Metabolite Concentrations in Asymptomatic and Symptomatic Bacterial Vaginosis",
+      "authors": [
+        "Alan MacIntyre",
+        "C M Yeoman",
+        "Daniel J. Erchick",
+        "Golsa M. Yazdy",
+        "Jacques Ravel",
+        "Johanna B. Holm",
+        "Khalil G. Ghanem",
+        "Rebecca M. Brotman",
+        "Susan Tuddenham",
+        "Xiaoling He"
+      ],
+      "affiliations": [
+        "University of Maryland",
+        "University of Maryland, College Park"
+      ],
+      "journal": "American Journal of Obstetrics and Gynecology",
+      "year": 2025,
+      "date": "2025-11-01",
+      "volume": "233",
+      "issue": "5",
+      "pages": "S8-S9",
+      "doi": "10.1016/j.ajog.2025.08.053",
+      "pmid": "",
+      "pmc": "",
+      "url": "https://doi.org/10.1016/j.ajog.2025.08.053",
+      "full_text_url": "https://doi.org/10.1016/j.ajog.2025.08.053",
+      "type": "article",
+      "openalex_id": "https://openalex.org/W4416373027",
+      "sources": [
+        "OpenAlex"
+      ]
+    }
+  },
+  {
+    "reason": "Excluded because the target author's affiliation did not match the institutional allowlist",
+    "record": {
+      "title": "0972 Identification of biomarkers in cutaneous T cell lymphoma tumors associated with radiotherapy response and durability",
+      "authors": [
+        "Aiping Zhou",
+        "J. Guitart",
+        "Johanna B. Holm",
+        "Kai Lu",
+        "Lonnie Chrisman",
+        "Michael B. Burns",
+        "S. Evans",
+        "Z. Ren",
+        "Z. Thomas"
+      ],
+      "affiliations": [],
+      "journal": "Journal of Investigative Dermatology",
+      "year": 2025,
+      "date": "2025-07-21",
+      "volume": "145",
+      "issue": "8",
+      "pages": "S168",
+      "doi": "10.1016/j.jid.2025.06.988",
+      "pmid": "",
+      "pmc": "",
+      "url": "https://doi.org/10.1016/j.jid.2025.06.988",
+      "full_text_url": "https://doi.org/10.1016/j.jid.2025.06.988",
+      "type": "article",
+      "openalex_id": "https://openalex.org/W4412516889",
+      "sources": [
+        "OpenAlex"
+      ]
+    }
+  },
+  {
+    "reason": "Excluded because the target author's affiliation did not match the institutional allowlist",
+    "record": {
+      "title": "0964 Gut short-chain fatty acids are decreased in cutaneous T-cell lymphoma patients",
+      "authors": [
+        "Aiping Zhou",
+        "J. Guitart",
+        "Johanna B. Holm",
+        "Lonnie Chrisman",
+        "M. Burns",
+        "Mairin McCarthy",
+        "William Nguyen",
+        "Y. Pang",
+        "Z. Thomas"
+      ],
+      "affiliations": [
+        "Dermatology, Northwestern University Feinberg School of Medicine, Chicago, Illinois, United States",
+        "Northwestern University"
+      ],
+      "journal": "Journal of Investigative Dermatology",
+      "year": 2025,
+      "date": "2025-07-21",
+      "volume": "145",
+      "issue": "8",
+      "pages": "S167",
+      "doi": "10.1016/j.jid.2025.06.980",
+      "pmid": "",
+      "pmc": "",
+      "url": "https://doi.org/10.1016/j.jid.2025.06.980",
+      "full_text_url": "https://doi.org/10.1016/j.jid.2025.06.980",
+      "type": "article",
+      "openalex_id": "https://openalex.org/W4412517411",
+      "sources": [
+        "OpenAlex"
+      ]
+    }
+  },
+  {
+    "reason": "Excluded because the target author's affiliation did not match the institutional allowlist",
+    "record": {
+      "title": "200 | SPATIAL TRANSCRIPTOMICS REVEALS IMMUNE MICROENVIRONMENT REMODELING IN CUTANEOUS T‐CELL LYMPHOMA POST‐RADIATION AND BIOMARKERS OF DISEASE PROGRESSION",
+      "authors": [
+        "Aiping Zhou",
+        "J. Guitart",
+        "Johanna B. Holm",
+        "Lonnie Chrisman",
+        "Ziyou Ren"
+      ],
+      "affiliations": [
+        "Dermatology Northwestern University Feinberg School of Medicine Chicago Illinois USA",
+        "Northwestern University"
+      ],
+      "journal": "Hematological Oncology",
+      "year": 2025,
+      "date": "2025-06-01",
+      "volume": "43",
+      "issue": "S3",
+      "pages": "",
+      "doi": "10.1002/hon.70094_200",
+      "pmid": "",
+      "pmc": "",
+      "url": "https://doi.org/10.1002/hon.70094_200",
+      "full_text_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/hon.70094_200",
+      "type": "article",
+      "openalex_id": "https://openalex.org/W4411343127",
+      "sources": [
+        "OpenAlex"
+      ]
+    }
+  },
+  {
+    "reason": "Excluded because the target author's affiliation did not match the institutional allowlist",
+    "record": {
+      "title": "196P Body mass index and pathological response after neoadjuvant chemotherapy in Danish breast cancer patients",
+      "authors": [
+        "Deirdre Cronin‐Fenton",
+        "H. M. Nielsen",
+        "J. Alsner",
+        "Johanna B. Holm",
+        "Peer Christiansen",
+        "Signe Borgquist",
+        "Sine Skovbjerg"
+      ],
+      "affiliations": [
+        "Aarhus University",
+        "Department of Clinical Medicine, Aarhus University, Aarhus, Denmark"
+      ],
+      "journal": "ESMO Open",
+      "year": 2025,
+      "date": "2025-05-01",
+      "volume": "10",
+      "issue": "",
+      "pages": "104750",
+      "doi": "10.1016/j.esmoop.2025.104750",
+      "pmid": "",
+      "pmc": "",
+      "url": "https://doi.org/10.1016/j.esmoop.2025.104750",
+      "full_text_url": "https://www.esmoopen.com/action/showPdf?pii=S2059702925006192",
+      "type": "article",
+      "openalex_id": "https://openalex.org/W4410463971",
+      "sources": [
+        "OpenAlex"
+      ]
+    }
+  },
+  {
+    "reason": "Excluded because the target author's affiliation did not match the institutional allowlist",
+    "record": {
+      "title": "222P Hemoglobin A1c screening for patients with early breast cancer treated with adjuvant endocrine therapy",
+      "authors": [
+        "Johanna B. Holm",
+        "Leonardo Paese Nissen",
+        "Ole L. Dollerup",
+        "Signe Borgquist",
+        "Sine Skovbjerg",
+        "Tinne Laurberg"
+      ],
+      "affiliations": [
+        "Aarhus University Hospital",
+        "Department of Oncology, Aarhus University Hospital, Aarhus, Denmark"
+      ],
+      "journal": "ESMO Open",
+      "year": 2025,
+      "date": "2025-05-01",
+      "volume": "10",
+      "issue": "",
+      "pages": "104776",
+      "doi": "10.1016/j.esmoop.2025.104776",
+      "pmid": "",
+      "pmc": "",
+      "url": "https://doi.org/10.1016/j.esmoop.2025.104776",
+      "full_text_url": "https://www.esmoopen.com/action/showPdf?pii=S2059702925006453",
+      "type": "article",
+      "openalex_id": "https://openalex.org/W4410455944",
+      "sources": [
+        "OpenAlex"
+      ]
+    }
+  },
+  {
+    "reason": "Excluded because the target author's affiliation did not match the institutional allowlist",
+    "record": {
+      "title": "20P Prognostic implications of IGF-1R expression in breast cancer overall and across body mass index groups",
+      "authors": [
+        "Ann H. Rosendahl",
+        "D. Berden",
+        "Johanna B. Holm",
+        "Signe Borgquist"
+      ],
+      "affiliations": [
+        "Aarhus University Hospital",
+        "Department of Oncology, Aarhus University Hospital, Aarhus, Denmark"
+      ],
+      "journal": "ESMO Open",
+      "year": 2024,
+      "date": "2024-05-01",
+      "volume": "9",
+      "issue": "",
+      "pages": "103028",
+      "doi": "10.1016/j.esmoop.2024.103028",
+      "pmid": "",
+      "pmc": "",
+      "url": "https://doi.org/10.1016/j.esmoop.2024.103028",
+      "full_text_url": "http://www.esmoopen.com/article/S2059702924007968/pdf",
+      "type": "article",
+      "openalex_id": "https://openalex.org/W4397007972",
+      "sources": [
+        "OpenAlex"
+      ]
+    }
+  },
+  {
+    "reason": "Excluded because the target author's affiliation did not match the institutional allowlist",
+    "record": {
+      "title": "6P HbA1c as a prognostic biomarker in early breast cancer among patients without diabetes",
+      "authors": [
+        "Deirdre Cronin‐Fenton",
+        "J. Meldgaard Bruun",
+        "Jan Frystyk",
+        "Johanna B. Holm",
+        "P. Christiansen",
+        "Signe Borgquist"
+      ],
+      "affiliations": [
+        "Aarhus University Hospital",
+        "Department of Oncology, Aarhus University Hospital, Aarhus, Denmark"
+      ],
+      "journal": "ESMO Open",
+      "year": 2024,
+      "date": "2024-05-01",
+      "volume": "9",
+      "issue": "",
+      "pages": "103015",
+      "doi": "10.1016/j.esmoop.2024.103015",
+      "pmid": "",
+      "pmc": "",
+      "url": "https://doi.org/10.1016/j.esmoop.2024.103015",
+      "full_text_url": "http://dx.doi.org/10.1016/j.esmoop.2024.103015",
+      "type": "article",
+      "openalex_id": "https://openalex.org/W4397008013",
+      "sources": [
+        "OpenAlex"
+      ]
+    }
+  },
+  {
+    "reason": "Excluded because the target author's affiliation did not match the institutional allowlist",
+    "record": {
+      "title": "31P C-reactive protein as a prognostic factor in early breast cancer",
+      "authors": [
+        "Deirdre Cronin‐Fenton",
+        "Emma Baggesen",
+        "J. Meldgaard Bruun",
+        "Johanna B. Holm",
+        "Peer Christiansen",
+        "Signe Borgquist"
+      ],
+      "affiliations": [
+        "Aarhus University Hospital",
+        "Department of Oncology, Aarhus University Hospital, Aarhus, Denmark"
+      ],
+      "journal": "ESMO Open",
+      "year": 2023,
+      "date": "2023-05-01",
+      "volume": "8",
+      "issue": "1",
+      "pages": "101255",
+      "doi": "10.1016/j.esmoop.2023.101255",
+      "pmid": "",
+      "pmc": "",
+      "url": "https://doi.org/10.1016/j.esmoop.2023.101255",
+      "full_text_url": "http://www.esmoopen.com/article/S2059702923004817/pdf",
+      "type": "article",
+      "openalex_id": "https://openalex.org/W4376613796",
+      "sources": [
+        "OpenAlex"
+      ]
+    }
+  },
+  {
+    "reason": "Excluded because the target author's affiliation did not match the institutional allowlist",
+    "record": {
+      "title": "Class Foundations of Sexual Prejudice toward Gay and Lesbian People",
+      "authors": [
+        "Jef Hendrickx",
+        "Johanna B. Holm",
+        "Stef Adriaenssens"
+      ],
+      "affiliations": [
+        "Independent researcher, Rotterdam, The Netherlands"
+      ],
+      "journal": "Sexuality Research and Social Policy",
+      "year": 2021,
+      "date": "2021-01-11",
+      "volume": "19",
+      "issue": "1",
+      "pages": "63-84",
+      "doi": "10.1007/s13178-020-00525-y",
+      "pmid": "",
+      "pmc": "",
+      "url": "https://doi.org/10.1007/s13178-020-00525-y",
+      "full_text_url": "https://lirias.kuleuven.be/bitstream/123456789/666586/3/Adriaenssens%20Hendrickx%20%26%20Holm%202021%20%28SRSP%29.pdf",
+      "type": "article",
+      "openalex_id": "https://openalex.org/W3118437906",
+      "sources": [
+        "OpenAlex"
+      ]
+    }
+  },
+  {
+    "reason": "Excluded because the target author's affiliation did not match the institutional allowlist",
+    "record": {
+      "title": "Additional file 4 of VALENCIA: a nearest centroid classification method for vaginal microbial communities based on composition",
+      "authors": [
+        "Bing Ma",
+        "Jacques Ravel",
+        "Johanna B. Holm",
+        "L. Elaine Waetjen",
+        "Michael France",
+        "Michael S. Humphrys",
+        "Pawel Gajer",
+        "Rebecca M. Brotman",
+        "Sarah E. Brown"
+      ],
+      "affiliations": [],
+      "journal": "Open MIND",
+      "year": 2020,
+      "date": "2020-01-01",
+      "volume": "",
+      "issue": "",
+      "pages": "",
+      "doi": "10.6084/m9.figshare.13279200",
+      "pmid": "",
+      "pmc": "",
+      "url": "https://doi.org/10.6084/m9.figshare.13279200",
+      "full_text_url": "",
+      "type": "article",
+      "openalex_id": "https://openalex.org/W4394366196",
+      "sources": [
+        "OpenAlex"
+      ]
+    }
+  },
+  {
+    "reason": "Excluded because the target author's affiliation did not match the institutional allowlist",
+    "record": {
+      "title": "External actors' influences on other states' internal political processes: Utkast till introduktionskapitel, Finlandssvenska forskarskolan",
+      "authors": [
+        "Johanna B. Holm"
+      ],
+      "affiliations": [],
+      "journal": "",
+      "year": 2017,
+      "date": "2017-01-01",
+      "volume": "",
+      "issue": "",
+      "pages": "",
+      "doi": "",
+      "pmid": "",
+      "pmc": "",
+      "url": "http://defencemanagement.org/article/external-actors-influences-other-states-internal-political-processes-utkast-till",
+      "full_text_url": "http://defencemanagement.org/article/external-actors-influences-other-states-internal-political-processes-utkast-till",
+      "type": "article",
+      "openalex_id": "https://openalex.org/W2772177793",
+      "sources": [
+        "OpenAlex"
+      ]
+    }
+  },
+  {
+    "reason": "Excluded because the target author's affiliation did not match the institutional allowlist",
+    "record": {
+      "title": "Report Extreme Aggression in Male Squid Induced by a b-MSP-like Pheromone",
+      "authors": [
+        "Bernard M. Degnan",
+        "Chitraporn Kuanpradit",
+        "Gregg T. Nagle",
+        "Jean Geary Boal",
+        "Johanna B. Holm",
+        "Kendra C. Buresch",
+        "Prasert Sobhon",
+        "Roger T. Hanlon",
+        "Scott F. Cummins"
+      ],
+      "affiliations": [],
+      "journal": "",
+      "year": 2014,
+      "date": "2014-11-28",
+      "volume": "",
+      "issue": "",
+      "pages": "",
+      "doi": "",
+      "pmid": "",
+      "pmc": "",
+      "url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.456.7717",
+      "full_text_url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.456.7717",
+      "type": "article",
+      "openalex_id": "https://openalex.org/W2780445952",
+      "sources": [
+        "OpenAlex"
+      ]
+    }
+  },
+  {
+    "reason": "Excluded because the target author's affiliation did not match the institutional allowlist",
+    "record": {
+      "title": "RESEARCH NOTE DISTANCE CHEMORECEPTION AND THE DETECTION OF CONSPECIFICS IN OCTOPUS BIMACULOIDES",
+      "authors": [
+        "Gregg T. Nagle",
+        "Jean Geary Boal",
+        "Johanna B. Holm",
+        "Kevin J. Nolt",
+        "Matthew D. Walderon",
+        "Robert E. Haas"
+      ],
+      "affiliations": [],
+      "journal": "",
+      "year": 2011,
+      "date": "2011-01-01",
+      "volume": "",
+      "issue": "",
+      "pages": "",
+      "doi": "",
+      "pmid": "",
+      "pmc": "",
+      "url": "http://www.millersville.edu/biology/faculty/boal-pdf/28.boal_j_mollus_stud_2011_walderon_mollus_eyr009.pdf",
+      "full_text_url": "http://www.millersville.edu/biology/faculty/boal-pdf/28.boal_j_mollus_stud_2011_walderon_mollus_eyr009.pdf",
+      "type": "article",
+      "openalex_id": "https://openalex.org/W2182437833",
+      "sources": [
+        "OpenAlex"
+      ]
+    }
+  }
+]
