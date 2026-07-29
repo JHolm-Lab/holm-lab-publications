@@ -16,14 +16,12 @@ from typing import Any, Callable
 import requests
 
 
-# ---------------------------------------------------------------------
-# Paths
-# ---------------------------------------------------------------------
+# =====================================================================
+# File paths
+# =====================================================================
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 
-# This supports placing update_publications.py either in the repository
-# root or in a scripts/ directory.
 if (SCRIPT_DIR / "config.json").exists():
     ROOT = SCRIPT_DIR
 else:
@@ -34,9 +32,9 @@ OUTPUT_PATH = ROOT / "publications.json"
 REVIEW_PATH = ROOT / "publication-review.json"
 
 
-# ---------------------------------------------------------------------
+# =====================================================================
 # API endpoints
-# ---------------------------------------------------------------------
+# =====================================================================
 
 NCBI_BASE = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils"
 CROSSREF_BASE = "https://api.crossref.org"
@@ -45,22 +43,65 @@ ORCID_TOKEN_URL = "https://orcid.org/oauth/token"
 OPENALEX_BASE = "https://api.openalex.org"
 
 
-# ---------------------------------------------------------------------
+# =====================================================================
+# Default institutional affiliation filter
+# =====================================================================
+
+DEFAULT_ALLOWED_AFFILIATIONS = [
+    "Millersville University",
+    "Cornell University",
+    "University of Southern California",
+    "University of Maryland School of Medicine",
+]
+
+
+AFFILIATION_ALIASES = {
+    "millersville university": [
+        "millersville university",
+        "millersville university of pennsylvania",
+    ],
+    "cornell university": [
+        "cornell university",
+        "weill cornell",
+        "weill cornell medicine",
+        "weill medical college of cornell university",
+        "weill cornell medical college",
+    ],
+    "university of southern california": [
+        "university of southern california",
+        "keck school of medicine",
+        "keck school of medicine of usc",
+        "usc keck school of medicine",
+    ],
+    "university of maryland school of medicine": [
+        "university of maryland school of medicine",
+        "university of maryland baltimore school of medicine",
+        "university of maryland at baltimore school of medicine",
+        "university of maryland som",
+        "umd school of medicine",
+    ],
+}
+
+
+# =====================================================================
 # HTTP session
-# ---------------------------------------------------------------------
+# =====================================================================
 
 SESSION = requests.Session()
 
 SESSION.headers.update(
     {
-        "User-Agent": "HolmLabPublicationsBot/2.1"
+        "User-Agent": (
+            "HolmLabPublicationsBot/3.0 "
+            "(mailto:jholm@som.umaryland.edu)"
+        )
     }
 )
 
 
-# ---------------------------------------------------------------------
+# =====================================================================
 # General helper functions
-# ---------------------------------------------------------------------
+# =====================================================================
 
 def clean(value: Any) -> str:
     """Convert a value to clean, single-spaced text."""
@@ -75,10 +116,12 @@ def clean(value: Any) -> str:
 def clean_orcid(value: Any) -> str:
     """Normalize an ORCID URL or identifier."""
 
+    orcid = clean(value)
+
     orcid = re.sub(
         r"^https?://orcid\.org/",
         "",
-        clean(value),
+        orcid,
         flags=re.IGNORECASE,
     )
 
@@ -86,7 +129,7 @@ def clean_orcid(value: Any) -> str:
 
 
 def normalize_doi(value: Any) -> str:
-    """Normalize a DOI for matching and URL construction."""
+    """Normalize a DOI."""
 
     doi = clean(value).lower()
 
@@ -107,10 +150,12 @@ def normalize_doi(value: Any) -> str:
 def normalize_pmid(value: Any) -> str:
     """Normalize a PubMed identifier."""
 
+    pmid = clean(value)
+
     pmid = re.sub(
         r"^https?://pubmed\.ncbi\.nlm\.nih\.gov/",
         "",
-        clean(value),
+        pmid,
         flags=re.IGNORECASE,
     )
 
@@ -120,10 +165,12 @@ def normalize_pmid(value: Any) -> str:
 def normalize_pmc(value: Any) -> str:
     """Normalize a PubMed Central identifier."""
 
+    pmc = clean(value)
+
     pmc = re.sub(
         r"^https?://www\.ncbi\.nlm\.nih\.gov/pmc/articles/",
         "",
-        clean(value),
+        pmc,
         flags=re.IGNORECASE,
     )
 
@@ -131,7 +178,7 @@ def normalize_pmc(value: Any) -> str:
 
 
 def normalize_title(value: Any) -> str:
-    """Normalize titles for duplicate matching."""
+    """Normalize a publication title for duplicate matching."""
 
     title = clean(value).lower()
 
@@ -156,11 +203,44 @@ def normalize_title(value: Any) -> str:
     return title
 
 
+def normalize_name(value: Any) -> str:
+    """Normalize a person's name."""
+
+    name = clean(value).lower()
+
+    name = re.sub(
+        r"[^a-z0-9]+",
+        " ",
+        name,
+    )
+
+    return clean(name)
+
+
+def normalize_affiliation(value: Any) -> str:
+    """Normalize an institutional affiliation."""
+
+    affiliation = clean(value).lower()
+
+    affiliation = affiliation.replace(
+        "&",
+        " and ",
+    )
+
+    affiliation = re.sub(
+        r"[^a-z0-9]+",
+        " ",
+        affiliation,
+    )
+
+    return clean(affiliation)
+
+
 def year_from(value: Any) -> int | None:
     """Extract a four-digit publication year."""
 
     match = re.search(
-        r"\b(19|20)\d{2}\b",
+        r"\b(?:19|20)\d{2}\b",
         clean(value),
     )
 
@@ -208,7 +288,7 @@ def make_pages(
     first_page: Any,
     last_page: Any,
 ) -> str:
-    """Create a page range."""
+    """Create a publication page range."""
 
     first = clean(first_page)
     last = clean(last_page)
@@ -219,9 +299,161 @@ def make_pages(
     return first or last
 
 
-# ---------------------------------------------------------------------
+def unique_strings(values: list[Any]) -> list[str]:
+    """Return sorted unique nonempty strings."""
+
+    return sorted(
+        {
+            clean(value)
+            for value in values
+            if clean(value)
+        }
+    )
+
+
+# =====================================================================
+# Target-author matching
+# =====================================================================
+
+def is_target_author_name(
+    name: Any,
+    author_config: dict[str, Any],
+) -> bool:
+    """Determine whether a name belongs to Johanna Holm."""
+
+    normalized = normalize_name(name)
+
+    if not normalized:
+        return False
+
+    configured_names = [
+        author_config.get("name"),
+        author_config.get("display_name"),
+        "Johanna B. Holm",
+        "Johanna Holm",
+        "Johanna B Holm",
+        "Holm JB",
+        "Holm J B",
+    ]
+
+    normalized_candidates = {
+        normalize_name(candidate)
+        for candidate in configured_names
+        if normalize_name(candidate)
+    }
+
+    if normalized in normalized_candidates:
+        return True
+
+    tokens = normalized.split()
+
+    if "holm" not in tokens:
+        return False
+
+    has_johanna = "johanna" in tokens
+    has_j_initial = "j" in tokens or "jb" in tokens
+
+    return has_johanna or has_j_initial
+
+
+def orcid_matches(
+    first: Any,
+    second: Any,
+) -> bool:
+    """Compare two ORCID values."""
+
+    first_orcid = clean_orcid(first)
+    second_orcid = clean_orcid(second)
+
+    return bool(
+        first_orcid
+        and second_orcid
+        and first_orcid == second_orcid
+    )
+
+
+# =====================================================================
+# Affiliation matching
+# =====================================================================
+
+def affiliation_matches(
+    affiliation: Any,
+    allowed_affiliations: list[str],
+) -> bool:
+    """Check whether an affiliation matches the allowlist."""
+
+    normalized_affiliation = normalize_affiliation(
+        affiliation
+    )
+
+    if not normalized_affiliation:
+        return False
+
+    for allowed in allowed_affiliations:
+        normalized_allowed = normalize_affiliation(
+            allowed
+        )
+
+        aliases = AFFILIATION_ALIASES.get(
+            normalized_allowed,
+            [normalized_allowed],
+        )
+
+        for alias in aliases:
+            normalized_alias = normalize_affiliation(
+                alias
+            )
+
+            if (
+                normalized_alias
+                and normalized_alias in normalized_affiliation
+            ):
+                return True
+
+    return False
+
+
+def matching_affiliations(
+    affiliations: list[Any],
+    allowed_affiliations: list[str],
+) -> list[str]:
+    """Return affiliations that match the institutional allowlist."""
+
+    return unique_strings(
+        [
+            affiliation
+            for affiliation in affiliations
+            if affiliation_matches(
+                affiliation,
+                allowed_affiliations,
+            )
+        ]
+    )
+
+
+def record_has_allowed_affiliation(
+    record: dict[str, Any],
+    allowed_affiliations: list[str],
+) -> bool:
+    """Check whether the target author's affiliation is approved."""
+
+    target_affiliations = (
+        record.get("affiliations")
+        or []
+    )
+
+    return any(
+        affiliation_matches(
+            affiliation,
+            allowed_affiliations,
+        )
+        for affiliation in target_affiliations
+    )
+
+
+# =====================================================================
 # HTTP request helper
-# ---------------------------------------------------------------------
+# =====================================================================
 
 def request_json(
     url: str,
@@ -231,7 +463,7 @@ def request_json(
     method: str = "GET",
     data: dict[str, Any] | None = None,
 ) -> Any:
-    """Make a JSON API request with retry handling."""
+    """Make a JSON request with retry handling."""
 
     last_error: Exception | None = None
 
@@ -246,7 +478,6 @@ def request_json(
                 timeout=60,
             )
 
-            # Retry rate limits and temporary server failures.
             if (
                 response.status_code == 429
                 or response.status_code >= 500
@@ -278,7 +509,6 @@ def request_json(
                 else None
             )
 
-            # Do not repeatedly retry permanent 400-level errors.
             if (
                 status_code is not None
                 and 400 <= status_code < 500
@@ -342,7 +572,7 @@ def pubmed_ids(
     email: str,
     api_key: str = "",
 ) -> list[str]:
-    """Find PubMed records matching an author query."""
+    """Find PubMed records matching the configured author query."""
 
     params: dict[str, Any] = {
         "db": "pubmed",
@@ -379,9 +609,106 @@ def pubmed_ids(
     return identifiers
 
 
+def extract_pubmed_author_data(
+    journal_article: ET.Element | None,
+    author_config: dict[str, Any],
+) -> tuple[list[str], list[str]]:
+    """
+    Extract all author names and only the target author's affiliations.
+    """
+
+    authors: list[str] = []
+    target_affiliations: list[str] = []
+
+    if journal_article is None:
+        return authors, target_affiliations
+
+    for author in journal_article.findall(
+        "AuthorList/Author"
+    ):
+        collective_name = first_text(
+            author,
+            "CollectiveName",
+        )
+
+        if collective_name:
+            authors.append(
+                collective_name
+            )
+
+            continue
+
+        fore_name = first_text(
+            author,
+            "ForeName",
+        )
+
+        initials = first_text(
+            author,
+            "Initials",
+        )
+
+        last_name = first_text(
+            author,
+            "LastName",
+        )
+
+        full_name = " ".join(
+            filter(
+                None,
+                [
+                    fore_name or initials,
+                    last_name,
+                ],
+            )
+        )
+
+        if full_name:
+            authors.append(
+                full_name
+            )
+
+        possible_names = [
+            full_name,
+            f"{last_name} {initials}",
+            f"{last_name} {fore_name}",
+        ]
+
+        is_target = any(
+            is_target_author_name(
+                possible_name,
+                author_config,
+            )
+            for possible_name in possible_names
+        )
+
+        if not is_target:
+            continue
+
+        for affiliation_node in author.findall(
+            "AffiliationInfo/Affiliation"
+        ):
+            affiliation = clean(
+                "".join(
+                    affiliation_node.itertext()
+                )
+            )
+
+            if affiliation:
+                target_affiliations.append(
+                    affiliation
+                )
+
+    return (
+        unique_strings(authors),
+        unique_strings(target_affiliations),
+    )
+
+
 def fetch_pubmed(
     ids: list[str],
     email: str,
+    author_config: dict[str, Any],
     api_key: str = "",
 ) -> list[dict[str, Any]]:
     """Retrieve and normalize PubMed records."""
@@ -420,10 +747,10 @@ def fetch_pubmed(
             response.content
         )
 
-        for article in root.findall(
+        for pubmed_article in root.findall(
             ".//PubmedArticle"
         ):
-            citation = article.find(
+            citation = pubmed_article.find(
                 "MedlineCitation"
             )
 
@@ -450,63 +777,17 @@ def fetch_pubmed(
                 "Journal/Title",
             )
 
-            abstract_parts: list[str] = []
-
-            if journal_article is not None:
-                abstract_parts = [
-                    clean(
-                        "".join(
-                            element.itertext()
-                        )
-                    )
-                    for element in journal_article.findall(
-                        "Abstract/AbstractText"
-                    )
-                ]
-
-            authors: list[str] = []
-
-            if journal_article is not None:
-                for author in journal_article.findall(
-                    "AuthorList/Author"
-                ):
-                    collective_name = first_text(
-                        author,
-                        "CollectiveName",
-                    )
-
-                    if collective_name:
-                        authors.append(
-                            collective_name
-                        )
-
-                        continue
-
-                    author_name = " ".join(
-                        filter(
-                            None,
-                            [
-                                first_text(
-                                    author,
-                                    "ForeName",
-                                ),
-                                first_text(
-                                    author,
-                                    "LastName",
-                                ),
-                            ],
-                        )
-                    )
-
-                    if author_name:
-                        authors.append(
-                            author_name
-                        )
+            authors, target_affiliations = (
+                extract_pubmed_author_data(
+                    journal_article,
+                    author_config,
+                )
+            )
 
             doi = ""
             pmc = ""
 
-            for article_id in article.findall(
+            for article_id in pubmed_article.findall(
                 "PubmedData/ArticleIdList/ArticleId"
             ):
                 identifier_type = (
@@ -599,6 +880,7 @@ def fetch_pubmed(
                 {
                     "title": title,
                     "authors": authors,
+                    "affiliations": target_affiliations,
                     "journal": journal,
                     "year": year_from(
                         date_text
@@ -615,9 +897,6 @@ def fetch_pubmed(
                         f"{pmid}/"
                         if pmid
                         else ""
-                    ),
-                    "abstract": " ".join(
-                        abstract_parts
                     ),
                     "type": "journal-article",
                     "sources": [
@@ -638,10 +917,93 @@ def fetch_pubmed(
 # Crossref
 # =====================================================================
 
+def extract_crossref_author_data(
+    item: dict[str, Any],
+    author_config: dict[str, Any],
+) -> tuple[list[str], list[str]]:
+    """
+    Extract all author names and only the target author's affiliations.
+    """
+
+    authors: list[str] = []
+    target_affiliations: list[str] = []
+
+    configured_orcid = clean_orcid(
+        author_config.get("orcid")
+    )
+
+    for author in item.get(
+        "author",
+        [],
+    ):
+        given = clean(
+            author.get("given")
+        )
+
+        family = clean(
+            author.get("family")
+        )
+
+        author_name = " ".join(
+            filter(
+                None,
+                [
+                    given,
+                    family,
+                ],
+            )
+        )
+
+        if author_name:
+            authors.append(
+                author_name
+            )
+
+        author_orcid = clean_orcid(
+            author.get("ORCID")
+            or author.get("orcid")
+        )
+
+        is_target = (
+            orcid_matches(
+                author_orcid,
+                configured_orcid,
+            )
+            or is_target_author_name(
+                author_name,
+                author_config,
+            )
+        )
+
+        if not is_target:
+            continue
+
+        for affiliation_item in (
+            author.get("affiliation")
+            or []
+        ):
+            affiliation = clean(
+                affiliation_item.get(
+                    "name"
+                )
+            )
+
+            if affiliation:
+                target_affiliations.append(
+                    affiliation
+                )
+
+    return (
+        unique_strings(authors),
+        unique_strings(target_affiliations),
+    )
+
+
 def crossref_by_orcid(
     orcid: str,
     email: str,
     include_types: set[str],
+    author_config: dict[str, Any],
 ) -> list[dict[str, Any]]:
     """Retrieve Crossref publications linked to an ORCID."""
 
@@ -658,12 +1020,9 @@ def crossref_by_orcid(
     cursor = "*"
     rows = 1000
 
-    records: list[
-        dict[str, Any]
-    ] = []
+    records: list[dict[str, Any]] = []
 
     while cursor:
-        # Do not add cursor-max here. Crossref does not support it.
         params = {
             "filter": f"orcid:{orcid}",
             "rows": rows,
@@ -697,34 +1056,12 @@ def crossref_by_orcid(
             ):
                 continue
 
-            authors: list[str] = []
-
-            for author in item.get(
-                "author",
-                [],
-            ):
-                author_name = " ".join(
-                    filter(
-                        None,
-                        [
-                            clean(
-                                author.get(
-                                    "given"
-                                )
-                            ),
-                            clean(
-                                author.get(
-                                    "family"
-                                )
-                            ),
-                        ],
-                    )
+            authors, target_affiliations = (
+                extract_crossref_author_data(
+                    item,
+                    author_config,
                 )
-
-                if author_name:
-                    authors.append(
-                        author_name
-                    )
+            )
 
             date_parts = (
                 item.get(
@@ -767,9 +1104,7 @@ def crossref_by_orcid(
             )
 
             journal_values = (
-                item.get(
-                    "container-title"
-                )
+                item.get("container-title")
                 or [""]
             )
 
@@ -779,6 +1114,7 @@ def crossref_by_orcid(
                         title_values[0]
                     ),
                     "authors": authors,
+                    "affiliations": target_affiliations,
                     "journal": clean(
                         journal_values[0]
                     ),
@@ -808,9 +1144,6 @@ def crossref_by_orcid(
                             item.get("URL")
                         )
                     ),
-                    "abstract": clean(
-                        item.get("abstract")
-                    ),
                     "type": item_type,
                     "sources": [
                         "Crossref"
@@ -823,7 +1156,6 @@ def crossref_by_orcid(
             f"in this page for ORCID {orcid}."
         )
 
-        # A short page indicates that there are no more records.
         if len(items) < rows:
             break
 
@@ -852,7 +1184,7 @@ def crossref_by_orcid(
 # =====================================================================
 
 def get_orcid_token() -> str:
-    """Get an ORCID token when credentials are available."""
+    """Get an ORCID API token when credentials are available."""
 
     client_id = os.getenv(
         "ORCID_CLIENT_ID",
@@ -898,7 +1230,14 @@ def orcid_works(
     orcid: str,
     token: str,
 ) -> list[dict[str, Any]]:
-    """Retrieve work summaries directly from ORCID."""
+    """
+    Retrieve ORCID work summaries.
+
+    ORCID summary records generally do not provide reliable
+    publication-level author affiliations. Their records therefore have
+    an empty affiliation list and must merge with PubMed, Crossref, or
+    OpenAlex records to pass the final affiliation filter.
+    """
 
     orcid = clean_orcid(
         orcid
@@ -921,9 +1260,7 @@ def orcid_works(
         },
     )
 
-    records: list[
-        dict[str, Any]
-    ] = []
+    records: list[dict[str, Any]] = []
 
     for group in data.get(
         "group",
@@ -939,10 +1276,7 @@ def orcid_works(
 
         summary = summaries[0]
 
-        external_ids: dict[
-            str,
-            str,
-        ] = {}
+        external_ids: dict[str, str] = {}
 
         for external_id in (
             summary.get(
@@ -965,9 +1299,10 @@ def orcid_works(
                 )
             )
 
-            external_ids[
-                identifier_type
-            ] = identifier_value
+            if identifier_type:
+                external_ids[
+                    identifier_type
+                ] = identifier_value
 
         doi = normalize_doi(
             external_ids.get("doi")
@@ -1011,6 +1346,7 @@ def orcid_works(
             {
                 "title": title,
                 "authors": [],
+                "affiliations": [],
                 "journal": clean(
                     (
                         summary.get(
@@ -1041,7 +1377,6 @@ def orcid_works(
                         else ""
                     )
                 ),
-                "abstract": "",
                 "type": clean(
                     summary.get("type")
                 ).lower(),
@@ -1081,13 +1416,11 @@ def get_openalex_author(
 
     params: dict[str, Any] = {
         "filter": f"orcid:{orcid}",
-        "per-page": 10,
+        "per_page": 10,
     }
 
     if api_key:
-        params["api_key"] = (
-            api_key
-        )
+        params["api_key"] = api_key
 
     data = request_json(
         f"{OPENALEX_BASE}/authors",
@@ -1113,7 +1446,7 @@ def get_openalex_author(
 def get_openalex_source(
     work: dict[str, Any],
 ) -> dict[str, Any]:
-    """Return the best available source or journal."""
+    """Return the best available journal or source."""
 
     primary_location = (
         work.get(
@@ -1167,7 +1500,7 @@ def get_openalex_source(
 def get_openalex_full_text_url(
     work: dict[str, Any],
 ) -> str:
-    """Return the best available full-text URL."""
+    """Return the best available open-access URL."""
 
     best_location = (
         work.get(
@@ -1207,8 +1540,14 @@ def get_openalex_full_text_url(
 
 def normalize_openalex_work(
     work: dict[str, Any],
+    target_author_id: str,
 ) -> dict[str, Any] | None:
-    """Convert an OpenAlex work to the website data format."""
+    """
+    Normalize an OpenAlex work.
+
+    Only institutions attached to the target author's authorship are
+    saved in the affiliations field.
+    """
 
     title = clean(
         work.get("title")
@@ -1221,16 +1560,27 @@ def normalize_openalex_work(
         return None
 
     authors: list[str] = []
+    target_affiliations: list[str] = []
+
+    normalized_target_id = clean(
+        target_author_id
+    ).rstrip(
+        "/"
+    ).split(
+        "/"
+    )[-1]
 
     for authorship in (
         work.get("authorships")
         or []
     ):
+        author_data = (
+            authorship.get("author")
+            or {}
+        )
+
         author_name = clean(
-            (
-                authorship.get("author")
-                or {}
-            ).get(
+            author_data.get(
                 "display_name"
             )
         )
@@ -1239,6 +1589,48 @@ def normalize_openalex_work(
             authors.append(
                 author_name
             )
+
+        authorship_author_id = clean(
+            author_data.get("id")
+        ).rstrip(
+            "/"
+        ).split(
+            "/"
+        )[-1]
+
+        if (
+            authorship_author_id
+            != normalized_target_id
+        ):
+            continue
+
+        for institution in (
+            authorship.get("institutions")
+            or []
+        ):
+            institution_name = clean(
+                institution.get(
+                    "display_name"
+                )
+            )
+
+            if institution_name:
+                target_affiliations.append(
+                    institution_name
+                )
+
+        raw_affiliation_strings = (
+            authorship.get(
+                "raw_affiliation_strings"
+            )
+            or []
+        )
+
+        for affiliation in raw_affiliation_strings:
+            if clean(affiliation):
+                target_affiliations.append(
+                    clean(affiliation)
+                )
 
     source = get_openalex_source(
         work
@@ -1324,7 +1716,12 @@ def normalize_openalex_work(
 
     return {
         "title": title,
-        "authors": authors,
+        "authors": unique_strings(
+            authors
+        ),
+        "affiliations": unique_strings(
+            target_affiliations
+        ),
         "journal": clean(
             source.get(
                 "display_name"
@@ -1361,7 +1758,6 @@ def normalize_openalex_work(
         "pmc": pmc,
         "url": url,
         "full_text_url": full_text_url,
-        "abstract": "",
         "type": clean(
             work.get("type")
         ).lower(),
@@ -1377,7 +1773,7 @@ def openalex_works(
     api_key: str,
     include_types: set[str],
 ) -> list[dict[str, Any]]:
-    """Retrieve OpenAlex works for an ORCID-linked author."""
+    """Retrieve OpenAlex works for the ORCID-linked author."""
 
     orcid = clean_orcid(
         orcid
@@ -1397,9 +1793,11 @@ def openalex_works(
     if not author:
         return []
 
-    author_id = clean(
+    full_author_id = clean(
         author.get("id")
-    ).rstrip(
+    )
+
+    author_id = full_author_id.rstrip(
         "/"
     ).split(
         "/"
@@ -1438,29 +1836,21 @@ def openalex_works(
         "review": "journal-article",
     }
 
-    records: list[
-        dict[str, Any]
-    ] = []
-
+    records: list[dict[str, Any]] = []
     cursor = "*"
 
     while cursor:
         params: dict[str, Any] = {
             "filter": (
-                f"authorships.author.id:"
-                f"{author_id}"
+                f"authorships.author.id:{author_id}"
             ),
-            "sort": (
-                "publication_date:desc"
-            ),
-            "per-page": 100,
+            "sort": "publication_date:desc",
+            "per_page": 100,
             "cursor": cursor,
         }
 
         if api_key:
-            params["api_key"] = (
-                api_key
-            )
+            params["api_key"] = api_key
 
         data = request_json(
             f"{OPENALEX_BASE}/works",
@@ -1474,7 +1864,8 @@ def openalex_works(
 
         for work in results:
             record = normalize_openalex_work(
-                work
+                work,
+                author_id,
             )
 
             if not record:
@@ -1484,11 +1875,9 @@ def openalex_works(
                 record.get("type")
             ).lower()
 
-            comparable_type = (
-                type_aliases.get(
-                    record_type,
-                    record_type,
-                )
+            comparable_type = type_aliases.get(
+                record_type,
+                record_type,
             )
 
             if (
@@ -1529,34 +1918,33 @@ def openalex_works(
 
 
 # =====================================================================
-# Deduplication and merging
+# Record merging
 # =====================================================================
 
 def record_quality(
     record: dict[str, Any],
 ) -> int:
-    """Score the completeness of a publication record."""
+    """Score publication metadata completeness."""
 
     field_weights = {
         "doi": 6,
         "pmid": 6,
         "title": 5,
         "authors": 5,
+        "affiliations": 5,
         "journal": 4,
         "year": 4,
         "date": 2,
         "volume": 2,
         "issue": 2,
         "pages": 2,
-        "abstract": 2,
         "url": 1,
         "full_text_url": 1,
     }
 
     return sum(
         weight
-        for field, weight
-        in field_weights.items()
+        for field, weight in field_weights.items()
         if record.get(field)
     )
 
@@ -1565,7 +1953,7 @@ def records_match(
     first: dict[str, Any],
     second: dict[str, Any],
 ) -> bool:
-    """Determine whether two records describe the same publication."""
+    """Determine whether two records represent the same publication."""
 
     first_doi = normalize_doi(
         first.get("doi")
@@ -1621,8 +2009,7 @@ def records_match(
         if (
             not first_year
             or not second_year
-            or int(first_year)
-            == int(second_year)
+            or int(first_year) == int(second_year)
         ):
             return True
 
@@ -1639,16 +2026,13 @@ def combine_records(
         record_quality(second)
         > record_quality(first)
     ):
-        first, second = (
-            second,
-            first,
-        )
+        first, second = second, first
 
     merged = dict(
         first
     )
 
-    for field in (
+    scalar_fields = (
         "title",
         "journal",
         "date",
@@ -1660,10 +2044,11 @@ def combine_records(
         "pmc",
         "url",
         "full_text_url",
-        "abstract",
         "type",
         "openalex_id",
-    ):
+    )
+
+    for field in scalar_fields:
         if (
             not merged.get(field)
             and second.get(field)
@@ -1699,16 +2084,25 @@ def combine_records(
             second_authors
         )
 
-    merged["sources"] = sorted(
-        set(
-            (
-                merged.get("sources")
-                or []
-            )
-            + (
-                second.get("sources")
-                or []
-            )
+    merged["affiliations"] = unique_strings(
+        (
+            merged.get("affiliations")
+            or []
+        )
+        + (
+            second.get("affiliations")
+            or []
+        )
+    )
+
+    merged["sources"] = unique_strings(
+        (
+            merged.get("sources")
+            or []
+        )
+        + (
+            second.get("sources")
+            or []
         )
     )
 
@@ -1718,16 +2112,12 @@ def combine_records(
 def merge_records(
     records: list[dict[str, Any]],
 ) -> list[dict[str, Any]]:
-    """Deduplicate records by DOI, PMID, or normalized title and year."""
+    """Deduplicate publications."""
 
-    merged: list[
-        dict[str, Any]
-    ] = []
+    merged: list[dict[str, Any]] = []
 
     for record in records:
-        matching_index: int | None = (
-            None
-        )
+        matching_index: int | None = None
 
         for index, existing in enumerate(
             merged
@@ -1747,9 +2137,7 @@ def merge_records(
         else:
             merged[matching_index] = (
                 combine_records(
-                    merged[
-                        matching_index
-                    ],
+                    merged[matching_index],
                     record,
                 )
             )
@@ -1758,74 +2146,15 @@ def merge_records(
 
 
 # =====================================================================
-# Review helpers
+# Review and source-failure helpers
 # =====================================================================
-
-def has_target_author(
-    record: dict[str, Any],
-    author_config: dict[str, Any],
-) -> bool:
-    """Check whether the target author appears in the author list."""
-
-    authors = (
-        record.get("authors")
-        or []
-    )
-
-    if not authors:
-        return True
-
-    author_text = clean(
-        " ".join(
-            str(author)
-            for author in authors
-        )
-    ).lower()
-
-    configured_names = [
-        clean(
-            author_config.get(
-                "name"
-            )
-        ),
-        clean(
-            author_config.get(
-                "display_name"
-            )
-        ),
-        "Johanna Holm",
-        "Johanna B Holm",
-        "Holm JB",
-    ]
-
-    for name in configured_names:
-        normalized_name = clean(
-            name
-        ).lower()
-
-        if (
-            normalized_name
-            and normalized_name
-            in author_text
-        ):
-            return True
-
-    return (
-        "johanna holm"
-        in author_text
-        or "johanna b holm"
-        in author_text
-        or "holm jb"
-        in author_text
-    )
-
 
 def add_review_record(
     review: list[dict[str, Any]],
     reason: str,
     record: dict[str, Any],
 ) -> None:
-    """Add a unique record to publication-review.json."""
+    """Add a unique item to publication-review.json."""
 
     review_key = (
         reason,
@@ -1886,10 +2215,7 @@ def safe_source_call(
     review: list[dict[str, Any]],
     *args: Any,
 ) -> list[dict[str, Any]]:
-    """
-    Run one publication source without allowing its failure to stop
-    PubMed, Crossref, ORCID, or OpenAlex results from other sources.
-    """
+    """Run one source without stopping the entire workflow."""
 
     try:
         return function(
@@ -1918,11 +2244,97 @@ def safe_source_call(
 
 
 # =====================================================================
+# Final record cleanup
+# =====================================================================
+
+def clean_public_record(
+    publication: dict[str, Any],
+    allowed_affiliations: list[str],
+    updated_at: str,
+) -> dict[str, Any]:
+    """Prepare a publication for the public JSON file."""
+
+    publication = dict(
+        publication
+    )
+
+    doi = normalize_doi(
+        publication.get("doi")
+    )
+
+    pmid = normalize_pmid(
+        publication.get("pmid")
+    )
+
+    pmc = normalize_pmc(
+        publication.get("pmc")
+    )
+
+    publication["doi"] = doi
+    publication["pmid"] = pmid
+    publication["pmc"] = pmc
+
+    publication["authors"] = unique_strings(
+        publication.get("authors")
+        or []
+    )
+
+    publication["affiliations"] = (
+        matching_affiliations(
+            publication.get("affiliations")
+            or [],
+            allowed_affiliations,
+        )
+    )
+
+    publication["sources"] = unique_strings(
+        publication.get("sources")
+        or []
+    )
+
+    title_key = normalize_title(
+        publication.get("title")
+    )
+
+    identifier_text = (
+        doi
+        or pmid
+        or (
+            f"{title_key}:"
+            f"{publication.get('year') or ''}"
+        )
+    )
+
+    publication["id"] = (
+        hashlib.sha1(
+            identifier_text.encode(
+                "utf-8"
+            )
+        ).hexdigest()[:12]
+    )
+
+    publication["updated_at"] = updated_at
+
+    # Abstracts are never included in the public JSON.
+    publication.pop(
+        "abstract",
+        None,
+    )
+
+    publication.pop(
+        "abstract_inverted_index",
+        None,
+    )
+
+    return publication
+
+
+# =====================================================================
 # Main pipeline
 # =====================================================================
 
 def main() -> int:
-    """Run the publication update process."""
+    """Run the publication update pipeline."""
 
     if not CONFIG_PATH.exists():
         raise RuntimeError(
@@ -1965,8 +2377,7 @@ def main() -> int:
         clean(
             publication_type
         ).lower()
-        for publication_type
-        in config.get(
+        for publication_type in config.get(
             "include_types",
             [],
         )
@@ -1975,13 +2386,30 @@ def main() -> int:
         )
     }
 
-    all_records: list[
-        dict[str, Any]
-    ] = []
+    allowed_affiliations = [
+        clean(
+            affiliation
+        )
+        for affiliation in config.get(
+            "allowed_affiliations",
+            DEFAULT_ALLOWED_AFFILIATIONS,
+        )
+        if clean(
+            affiliation
+        )
+    ]
 
-    review: list[
-        dict[str, Any]
-    ] = []
+    print(
+        "Allowed target-author affiliations:"
+    )
+
+    for affiliation in allowed_affiliations:
+        print(
+            f"  - {affiliation}"
+        )
+
+    all_records: list[dict[str, Any]] = []
+    review: list[dict[str, Any]] = []
 
     orcid_token = get_orcid_token()
 
@@ -2033,6 +2461,7 @@ def main() -> int:
                 pubmed_records = fetch_pubmed(
                     identifiers,
                     email,
+                    author,
                     ncbi_api_key,
                 )
 
@@ -2069,6 +2498,7 @@ def main() -> int:
                 orcid,
                 email,
                 include_types,
+                author,
             )
 
             all_records.extend(
@@ -2099,20 +2529,6 @@ def main() -> int:
             all_records.extend(
                 openalex_records
             )
-
-            for record in openalex_records:
-                if not has_target_author(
-                    record,
-                    author,
-                ):
-                    add_review_record(
-                        review,
-                        (
-                            "OpenAlex author list does not "
-                            "clearly include the configured author"
-                        ),
-                        record,
-                    )
 
         elif not query:
             print(
@@ -2169,13 +2585,13 @@ def main() -> int:
         if normalize_title(value)
     }
 
-    final: list[
-        dict[str, Any]
-    ] = []
+    final: list[dict[str, Any]] = []
 
     updated_at = datetime.now(
         timezone.utc
     ).isoformat()
+
+    excluded_by_affiliation = 0
 
     for publication in publications:
         publication_year = (
@@ -2184,8 +2600,7 @@ def main() -> int:
 
         if (
             publication_year
-            and int(publication_year)
-            < earliest_year
+            and int(publication_year) < earliest_year
         ):
             continue
 
@@ -2195,10 +2610,6 @@ def main() -> int:
 
         pmid = normalize_pmid(
             publication.get("pmid")
-        )
-
-        pmc = normalize_pmc(
-            publication.get("pmc")
         )
 
         title_key = normalize_title(
@@ -2219,8 +2630,7 @@ def main() -> int:
 
         if (
             title_key
-            and title_key
-            in excluded_titles
+            and title_key in excluded_titles
         ):
             continue
 
@@ -2244,42 +2654,31 @@ def main() -> int:
                 publication,
             )
 
-        publication["doi"] = doi
-        publication["pmid"] = pmid
-        publication["pmc"] = pmc
+        if not record_has_allowed_affiliation(
+            publication,
+            allowed_affiliations,
+        ):
+            excluded_by_affiliation += 1
 
-        identifier_text = (
-            doi
-            or pmid
-            or (
-                f"{title_key}:"
-                f"{publication.get('year') or ''}"
+            add_review_record(
+                review,
+                (
+                    "Excluded because the target author's "
+                    "affiliation did not match the institutional allowlist"
+                ),
+                publication,
             )
-        )
 
-        publication["id"] = (
-            hashlib.sha1(
-                identifier_text.encode(
-                    "utf-8"
-                )
-            ).hexdigest()[:12]
-        )
+            continue
 
-        publication["updated_at"] = (
-            updated_at
-        )
-
-        publication["sources"] = sorted(
-            set(
-                publication.get(
-                    "sources"
-                )
-                or []
-            )
+        public_record = clean_public_record(
+            publication,
+            allowed_affiliations,
+            updated_at,
         )
 
         final.append(
-            publication
+            public_record
         )
 
     final.sort(
@@ -2320,12 +2719,18 @@ def main() -> int:
 
     print()
     print(
+        f"Excluded {excluded_by_affiliation} records "
+        f"because Johanna's affiliation did not match "
+        f"the approved institutions."
+    )
+
+    print(
         f"Wrote {len(final)} publications "
         f"to {OUTPUT_PATH}."
     )
 
     print(
-        f"Wrote {len(review)} review records "
+        f"Wrote {len(review)} review entries "
         f"to {REVIEW_PATH}."
     )
 
