@@ -11,20 +11,19 @@ import time
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Any
+from typing import Any, Callable
 
 import requests
 
 
 # ---------------------------------------------------------------------
-# File locations
+# Paths
 # ---------------------------------------------------------------------
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 
-# Supports update_publications.py being stored either:
-# 1. in the repository root, or
-# 2. inside a scripts/ directory.
+# This supports placing update_publications.py either in the repository
+# root or in a scripts/ directory.
 if (SCRIPT_DIR / "config.json").exists():
     ROOT = SCRIPT_DIR
 else:
@@ -54,7 +53,7 @@ SESSION = requests.Session()
 
 SESSION.headers.update(
     {
-        "User-Agent": "HolmLabPublicationsBot/2.0"
+        "User-Agent": "HolmLabPublicationsBot/2.1"
     }
 )
 
@@ -74,14 +73,12 @@ def clean(value: Any) -> str:
 
 
 def clean_orcid(value: Any) -> str:
-    """Convert an ORCID URL or ORCID value to the standard identifier."""
-
-    orcid = clean(value)
+    """Normalize an ORCID URL or identifier."""
 
     orcid = re.sub(
         r"^https?://orcid\.org/",
         "",
-        orcid,
+        clean(value),
         flags=re.IGNORECASE,
     )
 
@@ -89,19 +86,17 @@ def clean_orcid(value: Any) -> str:
 
 
 def normalize_doi(value: Any) -> str:
-    """Normalize DOI values for duplicate matching."""
+    """Normalize a DOI for matching and URL construction."""
 
     doi = clean(value).lower()
 
-    prefixes = (
+    for prefix in (
         "https://doi.org/",
         "http://doi.org/",
         "https://dx.doi.org/",
         "http://dx.doi.org/",
         "doi:",
-    )
-
-    for prefix in prefixes:
+    ):
         if doi.startswith(prefix):
             doi = doi[len(prefix):]
             break
@@ -110,14 +105,12 @@ def normalize_doi(value: Any) -> str:
 
 
 def normalize_pmid(value: Any) -> str:
-    """Normalize PubMed identifiers."""
-
-    pmid = clean(value)
+    """Normalize a PubMed identifier."""
 
     pmid = re.sub(
         r"^https?://pubmed\.ncbi\.nlm\.nih\.gov/",
         "",
-        pmid,
+        clean(value),
         flags=re.IGNORECASE,
     )
 
@@ -125,14 +118,12 @@ def normalize_pmid(value: Any) -> str:
 
 
 def normalize_pmc(value: Any) -> str:
-    """Normalize PubMed Central identifiers."""
-
-    pmc = clean(value)
+    """Normalize a PubMed Central identifier."""
 
     pmc = re.sub(
         r"^https?://www\.ncbi\.nlm\.nih\.gov/pmc/articles/",
         "",
-        pmc,
+        clean(value),
         flags=re.IGNORECASE,
     )
 
@@ -184,7 +175,7 @@ def first_text(
     path: str,
     default: str = "",
 ) -> str:
-    """Return all text from the first matching XML element."""
+    """Return text from the first matching XML element."""
 
     if node is None:
         return default
@@ -195,7 +186,9 @@ def first_text(
         return default
 
     return clean(
-        "".join(child.itertext())
+        "".join(
+            child.itertext()
+        )
     )
 
 
@@ -203,10 +196,10 @@ def first_nonempty(*values: Any) -> str:
     """Return the first nonempty value."""
 
     for value in values:
-        value_text = clean(value)
+        text = clean(value)
 
-        if value_text:
-            return value_text
+        if text:
+            return text
 
     return ""
 
@@ -226,6 +219,10 @@ def make_pages(
     return first or last
 
 
+# ---------------------------------------------------------------------
+# HTTP request helper
+# ---------------------------------------------------------------------
+
 def request_json(
     url: str,
     *,
@@ -234,7 +231,7 @@ def request_json(
     method: str = "GET",
     data: dict[str, Any] | None = None,
 ) -> Any:
-    """Make an API request with retry handling."""
+    """Make a JSON API request with retry handling."""
 
     last_error: Exception | None = None
 
@@ -249,6 +246,7 @@ def request_json(
                 timeout=60,
             )
 
+            # Retry rate limits and temporary server failures.
             if (
                 response.status_code == 429
                 or response.status_code >= 500
@@ -261,12 +259,56 @@ def request_json(
                     f"Retrying in {wait_seconds} seconds."
                 )
 
-                time.sleep(wait_seconds)
+                time.sleep(
+                    wait_seconds
+                )
+
                 continue
 
             response.raise_for_status()
 
             return response.json()
+
+        except requests.HTTPError as exc:
+            last_error = exc
+
+            status_code = (
+                exc.response.status_code
+                if exc.response is not None
+                else None
+            )
+
+            # Do not repeatedly retry permanent 400-level errors.
+            if (
+                status_code is not None
+                and 400 <= status_code < 500
+                and status_code != 429
+            ):
+                response_text = clean(
+                    exc.response.text
+                    if exc.response is not None
+                    else ""
+                )
+
+                raise RuntimeError(
+                    f"API request rejected by {url} "
+                    f"with status {status_code}. "
+                    f"Response: {response_text[:500]}"
+                ) from exc
+
+            if attempt == 3:
+                break
+
+            wait_seconds = 2 ** attempt
+
+            print(
+                f"Request failed for {url}: {exc}. "
+                f"Retrying in {wait_seconds} seconds."
+            )
+
+            time.sleep(
+                wait_seconds
+            )
 
         except requests.RequestException as exc:
             last_error = exc
@@ -281,10 +323,13 @@ def request_json(
                 f"Retrying in {wait_seconds} seconds."
             )
 
-            time.sleep(wait_seconds)
+            time.sleep(
+                wait_seconds
+            )
 
     raise RuntimeError(
-        f"Repeated request failure for {url}: {last_error}"
+        f"Repeated request failure for {url}: "
+        f"{last_error}"
     )
 
 
@@ -297,7 +342,7 @@ def pubmed_ids(
     email: str,
     api_key: str = "",
 ) -> list[str]:
-    """Find PubMed identifiers matching the configured author query."""
+    """Find PubMed records matching an author query."""
 
     params: dict[str, Any] = {
         "db": "pubmed",
@@ -317,8 +362,13 @@ def pubmed_ids(
     )
 
     identifiers = (
-        data.get("esearchresult", {})
-        .get("idlist", [])
+        data.get(
+            "esearchresult",
+            {},
+        ).get(
+            "idlist",
+            [],
+        )
     )
 
     print(
@@ -334,7 +384,7 @@ def fetch_pubmed(
     email: str,
     api_key: str = "",
 ) -> list[dict[str, Any]]:
-    """Retrieve and normalize PubMed publications."""
+    """Retrieve and normalize PubMed records."""
 
     records: list[dict[str, Any]] = []
 
@@ -343,7 +393,9 @@ def fetch_pubmed(
         len(ids),
         200,
     ):
-        batch = ids[start:start + 200]
+        batch = ids[
+            start:start + 200
+        ]
 
         params: dict[str, Any] = {
             "db": "pubmed",
@@ -457,9 +509,11 @@ def fetch_pubmed(
             for article_id in article.findall(
                 "PubmedData/ArticleIdList/ArticleId"
             ):
-                identifier_type = article_id.attrib.get(
-                    "IdType",
-                    "",
+                identifier_type = (
+                    article_id.attrib.get(
+                        "IdType",
+                        "",
+                    ).lower()
                 )
 
                 if identifier_type == "doi":
@@ -519,16 +573,21 @@ def fetch_pubmed(
                 "Pagination/MedlinePgn",
             )
 
-            if not pages and journal_article is not None:
+            if (
+                not pages
+                and journal_article is not None
+            ):
                 for location in journal_article.findall(
                     "ELocationID"
                 ):
-                    location_type = location.attrib.get(
-                        "EIdType",
-                        "",
+                    location_type = (
+                        location.attrib.get(
+                            "EIdType",
+                            "",
+                        ).lower()
                     )
 
-                    if location_type.lower() != "doi":
+                    if location_type != "doi":
                         pages = clean(
                             location.text
                         )
@@ -541,7 +600,9 @@ def fetch_pubmed(
                     "title": title,
                     "authors": authors,
                     "journal": journal,
-                    "year": year_from(date_text),
+                    "year": year_from(
+                        date_text
+                    ),
                     "date": date_text,
                     "volume": volume,
                     "issue": issue,
@@ -550,7 +611,8 @@ def fetch_pubmed(
                     "pmid": pmid,
                     "pmc": pmc,
                     "url": (
-                        f"https://pubmed.ncbi.nlm.nih.gov/{pmid}/"
+                        f"https://pubmed.ncbi.nlm.nih.gov/"
+                        f"{pmid}/"
                         if pmid
                         else ""
                     ),
@@ -583,7 +645,9 @@ def crossref_by_orcid(
 ) -> list[dict[str, Any]]:
     """Retrieve Crossref publications linked to an ORCID."""
 
-    orcid = clean_orcid(orcid)
+    orcid = clean_orcid(
+        orcid
+    )
 
     if (
         not orcid
@@ -592,14 +656,18 @@ def crossref_by_orcid(
         return []
 
     cursor = "*"
-    records: list[dict[str, Any]] = []
+    rows = 1000
+
+    records: list[
+        dict[str, Any]
+    ] = []
 
     while cursor:
+        # Do not add cursor-max here. Crossref does not support it.
         params = {
             "filter": f"orcid:{orcid}",
-            "rows": 1000,
+            "rows": rows,
             "cursor": cursor,
-            "cursor-max": 1000,
             "mailto": email,
         }
 
@@ -640,10 +708,14 @@ def crossref_by_orcid(
                         None,
                         [
                             clean(
-                                author.get("given")
+                                author.get(
+                                    "given"
+                                )
                             ),
                             clean(
-                                author.get("family")
+                                author.get(
+                                    "family"
+                                )
                             ),
                         ],
                     )
@@ -689,22 +761,26 @@ def crossref_by_orcid(
                 item.get("DOI")
             )
 
+            title_values = (
+                item.get("title")
+                or [""]
+            )
+
+            journal_values = (
+                item.get(
+                    "container-title"
+                )
+                or [""]
+            )
+
             records.append(
                 {
                     "title": clean(
-                        (
-                            item.get("title")
-                            or [""]
-                        )[0]
+                        title_values[0]
                     ),
                     "authors": authors,
                     "journal": clean(
-                        (
-                            item.get(
-                                "container-title"
-                            )
-                            or [""]
-                        )[0]
+                        journal_values[0]
                     ),
                     "year": year,
                     "date": str(
@@ -742,13 +818,21 @@ def crossref_by_orcid(
                 }
             )
 
+        print(
+            f"Crossref retrieved {len(items)} records "
+            f"in this page for ORCID {orcid}."
+        )
+
+        # A short page indicates that there are no more records.
+        if len(items) < rows:
+            break
+
         next_cursor = message.get(
             "next-cursor"
         )
 
         if (
-            not items
-            or not next_cursor
+            not next_cursor
             or next_cursor == cursor
         ):
             break
@@ -768,7 +852,7 @@ def crossref_by_orcid(
 # =====================================================================
 
 def get_orcid_token() -> str:
-    """Get an ORCID API token when credentials are available."""
+    """Get an ORCID token when credentials are available."""
 
     client_id = os.getenv(
         "ORCID_CLIENT_ID",
@@ -814,9 +898,11 @@ def orcid_works(
     orcid: str,
     token: str,
 ) -> list[dict[str, Any]]:
-    """Retrieve work summaries from ORCID."""
+    """Retrieve work summaries directly from ORCID."""
 
-    orcid = clean_orcid(orcid)
+    orcid = clean_orcid(
+        orcid
+    )
 
     if (
         not token
@@ -835,7 +921,9 @@ def orcid_works(
         },
     )
 
-    records: list[dict[str, Any]] = []
+    records: list[
+        dict[str, Any]
+    ] = []
 
     for group in data.get(
         "group",
@@ -851,7 +939,10 @@ def orcid_works(
 
         summary = summaries[0]
 
-        external_ids: dict[str, str] = {}
+        external_ids: dict[
+            str,
+            str,
+        ] = {}
 
         for external_id in (
             summary.get(
@@ -944,7 +1035,8 @@ def orcid_works(
                     f"https://doi.org/{doi}"
                     if doi
                     else (
-                        f"https://pubmed.ncbi.nlm.nih.gov/{pmid}/"
+                        f"https://pubmed.ncbi.nlm.nih.gov/"
+                        f"{pmid}/"
                         if pmid
                         else ""
                     )
@@ -975,9 +1067,11 @@ def get_openalex_author(
     orcid: str,
     api_key: str,
 ) -> dict[str, Any] | None:
-    """Find an OpenAlex author record using an ORCID."""
+    """Resolve an ORCID to an OpenAlex author."""
 
-    orcid = clean_orcid(orcid)
+    orcid = clean_orcid(
+        orcid
+    )
 
     if (
         not orcid
@@ -987,11 +1081,13 @@ def get_openalex_author(
 
     params: dict[str, Any] = {
         "filter": f"orcid:{orcid}",
-        "per_page": 10,
+        "per-page": 10,
     }
 
     if api_key:
-        params["api_key"] = api_key
+        params["api_key"] = (
+            api_key
+        )
 
     data = request_json(
         f"{OPENALEX_BASE}/authors",
@@ -1017,7 +1113,7 @@ def get_openalex_author(
 def get_openalex_source(
     work: dict[str, Any],
 ) -> dict[str, Any]:
-    """Return the best available journal or source information."""
+    """Return the best available source or journal."""
 
     primary_location = (
         work.get(
@@ -1071,7 +1167,7 @@ def get_openalex_source(
 def get_openalex_full_text_url(
     work: dict[str, Any],
 ) -> str:
-    """Return the best available open-access URL."""
+    """Return the best available full-text URL."""
 
     best_location = (
         work.get(
@@ -1112,11 +1208,13 @@ def get_openalex_full_text_url(
 def normalize_openalex_work(
     work: dict[str, Any],
 ) -> dict[str, Any] | None:
-    """Convert an OpenAlex record to the website's data format."""
+    """Convert an OpenAlex work to the website data format."""
 
     title = clean(
         work.get("title")
-        or work.get("display_name")
+        or work.get(
+            "display_name"
+        )
     )
 
     if not title:
@@ -1128,13 +1226,13 @@ def normalize_openalex_work(
         work.get("authorships")
         or []
     ):
-        author = (
-            authorship.get("author")
-            or {}
-        )
-
         author_name = clean(
-            author.get("display_name")
+            (
+                authorship.get("author")
+                or {}
+            ).get(
+                "display_name"
+            )
         )
 
         if author_name:
@@ -1146,39 +1244,18 @@ def normalize_openalex_work(
         work
     )
 
-    journal = clean(
-        source.get("display_name")
-    )
-
     bibliography = (
         work.get("biblio")
         or {}
     )
 
-    volume = clean(
-        bibliography.get("volume")
-    )
-
-    issue = clean(
-        bibliography.get("issue")
-    )
-
-    pages = make_pages(
-        bibliography.get(
-            "first_page"
-        ),
-        bibliography.get(
-            "last_page"
-        ),
+    identifiers = (
+        work.get("ids")
+        or {}
     )
 
     doi = normalize_doi(
         work.get("doi")
-    )
-
-    identifiers = (
-        work.get("ids")
-        or {}
     )
 
     pmid = normalize_pmid(
@@ -1248,7 +1325,11 @@ def normalize_openalex_work(
     return {
         "title": title,
         "authors": authors,
-        "journal": journal,
+        "journal": clean(
+            source.get(
+                "display_name"
+            )
+        ),
         "year": publication_year,
         "date": (
             publication_date
@@ -1257,9 +1338,24 @@ def normalize_openalex_work(
                 or ""
             )
         ),
-        "volume": volume,
-        "issue": issue,
-        "pages": pages,
+        "volume": clean(
+            bibliography.get(
+                "volume"
+            )
+        ),
+        "issue": clean(
+            bibliography.get(
+                "issue"
+            )
+        ),
+        "pages": make_pages(
+            bibliography.get(
+                "first_page"
+            ),
+            bibliography.get(
+                "last_page"
+            ),
+        ),
         "doi": doi,
         "pmid": pmid,
         "pmc": pmc,
@@ -1281,9 +1377,11 @@ def openalex_works(
     api_key: str,
     include_types: set[str],
 ) -> list[dict[str, Any]]:
-    """Retrieve all OpenAlex works for an ORCID-linked author."""
+    """Retrieve OpenAlex works for an ORCID-linked author."""
 
-    orcid = clean_orcid(orcid)
+    orcid = clean_orcid(
+        orcid
+    )
 
     if (
         not orcid
@@ -1301,10 +1399,16 @@ def openalex_works(
 
     author_id = clean(
         author.get("id")
-    ).rstrip("/").split("/")[-1]
+    ).rstrip(
+        "/"
+    ).split(
+        "/"
+    )[-1]
 
     author_name = clean(
-        author.get("display_name")
+        author.get(
+            "display_name"
+        )
     )
 
     if not author_id:
@@ -1321,9 +1425,6 @@ def openalex_works(
         f"({author_id})."
     )
 
-    records: list[dict[str, Any]] = []
-    cursor = "*"
-
     type_aliases = {
         "article": "journal-article",
         "book": "book",
@@ -1332,28 +1433,34 @@ def openalex_works(
         "dissertation": "dissertation",
         "editorial": "editorial",
         "letter": "letter",
-        "paratext": "other",
         "preprint": "posted-content",
-        "reference-entry": "reference-entry",
         "report": "report",
         "review": "journal-article",
-        "supplementary-materials": "other",
     }
+
+    records: list[
+        dict[str, Any]
+    ] = []
+
+    cursor = "*"
 
     while cursor:
         params: dict[str, Any] = {
             "filter": (
-                f"authorships.author.id:{author_id}"
+                f"authorships.author.id:"
+                f"{author_id}"
             ),
             "sort": (
                 "publication_date:desc"
             ),
-            "per_page": 100,
+            "per-page": 100,
             "cursor": cursor,
         }
 
         if api_key:
-            params["api_key"] = api_key
+            params["api_key"] = (
+                api_key
+            )
 
         data = request_json(
             f"{OPENALEX_BASE}/works",
@@ -1377,12 +1484,11 @@ def openalex_works(
                 record.get("type")
             ).lower()
 
-            # OpenAlex and Crossref use different names for some
-            # publication types. Convert OpenAlex values before applying
-            # the include_types setting from config.json.
-            comparable_type = type_aliases.get(
-                record_type,
-                record_type,
+            comparable_type = (
+                type_aliases.get(
+                    record_type,
+                    record_type,
+                )
             )
 
             if (
@@ -1423,13 +1529,13 @@ def openalex_works(
 
 
 # =====================================================================
-# Record merging
+# Deduplication and merging
 # =====================================================================
 
 def record_quality(
     record: dict[str, Any],
 ) -> int:
-    """Score metadata completeness."""
+    """Score the completeness of a publication record."""
 
     field_weights = {
         "doi": 6,
@@ -1447,22 +1553,19 @@ def record_quality(
         "full_text_url": 1,
     }
 
-    score = 0
-
-    for field, weight in (
-        field_weights.items()
-    ):
-        if record.get(field):
-            score += weight
-
-    return score
+    return sum(
+        weight
+        for field, weight
+        in field_weights.items()
+        if record.get(field)
+    )
 
 
 def records_match(
     first: dict[str, Any],
     second: dict[str, Any],
 ) -> bool:
-    """Determine whether two records represent the same publication."""
+    """Determine whether two records describe the same publication."""
 
     first_doi = normalize_doi(
         first.get("doi")
@@ -1507,13 +1610,19 @@ def records_match(
         and second_title
         and first_title == second_title
     ):
-        first_year = first.get("year")
-        second_year = second.get("year")
+        first_year = first.get(
+            "year"
+        )
+
+        second_year = second.get(
+            "year"
+        )
 
         if (
             not first_year
             or not second_year
-            or int(first_year) == int(second_year)
+            or int(first_year)
+            == int(second_year)
         ):
             return True
 
@@ -1524,17 +1633,22 @@ def combine_records(
     first: dict[str, Any],
     second: dict[str, Any],
 ) -> dict[str, Any]:
-    """Combine two duplicate publication records."""
+    """Combine duplicate publication records."""
 
     if (
         record_quality(second)
         > record_quality(first)
     ):
-        first, second = second, first
+        first, second = (
+            second,
+            first,
+        )
 
-    merged = dict(first)
+    merged = dict(
+        first
+    )
 
-    scalar_fields = (
+    for field in (
         "title",
         "journal",
         "date",
@@ -1549,9 +1663,7 @@ def combine_records(
         "abstract",
         "type",
         "openalex_id",
-    )
-
-    for field in scalar_fields:
+    ):
         if (
             not merged.get(field)
             and second.get(field)
@@ -1606,12 +1718,16 @@ def combine_records(
 def merge_records(
     records: list[dict[str, Any]],
 ) -> list[dict[str, Any]]:
-    """Deduplicate publications using DOI, PMID, or title and year."""
+    """Deduplicate records by DOI, PMID, or normalized title and year."""
 
-    merged: list[dict[str, Any]] = []
+    merged: list[
+        dict[str, Any]
+    ] = []
 
     for record in records:
-        matching_index: int | None = None
+        matching_index: int | None = (
+            None
+        )
 
         for index, existing in enumerate(
             merged
@@ -1631,7 +1747,9 @@ def merge_records(
         else:
             merged[matching_index] = (
                 combine_records(
-                    merged[matching_index],
+                    merged[
+                        matching_index
+                    ],
                     record,
                 )
             )
@@ -1666,7 +1784,9 @@ def has_target_author(
 
     configured_names = [
         clean(
-            author_config.get("name")
+            author_config.get(
+                "name"
+            )
         ),
         clean(
             author_config.get(
@@ -1691,9 +1811,12 @@ def has_target_author(
             return True
 
     return (
-        "johanna holm" in author_text
-        or "johanna b holm" in author_text
-        or "holm jb" in author_text
+        "johanna holm"
+        in author_text
+        or "johanna b holm"
+        in author_text
+        or "holm jb"
+        in author_text
     )
 
 
@@ -1702,7 +1825,7 @@ def add_review_record(
     reason: str,
     record: dict[str, Any],
 ) -> None:
-    """Add a publication to the review file without duplicates."""
+    """Add a unique record to publication-review.json."""
 
     review_key = (
         reason,
@@ -1757,12 +1880,49 @@ def add_review_record(
     )
 
 
+def safe_source_call(
+    source_name: str,
+    function: Callable[..., list[dict[str, Any]]],
+    review: list[dict[str, Any]],
+    *args: Any,
+) -> list[dict[str, Any]]:
+    """
+    Run one publication source without allowing its failure to stop
+    PubMed, Crossref, ORCID, or OpenAlex results from other sources.
+    """
+
+    try:
+        return function(
+            *args
+        )
+
+    except Exception as exc:
+        message = (
+            f"{source_name} retrieval failed: "
+            f"{exc}"
+        )
+
+        print(
+            f"WARNING: {message}",
+            file=sys.stderr,
+        )
+
+        review.append(
+            {
+                "reason": message,
+                "record": {},
+            }
+        )
+
+        return []
+
+
 # =====================================================================
-# Main publication pipeline
+# Main pipeline
 # =====================================================================
 
 def main() -> int:
-    """Run the publication retrieval and update process."""
+    """Run the publication update process."""
 
     if not CONFIG_PATH.exists():
         raise RuntimeError(
@@ -1805,7 +1965,8 @@ def main() -> int:
         clean(
             publication_type
         ).lower()
-        for publication_type in config.get(
+        for publication_type
+        in config.get(
             "include_types",
             [],
         )
@@ -1862,55 +2023,77 @@ def main() -> int:
         )
 
         if query:
-            identifiers = pubmed_ids(
-                query,
-                email,
-                ncbi_api_key,
-            )
+            try:
+                identifiers = pubmed_ids(
+                    query,
+                    email,
+                    ncbi_api_key,
+                )
 
-            pubmed_records = fetch_pubmed(
-                identifiers,
-                email,
-                ncbi_api_key,
-            )
+                pubmed_records = fetch_pubmed(
+                    identifiers,
+                    email,
+                    ncbi_api_key,
+                )
 
-            all_records.extend(
-                pubmed_records
-            )
+                all_records.extend(
+                    pubmed_records
+                )
+
+            except Exception as exc:
+                message = (
+                    f"PubMed retrieval failed: "
+                    f"{exc}"
+                )
+
+                print(
+                    f"WARNING: {message}",
+                    file=sys.stderr,
+                )
+
+                review.append(
+                    {
+                        "reason": message,
+                        "record": {},
+                    }
+                )
 
         if (
             orcid
             and "REPLACE_" not in orcid
         ):
-            crossref_records = (
-                crossref_by_orcid(
-                    orcid,
-                    email,
-                    include_types,
-                )
-            )
-
-            direct_orcid_records = (
-                orcid_works(
-                    orcid,
-                    orcid_token,
-                )
-            )
-
-            openalex_records = (
-                openalex_works(
-                    orcid,
-                    openalex_api_key,
-                    include_types,
-                )
+            crossref_records = safe_source_call(
+                "Crossref",
+                crossref_by_orcid,
+                review,
+                orcid,
+                email,
+                include_types,
             )
 
             all_records.extend(
                 crossref_records
             )
 
+            direct_orcid_records = safe_source_call(
+                "ORCID",
+                orcid_works,
+                review,
+                orcid,
+                orcid_token,
+            )
+
             all_records.extend(
                 direct_orcid_records
+            )
+
+            openalex_records = safe_source_call(
+                "OpenAlex",
+                openalex_works,
+                review,
+                orcid,
+                openalex_api_key,
+                include_types,
             )
 
             all_records.extend(
@@ -2036,7 +2219,8 @@ def main() -> int:
 
         if (
             title_key
-            and title_key in excluded_titles
+            and title_key
+            in excluded_titles
         ):
             continue
 
