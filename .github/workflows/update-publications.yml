@@ -1,7 +1,7 @@
 name: Update publication list
 
 on:
-  # Allows you to test the workflow manually from the Actions tab
+  # Allows manual testing from the Actions tab
   workflow_dispatch:
 
   # Runs January 1, May 1, and September 1 at 9:00 AM Eastern
@@ -22,6 +22,10 @@ jobs:
   update-publications:
     name: Update publications
     runs-on: ubuntu-latest
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
       - name: Check out repository
@@ -50,12 +54,17 @@ jobs:
           path = Path("publications.json")
 
           if not path.exists():
-              raise SystemExit("ERROR: publications.json was not created.")
+              raise SystemExit(
+                  "ERROR: publications.json was not created."
+              )
 
-          data = json.loads(path.read_text(encoding="utf-8"))
+          data = json.loads(
+              path.read_text(encoding="utf-8")
+          )
 
           if isinstance(data, list):
               publications = data
+
           elif isinstance(data, dict):
               publications = (
                   data.get("publications")
@@ -63,9 +72,11 @@ jobs:
                   or data.get("results")
                   or []
               )
+
           else:
               raise SystemExit(
-                  "ERROR: publications.json must contain an object or array."
+                  "ERROR: publications.json must contain "
+                  "an object or an array."
               )
 
           if not isinstance(publications, list):
@@ -79,13 +90,17 @@ jobs:
                   "Refusing to publish it."
               )
 
-          print(f"Validated publications.json: {len(publications)} publications")
+          print(
+              f"Validated publications.json: "
+              f"{len(publications)} publications"
+          )
           PY
 
       - name: Commit updated files
         run: |
           git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.email \
+            "41898282+github-actions[bot]@users.noreply.github.com"
 
           git add publications.json publication-review.json
 
